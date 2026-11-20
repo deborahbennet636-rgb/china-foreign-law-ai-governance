@@ -476,13 +476,13 @@
       if (item.getAttribute("data-section") === section) { item.setAttribute("aria-current", "page"); } else { item.removeAttribute("aria-current"); }
     });
     if (!(name === "instrument" && parts[2])) { window.scrollTo(0, 0); }
-    document.title = (view.querySelector("h1") ? view.querySelector("h1").textContent + " · " : "") + "人工智能治理法规案例库";
+    document.title = (view.querySelector("h1") ? view.querySelector("h1").textContent + " · " : "") + "涉外法治与人工智能治理对应库";
   }
 
   NAV.forEach(function (entry) {
     append(document.getElementById("nav"), h("a", { href: "#/" + entry[0], "data-section": entry[0] }, entry[1], h("span", null, String(entry[2]()))));
   });
-  append(document.getElementById("rail-foot"), ["试点范围：生成式 AI", h("br"), "中国 · 欧盟 · 美国", h("br"), "数据截至 " + DB.built_at]);
+  append(document.getElementById("rail-foot"), ["试点范围：涉外数据 · AI 治理", h("br"), "中国 · 欧盟 · 美国", h("br"), "数据截至 " + DB.built_at]);
   append(document.getElementById("top-note"), ["红色“已核验”章：引文与发布机关的原文逐字一致。", link("about", "口径说明")]);
   append(document.getElementById("foot"), "本库供研究检索使用，不构成法律意见。摘录为原文节录，概述为编者撰写；引用前请打开原址核对。结构版本 " + DB.schema + "。");
   document.getElementById("search-form").addEventListener("submit", function (event) {
