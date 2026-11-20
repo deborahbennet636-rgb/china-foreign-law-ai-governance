@@ -1,0 +1,14 @@
+{
+  "id": "OBL-DU-14",
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "provision": "第十四条",
+  "kind": "LICENSE",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "出口经营者应当向国务院商务主管部门申请许可",
+  "duty": "向商务部申请许可",
+  "trigger": "出口清单所列或临时管制两用物项",
+  "extraterritorial": false
+}

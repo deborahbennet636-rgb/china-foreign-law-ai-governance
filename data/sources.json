@@ -207,6 +207,19 @@
     "via": "direct",
     "note": "第三方转载，非法院或裁判文书网页面"
   },
+  "SRC-CN-GOV-DUALUSE-2024": {
+    "id": "SRC-CN-GOV-DUALUSE-2024",
+    "url": "https://www.gov.cn/zhengce/content/202410/content_6981399.htm",
+    "publisher": "中国政府网（国务院）",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-GOV-DUALUSE-2024.html",
+    "sha256": "04d902b1f96e436e9d09710df489edc11ea82f49c0d8dc8a0989fddb0b00d451",
+    "bytes": 67661,
+    "via": "direct",
+    "note": "中华人民共和国两用物项出口管制条例（国务院令第792号）"
+  },
   "SRC-CN-MOFCOM-BLOCKING-2021": {
     "id": "SRC-CN-MOFCOM-BLOCKING-2021",
     "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",

@@ -1,0 +1,14 @@
+{
+  "id": "OBL-DU-27",
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "provision": "第二十七条",
+  "kind": "RECORD_KEEPING",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "出口经营者应当妥善保存与两用物项出口有关的最终用户和最终用途证明文件以及合同、发票、账册、单据、业务函电等相关资料，保存期限不少于5年",
+  "duty": "保存最终用户与用途证明等资料不少于 5 年",
+  "trigger": "两用物项出口活动",
+  "extraterritorial": false
+}

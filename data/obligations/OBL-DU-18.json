@@ -1,0 +1,14 @@
+{
+  "id": "OBL-DU-18",
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "provision": "第十八条",
+  "kind": "LICENSE",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "出口经营者应当按照出口许可证件载明的范围、条件和有效期出口两用物项并报告实际出口运输、运抵、安装、使用等情况",
+  "duty": "按许可范围出口并报告实际流向",
+  "trigger": "已取得出口许可证件",
+  "extraterritorial": false
+}

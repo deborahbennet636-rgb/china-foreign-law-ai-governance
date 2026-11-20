@@ -1,0 +1,14 @@
+{
+  "id": "OBL-DU-15",
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "provision": "第十五条",
+  "kind": "LICENSE",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "获得单项许可、通用许可，或者以登记填报信息方式获得出口凭证",
+  "duty": "取得单项许可、通用许可或登记凭证",
+  "trigger": "出口两用物项",
+  "extraterritorial": false
+}

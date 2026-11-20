@@ -1,0 +1,14 @@
+{
+  "id": "OBL-DU-21",
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "provision": "第二十一条",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "应当向海关交验由国务院商务主管部门颁发的出口许可证件",
+  "duty": "向海关交验出口许可证件",
+  "trigger": "两用物项出口报关",
+  "extraterritorial": false
+}
