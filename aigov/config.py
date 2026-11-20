@@ -55,6 +55,8 @@ GRADE_BY_KIND = {
     "SECONDARY": "C",
 }
 
+JURISDICTIONS: FrozenSet[str] = frozenset({"CN", "EU", "US"})
+
 INSTRUMENT_TYPES: FrozenSet[str] = frozenset(
     {
         "AI_SPECIFIC",  # 专门规范人工智能的立法或规章

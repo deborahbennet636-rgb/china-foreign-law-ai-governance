@@ -136,13 +136,31 @@ def test_every_tool_is_read_only_and_fully_described() -> None:
 @pytest.mark.parametrize(("name", "arguments", "fragment"), [
     ("get_provision", {"instrument_id": "CN-NPC-ANTISANCTION-2021"}, "missing required argument 'article'"),
     ("search_law", {"query": "数据", "limit": 0}, "between 1 and 100"),
-    ("search_law", {"query": "数据", "limit": True}, "must be a integer"),
+    ("search_law", {"query": "数据", "limit": True}, "must be an integer"),
+    ("search_law", {"query": "数据", "limit": 5.5}, "must be an integer"),
     ("find_obligations", {"modality": "SHOULD"}, "must be one of"),
     ("list_instruments", {"country": "CN"}, "unknown argument 'country'"),
     ("get_issue", {"issue_id": "  "}, "must not be empty"),
+    ("get_issue", {"issue_id": None}, "missing required argument 'issue_id'"),
 ])
 def test_bad_arguments_are_refused_with_a_reason(name: str, arguments: Dict[str, Any], fragment: str) -> None:
-    assert any(fragment in problem for problem in check_arguments(BY_NAME[name], arguments))
+    problems, _ = check_arguments(BY_NAME[name], arguments)
+    assert any(fragment in problem for problem in problems)
+
+
+def test_a_null_optional_argument_counts_as_absent_and_five_point_oh_as_five() -> None:
+    problems, cleaned = check_arguments(BY_NAME["search_law"], {"query": "数据", "scope": None, "limit": 5.0})
+    assert problems == [] and cleaned == {"query": "数据", "limit": 5}
+    assert isinstance(cleaned["limit"], int)
+
+
+def test_an_article_given_as_a_number_is_read_as_its_label(index: query.Index) -> None:
+    problems, cleaned = check_arguments(BY_NAME["get_provision"],
+                                        {"instrument_id": "EU-AI-ACT-2024", "article": 50})
+    assert problems == [] and cleaned["article"] == 50
+    assert query.get_provision(index, "EU-AI-ACT-2024", 50)["article"] == "Article 50"
+    assert any("must be a string or an integer" in problem for problem in
+               check_arguments(BY_NAME["get_provision"], {"instrument_id": "EU-AI-ACT-2024", "article": True})[0])
 
 
 def test_a_failed_lookup_is_a_tool_error_not_a_crash(index: query.Index) -> None:
@@ -213,12 +231,143 @@ def test_errors_keep_the_server_alive() -> None:
         rpc(1, "resources/list"),
         rpc(2, "tools/call", {"name": "delete_everything", "arguments": {}}),
         rpc(3, "tools/call", {"name": "get_issue", "arguments": {"issue_id": "NOPE"}}),
-        json.dumps([json.loads(rpc(4, "ping")), {"jsonrpc": "2.0", "method": "notifications/cancelled"}]),
+        rpc(4, "tools/call", {"name": ["get_issue"], "arguments": {}}),
         rpc(5, "ping"),
     ])
     assert answers[0]["error"]["code"] == -32700
     assert answers[1]["error"]["code"] == -32601
     assert answers[2]["error"]["code"] == -32602
     assert answers[3]["result"]["isError"] is True
-    assert answers[4] == [{"jsonrpc": "2.0", "id": 4, "result": {}}]
+    assert answers[4]["error"]["code"] == -32602
     assert answers[5]["result"] == {}
+
+
+# ---- review regressions: inputs that once killed the server or slipped through ----
+
+@pytest.mark.parametrize("line", [
+    '{"jsonrpc":"2.0","id":"\\ud800","method":"ping"}',
+    '{"jsonrpc":"2.0","id":1,"method":"x\\udc00"}',
+    '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_law","arguments":{"query":"ab\\ud800"}}}',
+    "[" * 100000 + "]" * 100000,
+    '{"jsonrpc":"2.0","id":NaN,"method":"ping"}',
+    '{"jsonrpc":"2.0","id":{"a":1},"method":"ping"}',
+    '{"jsonrpc":"2.0","id":true,"method":"ping"}',
+    "[]",
+], ids=["surrogate-id", "surrogate-method", "surrogate-query", "deep-nesting", "nan-id", "object-id",
+        "bool-id", "empty-batch"])
+def test_hostile_input_gets_a_reply_and_the_server_keeps_answering(line: str) -> None:
+    answers = talk([line, rpc(99, "ping")])
+    assert answers[-1] == {"jsonrpc": "2.0", "id": 99, "result": {}}
+    assert len(answers) == 2
+
+
+def test_odd_ids_are_refused_rather_than_echoed() -> None:
+    for line in ('{"jsonrpc":"2.0","id":{"a":1},"method":"ping"}', '{"jsonrpc":"2.0","id":true,"method":"ping"}'):
+        answer = talk([line])[0]
+        assert answer["error"]["code"] == -32600 and answer["id"] is None
+
+
+def test_a_byte_order_mark_does_not_lose_the_first_message() -> None:
+    process = subprocess.run(
+        [sys.executable, "-I", str(ROOT / "tools" / "mcp_server.py")],
+        input=b"\xef\xbb\xbf" + rpc(1, "ping").encode("utf-8") + b"\n", capture_output=True, timeout=60)
+    assert json.loads(process.stdout.decode("utf-8"))["result"] == {}
+
+
+def test_batches_follow_the_negotiated_revision() -> None:
+    batch = json.dumps([json.loads(rpc(2, "ping")), {"jsonrpc": "2.0", "method": "notifications/cancelled"}])
+    allowed = talk([rpc(1, "initialize", {"protocolVersion": "2025-03-26"}), batch])
+    assert allowed[1] == [{"jsonrpc": "2.0", "id": 2, "result": {}}]
+    refused = talk([rpc(1, "initialize", {"protocolVersion": "2025-06-18"}), batch])
+    assert refused[1]["error"]["code"] == -32600
+    with_init = talk([rpc(1, "initialize", {"protocolVersion": "2025-03-26"}),
+                      json.dumps([json.loads(rpc(2, "initialize", {}))])])
+    assert with_init[1][0]["error"]["code"] == -32600
+    assert talk(["[]"])[0]["error"]["code"] == -32600
+
+
+@pytest.mark.parametrize(("instrument_id", "article"), [
+    ("EU-AI-ACT-2024", "Article 4a"), ("EU-AI-ACT-2024", "Art. 6a"), ("EU-AI-ACT-2024", "Recital 27"),
+    ("EU-AI-ACT-2024", "Annex 3"), ("EU-AI-ACT-2024", "Chapter 5"), ("EU-AI-ACT-2024", "Section 2"),
+    ("CN-NPC-ANTISANCTION-2021", "第十二条第1款"), ("CN-NPC-ANTISANCTION-2021", "第十二条(1)"),
+    ("CN-NPC-ANTISANCTION-2021", "第十二条第2项"), ("CN-NPC-ANTISANCTION-2021", "第3章"),
+    ("CN-NPC-ANTISANCTION-2021", "第一二条"), ("CN-GOV-DUALUSE-2024", "第十十条"),
+    ("CN-NPC-ANTISANCTION-2021", "（七）"), ("US-EO-14179", "Sec. 2A."),
+])
+def test_a_label_of_another_shape_or_kind_is_refused_not_mapped(index: query.Index, instrument_id: str,
+                                                                 article: str) -> None:
+    with pytest.raises(query.NotFound):
+        query.get_provision(index, instrument_id, article)
+
+
+@pytest.mark.parametrize(("instrument_id", "article", "expected"), [
+    ("CN-NPC-ANTISANCTION-2021", "第7条", "第七条"), ("CN-NPC-ANTISANCTION-2021", "Article 7", "第七条"),
+    ("CN-SPC-AI-OPINION-2026", "12", "（十二）"), ("CN-SPC-AI-OPINION-2026", "(12)", "（十二）"),
+    ("US-EO-14179", "Section 2", "Sec. 2."), ("EU-AI-ACT-2024", "art. 50", "Article 50"),
+])
+def test_accepted_label_shapes_resolve_to_the_one_matching_article(index: query.Index, instrument_id: str,
+                                                                   article: str, expected: str) -> None:
+    assert query.get_provision(index, instrument_id, article)["article"] == expected
+
+
+def test_the_effective_rule_quotes_the_clause_that_was_checked(index: query.Index) -> None:
+    for measure in query.list_countermeasures(index)["OUTBOUND_FROM_CN"]:
+        rule = measure.get("effective_rule")
+        if rule:
+            stored = index.countermeasures[measure["id"]]["meta_evidence"]["effective_at"]
+            assert f"「{stored}」" in rule
+
+
+def test_an_amended_instruments_article_carries_a_warning(index: query.Index) -> None:
+    result = query.get_provision(index, "EU-AI-ACT-2024", "50")
+    assert result["warning"] and result["currency"]["editorial"]["status_note"]
+    assert "不一定是本条的适用日期" in result["currency"]["effective_at_scope"]
+    assert "warning" not in query.get_provision(index, "CN-NPC-ANTISANCTION-2021", "1")
+
+
+def test_a_missing_article_of_a_partial_law_says_the_database_is_partial(index: query.Index) -> None:
+    with pytest.raises(query.NotFound, match="部分条文"):
+        query.get_provision(index, "CN-PIPL-2021", "第三十八条")
+
+
+def test_text_verified_follows_the_instruments_level(index: query.Index) -> None:
+    reposted = next(i for i in index.data["instruments"] if i["verification"] == "PARSED" and i["provisions"])
+    assert "转载页" in query.get_provision(index, reposted["id"], reposted["provisions"][0]["no"])["text_verified"]
+    assert "发布机关页面" in query.get_provision(index, "CN-NPC-ANTISANCTION-2021", "1")["text_verified"]
+
+
+def test_every_obligation_carries_a_citation(index: query.Index) -> None:
+    for item in query.find_obligations(index)["obligations"]:
+        assert item["cite"]["sources"][0]["official_url"]
+
+
+def test_search_marks_editor_text_and_cuts_snippets_from_the_stored_text(index: query.Index) -> None:
+    hit = next(h for h in search(index.data, "30日内向国务院", scope="obligation")["hits"] if h["ref"] == "OBL-BL-05")
+    assert hit["verbatim"] is True and hit["matched_field"] == "quote"
+    # The reviewer's query: not contiguous in the source, so it can only match the editor's paraphrase.
+    paraphrase = search(index.data, "30日内如实", scope="obligation")["hits"]
+    assert paraphrase and all(h["verbatim"] is False and h["matched_field"] == "duty" for h in paraphrase)
+    for hit in search(index.data, "反制措施", scope="provision")["hits"]:
+        instrument_id, label = hit["ref"].split("#")
+        stored = next(p["text"] for p in index.instruments[instrument_id]["provisions"] if p["no"] == label)
+        assert hit["snippet"] in stored
+
+
+def test_search_keeps_measure_direction_and_issue_comparability(index: query.Index) -> None:
+    measures = search(index.data, "清单", scope="countermeasure")["hits"]
+    assert measures and all(h["direction"] in ("INBOUND_TO_CN", "OUTBOUND_FROM_CN") for h in measures)
+    issues = search(index.data, "著作权", scope="issue")["hits"]
+    assert issues and all("comparable" in h for h in issues)
+    assert list(query.list_issues(index)["issues"][0])[0] == "comparable"
+
+
+def test_editor_fields_of_issues_and_measures_sit_under_editorial(index: query.Index) -> None:
+    issue = query.get_issue(index, "ISSUE-TRAINING-COPYRIGHT")
+    assert "editor_note" not in issue and issue["editorial"]["editor_note"]
+    for measure in query.list_countermeasures(index)["INBOUND_TO_CN"]:
+        assert not {"note", "issuer", "status", "target"} & set(measure)
+        assert measure["verification"] in ("VERIFIED", "PARSED")
+
+
+def test_an_unregistered_source_is_flagged(index: query.Index) -> None:
+    assert "未登记" in index.cite(["SRC-NOT-REGISTERED"])["warning"]

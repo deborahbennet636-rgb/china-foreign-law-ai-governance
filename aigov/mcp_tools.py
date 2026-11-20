@@ -9,13 +9,19 @@ from dataclasses import dataclass
 from typing import Any, Callable, Dict, List, Tuple
 
 from . import query
-from .config import FOREIGN_RELATED, MEASURE_DIRECTIONS, MEASURE_TYPES, MODALITIES, OBLIGATION_KINDS, OBLIGATION_SUBJECTS
+from .config import (
+    FOREIGN_RELATED,
+    JURISDICTIONS,
+    MEASURE_DIRECTIONS,
+    MEASURE_TYPES,
+    MODALITIES,
+    OBLIGATION_KINDS,
+    OBLIGATION_SUBJECTS,
+)
 from .query_search import SEARCH_SCOPES, search
 
 Record = Dict[str, Any]
 Handler = Callable[[query.Index, Record], Record]
-
-JURISDICTIONS = ["CN", "EU", "US"]
 
 
 @dataclass(frozen=True)
@@ -29,6 +35,7 @@ class Tool:
     handler: Handler
 
     def schema(self) -> Record:
+        """The tool as listed by tools/list."""
         return {
             "name": self.name,
             "description": self.description,
@@ -81,8 +88,9 @@ TOOLS: List[Tool] = [
          "The verbatim text of one article, the obligations cut from it, the cases that cite it, and the "
          "publisher's page to cite. Quote the `text` field; it was matched against a snapshot.",
          {"instrument_id": _string("Instrument id, e.g. CN-CAC-CROSSBORDER-2024."),
-          "article": _string("Article label as printed (第七条, （十二）, Article 50, Sec. 2.) or just "
-                             "the number (7, 第7条).")},
+          "article": {"type": ["string", "integer"],
+                      "description": "Article label as printed (第七条, （十二）, Article 50, Sec. 2.) or just "
+                                     "the number (7, 第7条, or the integer 7)."}},
          ("instrument_id", "article"),
          lambda index, args: query.get_provision(index, args["instrument_id"], args["article"])),
     Tool("find_obligations",
@@ -122,32 +130,73 @@ TOOLS: List[Tool] = [
 
 BY_NAME: Dict[str, Tool] = {tool.name: tool for tool in TOOLS}
 
-_TYPES = {"string": str, "integer": int, "boolean": bool}
+_ARTICLE = {"string": "a string", "integer": "an integer", "boolean": "a boolean"}
 
 
-def check_arguments(tool: Tool, arguments: Any) -> List[str]:
-    """Return one message per problem with the arguments; empty means valid."""
+def _types_of(spec: Record) -> List[str]:
+    """The JSON-Schema types a property accepts."""
+    declared = spec["type"]
+    return declared if isinstance(declared, list) else [declared]
+
+
+def _coerce(kinds: List[str], value: Any) -> Tuple[bool, Any]:
+    """Return whether ``value`` has one of ``kinds``, and the value to use.
+
+    A whole number is accepted where a string is allowed, because an article
+    label typed as ``50`` is the same request as ``"50"``.
+    """
+    if isinstance(value, bool):
+        return "boolean" in kinds, value
+    if isinstance(value, str):
+        return "string" in kinds, value
+    if isinstance(value, int):
+        if "integer" in kinds:
+            return True, value
+        return ("string" in kinds), (str(value) if "string" in kinds else value)
+    if isinstance(value, float) and value.is_integer():
+        if "integer" in kinds:
+            return True, int(value)  # JSON Schema counts 5.0 as an integer
+        return ("string" in kinds), (str(int(value)) if "string" in kinds else value)
+    return False, value
+
+
+def _expectation(kinds: List[str]) -> str:
+    return " or ".join(_ARTICLE[kind] for kind in kinds)
+
+
+def check_arguments(tool: Tool, arguments: Any) -> Tuple[List[str], Record]:
+    """Check arguments against the tool's schema.
+
+    A null optional argument counts as absent.
+
+    Returns:
+        One message per problem (empty means valid) and the cleaned arguments.
+    """
     if arguments is None:
         arguments = {}
     if not isinstance(arguments, dict):
-        return ["arguments must be an object"]
+        return ["arguments must be an object"], {}
+    arguments = {name: value for name, value in arguments.items() if value is not None}
     errors = [f"missing required argument {name!r}" for name in tool.required if name not in arguments]
+    cleaned: Record = {}
     for name, value in arguments.items():
         spec = tool.properties.get(name)
         if spec is None:
             errors.append(f"unknown argument {name!r}; allowed: {sorted(tool.properties)}")
             continue
-        expected = _TYPES[spec["type"]]
-        if not isinstance(value, expected) or (expected is int and isinstance(value, bool)):
-            errors.append(f"{name!r} must be a {spec['type']}")
+        kinds = _types_of(spec)
+        valid, value = _coerce(kinds, value)
+        if not valid:
+            errors.append(f"{name!r} must be {_expectation(kinds)}")
             continue
         if "enum" in spec and value not in spec["enum"]:
             errors.append(f"{name!r} must be one of {spec['enum']}")
-        if "minimum" in spec and value < spec["minimum"] or "maximum" in spec and value > spec["maximum"]:
+        if ("minimum" in spec and value < spec["minimum"]) or ("maximum" in spec and value > spec["maximum"]):
             errors.append(f"{name!r} must be between {spec.get('minimum')} and {spec.get('maximum')}")
-        if expected is str and not value.strip():
+        if isinstance(value, str) and not value.strip():
             errors.append(f"{name!r} must not be empty")
-    return errors
+        cleaned[name] = value
+    return errors, cleaned
 
 
 def call_tool(index: query.Index, name: str, arguments: Any) -> Tuple[Record, bool]:
@@ -161,11 +210,11 @@ def call_tool(index: query.Index, name: str, arguments: Any) -> Tuple[Record, bo
             protocol error.
     """
     tool = BY_NAME[name]
-    problems = check_arguments(tool, arguments)
+    problems, cleaned = check_arguments(tool, arguments)
     if problems:
         return {"error": "invalid arguments", "problems": problems}, True
     try:
-        return tool.handler(index, arguments or {}), False
+        return tool.handler(index, cleaned), False
     except query.NotFound as error:
         return {"error": "not found", "message": str(error)}, True
     except ValueError as error:
