@@ -1,0 +1,20 @@
+{
+  "id": "CM-US-UFLPA-ENTITYLIST-2026-10",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "U.S. Department of Homeland Security, Forced Labor Enforcement Task Force",
+  "title": "UFLPA Entity List",
+  "target": "BGI Genomics Co., Ltd.、MGI Tech Co., Ltd.、Shenzhen BGI Technology Co., Ltd. 等 2026-10-29 列入清单的实体",
+  "measure_type": "ENTITY_LIST",
+  "status": "IN_FORCE",
+  "effective_at": "2026-10-29",
+  "source_id": "SRC-US-DHS-UFLPA-ENTITYLIST",
+  "source_ids": [
+    "SRC-US-DHS-UFLPA-ENTITYLIST",
+    "SRC-US-CBP-UFLPA"
+  ],
+  "meta_evidence": {
+    "effective_at": "BGI Genomics Co., Ltd. (also known as BGI Genomics)October 29, 2026"
+  },
+  "note": "清单由国土安全部主持的强迫劳动执法工作组（FLETF）依 UFLPA 第 2(d)(2)(B)(i) 条维护，逐条列明实体名称与生效日期，列入即触发 CM-US-UFLPA-2022-06 的可反驳推定，实为逐实体生效的进口限制。本条记录的是 2026-10-29 同日列入的三家华大关联实体（华大基因、华大智造、深圳华大科技），生效日期取自清单表格该行所载日期。作为日期依据的引文是表格行，不是完整句子；清单页面不是联邦公报公告，逐条列入的正式文本另见联邦公报。"
+}

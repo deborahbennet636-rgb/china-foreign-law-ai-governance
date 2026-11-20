@@ -1,0 +1,20 @@
+{
+  "id": "CM-US-UFLPA-2022-06",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "U.S. Customs and Border Protection",
+  "title": "Uyghur Forced Labor Prevention Act (UFLPA)",
+  "target": "全部或部分在新疆维吾尔自治区开采、生产或制造的货物，以及 UFLPA 实体清单所列实体生产的货物",
+  "measure_type": "IMPORT_BAN",
+  "status": "IN_FORCE",
+  "effective_at": "2022-06-21",
+  "source_id": "SRC-US-CBP-UFLPA",
+  "source_ids": [
+    "SRC-US-CBP-UFLPA",
+    "SRC-US-DHS-UFLPA-ENTITYLIST"
+  ],
+  "meta_evidence": {
+    "effective_at": "The rebuttable presumption goes into effect on June 21, 2022."
+  },
+  "note": "依据 19 U.S.C. § 1307（1930 年关税法第 307 条）。与一般进口禁令不同，本条把举证责任倒置：凡原产于新疆或由清单实体生产的货物，一律推定为强迫劳动产品，进口商须自证清白方可入境。CBP 自 2022-06-21 起按该推定执法。清单本身见 CM-US-UFLPA-ENTITYLIST-2026-10；两者是同一部法律的执法推定与实体清单两条支线，不是两项独立制裁。"
+}

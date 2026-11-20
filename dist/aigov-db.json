@@ -31,8 +31,8 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 60,
-  "sources_official": 43,
+  "sources": 64,
+  "sources_official": 47,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
    "FOREIGN_SPECIFIC": 8,
@@ -60,9 +60,9 @@
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
-  "countermeasures": 15,
+  "countermeasures": 18,
   "countermeasures_by_direction": {
-   "INBOUND_TO_CN": 8,
+   "INBOUND_TO_CN": 11,
    "OUTBOUND_FROM_CN": 7
   }
  },
@@ -645,6 +645,17 @@
    "bytes": 219756
   },
   {
+   "id": "SRC-US-CBP-UFLPA",
+   "url": "https://www.cbp.gov/trade/forced-labor/UFLPA",
+   "publisher": "U.S. Customs and Border Protection",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "cbb2bcba3bb1f3960310bcbeffc0b8bad6ac6f70776df647c3bc1fc7baf45050",
+   "bytes": 134049,
+   "note": "CBP UFLPA page: rebuttable presumption, effective 21 June 2022"
+  },
+  {
    "id": "SRC-US-DDEL-ROSS-2025",
    "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ded-1_20-cv-00613/pdf/USCOURTS-ded-1_20-cv-00613-5.pdf",
    "publisher": "U.S. Government Publishing Office (govinfo), D. Del.",
@@ -653,6 +664,17 @@
    "fetched_at": "2026-11-11",
    "sha256": "54bddba42a866d6f1c1254512e3deee244d777adfa96f1c76828ec873e7960e5",
    "bytes": 286902
+  },
+  {
+   "id": "SRC-US-DHS-UFLPA-ENTITYLIST",
+   "url": "https://www.dhs.gov/uflpa-entity-list",
+   "publisher": "U.S. Department of Homeland Security",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "c2e773180f75d78da56bb35eb7c6c3674d1fb325521a0a259e5d0f0792f3b91a",
+   "bytes": 138420,
+   "note": "DHS UFLPA Entity List"
   },
   {
    "id": "SRC-US-EO-14179",
@@ -728,6 +750,28 @@
    "sha256": "f9bff139225f257f660257254dc868f5714f7e1fcd3efbb88c207d746f504ee6",
    "bytes": 50670,
    "note": "OFAC recent action 2026-04-24, Iran-related designations"
+  },
+  {
+   "id": "SRC-US-OFAC-PAIPA-20261019",
+   "url": "https://ofac.treasury.gov/recent-actions/20261019",
+   "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "ea41af0f3abf10a4cb07946c7016e918b3d52da3c8688c4c4bf4ade1f0df176e",
+   "bytes": 49430,
+   "note": "OFAC PAIPA designations, 2026-10-19"
+  },
+  {
+   "id": "SRC-US-OFAC-XINBI-2026",
+   "url": "https://home.treasury.gov/news/press-releases/sb0624",
+   "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "8974114edf250c21c457858351597fbba8516019b8cc341c9cb194306afe3799",
+   "bytes": 77088,
+   "note": "OFAC press release: TCO Xinbi Guarantee designated under E.O. 13581"
   },
   {
    "id": "SRC-US-PL-119-12",
@@ -8468,6 +8512,27 @@
    "evidence_grade": "A"
   },
   {
+   "id": "CM-US-OFAC-PAIPA-2026-10",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+   "title": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses",
+   "target": "奇绩创坛（MiraclePlus，原 YC 中国）在北京的投资管理公司及其二期、致远等关联有限合伙基金",
+   "measure_type": "SANCTION",
+   "status": "IN_FORCE",
+   "effective_at": "2026-10-19",
+   "source_id": "SRC-US-OFAC-PAIPA-20261019",
+   "source_ids": [
+    "SRC-US-OFAC-PAIPA-20261019"
+   ],
+   "meta_evidence": {
+    "effective_at": "Entities Blocked on October 19, 2026"
+   },
+   "note": "依据《2022 年保护美国知识产权法》（PAIPA）第 2 条作出，理由是窃取美国商业秘密，属知识产权授权下的制裁，不是伊朗、俄罗斯等国家紧急状态授权。被认定实体登记地均为北京海淀，统一社会信用代码前缀 91110108。制裁内容是财产冻结并禁绝交易，但明文保留货物进口例外（Sec.2(b)(1)(A)）；另附贷款上限、外汇与银行交易限制、股权债权投资禁令。同日签发两份一般许可，其中 GL 2 授权在期限内了结与 2026-10-19 被冻结实体的交易。页面上的 Release Date 写作 10/19/2026，本库认可的中文、英文与 ISO 日期写法均不涵盖这一格式，故生效日取自正文一般许可名称中的日期，公布日未另记。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
    "id": "CM-US-TREASURY-OUTBOUND-2026-10",
    "direction": "INBOUND_TO_CN",
    "jurisdiction": "US",
@@ -8482,6 +8547,50 @@
    ],
    "meta_evidence": {},
    "note": "这是拟议规则，尚未生效，原文写明生效日要等规则定稿时才确定，故不记生效日期。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-US-UFLPA-2022-06",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "U.S. Customs and Border Protection",
+   "title": "Uyghur Forced Labor Prevention Act (UFLPA)",
+   "target": "全部或部分在新疆维吾尔自治区开采、生产或制造的货物，以及 UFLPA 实体清单所列实体生产的货物",
+   "measure_type": "IMPORT_BAN",
+   "status": "IN_FORCE",
+   "effective_at": "2022-06-21",
+   "source_id": "SRC-US-CBP-UFLPA",
+   "source_ids": [
+    "SRC-US-CBP-UFLPA",
+    "SRC-US-DHS-UFLPA-ENTITYLIST"
+   ],
+   "meta_evidence": {
+    "effective_at": "The rebuttable presumption goes into effect on June 21, 2022."
+   },
+   "note": "依据 19 U.S.C. § 1307（1930 年关税法第 307 条）。与一般进口禁令不同，本条把举证责任倒置：凡原产于新疆或由清单实体生产的货物，一律推定为强迫劳动产品，进口商须自证清白方可入境。CBP 自 2022-06-21 起按该推定执法。清单本身见 CM-US-UFLPA-ENTITYLIST-2026-10；两者是同一部法律的执法推定与实体清单两条支线，不是两项独立制裁。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-US-UFLPA-ENTITYLIST-2026-10",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "U.S. Department of Homeland Security, Forced Labor Enforcement Task Force",
+   "title": "UFLPA Entity List",
+   "target": "BGI Genomics Co., Ltd.、MGI Tech Co., Ltd.、Shenzhen BGI Technology Co., Ltd. 等 2026-10-29 列入清单的实体",
+   "measure_type": "ENTITY_LIST",
+   "status": "IN_FORCE",
+   "effective_at": "2026-10-29",
+   "source_id": "SRC-US-DHS-UFLPA-ENTITYLIST",
+   "source_ids": [
+    "SRC-US-DHS-UFLPA-ENTITYLIST",
+    "SRC-US-CBP-UFLPA"
+   ],
+   "meta_evidence": {
+    "effective_at": "BGI Genomics Co., Ltd. (also known as BGI Genomics)October 29, 2026"
+   },
+   "note": "清单由国土安全部主持的强迫劳动执法工作组（FLETF）依 UFLPA 第 2(d)(2)(B)(i) 条维护，逐条列明实体名称与生效日期，列入即触发 CM-US-UFLPA-2022-06 的可反驳推定，实为逐实体生效的进口限制。本条记录的是 2026-10-29 同日列入的三家华大关联实体（华大基因、华大智造、深圳华大科技），生效日期取自清单表格该行所载日期。作为日期依据的引文是表格行，不是完整句子；清单页面不是联邦公报公告，逐条列入的正式文本另见联邦公报。",
    "verification": "VERIFIED",
    "evidence_grade": "A"
   },

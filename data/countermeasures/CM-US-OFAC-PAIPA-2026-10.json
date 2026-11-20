@@ -1,0 +1,19 @@
+{
+  "id": "CM-US-OFAC-PAIPA-2026-10",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+  "title": "Protecting American Intellectual Property Act of 2022 (PAIPA) Designations; Issuance of Associated General Licenses",
+  "target": "奇绩创坛（MiraclePlus，原 YC 中国）在北京的投资管理公司及其二期、致远等关联有限合伙基金",
+  "measure_type": "SANCTION",
+  "status": "IN_FORCE",
+  "effective_at": "2026-10-19",
+  "source_id": "SRC-US-OFAC-PAIPA-20261019",
+  "source_ids": [
+    "SRC-US-OFAC-PAIPA-20261019"
+  ],
+  "meta_evidence": {
+    "effective_at": "Entities Blocked on October 19, 2026"
+  },
+  "note": "依据《2022 年保护美国知识产权法》（PAIPA）第 2 条作出，理由是窃取美国商业秘密，属知识产权授权下的制裁，不是伊朗、俄罗斯等国家紧急状态授权。被认定实体登记地均为北京海淀，统一社会信用代码前缀 91110108。制裁内容是财产冻结并禁绝交易，但明文保留货物进口例外（Sec.2(b)(1)(A)）；另附贷款上限、外汇与银行交易限制、股权债权投资禁令。同日签发两份一般许可，其中 GL 2 授权在期限内了结与 2026-10-19 被冻结实体的交易。页面上的 Release Date 写作 10/19/2026，本库认可的中文、英文与 ISO 日期写法均不涵盖这一格式，故生效日取自正文一般许可名称中的日期，公布日未另记。"
+}

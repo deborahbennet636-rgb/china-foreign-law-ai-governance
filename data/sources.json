@@ -649,6 +649,19 @@
     "text_sha256": "9dce75cfb9d88b2cde8c18296fdc91e3aa6d964d09370f35ad106403286e4679",
     "extractor": "pypdf 3.17.4"
   },
+  "SRC-US-CBP-UFLPA": {
+    "id": "SRC-US-CBP-UFLPA",
+    "url": "https://www.cbp.gov/trade/forced-labor/UFLPA",
+    "publisher": "U.S. Customs and Border Protection",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-CBP-UFLPA.html",
+    "sha256": "cbb2bcba3bb1f3960310bcbeffc0b8bad6ac6f70776df647c3bc1fc7baf45050",
+    "bytes": 134049,
+    "via": "proxy",
+    "note": "CBP UFLPA page: rebuttable presumption, effective 21 June 2022"
+  },
   "SRC-US-DDEL-ROSS-2025": {
     "id": "SRC-US-DDEL-ROSS-2025",
     "url": "https://www.govinfo.gov/content/pkg/USCOURTS-ded-1_20-cv-00613/pdf/USCOURTS-ded-1_20-cv-00613-5.pdf",
@@ -663,6 +676,19 @@
     "text_file": "raw/SRC-US-DDEL-ROSS-2025.pdf.txt",
     "text_sha256": "c98ce196cf8197ef24522124f8f92ec634febab2422c5aa9403f2e90a9af40ac",
     "extractor": "pypdf 3.17.4"
+  },
+  "SRC-US-DHS-UFLPA-ENTITYLIST": {
+    "id": "SRC-US-DHS-UFLPA-ENTITYLIST",
+    "url": "https://www.dhs.gov/uflpa-entity-list",
+    "publisher": "U.S. Department of Homeland Security",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-DHS-UFLPA-ENTITYLIST.html",
+    "sha256": "c2e773180f75d78da56bb35eb7c6c3674d1fb325521a0a259e5d0f0792f3b91a",
+    "bytes": 138420,
+    "via": "proxy",
+    "note": "DHS UFLPA Entity List"
   },
   "SRC-US-EO-14179": {
     "id": "SRC-US-EO-14179",
@@ -755,6 +781,32 @@
     "bytes": 50670,
     "via": "proxy",
     "note": "OFAC recent action 2026-04-24, Iran-related designations"
+  },
+  "SRC-US-OFAC-PAIPA-20261019": {
+    "id": "SRC-US-OFAC-PAIPA-20261019",
+    "url": "https://ofac.treasury.gov/recent-actions/20261019",
+    "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-OFAC-PAIPA-20261019.html",
+    "sha256": "ea41af0f3abf10a4cb07946c7016e918b3d52da3c8688c4c4bf4ade1f0df176e",
+    "bytes": 49430,
+    "via": "proxy",
+    "note": "OFAC PAIPA designations, 2026-10-19"
+  },
+  "SRC-US-OFAC-XINBI-2026": {
+    "id": "SRC-US-OFAC-XINBI-2026",
+    "url": "https://home.treasury.gov/news/press-releases/sb0624",
+    "publisher": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-OFAC-XINBI-2026.html",
+    "sha256": "8974114edf250c21c457858351597fbba8516019b8cc341c9cb194306afe3799",
+    "bytes": 77088,
+    "via": "proxy",
+    "note": "OFAC press release: TCO Xinbi Guarantee designated under E.O. 13581"
   },
   "SRC-US-PL-119-12": {
     "id": "SRC-US-PL-119-12",
