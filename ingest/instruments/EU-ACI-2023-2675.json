@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-EU-ACI-2023-2675",
+  "format": "eu-article",
+  "start_at": "HAVE ADOPTED THIS REGULATION:",
+  "end_before": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+  "expected_provisions": 20,
+  "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2023/2675 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Strasbourg, 22 November 2023.",
+    "published_at": "7.12.2023",
+    "entry_into_force": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 20,
+      "basis": "entry_into_force"
+    }
+  },
+  "record": {
+    "id": "EU-ACI-2023-2675",
+    "jurisdiction": "EU",
+    "title": "Regulation (EU) 2023/2675 of the European Parliament and of the Council",
+    "short_title": "欧盟反胁迫工具（ACI）",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Regulation (EU) 2023/2675",
+    "level": "Regulation",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "第 20 条规定在《官方公报》公布之日后第 20 日生效；按公报所载 2023-12-07 推算为 2023-12-27。附件与据此作出的实施决定未收。该工具是欧盟对第三国经济胁迫的应对框架，条文本身不针对任何特定国家",
+    "published_at": "2023-12-07",
+    "effective_at": "2023-12-27",
+    "language": "en",
+    "discovered_via": "Publications Office Cellar（CELEX 32023R2675）；eur-lex.europa.eu 当时被 AWS WAF 拦为 202，同一条例改由 Cellar 取得"
+  }
+}

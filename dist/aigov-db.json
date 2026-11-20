@@ -2,14 +2,14 @@
  "schema": "aigov-db/v1",
  "built_at": "2026-11-20",
  "stats": {
-  "instruments": 21,
+  "instruments": 23,
   "instruments_by_jurisdiction": {
-   "CN": 17,
-   "EU": 2,
+   "CN": 18,
+   "EU": 3,
    "US": 2
   },
-  "instruments_complete": 16,
-  "provisions": 476,
+  "instruments_complete": 18,
+  "provisions": 541,
   "cases": 13,
   "cases_by_jurisdiction": {
    "CN": 10,
@@ -31,23 +31,23 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 64,
-  "sources_official": 47,
+  "sources": 66,
+  "sources_official": 49,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
-   "FOREIGN_SPECIFIC": 8,
+   "FOREIGN_SPECIFIC": 10,
    "FOREIGN_CLAUSE": 3
   },
-  "obligations": 30,
+  "obligations": 34,
   "obligations_by_kind": {
-   "PROHIBITION": 5,
+   "PROHIBITION": 6,
+   "OTHER": 4,
    "LICENSE": 4,
+   "COOPERATION": 3,
    "SECURITY_ASSESSMENT": 3,
    "CERTIFICATION": 3,
    "CONSENT": 3,
    "REPORTING": 2,
-   "OTHER": 2,
-   "COOPERATION": 2,
    "CONTRACT": 2,
    "RECORD_KEEPING": 1,
    "DATA_SOURCE": 1,
@@ -55,8 +55,8 @@
    "PROTECTION": 1
   },
   "obligations_by_modality": {
-   "MUST": 23,
-   "MUST_NOT": 5,
+   "MUST": 26,
+   "MUST_NOT": 6,
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
@@ -310,6 +310,17 @@
    "sha256": "d79194d2b69c8bd1d6a500f404af7398e1c5083c31ad92404989277c47921b83",
    "bytes": 64808,
    "note": "外交部令第7号 反制清单（2024-05-22）"
+  },
+  {
+   "id": "SRC-CN-MFA-FOREIGNRELATIONS-2023",
+   "url": "http://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/zcfg/fl/202306/t20230628_11105189.shtml",
+   "publisher": "中华人民共和国外交部",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "a66625a944c7c19a54ac8aeeb89e5ca02118dfb8583026e75671ab160007d240",
+   "bytes": 103235,
+   "note": "外交部公开的《中华人民共和国对外关系法》全文"
   },
   {
    "id": "SRC-CN-MOFCOM-BLOCKING-2021",
@@ -580,6 +591,17 @@
    "sha256": "c057af838852ba797103eee13332d77b49493d3dbba07d5b513e97304487f03b",
    "bytes": 74967,
    "note": "Access2Markets notice on Implementing Regulation (EU) 2024/2754"
+  },
+  {
+   "id": "SRC-EU-ACI-2023-2675",
+   "url": "http://publications.europa.eu/resource/celex/32023R2675",
+   "publisher": "Publications Office of the European Union (Official Journal)",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "56a3a9112309a54f1c0589f18c663f125d3e55adf8270c4a8ba471a1af06d3fb",
+   "bytes": 165530,
+   "note": "反胁迫工具条例 2023/2675 OJ 正文；eur-lex.europa.eu 被 AWS WAF 拦为 202，改由 Cellar 以 application/xhtml+xml 取得同一 CELEX"
   },
   {
    "id": "SRC-EU-AIACT-OJ",
@@ -3610,6 +3632,356 @@
    "evidence_grade": "A"
   },
   {
+   "id": "CN-NPC-FOREIGNRELATIONS-2023",
+   "jurisdiction": "CN",
+   "title": "中华人民共和国对外关系法",
+   "short_title": "对外关系法",
+   "issuer": "全国人民代表大会常务委员会",
+   "doc_number": null,
+   "level": "法律",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第四十五条规定自 2023-07-01 起施行。此后的修正未专门核查",
+   "published_at": "2023-06-28",
+   "effective_at": "2023-07-01",
+   "language": "zh",
+   "discovered_via": "外交部政府信息公开·法律栏目的全文页（同页附官方英译本）",
+   "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023",
+   "source_ids": [
+    "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+   ],
+   "complete": true,
+   "expected_provisions": 45,
+   "meta_evidence": {
+    "published_at": "2023-06-28 22:42",
+    "effective_at": "本法自2023年7月1日起施行",
+    "issuer": "（2023年6月28日第十四届全国人民代表大会常务委员会第三次会议通过）"
+   },
+   "derived_dates": {},
+   "generated_by": "ingest/instruments/CN-NPC-FOREIGNRELATIONS-2023.json",
+   "provisions": [
+    {
+     "no": "第一条",
+     "ordinal": 1,
+     "division": "第一章 总    则",
+     "text": "为了发展对外关系，维护国家主权、安全、发展利益，维护和发展人民利益，建设社会主义现代化强国，实现中华民族伟大复兴，促进世界和平与发展，推动构建人类命运共同体，根据宪法，制定本法。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二条",
+     "ordinal": 2,
+     "division": "第一章 总    则",
+     "text": "中华人民共和国发展同各国的外交关系和经济、文化等各领域的交流与合作，发展同联合国等国际组织的关系，适用本法。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三条",
+     "ordinal": 3,
+     "division": "第一章 总    则",
+     "text": "中华人民共和国坚持以马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观、习近平新时代中国特色社会主义思想为指导，发展对外关系，促进友好交往。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四条",
+     "ordinal": 4,
+     "division": "第一章 总    则",
+     "text": "中华人民共和国坚持独立自主的和平外交政策，坚持互相尊重主权和领土完整、互不侵犯、互不干涉内政、平等互利、和平共处的五项原则。\n中华人民共和国坚持和平发展道路，坚持对外开放基本国策，奉行互利共赢开放战略。\n中华人民共和国遵守联合国宪章宗旨和原则，维护世界和平与安全，促进全球共同发展，推动构建新型国际关系；主张以和平方式解决国际争端，反对在国际关系中使用武力或者以武力相威胁，反对霸权主义和强权政治；坚持国家不分大小、强弱、贫富一律平等，尊重各国人民自主选择的发展道路和社会制度。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第五条",
+     "ordinal": 5,
+     "division": "第一章 总    则",
+     "text": "中华人民共和国对外工作坚持中国共产党的集中统一领导。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第六条",
+     "ordinal": 6,
+     "division": "第一章 总    则",
+     "text": "国家机关和武装力量、各政党和各人民团体、企业事业组织和其他社会组织以及公民，在对外交流合作中有维护国家主权、安全、尊严、荣誉、利益的责任和义务。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第七条",
+     "ordinal": 7,
+     "division": "第一章 总    则",
+     "text": "国家鼓励积极开展民间对外友好交流合作。\n对在对外交流合作中做出突出贡献者，按照国家有关规定给予表彰和奖励。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第八条",
+     "ordinal": 8,
+     "division": "第一章 总    则",
+     "text": "任何组织和个人违反本法和有关法律，在对外交往中从事损害国家利益活动的，依法追究法律责任。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第九条",
+     "ordinal": 9,
+     "division": "第二章  对外关系的职权",
+     "text": "中央外事工作领导机构负责对外工作的决策和议事协调，研究制定、指导实施国家对外战略和有关重大方针政策，负责对外工作的顶层设计、统筹协调、整体推进、督促落实。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十条",
+     "ordinal": 10,
+     "division": "第二章  对外关系的职权",
+     "text": "全国人民代表大会及其常务委员会批准和废除同外国缔结的条约和重要协定，行使宪法和法律规定的对外关系职权。\n全国人民代表大会及其常务委员会积极开展对外交往，加强同各国议会、国际和地区议会组织的交流与合作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十一条",
+     "ordinal": 11,
+     "division": "第二章  对外关系的职权",
+     "text": "中华人民共和国主席代表中华人民共和国，进行国事活动，行使宪法和法律规定的对外关系职权。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十二条",
+     "ordinal": 12,
+     "division": "第二章  对外关系的职权",
+     "text": "国务院管理对外事务，同外国缔结条约和协定，行使宪法和法律规定的对外关系职权。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十三条",
+     "ordinal": 13,
+     "division": "第二章  对外关系的职权",
+     "text": "中央军事委员会组织开展国际军事交流与合作，行使宪法和法律规定的对外关系职权。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十四条",
+     "ordinal": 14,
+     "division": "第二章  对外关系的职权",
+     "text": "中华人民共和国外交部依法办理外交事务，承办党和国家领导人同外国领导人的外交往来事务。外交部加强对国家机关各部门、各地区对外交流合作的指导、协调、管理、服务。\n中央和国家机关按照职责分工，开展对外交流合作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十五条",
+     "ordinal": 15,
+     "division": "第二章  对外关系的职权",
+     "text": "中华人民共和国驻外国的使馆、领馆以及常驻联合国和其他政府间国际组织的代表团等驻外外交机构对外代表中华人民共和国。\n外交部统一领导驻外外交机构的工作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十六条",
+     "ordinal": 16,
+     "division": "第二章  对外关系的职权",
+     "text": "省、自治区、直辖市根据中央授权在特定范围内开展对外交流合作。\n省、自治区、直辖市人民政府依职权处理本行政区域的对外交流合作事务。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十七条",
+     "ordinal": 17,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国发展对外关系，坚持维护中国特色社会主义制度，维护国家主权、统一和领土完整，服务国家经济社会发展。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十八条",
+     "ordinal": 18,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国推动践行全球发展倡议、全球安全倡议、全球文明倡议，推进全方位、多层次、宽领域、立体化的对外工作布局。\n中华人民共和国促进大国协调和良性互动，按照亲诚惠容理念和与邻为善、以邻为伴方针发展同周边国家关系，秉持真实亲诚理念和正确义利观同发展中国家团结合作，维护和践行多边主义，参与全球治理体系改革和建设。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第十九条",
+     "ordinal": 19,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国维护以联合国为核心的国际体系，维护以国际法为基础的国际秩序，维护以联合国宪章宗旨和原则为基础的国际关系基本准则。\n中华人民共和国坚持共商共建共享的全球治理观，参与国际规则制定，推动国际关系民主化，推动经济全球化朝着开放、包容、普惠、平衡、共赢方向发展。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十条",
+     "ordinal": 20,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国坚持共同、综合、合作、可持续的全球安全观，加强国际安全合作，完善参与全球安全治理机制。\n中华人民共和国履行联合国安全理事会常任理事国责任，维护国际和平与安全，维护联合国安全理事会权威与地位。\n中华人民共和国支持和参与联合国安全理事会授权的维持和平行动，坚持维持和平行动基本原则，尊重主权国家领土完整与政治独立，保持公平立场。\n中华人民共和国维护国际军备控制、裁军与防扩散体系，反对军备竞赛，反对和禁止一切形式的大规模杀伤性武器相关扩散活动，履行相关国际义务，开展防扩散国际合作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十一条",
+     "ordinal": 21,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国坚持公平普惠、开放合作、全面协调、创新联动的全球发展观，促进经济、社会、环境协调可持续发展和人的全面发展。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十二条",
+     "ordinal": 22,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国尊重和保障人权，坚持人权的普遍性原则同本国实际相结合，促进人权全面协调发展，在平等和相互尊重的基础上开展人权领域国际交流与合作，推动国际人权事业健康发展。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十三条",
+     "ordinal": 23,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国主张世界各国超越国家、民族、文化差异，弘扬和平、发展、公平、正义、民主、自由的全人类共同价值。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十四条",
+     "ordinal": 24,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国坚持平等、互鉴、对话、包容的文明观，尊重文明多样性，推动不同文明交流对话。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十五条",
+     "ordinal": 25,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国积极参与全球环境气候治理，加强绿色低碳国际合作，共谋全球生态文明建设，推动构建公平合理、合作共赢的全球环境气候治理体系。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十六条",
+     "ordinal": 26,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国坚持推进高水平对外开放，发展对外贸易，积极促进和依法保护外商投资，鼓励开展对外投资等对外经济合作，推动共建“一带一路”高质量发展，维护多边贸易体制，反对单边主义和保护主义，推动建设开放型世界经济。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十七条",
+     "ordinal": 27,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国通过经济、技术、物资、人才、管理等方式开展对外援助，促进发展中国家经济发展和社会进步，增强其自主可持续发展能力，推动国际发展合作。\n中华人民共和国开展国际人道主义合作和援助，加强防灾减灾救灾国际合作，协助有关国家应对人道主义紧急状况。\n中华人民共和国开展对外援助坚持尊重他国主权，不干涉他国内政，不附加任何政治条件。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十八条",
+     "ordinal": 28,
+     "division": "第三章  发展对外关系的目标任务",
+     "text": "中华人民共和国根据发展对外关系的需要，开展教育、科技、文化、卫生、体育、社会、生态、军事、安全、法治等领域交流合作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第二十九条",
+     "ordinal": 29,
+     "division": "第四章  对外关系的制度",
+     "text": "国家统筹推进国内法治和涉外法治，加强涉外领域立法，加强涉外法治体系建设。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十条",
+     "ordinal": 30,
+     "division": "第四章  对外关系的制度",
+     "text": "国家依照宪法和法律缔结或者参加条约和协定，善意履行有关条约和协定规定的义务。\n国家缔结或者参加的条约和协定不得同宪法相抵触。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十一条",
+     "ordinal": 31,
+     "division": "第四章  对外关系的制度",
+     "text": "国家采取适当措施实施和适用条约和协定。\n条约和协定的实施和适用不得损害国家主权、安全和社会公共利益。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十二条",
+     "ordinal": 32,
+     "division": "第四章  对外关系的制度",
+     "text": "国家在遵守国际法基本原则和国际关系基本准则的基础上，加强涉外领域法律法规的实施和适用，并依法采取执法、司法等措施，维护国家主权、安全、发展利益，保护中国公民、组织合法权益。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十三条",
+     "ordinal": 33,
+     "division": "第四章  对外关系的制度",
+     "text": "对于违反国际法和国际关系基本准则，危害中华人民共和国主权、安全、发展利益的行为，中华人民共和国有权采取相应反制和限制措施。\n国务院及其部门制定必要的行政法规、部门规章，建立相应工作制度和机制，加强部门协同配合，确定和实施有关反制和限制措施。\n依据本条第一款、第二款作出的决定为最终决定。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十四条",
+     "ordinal": 34,
+     "division": "第四章  对外关系的制度",
+     "text": "中华人民共和国在一个中国原则基础上，按照和平共处五项原则同世界各国建立和发展外交关系。\n中华人民共和国根据缔结或者参加的条约和协定、国际法基本原则和国际关系基本准则，有权采取变更或者终止外交、领事关系等必要外交行动。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十五条",
+     "ordinal": 35,
+     "division": "第四章  对外关系的制度",
+     "text": "国家采取措施执行联合国安全理事会根据联合国宪章第七章作出的具有约束力的制裁决议和相关措施。\n对前款所述制裁决议和措施的执行，由外交部发出通知并予公告。国家有关部门和省、自治区、直辖市人民政府在各自职权范围内采取措施予以执行。\n在中国境内的组织和个人应当遵守外交部公告内容和各部门、各地区有关措施，不得从事违反上述制裁决议和措施的行为。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十六条",
+     "ordinal": 36,
+     "division": "第四章  对外关系的制度",
+     "text": "中华人民共和国依据有关法律和缔结或者参加的条约和协定，给予外国外交机构、外国国家官员、国际组织及其官员相应的特权与豁免。\n中华人民共和国依据有关法律和缔结或者参加的条约和协定，给予外国国家及其财产豁免。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十七条",
+     "ordinal": 37,
+     "division": "第四章  对外关系的制度",
+     "text": "国家依法采取必要措施，保护中国公民和组织在海外的安全和正当权益，保护国家的海外利益不受威胁和侵害。\n国家加强海外利益保护体系、工作机制和能力建设。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十八条",
+     "ordinal": 38,
+     "division": "第四章  对外关系的制度",
+     "text": "中华人民共和国依法保护在中国境内的外国人和外国组织的合法权利和利益。\n国家有权准许或者拒绝外国人入境、停留居留，依法对外国组织在境内的活动进行管理。\n在中国境内的外国人和外国组织应当遵守中国法律，不得危害中国国家安全、损害社会公共利益、破坏社会公共秩序。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第三十九条",
+     "ordinal": 39,
+     "division": "第四章  对外关系的制度",
+     "text": "中华人民共和国加强多边双边法治对话，推进对外法治交流合作。\n中华人民共和国根据缔结或者参加的条约和协定，或者按照平等互惠原则，同外国、国际组织在执法、司法领域开展国际合作。\n国家深化拓展对外执法合作工作机制，完善司法协助体制机制，推进执法、司法领域国际合作。国家加强打击跨国犯罪、反腐败等国际合作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十条",
+     "ordinal": 40,
+     "division": "第五章  发展对外关系的保障",
+     "text": "国家健全对外工作综合保障体系，增强发展对外关系、维护国家利益的能力。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十一条",
+     "ordinal": 41,
+     "division": "第五章  发展对外关系的保障",
+     "text": "国家保障对外工作所需经费，建立与发展对外关系需求和国民经济发展水平相适应的经费保障机制。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十二条",
+     "ordinal": 42,
+     "division": "第五章  发展对外关系的保障",
+     "text": "国家加强对外工作人才队伍建设，采取措施推动做好人才培养、使用、管理、服务、保障等工作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十三条",
+     "ordinal": 43,
+     "division": "第五章  发展对外关系的保障",
+     "text": "国家通过多种形式促进社会公众理解和支持对外工作。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十四条",
+     "ordinal": 44,
+     "division": "第五章  发展对外关系的保障",
+     "text": "国家推进国际传播能力建设，推动世界更好了解和认识中国，促进人类文明交流互鉴。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    },
+    {
+     "no": "第四十五条",
+     "ordinal": 45,
+     "division": "第六章  附    则",
+     "text": "本法自2023年7月1日起施行。",
+     "source_id": "SRC-CN-MFA-FOREIGNRELATIONS-2023"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
    "id": "CN-PIPL-2021",
    "jurisdiction": "CN",
    "title": "中华人民共和国个人信息保护法",
@@ -3885,6 +4257,209 @@
      "division": "五、加大对涉人工智能纠纷案件审判指导力度，不断健全完善工作机制",
      "text": "加强国际司法交流合作。妥善审理涉人工智能及数据跨境纠纷案件，在坚持相互尊重、平等互利原则基础上，推进人工智能领域涉外审判交流合作，加强规则对接与互鉴，推动构建更加公平合理、包容开放的人工智能治理体系，促进、保护人工智能生态系统和人类文明的多样性。",
      "source_id": "SRC-CN-SPC-511101"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "EU-ACI-2023-2675",
+   "jurisdiction": "EU",
+   "title": "Regulation (EU) 2023/2675 of the European Parliament and of the Council",
+   "short_title": "欧盟反胁迫工具（ACI）",
+   "issuer": "European Parliament、Council of the European Union",
+   "doc_number": "Regulation (EU) 2023/2675",
+   "level": "Regulation",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第 20 条规定在《官方公报》公布之日后第 20 日生效；按公报所载 2023-12-07 推算为 2023-12-27。附件与据此作出的实施决定未收。该工具是欧盟对第三国经济胁迫的应对框架，条文本身不针对任何特定国家",
+   "published_at": "2023-12-07",
+   "effective_at": "2023-12-27",
+   "language": "en",
+   "discovered_via": "Publications Office Cellar（CELEX 32023R2675）；eur-lex.europa.eu 当时被 AWS WAF 拦为 202，同一条例改由 Cellar 取得",
+   "source_id": "SRC-EU-ACI-2023-2675",
+   "source_ids": [
+    "SRC-EU-ACI-2023-2675"
+   ],
+   "complete": true,
+   "expected_provisions": 20,
+   "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2023/2675 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Strasbourg, 22 November 2023.",
+    "published_at": "7.12.2023",
+    "entry_into_force": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+   },
+   "derived_dates": {
+    "effective_at": {
+     "from": "published_at",
+     "plus_days": 20,
+     "basis": "entry_into_force"
+    }
+   },
+   "generated_by": "ingest/instruments/EU-ACI-2023-2675.json",
+   "provisions": [
+    {
+     "no": "Article 1",
+     "ordinal": 1,
+     "division": "",
+     "heading": "Subject matter and scope",
+     "text": "1. This Regulation applies in cases of economic coercion by a third country. It lays down rules and procedures to ensure the effective protection of the interests of the Union and its Member States from economic coercion by a third country.\n2. This Regulation establishes a framework for the Union to respond to economic coercion with the objective of deterring economic coercion or obtaining the cessation of economic coercion, whilst enabling the Union, as a last resort, to counteract economic coercion through Union response measures.\nThis Regulation also establishes a framework for the Union to seek reparation for the injury to the Union, where appropriate.\n3. Any action taken under this Regulation shall be consistent with international law and be carried out in the context of the principles and objectives of the Union’s external action.\n4. This Regulation applies without prejudice to existing Union instruments and to international agreements concluded by the Union, as well as to actions taken thereunder that are consistent with international law, in the area of the common commercial policy, and to other Union policies.\n5. This Regulation does not affect the division of competences between the Union and its Member States.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 2",
+     "ordinal": 2,
+     "division": "",
+     "heading": "Economic coercion",
+     "text": "1. For the purposes of this Regulation, economic coercion exists where a third country applies or threatens to apply a third-country measure affecting trade or investment in order to prevent or obtain the cessation, modification or adoption of a particular act by the Union or a Member State, thereby interfering in the legitimate sovereign choices of the Union or a Member State.\n2. In determining whether the conditions of paragraph 1 are met, the Commission and the Council shall take into account the following:\n(a)\nthe intensity, severity, frequency, duration, breadth and magnitude of the third-country measure, including its impact on trade or investment relations with the Union, and the pressure arising from it on the Union or a Member State;\n(b)\nwhether the third country is engaging in a pattern of interference seeking to prevent or obtain particular acts from the Union, a Member State or another third country;\n(c)\nthe extent to which the third-country measure encroaches upon an area of the Union’s or a Member State’s sovereignty;\n(d)\nwhether the third country is acting on the basis of a legitimate concern that is internationally recognised;\n(e)\nwhether and in what manner the third country, before the imposition or application of the third-country measure, made serious attempts, in good faith, to settle the matter through international coordination or adjudication, either bilaterally or within an international forum.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 3",
+     "ordinal": 3,
+     "division": "",
+     "heading": "Definitions",
+     "text": "For the purposes of this Regulation, the following definitions apply:\n(1)\n‘third-country measure’ means any action or omission attributable to a third country under international law;\n(2)\n‘particular act’ means any legal or other act, including an expression of a position, by an institution, body, office or agency of, respectively, the Union or of a Member State, or of a third country;\n(3)\n‘injury to the Union’ means a negative impact, including economic damage, on the Union or a Member State, including on Union economic operators, caused by economic coercion;\n(4)\n‘third country’ means any State, separate customs territory or other subject of international law, other than the Union or a Member State.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 4",
+     "ordinal": 4,
+     "division": "",
+     "heading": "Examination of third-country measures",
+     "text": "1. The Commission may, on its own initiative or upon a duly substantiated request, examine any third-country measure in order to determine whether it meets the conditions of Article 2(1).\n2. Where the Commission examines a third-country measure, it shall act expeditiously. The examination shall normally not exceed 4 months.\nThe Commission shall carry out the examination based on substantiated information gathered on its own initiative or received from any reliable source, including a Member State, the European Parliament, economic operators or trade unions.\nThe Commission shall ensure the protection of confidential information in accordance with Article 15 including, when necessary, the protection of the identity of the person who supplies the information.\nThe Commission shall make publicly available a secure tool with a view to facilitating the submission of information to the Commission.\n3. The Commission shall inform the Member States in a timely manner of the start of examinations and of relevant developments with regard to ongoing examinations.\n4. The Commission shall seek information about the impact of the third-country measures, where necessary.\nThe Commission may request Member States to supply such information and Member States shall act upon that request expeditiously.\nBy publishing a notice in the Official Journal of the European Union and, where appropriate, through other suitable means of public communication, the Commission may invite stakeholders to submit information. The Commission shall specify a date by which that information is to be submitted, taking into account the period indicated in the first subparagraph of paragraph 2.\nIf the Commission publishes such a notice, it shall notify the third country concerned that the examination has started.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 5",
+     "ordinal": 5,
+     "division": "",
+     "heading": "Determination with regard to the third-country measure",
+     "text": "1. Where, following an examination carried out in accordance with Article 4, the Commission concludes that the third-country measure meets the conditions of Article 2(1), it shall submit a proposal to the Council for an implementing act determining that the third-country measure meets the conditions of Article 2(1).\nIn that proposal, the Commission shall explain how those conditions are met.\nThe proposal shall set out an indicative period for the Commission to assess whether the conditions of Article 8(1) are met. That period shall not exceed 6 months, unless a duly justified longer period is necessary in light of the specific circumstances of the case.\n2. In the proposal referred to in paragraph 1 or in a subsequent proposal for a Council implementing act, the Commission shall, where appropriate, propose that the Council determine that the third country be requested to repair the injury to the Union.\nThe assessment of whether it is appropriate to request the third country to repair the injury to the Union shall be based on all circumstances of the case. That assessment shall be based, in particular, on the nature and extent of the damage caused and the general obligation under customary international law to make full reparation for the injury caused by an internationally wrongful act.\n3. Prior to submitting the proposal referred to in paragraph 1 of this Article, where useful for the purposes of the determination referred to in that paragraph, the Commission shall, without prejudice to any engagement with the third country concerned pursuant to Article 6, invite the third country to submit its observations within a specified period. Such period shall be reasonable and shall not unduly delay the submission of the proposal referred to in paragraph 1 of this Article.\n4. Prior to submitting the proposal referred to in paragraph 1 of this Article, the Commission shall inform the European Parliament of the conclusions of the examination carried out in accordance with Article 4.\n5. The Council shall adopt the implementing acts referred to in paragraphs 1 and 2, acting by qualified majority.\nThe Council may amend the proposals referred to in paragraphs 1 and 2, acting by qualified majority.\n6. For the purposes of this Article, the Council shall act expeditiously.\nThe Council shall act within 8 weeks of the submission of the proposals referred to in paragraphs 1 and 2.\nBy way of derogation from the second subparagraph, the Council may act after that eight-week period provided that it informs the Commission of a delay and of the reasons for that delay.\nThe total period for the Council to act shall normally not exceed 10 weeks from the submission of the proposals referred to in paragraphs 1 and 2.\nIn the exercise of its implementing powers, the Council shall apply Article 2(1), which sets out the conditions for the existence of economic coercion, and the criteria set out in paragraph 2, second subparagraph, of this Article, and shall explain how those conditions are met and criteria are applied.\n7. Implementing acts adopted pursuant to this Article shall be published in the Official Journal of the European Union.\n8. The European Parliament shall be informed of any implementing acts proposed or adopted pursuant to this Article.\n9. Where the Council adopts an implementing act as referred to in paragraph 1, the Commission shall inform the third country accordingly and request that third country to cease the economic coercion immediately.\n10. Where the Council adopts an implementing act as referred to in paragraph 2, the Commission shall request the third country to repair the injury to the Union within a reasonable period.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 6",
+     "ordinal": 6,
+     "division": "",
+     "heading": "Engagement with the third country",
+     "text": "1. Following the adoption of an implementing act in accordance with Article 5, the Commission shall provide adequate opportunity for consultations with the third country with a view to obtaining the cessation of the economic coercion and, where so requested pursuant to Article 5(10), reparation of the injury to the Union.\nWhere the third country enters into consultations with the Union in good faith, the Commission shall engage in such consultations expeditiously.\nIn the course of such consultations, the Commission may explore options with the third country, including the following:\n(a)\ndirect negotiations;\n(b)\nsubmitting the matter to international adjudication;\n(c)\nmediation, conciliation or good offices by a third party to assist the Union and the third country in their efforts under this Article.\n2. Without prejudice to paragraph 1, the Commission shall seek to obtain the cessation of the economic coercion by raising the matter in any relevant international fora after having consulted the Council, where applicable in accordance with the Treaties.\n3. Following the adoption of Union response measures pursuant to Article 8, the Commission shall remain open to entering into consultations with the third country, in conjunction with the potential suspension of any Union response measures pursuant to Article 12(2).",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 7",
+     "ordinal": 7,
+     "division": "",
+     "heading": "International cooperation",
+     "text": "The Commission shall enter into consultations or cooperate with any third country affected by the same or similar economic coercion or with any other interested third country, with a view to obtaining the cessation of the economic coercion, after having consulted the Council, where applicable in accordance with the Treaties.\nSuch consultations and cooperation may involve, where appropriate:\n(a)\nsharing relevant information and experiences to facilitate a coherent response to such economic coercion;\n(b)\ncoordination in relevant international fora;\n(c)\ncoordination in the response to the economic coercion.\nThe Commission shall invite, where appropriate, Member States to participate in such consultations and cooperation.\nSuch consultations and cooperation shall not unduly delay the procedure under this Regulation.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 8",
+     "ordinal": 8,
+     "division": "",
+     "heading": "Union response measures",
+     "text": "1. The Commission shall adopt Union response measures by means of implementing acts where all of the following conditions are met:\n(a)\naction pursuant to Articles 5 and 6 has not resulted, within a reasonable period, in the cessation of the economic coercion and, where requested pursuant to Article 5(10), in the reparation of the injury to the Union;\n(b)\nthe adoption of Union response measures is necessary to protect the interests and rights of the Union and its Member States in the particular case, in light of the options available;\n(c)\nthe adoption of Union response measures is in the Union interest, as determined in accordance with Article 9.\nWhere the economic coercion has ceased but the third country has not repaired in full the injury to the Union, despite having been requested to do so, the Commission shall base the assessment of whether the condition referred to in the first subparagraph, point (b), of this paragraph, is met on all the circumstances of the case. That assessment shall be based, in particular, on the nature and extent of the damage caused and the general obligation under customary international law to make full reparation for the injury caused by an internationally wrongful act.\nThe implementing acts referred to in the first subparagraph of this paragraph shall be adopted in accordance with the examination procedure referred to in Article 18(2).\n2. The Commission shall select appropriate Union response measures from those set out in Annex I. It shall determine which of those measures are appropriate on the basis of the criteria for selection and design set out in Article 11.\nIn the implementing act referred to in paragraph 1 of this Article, the Commission shall state the reasons why it considers that the conditions referred to in that paragraph are met and why it considers that the Union response measures are appropriate in light of the criteria referred to in Article 11.\n3. Union response measures shall be adopted as:\n(a)\nmeasures of general application; or\n(b)\nmeasures which apply to certain natural or legal persons which engage or might engage in activities falling under Article 207 TFEU and are connected or linked to the government of the third country.\nUnion response measures referred to in the first subparagraph, point (a), may be designed in such a way that they affect particular sectors, regions or operators of the third country in accordance with the rules of origin and nationality set out in Annex II.\n4. Insofar as the third-country measure constitutes an internationally wrongful act, Union response measures may consist of measures that amount to the non-performance of international obligations towards the third country.\n5. The Commission shall ensure coordination of the adoption of Union response measures with the measures it adopts pursuant to Union legal acts other than this Regulation for the purpose of responding to the economic coercion.\n6. The implementing act referred to in paragraph 1 shall provide for a deferred date of application which shall not be later than 3 months from the date of its adoption, unless, in light of specific circumstances, a later date of application is provided for.\nThe Commission shall set that date, taking into account the circumstances of the case, to allow for the notification of the third country pursuant to paragraph 7 and for the third country to cease the economic coercion and, where requested, repair the injury to the Union.\n7. Upon adoption of the implementing act referred to in paragraph 1, the Commission shall notify the third country thereof and:\n(a)\ncall upon the third country to immediately cease the economic coercion and, where appropriate and where requested, to repair the injury to the Union;\n(b)\noffer to negotiate a solution with the third country; and\n(c)\nnotify the third country that the Union response measures will apply, unless the economic coercion ceases and, where appropriate and where requested, the third country repairs the injury to the Union.\n8. Where the Commission has credible information that the economic coercion has ceased or that the third country has taken concrete steps to cease the economic coercion and, where appropriate, has repaired the injury to the Union before the deferred date of application set in accordance with paragraph 6, the implementing act referred to in paragraph 1 shall provide for a further deferral of the date of application. That deferral shall be for a period specified in that implementing act and shall be such as to allow the Commission to verify the actual cessation of the economic coercion.\nIn the event that the Commission has such credible information, it shall publish a notice in the Official Journal of the European Union indicating that it has such information and the date of application of the implementing act referred to in paragraph 1, as deferred in accordance with the first subparagraph of this paragraph.\n9. If the third country ceases the economic coercion and, where appropriate, repairs the injury to the Union before the date of application of the implementing act referred to in paragraph 1, the Commission shall adopt an implementing act repealing that implementing act.\nThat repealing implementing act shall be adopted in accordance with the examination procedure referred to in Article 18(2).\n10. Notwithstanding paragraphs 7, 8 and 9, the implementing act referred to in paragraph 1 may provide that Union response measures apply without the Commission first calling, pursuant to paragraph 7, point (a), upon the third country concerned to cease the economic coercion or, where appropriate, repair the injury to the Union, or notifying, pursuant to paragraph 7, point (c), the third country concerned that Union response measures will apply where, in duly justified cases, that is necessary for the preservation of the rights and interests of the Union or a Member State, in particular of the effectiveness of Union response measures.\n11. Notwithstanding paragraphs 6 and 8, where the economic coercion consists of a threat to apply a third-country measure affecting trade or investment in accordance with Article 2(1), the implementing act referred to in paragraph 1 of this Article shall apply from the date on which that third-country measure is applied.\nThe Commission shall publish a notice in the Official Journal of the European Union indicating the date of application of the implementing act as referred to in paragraph 1 of this Article.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 9",
+     "ordinal": 9,
+     "division": "",
+     "heading": "Determination of the Union interest",
+     "text": "The determination of the Union interest in taking, suspending, amending or terminating Union response measures shall be based on all available information and consist of an appreciation of the various interests at stake, taken as a whole. Those interests include primarily the preservation of the ability of the Union and its Member States to make legitimate sovereign choices free from economic coercion, and all other interests of the Union or the Member States specific to the case, the interests of Union economic operators, including upstream and downstream industries, and the interests of Union final consumers affected or potentially affected by the economic coercion or by Union response measures.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 10",
+     "ordinal": 10,
+     "division": "",
+     "heading": "Conditions for applying Union response measures to certain natural or legal persons",
+     "text": "1. For the purposes of Article 8(3), first subparagraph, point (b), a natural or legal person may be considered as connected or linked to the government of the third country where:\n(a)\nthat government beneficially owns more than 50 % of the equity interest in such legal person, exercises directly or indirectly more than 50 % of the voting rights in it, or has the power to appoint a majority of its directors or otherwise to legally direct its actions;\n(b)\nsuch person benefits from exclusive or special rights or privileges granted in law or in fact by the government of the third country concerned, where it operates in a sector where that government limits the number of suppliers or buyers to one or more, or it is allowed directly or indirectly by that government to exercise practices which prevent, restrict or distort competition; or\n(c)\nsuch person effectively acts on behalf of, or under the direction or instigation of, the government of the third country concerned.\n2. Where the Commission has reason to believe that a natural or legal person meets the criteria set out in Article 8(3), first subparagraph, point (b), and is considering the adoption of Union response measures with regard to that person, it shall inform that person of the following:\n(a)\nthe reasons why the Commission believes that that person meets those criteria;\n(b)\nthe Union response measures that the Commission is considering to adopt with regard to that person;\n(c)\nthe possibility for that person to submit, within a reasonable period, observations on whether that person meets those criteria.\n3. For the purposes of paragraph 2, the Commission shall publish a notice in the Official Journal of the European Union and, where possible, notify the person concerned directly.\nIn that notice, the Commission shall give other interested parties the opportunity to submit observations.\n4. For the purposes of this Article, the Commission may seek any information it considers relevant, including by requesting such information from Member States.\n5. Without prejudice to Article 12, where, after the adoption of Union response measures referred to in Article 8(3), first subparagraph, point (b), new substantial evidence is submitted to the Commission, the Commission shall review whether the persons concerned continue to meet the criteria set out in Article 8(3), first subparagraph, point (b), and shall inform the persons concerned accordingly.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 11",
+     "ordinal": 11,
+     "division": "",
+     "heading": "Criteria for selecting and designing Union response measures",
+     "text": "1. Union response measures shall be proportionate and not exceed the level of injury to the Union, taking into account the gravity of the economic coercion, its economic impact on the Union or a Member State and the rights of the Union and its Member States.\n2. The Commission shall select and design appropriate Union response measures on the basis of available information, including as gathered pursuant to Article 13, and taking into account the determination made pursuant to Article 5, the criteria set out in Article 2(2), the determination of the Union interest pursuant to Article 9, any relevant action pursuant to the Union’s common foreign and security policy, as well as the following criteria:\n(a)\nthe effectiveness of the Union response measures in inducing the cessation of the economic coercion and, where requested, the reparation of the injury to the Union;\n(b)\nthe avoidance or minimisation of negative impact on:\n(i)\nUnion actors affected by Union response measures, in light of, inter alia, the availability of alternatives for such actors, such as alternative sources of supply for goods or services;\n(ii)\nthe investment environment in the Union or a Member State, including the impact on employment and regional development policy;\n(c)\nthe avoidance or minimisation of negative impact on the promotion of economic growth and employment through the protection of intellectual property rights as a means to promote innovation and a knowledge economy in the Union or in a Member State;\n(d)\nthe potential to provide relief to Union economic operators affected by the economic coercion;\n(e)\nthe avoidance or minimisation of negative effects of the Union response measures on Union policies or objectives;\n(f)\nthe avoidance of disproportionate administrative burden and costs in the application of the Union response measures;\n(g)\nthe existence and nature of any response measures enacted by third countries affected by the same or similar economic coercion, including, where relevant, any coordination pursuant to Article 7;\n(h)\nany relevant criteria established in international law.\nIn selecting Union response measures, the Commission shall give preference to measures which most effectively ensure compliance with criteria set out in the first subparagraph, points (a) and (b).\n3. Without prejudice to paragraph 2, when selecting and designing an appropriate response measure that affects a procedure whereby a public authority in the Union grants authorisations, registrations, licences or other rights to a natural or legal person for the purposes of their commercial activities, the Commission shall consider Union response measures in the following hierarchical order:\n(a)\nmeasures affecting procedures initiated after the entry into force of the implementing act referred to in Article 8(1);\n(b)\nwhere measures referred to in point (a) of this paragraph are not available, measures affecting procedures not yet completed upon the entry into force of the implementing act referred to in Article 8(1).\nWhere none of the measures referred to in the first subparagraph are possible, the Commission may, in exceptional circumstances, consider other response measures, where it has been demonstrated, in light of the information and views gathered pursuant to Article 13, that those other measures would ensure effectiveness, without disproportionately affecting the upstream industries, downstream industries or final consumers within the Union, or imposing a disproportionate burden on the process of administration of relevant national regulations.\nWhen selecting and designing a Union response measure referred to in the first subparagraph, the Commission shall take into account the level of harmonisation and give preference to measures which affect procedures applied on a Union-wide basis or in an area where extensive Union law exists.\nUnion response measures referred to in the first subparagraph shall not interfere with the administrative decisions of Union and Member State authorities that are based on the evaluation of scientific evidence.\n4. Where necessary to achieve the objective of this Regulation, the Commission may adopt Union response measures that affect the access of foreign direct investment to the Union or trade in services and that apply to services supplied, or direct investments made, within the Union by one or more legal persons established in the Union and owned or controlled by persons of the third country.\nThe Commission may adopt such Union response measures where not applying them to such services supplied or direct investments made would be insufficient to effectively achieve the objective of this Regulation, in particular where the effect of Union response measures could otherwise be avoided or circumvented by the third country or the person concerned.\nIn assessing whether to adopt such Union response measures, the Commission shall consider, inter alia, the following criteria, in addition to those set out in paragraphs 1 and 2:\n(a)\nthe patterns of trade in services and investment in the sector targeted by the envisaged Union response measures and the risk of avoidance or circumvention by the third country or the person concerned of any Union response measures not applying to services supplied, or direct investments made, within the Union;\n(b)\nthe possible effective contribution of Union response measures referred to in the first subparagraph to obtaining the cessation of economic coercion and the reparation of the injury to the Union;\n(c)\nthe existence of alternative measures capable of obtaining the cessation of the economic coercion and the reparation of the injury to the Union that are reasonably available and less restrictive of trade in services or investment within the Union.\nThe adoption of such Union response measures shall be duly justified in the implementing act referred to in Article 8(1) in the light of the criteria set out in this paragraph.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 12",
+     "ordinal": 12,
+     "division": "",
+     "heading": "Amendment, suspension and termination of Union response measures",
+     "text": "1. The Commission shall keep under review the economic coercion, and the effectiveness of the Union response measures and their effects on the Union interest.\n2. Where the third country suspends the economic coercion, the Commission shall suspend the application of the Union response measures for the duration of the third country’s suspension.\nWhere the third country and the Union or the Member State concerned have concluded an agreement, including on the basis of an offer from that third country, to submit the matter to binding international third-party adjudication and that third country suspends its economic coercion, the Commission shall suspend the application of the Union response measures for the duration of the adjudication proceedings.\nWhere an adjudication decision or a settlement with the third country requires implementation by the third country, the Commission shall suspend the application of the Union response measures provided that the third country is engaged in the implementation of that adjudication decision or settlement.\nThe Commission shall suspend or resume the application of Union response measures where necessary in light of the Union interest determined pursuant to Article 9, or where necessary to facilitate continued engagement pursuant to Article 6(3) after the adoption of Union response measures.\nThe Commission shall suspend or resume the application of Union response measures by means of implementing acts. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2).\n3. Where it is necessary to make adjustments to Union response measures taking into account Articles 2 and 11, or further developments, including the third country’s reaction, the Commission shall amend, as appropriate, Union response measures, by means of implementing acts.\nThose implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2).\n4. The Commission shall terminate Union response measures in any of the following circumstances:\n(a)\nthe economic coercion has ceased and, where the Council has decided to request reparation of the injury to the Union pursuant to Article 5(10), the injury to the Union has been repaired;\n(b)\nthe economic coercion has ceased, but the third country has not repaired the injury to the Union despite the Council having decided to request reparation of the injury to the Union pursuant to Article 5(10), unless maintaining the Union response measures is necessary to achieve the objective of this Regulation, taking into account all circumstances of the case;\n(c)\na mutually agreed solution has been reached;\n(d)\na binding decision in international third-party adjudication covering the matter of the economic coercion requires the termination of the Union response measure;\n(e)\ntermination of the Union response measures is appropriate in light of the Union interest determined pursuant to Article 9.\nThe Commission shall terminate Union response measures by means of implementing acts. Those implementing acts shall be adopted in accordance with the examination procedure referred to in Article 18(2).\n5. On duly justified imperative grounds of urgency, such as to avoid irreparable damage to the Union or a Member State or to continue to ensure consistency with the Union’s obligations under international law as a result of the suspension or cessation of the economic coercion, the Commission shall adopt immediately applicable implementing acts in order to suspend or amend Union response measures.\nThose implementing acts shall be adopted in accordance with the procedure referred to in Article 18(3) and they shall remain in force for a period not exceeding 2 months.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 13",
+     "ordinal": 13,
+     "division": "",
+     "heading": "Information gathering related to Union response measures",
+     "text": "1. The Commission shall, before the adoption or amendment of Union response measures, and may, before the suspension or termination of such measures, seek information and views regarding the economic impact on Union economic operators by means of publishing a notice in the Official Journal of the European Union and, where appropriate, through other suitable means of public communication.\nThe notice shall indicate the date by which the information and views are to be submitted to the Commission.\nThe Commission may start gathering the information and views as referred to in the first subparagraph at any time it deems appropriate.\n2. For the purposes of paragraph 1, the Commission shall inform and consult stakeholders, in particular associations acting on behalf of Union economic operators and trade unions, that could be affected by potential Union response measures, and Member States’ authorities involved in the preparation or implementation of legislation that regulates the sectors that could be affected by those measures.\n3. Without unduly delaying the adoption of Union response measures, the Commission shall identify possible options for potential Union response measures and seek information and views in particular on:\n(a)\nthe impact of such measures on third-country actors and their competitors, business partners or clients within the Union, as well as users, final consumers or employees within the Union;\n(b)\nthe interaction of such measures with relevant Member State legislation;\n(c)\nthe administrative burden which could be caused by such measures.\n4. The Commission shall take utmost account of the information and views gathered pursuant to this Article.\nWhen submitting a draft implementing act to the Committee in the context of the examination procedure referred to in Article 18(2), the Commission shall provide an analysis of the envisaged measures and their potential impact.\nThat analysis shall include a thorough assessment of impact on both upstream and downstream industries and final consumers within the Union and, if relevant, point out any potential disproportionate impact.\n5. For the purpose of adopting immediately applicable implementing acts in accordance with Article 12(5), the Commission shall seek information and views in a targeted manner from relevant stakeholders, unless the exceptional situation of imperative grounds of urgency is such that the gathering of information and views is not possible or not needed for objective reasons, such as to ensure compliance with international obligations of the Union.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 14",
+     "ordinal": 14,
+     "division": "",
+     "heading": "Single point of contact",
+     "text": "1. The Commission shall provide a single point of contact within the Commission for the application of this Regulation and its coordination with any relevant Union legal acts and for gathering information and providing cost and data analyses with a view to determining the nature of the economic coercion.\n2. For the purposes of this Regulation, the single point of contact shall, in full compliance with the principle of confidentiality, be the main contact point for Union businesses and private stakeholders affected by the economic coercion, including with regard to assistance to be provided in the context of ongoing economic coercion for those businesses and stakeholders.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 15",
+     "ordinal": 15,
+     "division": "",
+     "heading": "Confidentiality",
+     "text": "1. Information received pursuant to this Regulation shall be used only for the purpose for which it was supplied, requested, or obtained.\n2. A person who supplies information referred to in paragraph 1 may request such information be treated as confidential. That request shall be accompanied by a non-confidential and meaningful summary of the information concerned or a statement of the reasons explaining why the information concerned cannot be summarised.\n3. The European Parliament, the Council, the Commission, Member States or their respective officials shall not reveal any information of a confidential nature received pursuant to this Regulation without specific permission from the person that supplies such information.\n4. Paragraphs 2 and 3 shall not preclude the Commission from disclosing general information in a meaningful summary, provided that the disclosure does not allow the identity of the person that supplied it to be known.\nThe disclosure of such general information shall take into account the legitimate interest of the parties concerned in not having confidential information disclosed.\n5. Member State officials shall be subject to a duty of professional secrecy with regard to any confidential information which has come to their knowledge in the course of the performance of their official duties in relation to this Regulation.\n6. The Commission shall provide a secure and encrypted system to support direct cooperation and exchange of information with Member State officials.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 16",
+     "ordinal": 16,
+     "division": "",
+     "heading": "Rules of origin and nationality",
+     "text": "1. For the purposes of this Regulation, the origin of a good or service or the nationality of a service provider, investment or intellectual property right holder shall be determined in accordance with Annex II.\n2. The Commission is empowered to adopt delegated acts in accordance with Article 17 to amend points 2 and 3 of Annex II to take account of relevant developments in international instruments and experience in the application of this Regulation or other Union acts.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 17",
+     "ordinal": 17,
+     "division": "",
+     "heading": "Exercise of the delegation",
+     "text": "1. The power to adopt delegated acts is conferred on the Commission subject to the conditions laid down in this Article.\n2. The power to adopt delegated acts referred to in Article 16(2) shall be conferred on the Commission for a period of 5 years from 27 December 2023. The Commission shall draw up a report in respect of the delegation of power not later than 9 months before the end of the five-year period. The delegation of power shall be tacitly extended for periods of an identical duration unless the European Parliament or the Council opposes such extension not later than 3 months before the end of each period.\n3. The delegation of power referred to in Article 16(2) may be revoked at any time by the European Parliament or by the Council. A decision to revoke shall put an end to the delegation of the power specified in that decision. It shall take effect the day following the publication of the decision in the Official Journal of the European Union or at a later date specified therein. It shall not affect the validity of any delegated acts already in force.\n4. Before adopting a delegated act, the Commission shall consult experts designated by each Member State in accordance with the principles laid down in the Interinstitutional Agreement of 13 April 2016 on Better Law-Making.\n5. As soon as it adopts a delegated act, the Commission shall notify it simultaneously to the European Parliament and to the Council.\n6. A delegated act adopted pursuant to Article 16(2) shall enter into force only if no objection has been expressed either by the European Parliament or by the Council within a period of two months of notification of that act to the European Parliament and the Council or if, before the expiry of that period, the European Parliament and the Council have both informed the Commission that they will not object. That period shall be extended by two months at the initiative of the European Parliament or of the Council.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 18",
+     "ordinal": 18,
+     "division": "",
+     "heading": "Committee procedure",
+     "text": "1. The Commission shall be assisted by a Committee. That committee shall be a committee within the meaning of Regulation (EU) No 182/2011.\n2. Where reference is made to this paragraph, Article 5 of Regulation (EU) No 182/2011 shall apply.\nWhere the Committee delivers no opinion, the Commission shall not adopt the draft implementing act and Article 5(4), third subparagraph, of Regulation (EU) No 182/2011 shall apply.\n3. Where reference is made to this paragraph, Article 8 of Regulation (EU) No 182/2011 in conjunction with Article 5 thereof, shall apply.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 19",
+     "ordinal": 19,
+     "division": "",
+     "heading": "Reporting and review",
+     "text": "1. Without prejudice to Regulation (EU) No 182/2011, the Commission shall keep the European Parliament and the Council informed, regularly and in a timely manner, of relevant developments in the application of this Regulation throughout the examination of third-country measures, including the start thereof, the engagement with the third country and the international cooperation, and during the period in which Union response measures are in force.\nIn light of the information received, the European Parliament or the Council may invite, where appropriate, the Commission for an exchange of views.\nThe European Parliament may express its views via any appropriate means.\n2. The Commission shall evaluate Union response measures adopted pursuant to Article 8 within 6 months after their termination, taking into account stakeholder input, information provided by the European Parliament and the Council and any other relevant information, and shall submit an evaluation report to the European Parliament and the Council.\nThe evaluation report shall examine the effectiveness and operation of the Union response measures, and, where appropriate, draw conclusions for the purposes of future Union response measures as well as for the review of this Regulation pursuant to paragraph 3.\n3. No later than 3 years after the adoption of the first implementing act pursuant Article 5 or by 27 December 2028, whichever is earlier, and every 5 years thereafter, the Commission shall review this Regulation and its implementation and shall submit a report to the European Parliament and the Council. For the purposes of that review, the Commission shall give particular consideration to any issues which could arise as regards the relationship of this Regulation to other existing Union instruments.",
+     "source_id": "SRC-EU-ACI-2023-2675"
+    },
+    {
+     "no": "Article 20",
+     "ordinal": 20,
+     "division": "",
+     "heading": "Entry into force",
+     "text": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+     "source_id": "SRC-EU-ACI-2023-2675"
     }
    ],
    "amended_by": [],
@@ -8026,6 +8601,76 @@
    "extraterritorial": false,
    "verification": "VERIFIED",
    "duty_text": "可对该国家或地区对等采取措施"
+  },
+  {
+   "id": "OBL-FR-29",
+   "instrument_id": "CN-NPC-FOREIGNRELATIONS-2023",
+   "provision": "第二十九条",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "国家统筹推进国内法治和涉外法治，加强涉外领域立法",
+   "duty": "统筹推进国内法治与涉外法治，加强涉外领域立法与涉外法治体系建设",
+   "trigger": "常态性职责，无特定触发条件",
+   "extraterritorial": false,
+   "duty_note": "这一条不是给市场主体设的行为规范，而是给国家设的立法职责；它是本库所收多部涉外单项法（反外国制裁法、出口管制法、阻断办法等）的体系性依据，但条文本身没有指向任何具体主体。",
+   "verification": "VERIFIED",
+   "duty_text": "统筹推进国内法治与涉外法治，加强涉外领域立法与涉外法治体系建设"
+  },
+  {
+   "id": "OBL-FR-33",
+   "instrument_id": "CN-NPC-FOREIGNRELATIONS-2023",
+   "provision": "第三十三条",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "国务院及其部门制定必要的行政法规、部门规章，建立相应工作制度和机制",
+   "duty": "国务院及其部门就反制和限制措施制定行政法规、部门规章，建立工作制度与机制",
+   "trigger": "针对违反国际法和国际关系基本准则、危害中国主权安全发展利益的行为采取反制时",
+   "extraterritorial": false,
+   "duty_note": "同条第一款给的是权利（「有权采取相应反制和限制措施」），第三款把据此作出的决定定为最终决定；本条记录的是第二款的制度建设义务。三款合起来是国内反制措施的法源，本身不直接约束境外主体。",
+   "verification": "VERIFIED",
+   "duty_text": "国务院及其部门就反制和限制措施制定行政法规、部门规章，建立工作制度与机制"
+  },
+  {
+   "id": "OBL-FR-35a",
+   "instrument_id": "CN-NPC-FOREIGNRELATIONS-2023",
+   "provision": "第三十五条",
+   "kind": "COOPERATION",
+   "modality": "MUST",
+   "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+   ],
+   "quote": "应当遵守外交部公告内容和各部门、各地区有关措施",
+   "duty": "遵守外交部为执行联合国安理会第七章制裁决议所发公告及各部门、各地区相应措施",
+   "trigger": "外交部就安理会制裁决议发出通知并公告后",
+   "extraterritorial": false,
+   "duty_note": "适用范围明文限于「在中国境内的组织和个人」，故不标域外效力。与第三十三条的反制不同，本条执行的是安理会决议，义务范围随公告内容而定，本库未逐项收录相关公告。",
+   "verification": "VERIFIED",
+   "duty_text": "遵守外交部为执行联合国安理会第七章制裁决议所发公告及各部门、各地区相应措施"
+  },
+  {
+   "id": "OBL-FR-35b",
+   "instrument_id": "CN-NPC-FOREIGNRELATIONS-2023",
+   "provision": "第三十五条",
+   "kind": "PROHIBITION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+   ],
+   "quote": "不得从事违反上述制裁决议和措施的行为",
+   "duty": "不得从事违反安理会制裁决议及外交部公告、各部门各地区措施的行为",
+   "trigger": "外交部就安理会制裁决议发出通知并公告后",
+   "extraterritorial": false,
+   "duty_note": "与 OBL-FR-35a 同出一款，一个是遵守义务，一个是禁止性规定，故分两条记录，不合并。",
+   "verification": "VERIFIED",
+   "duty_text": "不得从事违反安理会制裁决议及外交部公告、各部门各地区措施的行为"
   },
   {
    "id": "OBL-GA-07a",

@@ -246,6 +246,19 @@
     "via": "direct",
     "note": "外交部令第7号 反制清单（2024-05-22）"
   },
+  "SRC-CN-MFA-FOREIGNRELATIONS-2023": {
+    "id": "SRC-CN-MFA-FOREIGNRELATIONS-2023",
+    "url": "http://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/zcfg/fl/202306/t20230628_11105189.shtml",
+    "publisher": "中华人民共和国外交部",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MFA-FOREIGNRELATIONS-2023.html",
+    "sha256": "a66625a944c7c19a54ac8aeeb89e5ca02118dfb8583026e75671ab160007d240",
+    "bytes": 103235,
+    "via": "direct",
+    "note": "外交部公开的《中华人民共和国对外关系法》全文"
+  },
   "SRC-CN-MOFCOM-BLOCKING-2021": {
     "id": "SRC-CN-MOFCOM-BLOCKING-2021",
     "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",
@@ -567,6 +580,19 @@
     "bytes": 74967,
     "via": "proxy",
     "note": "Access2Markets notice on Implementing Regulation (EU) 2024/2754"
+  },
+  "SRC-EU-ACI-2023-2675": {
+    "id": "SRC-EU-ACI-2023-2675",
+    "url": "http://publications.europa.eu/resource/celex/32023R2675",
+    "publisher": "Publications Office of the European Union (Official Journal)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-EU-ACI-2023-2675.html",
+    "sha256": "56a3a9112309a54f1c0589f18c663f125d3e55adf8270c4a8ba471a1af06d3fb",
+    "bytes": 165530,
+    "via": "browser",
+    "note": "反胁迫工具条例 2023/2675 OJ 正文；eur-lex.europa.eu 被 AWS WAF 拦为 202，改由 Cellar 以 application/xhtml+xml 取得同一 CELEX"
   },
   "SRC-EU-AIACT-OJ": {
     "id": "SRC-EU-AIACT-OJ",

@@ -1,0 +1,16 @@
+{
+  "id": "OBL-FR-35a",
+  "instrument_id": "CN-NPC-FOREIGNRELATIONS-2023",
+  "provision": "第三十五条",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "应当遵守外交部公告内容和各部门、各地区有关措施",
+  "duty": "遵守外交部为执行联合国安理会第七章制裁决议所发公告及各部门、各地区相应措施",
+  "trigger": "外交部就安理会制裁决议发出通知并公告后",
+  "extraterritorial": false,
+  "duty_note": "适用范围明文限于「在中国境内的组织和个人」，故不标域外效力。与第三十三条的反制不同，本条执行的是安理会决议，义务范围随公告内容而定，本库未逐项收录相关公告。"
+}
