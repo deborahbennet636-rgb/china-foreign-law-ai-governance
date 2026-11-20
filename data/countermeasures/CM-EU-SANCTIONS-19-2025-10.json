@@ -1,0 +1,19 @@
+{
+  "id": "CM-EU-SANCTIONS-19-2025-10",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "EU",
+  "issuer": "Council of the European Union",
+  "title": "EU adopts new sanctions against Russia",
+  "target": "第 19 轮对俄制裁包中被列名的 12 家中国（含香港）实体，及其他第三国实体",
+  "measure_type": "SANCTION",
+  "status": "ANNOUNCED",
+  "announced_at": "2025-10-23",
+  "source_id": "SRC-EU-COM-SANCTIONS-19-2025",
+  "source_ids": [
+    "SRC-EU-COM-SANCTIONS-19-2025"
+  ],
+  "meta_evidence": {
+    "announced_at": "23 October 2025"
+  },
+  "note": "欧盟委员会公告页面写明通过日期与列名内容，但没有写生效日期，故记为「已公布」而非「现行」。理事会条例在《官方公报》公布之日生效是一条规则，不是本页给出的日期。"
+}

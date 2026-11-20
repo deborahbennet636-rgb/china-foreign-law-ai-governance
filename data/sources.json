@@ -596,6 +596,19 @@
     "extractor": "pypdf 3.17.4",
     "note": "Commission press release IP/24/5589: definitive countervailing duties on BEVs from China, 29 Oct 2024"
   },
+  "SRC-EU-COM-SANCTIONS-19-2025": {
+    "id": "SRC-EU-COM-SANCTIONS-19-2025",
+    "url": "https://commission.europa.eu/news-and-media/news/eu-adopts-new-sanctions-against-russia-2025-10-23_en",
+    "publisher": "European Commission",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-EU-COM-SANCTIONS-19-2025.html",
+    "sha256": "ce78e022f3550077104608c0a599217198569814fc2ccd29562bc1ed6b376c9c",
+    "bytes": 167703,
+    "via": "proxy",
+    "note": "EU adopts 19th sanctions package against Russia (12 Chinese entities)"
+  },
   "SRC-EU-OMNIBUS-AI-OJ": {
     "id": "SRC-EU-OMNIBUS-AI-OJ",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
@@ -607,6 +620,19 @@
     "sha256": "ee1e8c6a4c198ca4b449a39cbc8b259eb116b91ceb48bdc0320ca8467acc16db",
     "bytes": 353496,
     "via": "proxy"
+  },
+  "SRC-EU-TRADE-MAE-2025": {
+    "id": "SRC-EU-TRADE-MAE-2025",
+    "url": "https://policy.trade.ec.europa.eu/news/commission-acts-against-unfairly-subsidised-imports-mobile-access-equipment-china-2025-04-28_en",
+    "publisher": "European Commission, DG Trade",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-EU-TRADE-MAE-2025.html",
+    "sha256": "a4bb7d6f0ee0acba483ea3383ecaaa14ab2de3f7f465630ea0fc426fb5b00202",
+    "bytes": 75737,
+    "via": "proxy",
+    "note": "DG TRADE news: countervailing duties on mobile access equipment from China, 28 Apr 2025"
   },
   "SRC-US-CADC-THALER-2025": {
     "id": "SRC-US-CADC-THALER-2025",

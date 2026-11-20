@@ -31,8 +31,8 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 58,
-  "sources_official": 41,
+  "sources": 60,
+  "sources_official": 43,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
    "FOREIGN_SPECIFIC": 8,
@@ -60,10 +60,10 @@
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
-  "countermeasures": 13,
+  "countermeasures": 15,
   "countermeasures_by_direction": {
-   "OUTBOUND_FROM_CN": 7,
-   "INBOUND_TO_CN": 6
+   "INBOUND_TO_CN": 8,
+   "OUTBOUND_FROM_CN": 7
   }
  },
  "reference": {
@@ -603,6 +603,17 @@
    "note": "Commission press release IP/24/5589: definitive countervailing duties on BEVs from China, 29 Oct 2024"
   },
   {
+   "id": "SRC-EU-COM-SANCTIONS-19-2025",
+   "url": "https://commission.europa.eu/news-and-media/news/eu-adopts-new-sanctions-against-russia-2025-10-23_en",
+   "publisher": "European Commission",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "ce78e022f3550077104608c0a599217198569814fc2ccd29562bc1ed6b376c9c",
+   "bytes": 167703,
+   "note": "EU adopts 19th sanctions package against Russia (12 Chinese entities)"
+  },
+  {
    "id": "SRC-EU-OMNIBUS-AI-OJ",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
    "publisher": "EUR-Lex (Official Journal of the EU)",
@@ -611,6 +622,17 @@
    "fetched_at": "2026-11-11",
    "sha256": "ee1e8c6a4c198ca4b449a39cbc8b259eb116b91ceb48bdc0320ca8467acc16db",
    "bytes": 353496
+  },
+  {
+   "id": "SRC-EU-TRADE-MAE-2025",
+   "url": "https://policy.trade.ec.europa.eu/news/commission-acts-against-unfairly-subsidised-imports-mobile-access-equipment-china-2025-04-28_en",
+   "publisher": "European Commission, DG Trade",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "a4bb7d6f0ee0acba483ea3383ecaaa14ab2de3f7f465630ea0fc426fb5b00202",
+   "bytes": 75737,
+   "note": "DG TRADE news: countervailing duties on mobile access equipment from China, 28 Apr 2025"
   },
   {
    "id": "SRC-US-CADC-THALER-2025",
@@ -8340,6 +8362,48 @@
     "effective_at": "applicable as of 30 October 2024"
    },
    "note": "法律依据是 Implementing Regulation (EU) 2024/2754。EUR-Lex 对本次取数全线返回 202，条例原文未取到，所引是委员会新闻稿与其 Access2Markets 通知；生效日期由后者写明，前者只写「公布次日生效」这条规则。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-EU-MAE-DUTIES-2025-04",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "EU",
+   "issuer": "European Commission, DG Trade",
+   "title": "Commission acts against unfairly subsidised imports of mobile access equipment from China",
+   "target": "中国产移动式高空作业平台（MAE）；反补贴税 7.3%–14.2%，叠加已实施的反倾销税后合计 20.6%–66.7%",
+   "measure_type": "TARIFF",
+   "status": "ANNOUNCED",
+   "announced_at": "2025-04-28",
+   "source_id": "SRC-EU-TRADE-MAE-2025",
+   "source_ids": [
+    "SRC-EU-TRADE-MAE-2025"
+   ],
+   "meta_evidence": {
+    "announced_at": "28 April 2025"
+   },
+   "note": "贸易总局新闻页，2025-04-28 发布。正文用「On Friday」指生效日而未写出日期，故不记生效日期、不标「现行」。与纯电动乘用车那条不同，这是反倾销与反补贴叠加的贸易救济措施。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-EU-SANCTIONS-19-2025-10",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "EU",
+   "issuer": "Council of the European Union",
+   "title": "EU adopts new sanctions against Russia",
+   "target": "第 19 轮对俄制裁包中被列名的 12 家中国（含香港）实体，及其他第三国实体",
+   "measure_type": "SANCTION",
+   "status": "ANNOUNCED",
+   "announced_at": "2025-10-23",
+   "source_id": "SRC-EU-COM-SANCTIONS-19-2025",
+   "source_ids": [
+    "SRC-EU-COM-SANCTIONS-19-2025"
+   ],
+   "meta_evidence": {
+    "announced_at": "23 October 2025"
+   },
+   "note": "欧盟委员会公告页面写明通过日期与列名内容，但没有写生效日期，故记为「已公布」而非「现行」。理事会条例在《官方公报》公布之日生效是一条规则，不是本页给出的日期。",
    "verification": "VERIFIED",
    "evidence_grade": "A"
   },

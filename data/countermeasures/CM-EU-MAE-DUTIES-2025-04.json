@@ -1,0 +1,19 @@
+{
+  "id": "CM-EU-MAE-DUTIES-2025-04",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "EU",
+  "issuer": "European Commission, DG Trade",
+  "title": "Commission acts against unfairly subsidised imports of mobile access equipment from China",
+  "target": "中国产移动式高空作业平台（MAE）；反补贴税 7.3%–14.2%，叠加已实施的反倾销税后合计 20.6%–66.7%",
+  "measure_type": "TARIFF",
+  "status": "ANNOUNCED",
+  "announced_at": "2025-04-28",
+  "source_id": "SRC-EU-TRADE-MAE-2025",
+  "source_ids": [
+    "SRC-EU-TRADE-MAE-2025"
+  ],
+  "meta_evidence": {
+    "announced_at": "28 April 2025"
+  },
+  "note": "贸易总局新闻页，2025-04-28 发布。正文用「On Friday」指生效日而未写出日期，故不记生效日期、不标「现行」。与纯电动乘用车那条不同，这是反倾销与反补贴叠加的贸易救济措施。"
+}
