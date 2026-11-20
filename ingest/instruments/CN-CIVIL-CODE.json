@@ -1,0 +1,66 @@
+{
+  "format": "cn-article",
+  "meta_evidence": {
+    "issuer": "（2020年5月28日第十三届全国人民代表大会第三次会议通过）",
+    "published_at": "（2020年5月28日第十三届全国人民代表大会第三次会议通过）",
+    "effective_at": "本法自2021年1月1日起施行"
+  },
+  "record": {
+    "id": "CN-CIVIL-CODE",
+    "jurisdiction": "CN",
+    "title": "中华人民共和国民法典",
+    "short_title": "民法典",
+    "issuer": "全国人民代表大会",
+    "doc_number": null,
+    "level": "法律",
+    "instrument_type": "GENERAL_LAW_CITED",
+    "status": "IN_FORCE",
+    "status_note": "只收库内案例所涉条文（总则编 2 条、人格权编 9 条、侵权责任编 7 条）；快照为中国网信网转载的新华社稿分页，不是制定机关发布页；日期为表决通过日",
+    "published_at": "2020-05-28",
+    "effective_at": "2021-01-01",
+    "language": "zh",
+    "discovered_via": "最高法网络法治典型案例的引用；北京互联网法院（2023）京0491民初12142号、（2024）京0491民初10085号等判决书的裁判依据",
+    "foreign_related": "FOREIGN_CLAUSE"
+  },
+  "parts": [
+    {
+      "source_id": "SRC-CN-CAC-CIVILCODE-1",
+      "start_at": "第一编 总则",
+      "end_before": "分7页 当前为第1页 上一页 下一页 跳转:第1页第2页第3页第4页第5页第6页第7页",
+      "select": [
+        "第一百七十八条",
+        "第一百七十九条"
+      ]
+    },
+    {
+      "source_id": "SRC-CN-CAC-CIVILCODE-4",
+      "start_at": "第四编 人格权",
+      "end_before": "分7页 当前为第4页 上一页 下一页 跳转:第1页第2页第3页第4页第5页第6页第7页",
+      "select": [
+        "第九百九十条",
+        "第九百九十五条",
+        "第九百九十八条",
+        "第一千条",
+        "第一千零一十二条",
+        "第一千零一十八条",
+        "第一千零一十九条",
+        "第一千零二十三条",
+        "第一千零二十四条"
+      ]
+    },
+    {
+      "source_id": "SRC-CN-CAC-CIVILCODE-7",
+      "start_at": "第七编 侵权责任",
+      "end_before": "分7页 当前为第7页 上一页 下一页 跳转:第1页第2页第3页第4页第5页第6页第7页",
+      "select": [
+        "第一千一百六十五条",
+        "第一千一百六十八条",
+        "第一千一百八十二条",
+        "第一千一百八十三条",
+        "第一千一百九十四条",
+        "第一千一百九十五条",
+        "第一千一百九十七条"
+      ]
+    }
+  ]
+}

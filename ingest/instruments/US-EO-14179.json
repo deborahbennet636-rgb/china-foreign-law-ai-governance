@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-US-EO-14179",
+  "format": "us-eo",
+  "start_at": "Executive Order 14179 of January 23, 2025",
+  "end_before": "<GRAPHIC(S) NOT AVAILABLE IN TIFF FORMAT>",
+  "expected_provisions": 6,
+  "meta_evidence": {
+    "doc_number": "Executive Order 14179 of January 23, 2025",
+    "fr_doc": "[FR Doc No: 2025-02172]",
+    "published_at": "Executive Order 14179 of January 23, 2025",
+    "issuer": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:"
+  },
+  "record": {
+    "id": "US-EO-14179",
+    "jurisdiction": "US",
+    "title": "Removing Barriers to American Leadership in Artificial Intelligence",
+    "short_title": "EO 14179",
+    "issuer": "President",
+    "doc_number": "Executive Order 14179",
+    "level": "Executive order",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "ADOPTED",
+    "status_note": "日期为签署日（见原文），2025-01-31 刊载于 Federal Register；原文未另写生效日期；截至入库日是否被后续行政令修改或撤销未核查，故不标 IN_FORCE",
+    "published_at": "2025-01-23",
+    "effective_at": null,
+    "language": "en",
+    "discovered_via": "federalregister.gov",
+    "foreign_related": "DOMESTIC"
+  }
+}

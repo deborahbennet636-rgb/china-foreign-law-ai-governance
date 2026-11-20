@@ -1,0 +1,245 @@
+[
+  {
+    "id": "LEAD-CN-ULTRAMAN",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "“奥特曼”案：生成式 AI 平台生成侵权图片",
+    "claim": "二手来源称案号为（2024）粤0192民初113号，广州互联网法院认定平台侵权并判赔。不同来源对责任性质和金额的表述不一致。",
+    "seen_in": [
+      "立方律师事务所文章 lifanglaw.com/cn/cnzscqs/3033.html",
+      "上海知识产权法院网站文章 shzcfy.gov.cn"
+    ],
+    "status": "OPEN",
+    "next_step": "取裁判文书或广州互联网法院发布稿，核对案号、责任性质和金额。"
+  },
+  {
+    "id": "LEAD-CN-MEDUSA",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "“美杜莎”案：用户训练 LoRA 模型与平台责任",
+    "claim": "二手来源称二审案号为（2025）沪73民终1189号，上海知识产权法院认定平台不构成侵权。",
+    "seen_in": [
+      "立方律师事务所文章",
+      "金杜律师事务所文章 kingandwood.com",
+      "最高法知识产权法庭网站《理解与适用》ipc.court.gov.cn/zh-cn/news/view-6039.html"
+    ],
+    "status": "OPEN",
+    "next_step": "最高法知产法庭网站的《理解与适用》一文提到本案，可先快照该文，再找判决书。"
+  },
+  {
+    "id": "LEAD-CN-HALLUCINATION",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "“AI 幻觉”侵权案（梁某诉某人工智能公司）",
+    "claim": "二手来源称案号为（2025）浙0192民初18143号，杭州互联网法院认定服务提供者无过错、不构成侵权。",
+    "seen_in": [
+      "立方律师事务所文章",
+      "Legal 500 文章",
+      "最高法知识产权法庭网站《理解与适用》"
+    ],
+    "status": "OPEN",
+    "next_step": "取杭州互联网法院发布稿或裁判文书。入库后归入“服务提供者责任”争点。"
+  },
+  {
+    "id": "LEAD-CN-AI-MODEL-PARAMS",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "“变身漫画特效”案：AI 模型结构与参数的反不正当竞争保护",
+    "claim": "二手来源称北京知识产权法院 2025 年 3 月 31 日二审，判赔 160 万元，入选最高法 2025 年反不正当竞争典型案例。",
+    "seen_in": [
+      "sundiallawfirm.com/viewpoint/1584.html"
+    ],
+    "status": "OPEN",
+    "next_step": "到最高法网站找 2025 年反不正当竞争典型案例发布页。"
+  },
+  {
+    "id": "LEAD-CN-AI-SEEDING",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "“AI 种草”案：定向生成平台文案构成不正当竞争",
+    "claim": "二手来源称一审判赔 20 万元，二审维持并阐述生成式 AI 服务的注意义务。",
+    "seen_in": [
+      "Legal 500 文章"
+    ],
+    "status": "OPEN",
+    "next_step": "找审理法院的发布稿，核对法院、案号和金额。"
+  },
+  {
+    "id": "LEAD-CN-VIRTUAL-HUMAN",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "虚拟数字人形象著作权案（北京互联网法院典型案例之七）",
+    "claim": "原文已在快照 SRC-CN-BJD-BIC-AI-2025 中。争议核心是虚拟数字人形象是否构成美术作品，AI 不是争议核心，按收录标准暂未入库。",
+    "seen_in": [
+      "SRC-CN-BJD-BIC-AI-2025"
+    ],
+    "status": "OPEN",
+    "next_step": "由老师判断是否放宽收录标准。"
+  },
+  {
+    "id": "LEAD-US-BARTZ-SETTLEMENT",
+    "type": "CASE",
+    "jurisdiction": "US",
+    "title": "Bartz v. Anthropic 的和解",
+    "claim": "二手来源称本案 2025 年 8 月达成和解，金额 15 亿美元。库内只有 2025 年 6 月 23 日的合理使用命令，故该案结果仍记为未决。",
+    "seen_in": [
+      "sundiallawfirm.com/viewpoint/1584.html",
+      "ailawsuittracker.com/blog"
+    ],
+    "status": "OPEN",
+    "next_step": "govinfo 上该案另有 5 份文书（granule 1 至 5），逐份查看是否含和解批准命令；有则更新结果。"
+  },
+  {
+    "id": "LEAD-US-KADREY",
+    "type": "CASE",
+    "jurisdiction": "US",
+    "title": "Kadrey v. Meta Platforms",
+    "claim": "二手来源称 2025 年 6 月法院认定 Meta 用图书训练模型构成合理使用。",
+    "seen_in": [
+      "知产力文章 zhichanli.com/p/1051552045"
+    ],
+    "status": "OPEN",
+    "next_step": "govinfo 包 USCOURTS-cand-3_23-cv-03417 有 57 份文书，需找到简易判决命令。"
+  },
+  {
+    "id": "LEAD-DE-GEMA",
+    "type": "CASE",
+    "jurisdiction": "DE",
+    "title": "GEMA v. OpenAI（慕尼黑第一地区法院）",
+    "claim": "二手来源称案号 42 O 14139/24，法院认定模型记忆并复现歌词构成复制。两份二手来源给出的判决月份不同（2025 年 9 月与 11 月）。",
+    "seen_in": [
+      "sundiallawfirm.com/viewpoint/1584.html",
+      "知产力文章"
+    ],
+    "status": "OPEN",
+    "next_step": "取法院公布的判决书或新闻稿。德国目前不在 v0 的三个法域内。"
+  },
+  {
+    "id": "LEAD-UK-GETTY",
+    "type": "CASE",
+    "jurisdiction": "UK",
+    "title": "Getty Images v. Stability AI（英国高等法院）",
+    "claim": "二手来源称 2025 年 11 月判决认定 AI 模型本身不是侵权复制品。",
+    "seen_in": [
+      "知产力文章"
+    ],
+    "status": "OPEN",
+    "next_step": "到 judiciary.uk 或 BAILII 取判决书。英国目前不在 v0 的三个法域内。"
+  },
+  {
+    "id": "LEAD-EU-OMNIBUS-CHANGES",
+    "type": "INSTRUMENT",
+    "jurisdiction": "EU",
+    "title": "2026/1744 号条例对 AI Act 的逐条修改",
+    "claim": "二手来源称：附件三高风险义务推迟到 2027-12-02、附件一推迟到 2028-08-02；新增禁止生成未经同意的私密影像，2026-12-02 起适用。条例原文已快照（SRC-EU-OMNIBUS-AI-OJ），但尚未逐条拆解核对。",
+    "seen_in": [
+      "ey.com 税务与法律简讯",
+      "zscaler.com",
+      "artificialintelligenceregulations.com"
+    ],
+    "status": "OPEN",
+    "next_step": "为修订性条例写专门的拆分器，把修改逐条挂到 AI Act 对应条文上。这是欧盟部分最要紧的一项。"
+  },
+  {
+    "id": "LEAD-CN-HUMANLIKE-AI",
+    "type": "INSTRUMENT",
+    "jurisdiction": "CN",
+    "title": "人工智能拟人化互动服务管理暂行办法",
+    "claim": "AGORA 收有英译本（编号 6683，标为 2026-04-10 通过）。中文原文未取。",
+    "seen_in": [
+      "AGORA 数据集 v1.34.0"
+    ],
+    "status": "OPEN",
+    "next_step": "到中国网信网取中文原文入库。"
+  },
+  {
+    "id": "LEAD-CN-CSL-AI-ARTICLE",
+    "type": "INSTRUMENT",
+    "jurisdiction": "CN",
+    "title": "《网络安全法》新增的人工智能条款",
+    "claim": "二手来源称修订后的网络安全法增设了人工智能条款。条文序号和施行日期未核。",
+    "seen_in": [
+      "thebriefscript.com",
+      "LinkedIn 帖文"
+    ],
+    "status": "OPEN",
+    "next_step": "到全国人大网或中国网信网取修正后的文本。"
+  },
+  {
+    "id": "LEAD-CN-GENERAL-LAWS",
+    "type": "INSTRUMENT",
+    "jurisdiction": "CN",
+    "title": "案例所涉的一般法：个人信息保护法、反不正当竞争法",
+    "claim": "已按判决书援引的条文入库：个人信息保护法 4 条（CN-PIPL-2021）、反不正当竞争法 2019 年修正文本 2 条（CN-AUCL-2019）。",
+    "seen_in": [
+      "北京互联网法院（2023）京0491民初3820号、无锡市新吴区人民法院（2024）苏0214民初9489号判决书的裁判依据"
+    ],
+    "status": "INGESTED",
+    "next_step": "已入库。判决书另援引的商标法、公司法和司法解释见线索 LEAD-CN-JUDICIAL-INTERPRETATIONS。"
+  },
+  {
+    "id": "LEAD-US-EO-14365",
+    "type": "INSTRUMENT",
+    "jurisdiction": "US",
+    "title": "第 14365 号行政令（针对州 AI 立法）",
+    "claim": "二手来源称 2025 年 12 月 11 日签署，指示司法部设立 AI 诉讼工作组挑战州法。",
+    "seen_in": [
+      "ai-pm.net",
+      "complyjet.com",
+      "openlayer.com"
+    ],
+    "status": "OPEN",
+    "next_step": "到 Federal Register 取原文，用现有的 us-eo 拆分器入库。"
+  },
+  {
+    "id": "LEAD-US-STATE-LAWS",
+    "type": "INSTRUMENT",
+    "jurisdiction": "US",
+    "title": "美国州法：加州、得州、科罗拉多、康涅狄格等",
+    "claim": "二手来源称多部州法已生效或将于 2027 年 1 月 1 日生效。AGORA 收有 359 件美国州和地方文件，可作线索。",
+    "seen_in": [
+      "thebriefscript.com",
+      "AGORA 数据集 v1.34.0"
+    ],
+    "status": "OPEN",
+    "next_step": "先定收哪几个州，再到各州议会网站取原文。"
+  },
+  {
+    "id": "LEAD-KR-VN-AI-LAWS",
+    "type": "INSTRUMENT",
+    "jurisdiction": "OTHER",
+    "title": "韩国《AI 基本法》与越南《AI 法》",
+    "claim": "二手来源称韩国法 2026-01-22 施行、越南法 2026-03-01 施行。",
+    "seen_in": [
+      "complyjet.com",
+      "thebriefscript.com"
+    ],
+    "status": "OPEN",
+    "next_step": "不在 v0 的三个法域内。扩展法域时再取官方文本。"
+  },
+  {
+    "id": "LEAD-CN-JUDGMENTS-MISSING",
+    "type": "CASE",
+    "jurisdiction": "CN",
+    "title": "库内 1 件中国案例仍缺判决书，1 件缺二审判决书",
+    "claim": "2026-11-11 经校园网在北大法宝、威科先行检索，共取得 7 份判决书和 1 份二审裁定书，已入库。仍缺：① 唐某某诉某科技有限公司网络服务合同纠纷案：两库都只有典型案例条目，没有判决书全文，案号不详。② AI 搜索案二审判决书：两库均未收录。威科先行有一则上海法院典型案例条目标注（2025）沪73民终825号，但该条目把《壮丁也是兵》《暗花》一并称作“案涉影片”，而徐汇法院有两件平行案件（（2025）沪0104民初2432号即库内案例，另有 2433号未收），该二审案号对应哪一件仍不能确定，故未入库。另：（2020）京0491民初9526号、（2024）京0491民初21163号两份判决书在威科先行的页面上裁判日期打码（如“2021.08****”），正文无落款；两件的裁判日期都留空（前者在该页“案件历程”栏写 2021.08.20，与北大法宝两个条目所写的 08-21、08-30 不一致）。",
+    "seen_in": [
+      "2026-11-11 检索：北大法宝、威科先行（校园网机构登录）",
+      "此前检索：维基文库裁判文书网存档、知识产权律师网、各法院网站"
+    ],
+    "status": "OPEN",
+    "next_step": "到裁判文书网按案号查原件，可同时核对两份威科先行判决书的落款日期；唐某某案需先从法院发布稿或报道中找到案号。只取裁判文书正文，不取数据库的编者按和裁判要旨。"
+  },
+  {
+    "id": "LEAD-CN-JUDICIAL-INTERPRETATIONS",
+    "type": "INSTRUMENT",
+    "jurisdiction": "CN",
+    "title": "判决书援引但未入库的法律和司法解释",
+    "claim": "库内判决书的裁判依据还援引了：《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》、《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》、《最高人民法院关于审理著作权民事纠纷案件适用法律若干问题的解释》、《最高人民法院关于适用〈中华人民共和国反不正当竞争法〉若干问题的解释》，以及商标法第四十八条、公司法第二十三条。具体条款见各案例的备注。（2020）京0491民初9526号判决另适用已废止的《侵权责任法》第八条、第十五条、第二十条、第二十二条、第三十六条，以及民法典时间效力规定、精神损害赔偿解释。",
+    "seen_in": [
+      "库内 8 件案例判决书的裁判依据（见各案例的 notes 字段）"
+    ],
+    "status": "OPEN",
+    "next_step": "到最高人民法院网站或国家法律法规数据库取原文，只收被判决适用的条文；注意司法解释有修正版本，要取判决时适用的文本。"
+  }
+]

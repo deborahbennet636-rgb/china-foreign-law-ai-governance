@@ -1,0 +1,14 @@
+{
+  "id": "OBL-XB-08",
+  "instrument_id": "CN-CAC-CROSSBORDER-2024",
+  "provision": "第八条",
+  "kind": "CONTRACT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "应当依法与境外接收方订立个人信息出境标准合同或者通过个人信息保护认证",
+  "duty": "订立标准合同或通过认证",
+  "trigger": "累计出境个人信息达到 10 万人以上不满 100 万人",
+  "extraterritorial": false
+}

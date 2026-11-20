@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-CN-CAC-DEEPSYN-2022",
+  "format": "cn-article",
+  "start_at": "互联网信息服务深度合成管理规定",
+  "end_before": "关闭",
+  "expected_provisions": 25,
+  "meta_evidence": {
+    "doc_number": "国家互联网信息办公室 中华人民共和国工业和信息化部 中华人民共和国公安部 令 第12号",
+    "published_at": "2022年11月25日",
+    "effective_at": "自2023年1月10日起施行",
+    "issuer": "已经2022年11月3日国家互联网信息办公室2022年第21次室务会议审议通过，并经工业和信息化部、公安部同意"
+  },
+  "record": {
+    "id": "CN-CAC-DEEPSYN-2022",
+    "jurisdiction": "CN",
+    "title": "互联网信息服务深度合成管理规定",
+    "short_title": "深度合成规定",
+    "issuer": "国家互联网信息办公室、工业和信息化部、公安部",
+    "doc_number": "国家互联网信息办公室 中华人民共和国工业和信息化部 中华人民共和国公安部 令 第12号",
+    "level": "部门规章",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "施行日期见原文；后续修订未专门核查",
+    "published_at": "2022-11-25",
+    "effective_at": "2023-01-10",
+    "language": "zh",
+    "discovered_via": "AGORA 36（英译本线索）；原文取自中国网信网",
+    "foreign_related": "DOMESTIC"
+  }
+}

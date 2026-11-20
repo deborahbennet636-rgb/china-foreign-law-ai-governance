@@ -1,0 +1,14 @@
+{
+  "id": "OBL-XB-11",
+  "instrument_id": "CN-CAC-CROSSBORDER-2024",
+  "provision": "第十一条",
+  "kind": "PROTECTION",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "应当遵守法律、法规的规定，履行数据安全保护义务，采取技术措施和其他必要措施，保障数据出境安全",
+  "duty": "履行数据安全保护义务",
+  "trigger": "向境外提供数据",
+  "extraterritorial": false
+}

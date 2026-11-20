@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-EU-AIACT-OJ",
+  "format": "eu-article",
+  "start_at": "HAVE ADOPTED THIS REGULATION:",
+  "end_before": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+  "expected_provisions": 113,
+  "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2024/1689 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Brussels, 13 June 2024.",
+    "published_at": "12.7.2024",
+    "entry_into_force": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "general_application": "It shall apply from 2 August 2026.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "record": {
+    "id": "EU-AI-ACT-2024",
+    "jurisdiction": "EU",
+    "title": "Regulation (EU) 2024/1689 of the European Parliament and of the Council",
+    "short_title": "EU AI Act",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Regulation (EU) 2024/1689",
+    "level": "Regulation",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "AMENDED",
+    "status_note": "库内条文是 2024 年公报原始文本，不是合并文本；已被 Regulation (EU) 2026/1744 修订，逐条变动尚未标注，引用前须对照修订条例；生效日按第 113 条与公报日期推算；附件未收",
+    "published_at": "2024-07-12",
+    "effective_at": "2024-08-01",
+    "language": "en",
+    "discovered_via": "EUR-Lex",
+    "foreign_related": "FOREIGN_CLAUSE"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 20,
+      "basis": "entry_into_force"
+    }
+  }
+}

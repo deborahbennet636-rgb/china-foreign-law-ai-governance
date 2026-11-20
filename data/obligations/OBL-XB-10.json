@@ -1,0 +1,14 @@
+{
+  "id": "OBL-XB-10",
+  "instrument_id": "CN-CAC-CROSSBORDER-2024",
+  "provision": "第十条",
+  "kind": "CONSENT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "应当按照法律、行政法规的规定履行告知、取得个人单独同意、进行个人信息保护影响评估等义务",
+  "duty": "告知、取得单独同意、作影响评估",
+  "trigger": "向境外提供个人信息",
+  "extraterritorial": false
+}

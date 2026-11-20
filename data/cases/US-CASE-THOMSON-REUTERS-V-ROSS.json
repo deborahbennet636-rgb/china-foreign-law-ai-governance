@@ -1,0 +1,106 @@
+{
+  "id": "US-CASE-THOMSON-REUTERS-V-ROSS",
+  "jurisdiction": "US",
+  "forum": "United States District Court for the District of Delaware",
+  "forum_type": "COURT",
+  "case_numbers": [
+    "No. 1:20-cv-613-SB"
+  ],
+  "caption": "Thomson Reuters Enterprise Centre GmbH v. Ross Intelligence Inc.",
+  "short_name": "Thomson Reuters 诉 Ross 案：用判例提要训练检索工具",
+  "decided_at": "2025-02-11",
+  "procedural_stage": "FIRST_INSTANCE",
+  "outcome": "PENDING",
+  "is_final": false,
+  "outcome_note": "库内只有 2025 年 2 月 11 日的备忘录意见（部分简易判决）：法院否定 Ross 的合理使用抗辩，部分事实问题留待陪审团。其后的上诉或审理进展未核查。",
+  "ai_roles": [
+    "TRAINING"
+  ],
+  "issues": [
+    "ISSUE-TRAINING-COPYRIGHT"
+  ],
+  "field_evidence": {
+    "case_numbers": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "No. 1:20-cv-613-SB"
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "MEMORANDUM OPINION February 11, 2025"
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "Weighing them all together, I grant summary judgment for Thomson Reuters on fair use."
+      },
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "This factual question underlying copyright validity is for the jury."
+      }
+    ],
+    "is_final": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "This factual question underlying copyright validity is for the jury."
+      }
+    ],
+    "forum": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "IN THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF DELAWARE"
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "THOMSON REUTERS ENTERPRISE CENTRE GMBH"
+      },
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "v. ROSS INTELLIGENCE INC."
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-US-DDEL-ROSS-2025",
+        "quote": "IN THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF DELAWARE"
+      }
+    ]
+  },
+  "legal_anchors": [],
+  "notes": "涉案系统不是生成式 AI，法院自己限定了适用范围；列入“训练数据与著作权”争点仅供对照。17 U.S.C. § 107 尚未入库，故暂无条文锚点。",
+  "discovered_via": "二手来源提及后，自 govinfo（美国政府出版局）取得法院意见",
+  "history": [],
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-US-DDEL-ROSS-2025": null
+  },
+  "scope_links": {},
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Ross was using Thomson Reuters’s headnotes as AI data to create a legal research tool to compete with Westlaw."
+    },
+    {
+      "kind": "facts",
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "It is undisputed that Ross’s AI is not generative AI (AI that writes new content itself)."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Weighing them all together, I grant summary judgment for Thomson Reuters on fair use."
+    },
+    {
+      "kind": "significance",
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Because the AI landscape is changing rapidly, I note for readers that only non-generative AI is before me today."
+    }
+  ],
+  "generated_by": "ingest/cases/us-federal.json"
+}

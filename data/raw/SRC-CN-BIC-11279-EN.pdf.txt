@@ -1,0 +1,473 @@
+- 1 - Beijing Internet Court  
+A Civil Judgment  
+(2023) Jing 0491 Min Chu No. 11279 (2023)  
+Plaintiff: LI  
+Agent ad litem 1: Sun Yan, lawyer at Beijing Tian Yuan Law Firm  
+Agent ad litem 2: Li Yufan, lawyer at Beijing Tian Yuan Law Firm  
+Defendant: LIU  
+The case of LI (the plaintiff) v. LIU (the defendant) over infringement of the right of 
+authorship and the right of dissemination on the information network was filed by the Court 
+on May 25, 2023. A collegial panel was formed in accordance with the law, with ordinary 
+procedures being applied. After a pre -trial meeting, a public hearing was held on August 24, 
+2023. The plaintiff LI and his agents Sun Yan and Li Yufan, and the defendant LIU attended 
+the trial via the e -litigation platform of the Court. The case has now been  concluded.  
+The plaintiff LI requested that: 1. The defendant issue a public statement on the baijiahao 
+account involved to apologize to the plaintiff and eliminate the impact of the infringement; 2. 
+The defendant compensate 5,000 yuan for the plaintiff’s economic losses. Facts and cause of 
+case: On February 24, 2023, the plaintiff generated the picture involved by inputting prompt 
+words in Stable Diffusion, an open source software, and then published the picture on Little 
+Red Book , a social media platform,  under the title “Spring Breeze Brings Tenderness.” Later, 
+the plaintiff found that the picture was used in an article titled “Love in March, in the Peach 
+Blossoms,” which was published by the defendant under the baijiahao account “******” on 
+March 2, 2023 . The defendant had used the picture without the plaintiff’s permission and even 
+removed the plaintiff’s watermark on Little Red Book , causing viewers to believe that the 
+defendant was the author of the picture. The defendant’s behavior seriously violated the 
+plaintiff’s right of authorship and of dissemination on the information network. The defendant 
+should compensate the plaintiff for his economic losses and make an apology to eliminate the 
+impact. Accordingly, the plaintiff filed a lawsuit to the Court and requested the above.  
+The defendant LIU argued that: 1. The defendant searched the Internet and obtained the 
+picture involved and used it as an illustration for his original poem “Love in March, in the 
+ 
+- 2 - Peach Blossoms.” The defendant cannot provide the s pecific source of the picture, nor can he 
+explain the watermark on it. It is uncertain whether the plaintiff has the right to the picture 
+involved; 2. The content published by the defendant is mainly about the original poem, not the 
+picture involved. The p icture is not for commercial use, so the defendant has no intention of 
+infringement; 3. If the Court determines that the defendant’s behavior constitutes infringement, 
+the defendant will apologize to the plaintiff. However, the amount of economic compensat ion 
+claimed by the plaintiff is too high; the market price of AI -generated images is rather low. The 
+defendant is seriously ill and unable to pay the compensation. Accordingly, the defendant 
+requested the Court to consider the actual situation while making  a judgment.  
+The parties submitted evidence based on their statements, and the Court organized the 
+parties to conduct evidence exchange and cross -examination. The Court confirmed the 
+evidence that the parties had no objection to and corroborated it in the file. Regarding the 
+facts of the case, the Court found that:  
+On February 26, 2023, the plaintiff posted the picture involved (see Figure 6) on
+ his Little Red Book  account “****” ( Little Red Book  ID: ******), and the title of t
+-he post was “Spring Breeze Brings Tenderness.” Apart from the picture involved, the
+ post include d five other pictures,with hashtags #AI#[topic]##AIillustration#AIpainting#p
+-hoto #girl#photography#spring#beauty. Through investigation, it is found that the plain
+-tiff is able to log in  to the account and check the picture involved by obtaining a ve
+-rification code through his mobile phone.  
+The plaintiff claimed that the picture was generated via Stable Diffusion on February 24, 
+2023. He submitted a video that demonstrates the process of  generating the picture involved. 
+The steps are as follows:  
+1. Go to  bilibili .com , search for the user “秋葉 aaaki ”, open the video titled “[AI
+ Art Generator ] Stable Diffusion whole  package v4.2 released! Accelerated , extract  and
+ ready -to-use, no more out of  memory , paint  with AI in 3 mins...”, click the link und
+-er the video https://pan.baidu.com/s/1sVmVqA2CGUsZwyRdjoA5Vg and download the
+ zip file “sd -webui -aki-V4.2.7z.” Unzip it and open the file “A User Agreement.txt”, 
+which says: “This package is only used  for AIGC learning. It is based on the open s -
+ource program Stable Diffusion Webui on Github and provides an operating environme
+-nt for the algorithm. Using this package means that you have read and agree to the 
+- 3 - following user agreement: You shall not carr y out behaviors including but not limited 
+to the following, nor shall you facilitate any behavior that violates laws and regulation
+-s: Opposing the basic principles stipulated in the Constitution; Endangering national s -
+ecurity, leaking state secrets, subv erting state power, or undermining national unity; Da
+-maging national honor and interests; Inciting ethnic hatred and ethnic discrimination, 
+and undermining ethnic unity; Undermining national religious policies, and promoting c
+-ults and feudal superstition s; Spreading rumors, disrupting social order, and undermini -
+ng social stability; Spreading information on obscenity, pornography, gambling, violenc -
+e, murder, terror or instigating crimes; Insulting or slandering others and infringing up
+on the legitimate r ights and interests of others; Carrying out any behavior that violates
+ the ‘seven base lines’; Other things prohibited by laws and administrative regulations.
+ All consequences and responsibilities arising from any violation of laws and regulatio
+-ns in the generation, collection, processing, use of your data and other related matters
+ shall be borne by you.”  
+2. Open “A launcher.exe”, and the homepage is shown in Figure 1. Select version, and 
+click Start. 
+ 
+(Figure 1)  
+3. Go to bilibili.com again, search for the user “K43”, open the article titled “Sta
+
+ 
+- 4 - -ble Diffusion Art Models help you get the beautiful Asian/Chinese girl portraits”, cop
+-y the URL “https: //huggingface.co/dcy/AsiaFacemix/tree/main” in the article and open
+ it in the browser, download the model packages “AsiaFacemix -pruned -fix.safetensors” 
+and “lora -hanfugirl -v1-5.safetensors”.  
+Move “AsiaFacemix -pruned -fix.safetensors” to “models” – “Stable -diffusion”, and c
+-hange the model of the launcher (Stable -diffusion model) to “AsiaFacemix -pruned -fix.s
+-afetensors”. Move “lora -hanfugirl -v1-5. safetensors” to “extensions” – “sd-webui -additi -
+onal-networks” – “models” – “lora”, and change Model 1 in “Additional -Networks” to
+ “lord -hanfugirl -v1-5.safetensors”.  
+4. Enter the following prompt words: “(ultra photorea listic:1.3) ，extremely high qua
+-lity highdetail RAW color photo,in locations,japan idol,highly detailed symmetrical attr
+-active face,angular simmetrical face,perfectskin,skin pores,dreamy black eyes,reddish -br-
+own plaits hairs,uniform,long legs,thighhighs,s oft focus,(film grain,vivid colors,film emu
+-lation,kodak gold portra 100, 35mm, canon50 f1.2) ，Lens Flare,Golden Hour,HD,Cine -
+matic,Beautiful Dynamic Lighting”. Enter the following negative prompt words: “((3d,re -
+nder,cg,painting,drawing,cartoon,anime,comic: 1.2))，bad anatomy,bad hands,text,error,miss
+-ing fingers,extra digit,fewer digits,cropped,worst quality,signature,watermark,username,bl
+-urry,artist name,(longbody) ，bad anatomy,liquid body,malformed,mutated,badproportions,
+uncoordinated body,unnaturalbody,dis figured,ugly,gross proportions,mutation,disfigured,def
+-ormed,(mutation),(child:1.2) ，b&w,fat,extra nipples,minimalistic,nsfw,lowres,badanatomy,
+bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low qua
+-lity,normal quality,jp eg artifacts,signature,watermark,username,blurry,disfigured,kitsch,ugl -
+y,oversaturated,grain,low -res,Deformed,disfigured,poorly drawn face,mutation,mutated,extr -
+a limb,ugly,poorly drawn hands,missing limb,floating limbs,disconnected limbs,malforme
+-d hands, blur,out of focus,long neck,long body,ugly,disgusting,poorly drawn,childish,muti
+-lated,mangled,old,surreal,text,b&w,monochrome,conjoined twins,multiple heads,extra legs,
+extra arms,meme,elongated,twisted,fingers,strabismus,heterochromia,closed eyes,blurred, wa
+-termark,wedding,group,dark skin,dark -skinned female ，， tattoos,nude,lowres,badanatomy,
+badhands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quali
+-ty,normal quality,jpeg artifacts,signature,watermark,username,blurry” . Among  them, “((3
+- 5 -  d render, CG, painting, drawing, cartoon, anime, comic: 1.2))” comes from the defen -
+dant himself, and the rest are directly copied from an online forum.  
+5. Change the number of iteration steps to 33, height to 768, CFG scale to 9, random 
+seed t o 2692150200, and click the “Generate” button. The operation interface is shown in 
+Figure 2, and the result generated is shown in Figure 3.  
+ 
+(Figure 2)  
+ 
+(Figure 3)  
+6. With the above parameters unchanged, modify the weight of “lord -hanfugirl -v1-
+5.safetensors” in “Addition -Networks” to 0.75. The result is shown in Figure 4.  
+ 
+
+ 
+- 6 -  
+ 
+(Figure 4)  
+7. With the above parameters unchanged, modify random seed to 2692150199. The result 
+is shown in Figure 5.  
+ 
+(Figure 5)  
+8. With the above parameters unchanged, add the following prompt words: “ shy,el
+-egent,cute,lust,cool pose,teen,viewing at camera,masterpiece,best quality” , The result is 
+shown in Figure 6, which is the picture involved.  
+
+- 7 -  
+(Figure 6)  
+Through the investigation in court, it is  found that the plaintiff can generate a different 
+picture by changing the prompt words or parameters.  
+The plaintiff claims that the picture involved is a work of art, and if the Court finds that it 
+is not a work of art, the plaintiff would maintain that i t is an “intellectual achievement  
+consistent with the characteristics of the work.” According to the plaintiff, the picture 
+involved constitutes a work of art as it reflects originality in the following aspects:  
+First, the model selected. Essentially, Stab le Diffusion is used to interpret and create out 
+of a highly blurred mosaic picture based on the model and the prompt words input by the user. 
+The model will determine the materials available for the final picture, and affect the genre and 
+style of the work. At present, there are tens of thousands of free models provided by open 
+source authors on the Internet, and anyone can download the models freely; so the model used 
+for creation is chosen by the user himself, and each user chooses a model out of his own taste.  
+Second, the prompt and negative prompt words used. Judging from the prompt words 
+entered by the plaintiff, he uses this pattern: art type + subject + environment + composition + 
+style. Art type refers to the type of works, such as watercolor pai nting, illustration, pixel art, 
+film art, etc.; the subject can be a person, an object, or an animal; environment refers to the 
+environment where the subject is located, which can be a natural environment or lighting 
+effects; composition refers to the loca tion of the focus and the direction which the subject 
+faces; style consists of several elements, such as the times and the referenced artist. As for the 
+picture involved, the plaintiff shows his aesthetic taste when trying to use the prompt words to 
+
+ 
+- 8 - presen t a close -up of a beautiful woman under the dusk light. Therefore, the art type is 
+expressed via prompt words “ultra photorealistic” and “color photo,” the subject is “Japan 
+idol” and the depiction of facial details such as skin, eyes, braids, etc., the en vironment is “in 
+locations,” “golden hour” (an hour before sunset gives the best light), “dynamic lighting,” the 
+composition is “cool pose,” “browsing in front of the camera” (originally meaning viewing at 
+camera), and the style is “film texture,” “film si mulation.” The prompt words are selected and 
+entered by the plaintiff according to the needs of creation, which can reflect the plaintiff’s 
+choice, selection, arrangement, and design.  
+Negative prompt words refer to the art type, subject, environment, and s tyle that the user 
+does not wish to show in his work. Since the work involved is a picture, so the plaintiff uses 
+negative prompt words like “painting,” “cartoon,” and “animation”, elements that will not 
+appear in the work. It is also based on the plaintif f’s creative experience.  
+Third, the parameters generated. The parameters mainly include sampler, definition, and 
+CFG scale. Different parameter settings may produce different results. For example, the 
+plaintiff finds that the aspect ratio will affect the r esult of the photos of real human beings. 
+The aspect ratio 1:1 will produce a close -up of real human beings, the aspect ratio 3:2 a 
+half-body photo, the aspect ratio 2:1 a full -body photo, and the aspect ratio 1:2 a photo of two 
+figures. Those ratios are o btained by the plaintiff through multiple uses of the software. They 
+are the result of the plaintiff’s intellectual labor and reflect the plaintiff’s originality.  
+Therefore, the plaintiff believes that the model, the prompt and negative prompt words, 
+and t he parameters all reflect the choice, selection, arrangement, and design made by the 
+plaintiff; they are the result of the plaintiff’s intellectual labor, which is obviously original. In 
+addition, from an objective perspective, the picture involved obvious ly conforms to the 
+characteristics of a work; and it has garnered many views and likes after being posted by the 
+plaintiff on Little Red Book , which means that it can be identified as a work with originality 
+according to the standard of the general public.  
+The defendant registers the account “******” on baijiahao (baijiahao ID:********) and 
+is the user of it. By March 17, 2023, the account had obtained 210,000 likes and 46,000 
+followers. On March 2, 2023, the defendant published an article titled “Love in M arch, in 
+Peach Blossoms” using the account. The text of the article is a poem written by the defendant 
+himself, and five pictures are used as illustrations. The first illustration is the picture involved, 
+- 9 - which contains no watermark. The article has 26 com ments, and at the bottom of the article it 
+says: “Original poetry by * * * * * * * *, pictures edited by * * * * * * *. The pictures are 
+obtained from the Internet; the author will delete the pictures and apologize should there be 
+any infringement.” Upon i nquiry, the defendant cannot specify the specific source of the 
+pictures.  
+The plaintiff claimed that the defendant had cut off his signature watermark on Little Red 
+Book , and submitted a video of how to download the picture involved on Little Red Book . 
+According to the video, when the picture involved is downloaded and viewed again, it will 
+contain the watermark of “ Little Red Book ” and “*******.” “ Little Red Book ” is the name of 
+the platform and “*******” is the defendant’s user ID on the platform. Upon  inquiry, the 
+defendant said that he could not remember whether he had removed the watermark of the 
+picture involved.  
+The plaintiff believes that the defendant used the picture involved without his permission 
+and cut off his signature watermark on Little R ed Book , which infringed his right of 
+authorship and right of dissemination on the information network regarding the picture.  
+The plaintiff also submitted the “CreativeML Open RATL+ + -M License” from “stable 
+diffusion” on GitHub, which says that  “6.The Ou tput You Generate. Except as set forth 
+herein,Licensor claims no rights in the Output You generate using the Model. You are 
+accountable for the Output you generate and its subsequent uses. No use of the output can 
+contravene any provision as stated in the license.”  
+Upon inquiry, the plaintiff said that he had claimed for economic losses based on 
+statutory compensation, which is decided by taking into account factors such as the cost of 
+learning the software, the plaintiff’s intellectual investment, the aes thetics of the picture 
+involved, the number of the defendant’s followers, and the circumstances of the infringement.  
+The defendant submitted the following evidence to prove that the market price of 
+AI-generated images is much lower:  
+1. A screenshot of prod uct information on goofish.com, which shows that product: 
+“12,000+ AI -generated pictures of beautiful women...”, price: 9.9 yuan; product: “nearly 
+20,000 AI -generated pictures of persons...”, price: 4.99 yuan; product: “AI -generated pictures 
+(3 yuan/set).. .”, price: 3 yuan;  
+2. A screenshot of product information on pinduoduo.com, which shows that product: 
+ 
+- 10 - “AI-generated avatar, real -person photo, 3D portrait animation, cartoon converted to 
+hand -painted avatar, Disney style”, price: 5 yuan (min.);  
+3. A screen shot of article posted by Zhihu user Quanquan, which says that “100 
+AI-generated wallpapers of beautiful women with no watermarks, help yourself”;  
+4. A screenshot of tuchong.com, which shows that one picture is priced at 40 yuan, five 
+pictures are priced a t 130 yuan, and ten pictures are priced at 230 yuan.  
+The above facts are supported by evidence such as the original electronic file of the 
+picture involved, screenshots of Little Red Book , a video reproducing the generation process 
+of the picture involved,  a video of downloading the picture involved on Little Red Book , and 
+screenshots of goofish.com, pinduoduo.com, zhihu.com, and tuchong.com, and other 
+supporting evidence such as the parties’ statements, pre -trial meeting transcripts, and court 
+transcripts.  
+According to the Court, based on the two parties’ pleadings and the facts ascertained, the 
+issues  of this case are: 1. Whether the picture “Spring Breeze Brings Tenderness” constitutes a 
+work and what type of work it constitutes; 2. Whether the plaintiff owns the copyright on the 
+picture involved; 3. Whether the accused behavior constitutes an infringement and whether 
+the defendant should bear legal responsibility for it. The Court will comment on them one by 
+one. 
+1. Whether the picture “Spring Breeze Brou ght Tenderness” constitutes a work and what 
+type of work it constitutes  
+According to Article 3 of the Copyright Law of the People’ s Republic of China  
+(hereinafter referred to as the Copyright Law ), “The works mentioned in this Law refer to 
+intellectual ach ievements that are original and can be expressed in a certain form in the fields 
+of literature, art, and science,” when examining whether the object for which the plaintiff 
+claims copyright constitutes a work, the following elements should be considered: 1 . Whether 
+it falls under  the realm of  literature, art, or science; 2. Whether it is original; 3. Whether it is 
+expressed in a certain form; 4. Whether it is an intellectual achievement. In this case, the 
+pictures involved is no different from the photos an d paintings that people usually see; 
+obviously it falls under the category of art and is expressed in a certain form, so elements 1 
+and 3 are met.  
+“Intellectual achievements” refer to the results of intellectual activities, so the work 
+- 11 - should reflect the intellectual input of a natural person. In this case, the plaintiff used the 
+hashtag “AI illustration” when publishing the picture involved; and the plaintiff could 
+reproduce the process of generating the picture involved using the Stable Diffusion model a nd 
+the prompt words and parameters set by himself. Unless there is contrary evidence, it can be 
+found that the picture “Spring Breeze Brings Tenderness” is generated by the plaintiff using 
+AI. According to public information and relevant research, the Stab le Diffusion model is 
+trained from a large number of pictures and their corresponding text descriptions on the 
+Internet. Based on the text instructions, the model can use the correspondence between the 
+semantic information in the text and the pixels in the  picture to generate a picture that matches 
+the text. This picture is not a ready -made one that can be obtained through a search engine, 
+nor is it an arrangement or combination of various elements preset by the software designer. 
+In layman’s terms, the Sta ble Diffusion model works in a way that a human does: it acquires 
+some abilities and skills through learning and accumulation, and it can generate a picture 
+based on the text descriptions input by humans - drawing the lines and doing the colors, and 
+presen ting man’s creative ideas in a tangible way. In this case, the plaintiff wanted a close -up 
+of a beautiful woman under dusk light, so he entered the following prompt words into the 
+Stable Diffusion model: “ultra photorealistic” and “color photo” for the art  type; “Japan idol” 
+for the subject, along with detailed description of the character such as skin, eyes, and braid 
+color; “in locations”, “golden hour”, and “dynamic lighting” for the environment; “cool pose” 
+and “viewing at camera” for the way the charac ter is presented; and “film texture” and “film 
+simulation” for the style. The parameters were also set. Based on the initially generated 
+picture, the plaintiff added some prompt words, modified the parameters, and finally got the 
+picture he wanted. From th e time the plaintiff had an idea about the picture to his final 
+selection of the picture involved, the plaintiff did some intellectual investment, such as 
+designing the presentation of the character, selecting prompt words, arranging the order of 
+prompt wo rds, setting parameters, and selecting the picture that he wanted. The picture 
+involved reflects the plaintiff’s intellectual investment, so it meets the element of “intellectual 
+achievement”.  
+Of course, not all intellectual achievements are works; only th ose with “originality” are. 
+Generally speaking, “originality” requires that the work be completed independently by the 
+author and reflect the author’s personalized expression. “Mechanical intellectual 
+ 
+- 12 - achievements” are excluded. For example, if a work is c ompleted based on a certain order, 
+formula, or structure, different people will get the same result; as the expression is singular, 
+the work does not have originality. And one has to decide according to the specific situation 
+whether an AI -generated pictur e reflects the author’s personalized expression. Generally 
+speaking, when people use the Stable Diffusion model to generate pictures, the more different 
+their needs are and the more specific the description of picture elements, layout, and 
+composition  is, the more personalized the picture will become. In this case, there are 
+identifiable differences between the picture involved and the prior works. In terms of the 
+generation process of the picture involved, the plaintiff did not draw the lines himself, or 
+instruct the Stable Diffusion model everything on how to draw the lines and do the colors; the 
+lines and colors that constitute the picture involved are basically done by the Stable Diffusion 
+model, which is very different from the conventional way of peopl e using brushes or software 
+to draw pictures. However, the plaintiff used prompt words to work on the picture elements 
+such as the character and how to present it, and set parameters to work on the picture layout 
+and composition, which reflects the plainti ff’s choice and arrangement. The plaintiff input 
+prompt words and set parameters and got the first picture; then he added some prompt words, 
+modified the parameters, and finally got the picture involved. Such adjustment and 
+modification also reflect the pl aintiff’s aesthetic choice and personal judgment. During the 
+trial, the plaintiff generated different pictures by changing the prompt words or the parameters. 
+One can infer that with this model, different people can generate different pictures by entering 
+different prompt words and setting different parameters. Therefore, the picture involved is not 
+a “mechanical intellectual achievement”. Unless there is contrary evidence, it can be found 
+that the picture involved is independently completed by the plaintif f and reflects the plaintiff’s 
+personalized expression. In summary, the picture involved meets the element of “originality”.  
+A new generation of generative AI technology is being used by more people for creation. 
+The Stable Diffusion model and models with similar functions can generate beautiful pictures 
+based on text descriptions. Many people, including those without drawing skills, are trying to 
+use these new models to present their creativity and designs in a tangible way; and the models 
+have greatly imp roved the efficiency of picture creation. The generative AI technology has 
+changed the way people create. Just like many other technological advances in history, the 
+process of technological development is the process of outsourcing human work to machines.  
+- 13 - Before the advent of cameras, people needed superb painting skills to reproduce an object 
+perfectly; then the cameras made it easier to record the image of an object. Nowadays, the 
+camera of smartphones is getting better and easier to use. However, as lon g as the photos 
+taken with a smartphone reflect the photographer’s original intellectual investment, they will 
+constitute photographic works and are protected by the Copyright Law . The development of 
+technologies and tools require less human investment, bu t the copyright system should remain 
+in use in order to encourage the creation of works. Before the emergence of the AI model 
+involved, people needed to spend time and energy learning how to paint, or to consign  others 
+to paint for them. In the second scen ario, the painter will draw the lines and fill in the colors 
+upon the client’s request to complete a work of fine art. And the person who draws is 
+normally considered a creator. This is similar to the use of AI models to generate pictures, but 
+there is one  major difference here: the creator has his own will and he will use some judgment 
+when painting for the client. Currently, the generative AI model has no free will and is not a 
+legal subject. Therefore, when people use an AI model to generate pictures, th ere is no 
+question about who is the creator. In essence, it is a process of man using tools to create, that 
+is, it is man who does intellectual investment throughout the creation process, the not AI 
+model. The core purpose of the copyright system is to enc ourage creation. And creation and 
+AI technology can only prosper by properly  applying the copyright system and using the legal 
+means  to encourage more people to use the latest tools to create. Under such context, as 
+long as the AI -generated images can ref lect people’s original intellectual investment, they 
+should be recognized as works and protected by the Copyright Law . 
+To sum up, the picture involved meets the definition of a work and should be considered 
+as such. As to what type of work it constitutes, the plaintiff claims that it is a work of art; and 
+if the Court does not think so, then it should be seen as “other intellectual achievements that 
+have the characteristics of a work”. In judicial practice, when judging the type of a work, the 
+first thing i s to determine whether it falls under the types of work listed in the Copyright Law . 
+Specifically, the Court should compare the characteristics and expression of the work  
+involved  with those listed in the first eight items of Article 3 of the Copyright Law . If the 
+work falls under any of the types of works listed in the first eight items, then the Court will 
+identify it as that type of work; and the ninth item “other intellectual achievements consistent 
+with the characteristics of a work” will no longer app ly. According to Article 4 of the 
+ 
+- 14 - Regulations for the Implementation of the Copyright Law of the People’ s Republic of China : 
+“Fine art refers to paintings, calligraphy, sculptures and other aesthetically significant 
+two-dimensional or three -dimensional wor ks composed of lines, colors, or other methods.” In 
+this case, the picture involved is a graphic art work that is composed of lines and colors and is 
+of aesthetic significance, so it is fine art. As there is no need to apply the “other works clause” 
+to pro tect the picture involved, it is not “other intellectual achievements that have the 
+characteristics of a work”. To sum up, the picture involved is fine art and shall be protected by 
+the Copyright Law . 
+2. Whether the plaintiff owns the copyright on the pict ure involved  
+Paragraph 1 of Article 11 of the Copyright Law  stipulates that: “Copyright belongs to the 
+author, unless otherwise provided for in this Law.” Article 11 of the Copyright Law  stipulates 
+that: “An author is a natural person who creates a work. T he author is the natural person who 
+creates the work. For works hosted by a corporate or unincorporated organization, created on 
+behalf of the will of the corporate or unincorporated organization, and for which the corporate 
+or unincorporated organization assumes responsibility, the corporate or unincorporated 
+organization shall be regarded as the author.” It suggests that an author can only be a natural 
+person, a corporate or unincorporated organization; that is consistent with the civil subjects 
+stipulate d in the Civil Code. Therefore, an artificial intelligence model cannot be deemed as 
+an author under China’s copyright law. As a result, although the picture involved is “drawn” 
+by the artificial intelligence model involved, the model is not the author of the picture.  
+The designer of the artificial intelligence model involved neither had the intention to 
+create the picture involved, nor did he preset the content generated afterwards. He did not 
+involve in the generation process of the pictures involved; so in this case, he is only a 
+producer of the creation tool. By designing the algorithm and model and using a large amount 
+of data to “train” it, the designer has equipped the AI model with the ability to autonomously 
+generate content in response to different  needs. The designer has undoubtedly done some 
+intellectual investment during that process, but such investment has gone to the design of the 
+AI model, that is, the production of a “creation tool”, not the picture involved. Therefore, the 
+designer of the A I model involved is not the author of the picture involved.  
+In addition, according to the evidence  in record, the designer of the AI model involved 
+states in the license it provided that it “does not claim rights to the output [of the model].” It 
+- 15 - can be de termined that the designer claims no right in relation to the output of the model.  
+As mentioned above, the plaintiff is the one who directly set up the AI model involved as 
+needed and finally selected the picture involved. The picture involved is generated  directly 
+due to the plaintiff’s intellectual investment and it reflects the plaintiff’s personalized 
+expression. Therefore, the plaintiff is the author of the picture involved and owns the 
+copyright on it.  
+It should be noted that although the Court finds that the plaintiff, as the author, owns the 
+copyright on the picture involved, the plaintiff should prominently mark the AI technology or 
+model used in line the principle of good faith and the need to protect the public’s right to 
+know. In this case, the p laintiff uses the hashtag “AI illustration”, which is enough to let the 
+public know that the content is generated by the plaintiff using AI technology. The Court 
+recognizes this to be a proper practice.  
+3. Whether the accused behavior constitutes infringem ent and whether the defendant 
+should bear legal responsibility  
+In this case, the plaintiff claims that the defendant used the picture involved without his 
+permission and removed his watermark on Little Red Book , which infringed the plaintiff’s 
+right of aut horship and of dissemination on the information network with regard to the picture 
+involved. 
+Article 10 of the Copyright Law  stipulates that: “The right of dissemination on the 
+information network refers to the right to provide the public with works throug h wired or 
+wireless means so that the public can obtain the works at the time and place of their choice.” 
+In this case, the defendant used, without permission, the picture involved as an illustration and 
+posted it on his own account and made it possible fo r the public to obtain the picture involved 
+at a time and place of their choice, which infringed the plaintiff’s right to disseminate the 
+picture involved on the information network.  
+Article 10 of the Copyright Law  stipulates that: “The right of authorship  refers to the 
+right owned by an author to indicate his or her identity and sign his or her name on the work.” 
+An author has the right to sign his or her real name, or pseudonym, or not to sign. In this case, 
+according to the evidence submitted by the plai ntiff and the industry practices, the picture 
+involved should contain the watermark of the platform and user ID after being downloaded 
+ 
+- 16 - from Little Red Book ; yet the accused picture used by the defendant contains no such 
+watermark. It can be presumed that t he above watermark has been removed, and since the 
+defendant, as the user of the accused picture, cannot explain the specific source of the picture 
+and the removal of the watermark, it can be concluded that the watermark has been removed 
+by the defendant. Although the user ID in the watermark is assigned by the platform, and the 
+watermark also comes from the platform, the corresponding relationship between the user ID 
+and the plaintiff (the user ID appears on the picture involved as a watermark) can serve t o 
+indicate the authorship of the latter. In this case, the plaintiff clearly states that he chooses the 
+user ID as his signature, against which the Court has no objection. Therefore, the defendant’s 
+removal of the watermark infringed upon the plaintiff’s r ight of authorship and should bear 
+liability for the infringement.  
+In summary, the defendant infringe d the plaintiff’s right of authorship and of 
+dissemination on the information network with regard to the picture involved, and should bear 
+civil liabilities such as apology and compensation for losses.  
+The plaintiff’s request that “the defendant issue a statement on the baijiahao account 
+involved to apologize to the plaintiff and eliminate the impact of the infringement” is 
+equivalent to the scope of the impact of the defendant’s behavior on the plaintiff, so it shall be 
+supported by the Court.  
+Article 54 of the Copyright Law  stipulates that: “In case of infringement of copyright or 
+copyright -related rights, the infringer shall compensate the right holder in accordance with the 
+actual losses suffered by the right holder or the infringer’s illegal gains. If it is difficult to 
+calculate actual losses or the illegal income, compensation may be given with reference to the 
+right royalties. If it is diffic ult to calculate the actual losses, the illegal income, and the 
+royalties, the people’s court shall, based on the circumstances of the infringement, award a 
+compensation between 500 yuan and 5 million yuan.” In this case, based on the evidence in 
+record, i t is difficult to calculate the actual losses of the right holder and the illegal income of 
+- 17 - the infringer. As for the royalties for the picture involved, although the defendant submitted 
+screenshots of picture transaction information on some websites, it i s unable to determine that 
+those pictures are comparable to the picture involved in terms of originality and usage, so the 
+amount of royalties for the picture involved cannot be determined. Based on the conditions of 
+the picture involved and the circumstan ces of the infringement involved, the Court decides 
+that the defendant should compensate the plaintiff 500 yuan for the latter’s economic losses 
+caused by the alleged infringement.  
+In summary, in accordance with Paragraph 1 (2) and (12), Article 10, Articl e 53, and 
+Article 54 of the Copyright Law of the People’ s Republic of China , the Court made the 
+following judgment:  
+1. Within seven days from the date of this judgment taking effect, the defendant LIU 
+shall issue a statement to apologize to the plaintiff L I on the baijiahao account involved 
+“******” (baijiahao ID: *********). The statement shall last no less than 24 hours to 
+eliminate the impact (The content of the statement shall be reviewed by the Court first. If the 
+defendant fails to do it within the ti me limit, the Court will publish this judgment in a 
+nationally distributed newspaper or on the official website of the Court, and the expenses shall 
+be borne by defendant.);  
+2. The defendant LIU shall compensate the plaintiff LI 500 yuan for the latter’s 
+economic losses within seven days from the date of this judgment taking effect;  
+    3. The plaintiff LI’s other claims shall be dismissed.  
+If the defendant fails to pay the compensation within the time limit, he shall pay double 
+interest on the debt during the period of delayed performance in accordance with Article 260 
+of the Civil Procedure Law of the People’ s Republic of China . 
+The case acceptance fee, which is 50 yuan, shall be paid by the defendant LIU (within 
+seven days from the date of this judgment t aking effect).  
+If any party refuses to accept this judgment, it may submit an appeal to the Court within 
+ 
+- 18 - fifteen days from the date when this judgment is served and appeal to the Beijing Intellectual 
+Property Court.  
+Chief Judge: Zhu Ge  
+Judge: Yan Jun  
+Judge : Li Wanxing  
+November 27, 2023  
+Judge Assistant: Li Xuqing  
+Clerk: Shi Chen  

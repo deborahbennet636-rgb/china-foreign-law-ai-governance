@@ -1,0 +1,103 @@
+{
+  "id": "US-CASE-BARTZ-V-ANTHROPIC",
+  "jurisdiction": "US",
+  "forum": "United States District Court Northern District of California",
+  "forum_type": "COURT",
+  "case_numbers": [
+    "No. C 24-05417 WHA"
+  ],
+  "caption": "Bartz v. Anthropic PBC",
+  "short_name": "Bartz 案：用图书训练模型与合理使用",
+  "decided_at": "2025-06-23",
+  "procedural_stage": "FIRST_INSTANCE",
+  "outcome": "PENDING",
+  "is_final": false,
+  "outcome_note": "库内只有 2025 年 6 月 23 日的合理使用命令（简易判决阶段）：训练使用和纸本转数字被认定为合理使用，盗版来源的馆藏副本不在此列并交付审理。二手来源称本案其后达成和解，尚未取得法院文书核验，故结果仍按该命令记为未决。",
+  "ai_roles": [
+    "TRAINING"
+  ],
+  "issues": [
+    "ISSUE-TRAINING-COPYRIGHT"
+  ],
+  "field_evidence": {
+    "case_numbers": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "No. C 24-05417 WHA ORDER ON FAIR USE"
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "IT IS SO ORDERED. Dated: June 23, 2025."
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "We will have a trial on the pirated copies used to create Anthropic’s central library"
+      }
+    ],
+    "is_final": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "We will have a trial on the pirated copies used to create Anthropic’s central library"
+      }
+    ],
+    "forum": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA"
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "ANDREA BARTZ, CHARLES GRAEBER, and KIRK WALLACE JOHNSON, Plaintiffs, v. ANTHROPIC PBC, Defendant."
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+        "quote": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA"
+      }
+    ]
+  },
+  "legal_anchors": [],
+  "notes": "法院适用的是版权法第 107 条（17 U.S.C. § 107）；该条尚未入库，故暂无条文锚点。",
+  "discovered_via": "二手来源提及后，自 govinfo（美国政府出版局）取得法院命令",
+  "history": [],
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-US-NDCAL-BARTZ-FAIRUSE": null
+  },
+  "scope_links": {},
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "An artificial intelligence firm downloaded for free millions of copyrighted books in digital form from pirate sites on the internet."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "the use of the books at issue to train Claude and its precursors was exceedingly transformative and was a fair use under Section 107 of the Copyright Act."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "This order grants summary judgment for Anthropic that the training use was a fair use."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "But it denies summary judgment for Anthropic that the pirated library copies must be treated as training copies."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "We will have a trial on the pirated copies used to create Anthropic’s central library and the resulting damages, actual or statutory (including for willfulness)."
+    }
+  ],
+  "generated_by": "ingest/cases/us-federal.json"
+}

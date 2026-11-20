@@ -1,0 +1,14 @@
+{
+  "id": "OBL-GA-07a",
+  "instrument_id": "CN-CAC-GENAI-2023",
+  "provision": "第七条",
+  "kind": "DATA_SOURCE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "使用具有合法来源的数据和基础模型",
+  "duty": "使用合法来源的数据与基础模型",
+  "trigger": "开展训练数据处理活动",
+  "extraterritorial": false
+}

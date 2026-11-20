@@ -1,0 +1,635 @@
+{
+  "digest_defaults": {
+    "sections": {
+      "facts": "【基本案情】",
+      "holding": "【裁判结果】",
+      "significance": "【典型意义】"
+    },
+    "stop": [
+      "【案号】"
+    ]
+  },
+  "cases": [
+    {
+      "digest": {
+        "source_id": "SRC-CN-SPC-511301",
+        "block_start": "案例六",
+        "block_end": "案例七"
+      },
+      "record": {
+        "id": "CN-CASE-AI-FAKE-REVIEWS",
+        "jurisdiction": "CN",
+        "forum": "江苏省无锡市新吴区人民法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2024）苏0214民初9489号"
+        ],
+        "caption": "某科技公司与某软件公司等侵害商标权及不正当竞争纠纷案",
+        "short_name": "AI 批量生成测评文章引流案",
+        "decided_at": "2025-06-16",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求赔偿经济损失及合理开支共 5 万元并消除影响（停止侵权的两项请求在诉讼中放弃）；判决认定被诉行为不侵害商标专用权、构成不正当竞争，赔偿 3000 元，另一被告杭州某公司承担连带责任，其他请求驳回。判决书取自北大法宝（数据库转载件，不是法院或裁判文书网页面）。判决书称原告为“四川某公司”，典型案例稿称“某科技公司”。“已生效”出自最高法典型案例稿。",
+        "ai_roles": [
+          "USE_BY_PARTY"
+        ],
+        "issues": [
+          "ISSUE-AI-UNFAIR-COMPETITION"
+        ],
+        "field_evidence": {
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-SPC-511301",
+              "quote": "一审：江苏省无锡市新吴区人民法院（2024）苏0214民初9489号"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "(2024)苏0214民初9489号"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-SPC-511301",
+              "quote": "一审法院遂判令某软件公司赔偿某科技公司相应经济损失。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "4.判令某软件公司赔偿四川某公司经济损失及合理维权费用开支(包括但不限于律师费、交通费、取证费)共计5万元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "故不侵犯四川某公司的案涉商标专用权。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "一、某软件公司于本判决发生法律效力之日起十日内赔偿四川某公司经济损失及为制止侵权行为所支付的合理开支3000元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "三、驳回四川某公司的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-SPC-511301",
+              "quote": "该一审判决已生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-SPC-511301",
+              "quote": "一审：江苏省无锡市新吴区人民法院（2024）苏0214民初9489号"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-SPC-511301",
+              "quote": "一审：江苏省无锡市新吴区人民法院（2024）苏0214民初9489号"
+            }
+          ],
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-PKULAW-XW-9489",
+              "quote": "二〇二五年六月十六日"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-AUCL-2019#第二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XW-9489",
+            "quote": "《中华人民共和国反不正当竞争法》第二条、第十七条",
+            "note": "判决主文前的裁判依据。判决以该条（一般条款）认定被诉行为构成不正当竞争。判决作出时适用的是 2019 年修正文本。"
+          },
+          {
+            "provision": "CN-AUCL-2019#第十七条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XW-9489",
+            "quote": "《中华人民共和国反不正当竞争法》第二条、第十七条",
+            "note": "判决主文前的裁判依据。判决作出时适用的是 2019 年修正文本。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（十二）",
+            "basis": "EDITORIAL",
+            "note": "该条末句规定利用人工智能实施虚假宣传、刷量刷单等构成不正当竞争的责任。该意见晚于本案判决发布，不是本案裁判依据。"
+          }
+        ],
+        "notes": "判决另依据商标法第四十八条、公司法第二十三条第三款、《最高人民法院关于适用〈中华人民共和国反不正当竞争法〉若干问题的解释》第一条、第三条、第二十三条，这些未入库，故不设锚点。",
+        "discovered_via": "最高人民法院 2026 年反不正当竞争典型案例发布页"
+      },
+      "scopes": {
+        "SRC-CN-PKULAW-XW-9489": null
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-XW-9489",
+          "text": "综上所述，依照《中华人民共和国商标法》第四十八条，《中华人民共和国反不正当竞争法》第二条、第十七条，《中华人民共和国公司法》第二十三条第三款，《最高人民法院关于适用<中华人民共和国反不正当竞争法>若干问题的解释》第一条、第三条、第二十三条，《最高人民法院关于适用<中华人民共和国民事诉讼法>的解释》第九十条规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-XW-9489",
+          "text": "一、某软件公司于本判决发生法律效力之日起十日内赔偿四川某公司经济损失及为制止侵权行为所支付的合理开支3000元；"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "source_id": "SRC-CN-SPC-512041",
+        "block_start": "【案例二】",
+        "block_end": "【案例三】"
+      },
+      "record": {
+        "id": "CN-CASE-LI-VOICE-LIVESTREAM",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2024）京0491民初10085号"
+        ],
+        "caption": "李某瑾诉某文化公司网络侵权责任纠纷案",
+        "short_name": "AI 合成名人声音带货案",
+        "decided_at": "2025-07-18",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求赔偿经济损失及合理开支 25 万元，法院判赔 12 万元（含维权合理支出 1500 元）并公开致歉，其他请求驳回。判决书取自北大法宝（数据库转载件，不是法院或裁判文书网页面）。案号出自该判决书；典型案例稿没有案号，二者的对应是编者核对的结果（见对应说明）。“已生效”出自最高法典型案例稿。",
+        "ai_roles": [
+          "OUTPUT",
+          "USE_BY_PARTY"
+        ],
+        "issues": [
+          "ISSUE-PERSONALITY-DEEPFAKE"
+        ],
+        "field_evidence": {
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "2025年7月18日，北京互联网法院判决某文化公司向李某瑾赔礼道歉、赔偿经济损失及维权合理支出12万元。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-10085",
+              "quote": "二〇二五年七月十八日"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "请求判令某文化公司赔礼道歉、赔偿经济损失及合理开支25万元。"
+            },
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "北京互联网法院判决某文化公司向李某瑾赔礼道歉、赔偿经济损失及维权合理支出12万元。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-10085",
+              "quote": "2.判令被告向原告支付经济损失及合理维权费用共计250000元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-10085",
+              "quote": "于本判决生效之日起十日内，被告某文化传媒有限公司赔偿原告李某经济损失120000元(含维权合理支出1500元)；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-10085",
+              "quote": "驳回原告李某的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "宣判后，双方当事人均未提起上诉，判决已发生法律效力。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "北京互联网法院经审理认为，案涉视频未经李某瑾同意"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "宣判后，双方当事人均未提起上诉，判决已发生法律效力。"
+            }
+          ],
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-10085",
+              "quote": "(2024)京0491民初10085号"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CIVIL-CODE#第一百七十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一百七十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零二十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。判决适用的是该条第二款（声音保护参照肖像权）。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百六十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百六十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-10085",
+            "quote": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（四）",
+            "basis": "EDITORIAL",
+            "note": "该条规定未经同意生成可识别特定自然人的合成人声时的声音权益保护。该意见晚于本案判决发布，不是本案裁判依据。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（十）",
+            "basis": "EDITORIAL",
+            "note": "该条涉及“仿冒名人带货”构成欺诈时消费者的惩罚性赔偿，与本案的人格权请求不是同一请求权基础，列入仅供对照。"
+          }
+        ],
+        "also_reported_in": [
+          {
+            "source_id": "SRC-CN-BJD-BIC-AI-2025",
+            "locator": "案例三",
+            "basis": "INFERRED",
+            "note": "北京互联网法院涉人工智能典型案例之案例三（李某某诉某文化传媒有限公司）的法院、案由、案情和裁判要点与本案一致，编者推断为同一纠纷；该稿没有案号，不能以案号确认，故只建一条记录。判决书所载被告称谓“某文化传媒有限公司”与该稿相同。"
+          }
+        ],
+        "notes": "判决另依据《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十二条，该司法解释未入库。",
+        "discovered_via": "最高人民法院网络法治典型案例发布页"
+      },
+      "scopes": {
+        "SRC-CN-PKULAW-BIC-10085": null
+      },
+      "scope_links": {
+        "SRC-CN-PKULAW-BIC-10085": "典型案例稿没有案号，案名写作“李某瑾诉某文化公司”，判决书写作“李某与某文化传媒有限公司”。编者认定为同一案件的依据：同为北京互联网法院、网络侵权责任纠纷；判决日期同为 2025 年 7 月 18 日；请求 25 万元、判赔 12 万元两个数额相同；案情同为图书带货视频使用原告肖像和 AI 合成声音。北大法宝也把该判决书列为这件典型案例的文书原文。"
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-BIC-10085",
+          "text": "综上所述，依照《中华人民共和国民法典》第一百七十八条、第一百七十九条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条，《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十二条之规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-BIC-10085",
+          "text": "于本判决生效之日起十日内，被告某文化传媒有限公司赔偿原告李某经济损失120000元(含维权合理支出1500元)；"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "source_id": "SRC-CN-SPC-512041",
+        "block_start": "【案例三】",
+        "block_end": "【案例四】"
+      },
+      "record": {
+        "id": "CN-CASE-RAG-SEARCH",
+        "jurisdiction": "CN",
+        "forum": "上海知识产权法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2025）沪0104民初2432号"
+        ],
+        "caption": "某文化公司诉某网络科技公司侵害作品信息网络传播权纠纷案",
+        "short_name": "AI 搜索（检索增强生成）服务提供者责任案",
+        "decided_at": "2025-12-25",
+        "procedural_stage": "APPEAL",
+        "outcome": "RESPONDENT_PREVAILED",
+        "is_final": true,
+        "outcome_note": "一审原告请求赔偿经济损失及合理开支共 3 万元（停止侵权的请求在审理中撤回），一审驳回全部诉讼请求；最高法典型案例稿载明二审驳回上诉、维持原判。所列案号是一审案号，出自一审判决书（判决书取自北大法宝（数据库转载件，不是法院或裁判文书网页面））；二审判决书和二审案号未取得。“终局”系编者依两审终审制作出的判断，来源未逐字写明“判决已生效”，也未载明是否申请再审。一审判决书与典型案例稿的对应是编者核对的结果（见对应说明）。",
+        "ai_roles": [
+          "DEPLOYMENT"
+        ],
+        "issues": [
+          "ISSUE-PROVIDER-LIABILITY"
+        ],
+        "history": [
+          {
+            "stage": "FIRST_INSTANCE",
+            "forum": "上海市徐汇区人民法院",
+            "decided_at": "2025-07-01",
+            "result": {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "2025年7月1日，上海市徐汇区人民法院判决驳回某文化公司全部诉讼请求。宣判后，某文化公司不服，提起上诉。"
+            }
+          },
+          {
+            "stage": "APPEAL",
+            "forum": "上海知识产权法院",
+            "decided_at": "2025-12-25",
+            "result": {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "2025年12月25日，上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            }
+          }
+        ],
+        "field_evidence": {
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "2025年12月25日，上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "上海市徐汇区人民法院判决驳回某文化公司全部诉讼请求。"
+            },
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XH-2432",
+              "quote": "2.某网络科技公司赔偿某文化公司经济损失及为制止侵权支出的维权合理开支共计30,000元"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-XH-2432",
+              "quote": "驳回原告某文化公司全部诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-SPC-512041",
+              "quote": "上海知识产权法院作出二审判决，驳回上诉，维持原判。"
+            }
+          ],
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-PKULAW-XH-2432",
+              "quote": "(2025)沪0104民初2432号"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百九十四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XH-2432",
+            "quote": "依照《中华人民共和国民法典》第一千一百九十四条、第一千一百九十七条",
+            "note": "一审判决主文前的裁判依据；二审判决书未取得，二审所依据的条文不详。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百九十七条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XH-2432",
+            "quote": "依照《中华人民共和国民法典》第一千一百九十四条、第一千一百九十七条",
+            "note": "一审判决主文前的裁判依据；二审判决书未取得，二审所依据的条文不详。最高法典型案例稿的“典型意义”部分也引用了该条。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第十条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XH-2432",
+            "quote": "《中华人民共和国著作权法》第十条第十二项、第十七条第一款",
+            "note": "一审判决主文前的裁判依据；二审判决书未取得，二审所依据的条文不详。判决适用的是第十二项（信息网络传播权）。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第十七条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-XH-2432",
+            "quote": "《中华人民共和国著作权法》第十条第十二项、第十七条第一款",
+            "note": "一审判决主文前的裁判依据；二审判决书未取得，二审所依据的条文不详。判决适用的是第一款（电影、电视剧作品的著作权归属）。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（十二）",
+            "basis": "EDITORIAL",
+            "note": "该条规定认定人工智能提供者著作权侵权责任时的考量因素和举证。该意见晚于本案二审判决发布，不是本案裁判依据。"
+          }
+        ],
+        "notes": "一审判决另依据《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》第二条、第三条、第四条、第七条第三款、第八条第一款、第二款、第九条、第十条，该司法解释未入库。",
+        "discovered_via": "最高人民法院网络法治典型案例发布页"
+      },
+      "scopes": {
+        "SRC-CN-PKULAW-XH-2432": null
+      },
+      "scope_links": {
+        "SRC-CN-PKULAW-XH-2432": "典型案例稿没有案号。编者认定该一审判决书属于本案的依据：同为上海市徐汇区人民法院、判决日期同为 2025 年 7 月 1 日；当事人称谓同为某文化公司诉某网络科技公司；权利作品同为电视剧《某兵》《某花》；取证日 2024 年 11 月 28 日和结果“驳回原告全部诉讼请求”均相同。"
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-XH-2432",
+          "text": "依照《中华人民共和国民法典》第一千一百九十四条、第一千一百九十七条，《中华人民共和国著作权法》第十条第十二项、第十七条第一款，《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》第二条、第三条、第四条、第七条第三款、第八条第一款、第二款、第九条、第十条规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-XH-2432",
+          "text": "驳回原告某文化公司全部诉讼请求。"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "source_id": "SRC-CN-SPC-462881",
+        "block_start": "案例4.",
+        "block_end": "案例5."
+      },
+      "record": {
+        "id": "CN-CASE-FACE-SWAP-COPYRIGHT",
+        "jurisdiction": "CN",
+        "forum": "上海市嘉定区人民法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2024）沪0114民初1326号"
+        ],
+        "caption": "陈某与上海易某网络科技有限公司侵害作品信息网络传播权纠纷",
+        "short_name": "“AI 换脸”著作权侵权案",
+        "decided_at": "2024-04-29",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求赔偿经济损失 4.8 万元和合理维权费用 2000 元，法院判赔共计 7500 元；下架视频、赔礼道歉的请求由原告撤回，其余请求不予支持。判决书取自北大法宝（数据库转载件，不是法院或裁判文书网页面）。来源载“双方当事人均未上诉”，未逐字写明“已生效”。",
+        "ai_roles": [
+          "DEPLOYMENT",
+          "OUTPUT"
+        ],
+        "issues": [
+          "ISSUE-PROVIDER-LIABILITY"
+        ],
+        "field_evidence": {
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "一审：上海市嘉定区人民法院（2024）沪0114民初1326号"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "(2024)沪0114民初1326号"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "赔偿损失4.8万元和合理开支2000元。"
+            },
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "据此，判决上海易某网络科技有限公司赔偿陈某经济损失及合理开支共计7500元。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "2.判令被告赔偿原告经济损失48,000元及合理维权费用2,000元，共计50,000元。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "原告对此表示谅解并撤回要求被告下架视频、赔礼道歉的诉讼请求。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "一、被告某某公司1应于本判决生效之日起十日内赔偿原告陈某经济损失及合理维权费用共计7,500元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "二、原告陈某的其余诉讼请求，不予支持。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "一审判决后，双方当事人均未上诉。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "一审：上海市嘉定区人民法院（2024）沪0114民初1326号"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-SPC-462881",
+              "quote": "一审：上海市嘉定区人民法院（2024）沪0114民初1326号"
+            }
+          ],
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-PKULAW-JD-1326",
+              "quote": "二〇二四年四月二十九日"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-COPYRIGHT-LAW#第三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-JD-1326",
+            "quote": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款",
+            "note": "判决主文前的裁判依据。判决适用的是第六项（视听作品）。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第十条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-JD-1326",
+            "quote": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款",
+            "note": "判决主文前的裁判依据。判决适用的是第一款第十二项（信息网络传播权）。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第五十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-JD-1326",
+            "quote": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款",
+            "note": "判决主文前的裁判依据。判决适用的是第一项。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第五十四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-JD-1326",
+            "quote": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（十二）",
+            "basis": "EDITORIAL",
+            "note": "该条规定人工智能生成内容侵害著作权时开发者、提供者、使用者责任的考量因素。该意见晚于本案判决发布，不是本案裁判依据。"
+          }
+        ],
+        "notes": "判决另依据《最高人民法院关于审理著作权民事纠纷案件适用法律若干问题的解释》第七条、《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》第三条，这两件司法解释未入库。",
+        "discovered_via": "最高人民法院 2024 年知识产权典型案例发布页"
+      },
+      "scopes": {
+        "SRC-CN-PKULAW-JD-1326": null
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-JD-1326",
+          "text": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款，《最高人民法院关于审理著作权民事纠纷案件适用法律若干问题的解释》第七条，《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》第三条及《中华人民共和国民事诉讼法》第十三条第二款、第六十七条第一款之规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-JD-1326",
+          "text": "一、被告某某公司1应于本判决生效之日起十日内赔偿原告陈某经济损失及合理维权费用共计7,500元；"
+        }
+      ]
+    }
+  ]
+}

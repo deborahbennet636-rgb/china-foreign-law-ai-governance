@@ -1,0 +1,14 @@
+{
+  "id": "OBL-GA-07b",
+  "instrument_id": "CN-CAC-GENAI-2023",
+  "provision": "第七条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "涉及知识产权的，不得侵害他人依法享有的知识产权",
+  "duty": "不得侵害他人知识产权",
+  "trigger": "训练数据涉及知识产权",
+  "extraterritorial": false
+}

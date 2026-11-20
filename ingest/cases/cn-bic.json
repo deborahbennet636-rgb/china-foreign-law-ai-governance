@@ -1,0 +1,994 @@
+{
+  "digest_defaults": {
+    "source_id": "SRC-CN-BJD-BIC-AI-2025",
+    "sections": {
+      "facts": "基本案情",
+      "holding": "裁判结果",
+      "significance": "典型意义"
+    }
+  },
+  "cases": [
+    {
+      "digest": {
+        "block_start": "案例一",
+        "block_end": "案例二"
+      },
+      "record": {
+        "id": "CN-CASE-AI-IMAGE-AUTHORSHIP",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2023）京0491民初11279号"
+        ],
+        "caption": "李某某诉刘某某侵害作品署名权和信息网络传播权纠纷案",
+        "short_name": "“AI 文生图”著作权案",
+        "decided_at": "2023-11-27",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求赔偿经济损失 5000 元，判决赔偿 500 元并赔礼道歉，其他请求驳回。判决书取自维基文库的裁判文书网存档件（第三方存档，当事人姓名已隐去）；其裁判依据条文与北京互联网法院英文网站发布的英译本一致。“已生效”出自法院典型案例稿。",
+        "ai_roles": [
+          "OUTPUT"
+        ],
+        "issues": [
+          "ISSUE-AI-OUTPUT-COPYRIGHTABILITY"
+        ],
+        "field_evidence": {
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-TOP10-2025",
+              "quote": "——李某某诉刘某某侵害作品署名权和信息网络传播权纠纷案案例索引北京互联网法院（2023）京0491民初11279号"
+            },
+            {
+              "source_id": "SRC-CN-WS-BIC-11279",
+              "quote": "（2023）京0491民初11279号"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-WS-BIC-11279",
+              "quote": "2.请求判令被告赔偿原告经济损失5000元。"
+            },
+            {
+              "source_id": "SRC-CN-WS-BIC-11279",
+              "quote": "二、被告刘 于本判决生效之日起七日内赔偿原告李 经济损失500元；"
+            },
+            {
+              "source_id": "SRC-CN-WS-BIC-11279",
+              "quote": "三、驳回原告李 的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-WS-BIC-11279",
+              "quote": "二〇二三年十一月二十七日"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-COPYRIGHT-LAW#第十条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WS-BIC-11279",
+            "quote": "综上，依据《中华人民共和国著作权法》第十条第一款第二项、第十二项，第五十三条，第五十四条，本院判决如下：",
+            "note": "判决主文前的裁判依据。判决适用的是第一款第二项（署名权）和第十二项（信息网络传播权）。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第五十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WS-BIC-11279",
+            "quote": "综上，依据《中华人民共和国著作权法》第十条第一款第二项、第十二项，第五十三条，第五十四条，本院判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第五十四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WS-BIC-11279",
+            "quote": "综上，依据《中华人民共和国著作权法》第十条第一款第二项、第十二项，第五十三条，第五十四条，本院判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WS-BIC-11279",
+            "quote": "《中华人民共和国著作权法》（以下简称著作权法）第三条规定：“本法所称的作品，是指文学、艺术和科学领域内具有独创性并能以一定形式表现的智力成果。”",
+            "note": "说理部分援引，用于判断涉案图片是否构成作品；不在主文前的裁判依据之列。"
+          },
+          {
+            "provision": "CN-COPYRIGHT-LAW#第十一条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WS-BIC-11279",
+            "quote": "著作权法第十一条第一款规定：“著作权属于作者，本法另有规定的除外。”",
+            "note": "说理部分援引，用于认定作者；不在主文前的裁判依据之列。"
+          }
+        ],
+        "notes": "",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）",
+        "also_reported_in": [
+          {
+            "source_id": "SRC-CN-BIC-11279-EN",
+            "locator": "",
+            "note": "北京互联网法院英文网站发布的本案判决书英译本。其所载裁判依据为著作权法第十条第一款第二项、第十二项，第五十三条，第五十四条，日期为 2023 年 11 月 27 日，与中文存档件一致。英译本不含中文案名和案号写法，未用作字段出处。"
+          }
+        ]
+      },
+      "scopes": {
+        "SRC-CN-BJD-BIC-TOP10-2025": {
+          "block_start": "“AI文生图”著作权侵权案：",
+          "block_end": "主办法官"
+        },
+        "SRC-CN-WS-BIC-11279": {
+          "block_start": "民 事 判 决 书",
+          "block_end": "本作品是"
+        }
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WS-BIC-11279",
+          "text": "综上，依据《中华人民共和国著作权法》第十条第一款第二项、第十二项，第五十三条，第五十四条，本院判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WS-BIC-11279",
+          "text": "二、被告刘 于本判决生效之日起七日内赔偿原告李 经济损失500元；"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "block_start": "案例二",
+        "block_end": "案例三"
+      },
+      "record": {
+        "id": "CN-CASE-AI-VOICE",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2023）京0491民初12142号"
+        ],
+        "caption": "殷某某诉某智能科技公司等人格权侵权纠纷案",
+        "short_name": "AI 生成声音人格权案",
+        "decided_at": "2024-04-23",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求五被告连带赔偿经济损失 50 万元、精神损失 10 万元；判决由被告某文化传媒公司、某软件公司连带赔偿经济损失 25 万元，其他请求驳回。判决书取自知识产权律师网的转载件（注明来源中国裁判文书网），不是法院或裁判文书网页面。“已生效”出自法院典型案例稿。",
+        "ai_roles": [
+          "TRAINING",
+          "OUTPUT"
+        ],
+        "issues": [
+          "ISSUE-PERSONALITY-DEEPFAKE"
+        ],
+        "field_evidence": {
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-TOP10-2025",
+              "quote": "——殷某某诉某智能公司等人格权侵权案案例索引北京互联网法院（2023）京0491民初12142号"
+            },
+            {
+              "source_id": "SRC-CN-CIP-BIC-12142",
+              "quote": "（2023）京0491民初12142号"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-CIP-BIC-12142",
+              "quote": "3.判令五被告连带赔偿原告经济损失50万元；4.判令五被告连带赔偿原告精神损失10万元。"
+            },
+            {
+              "source_id": "SRC-CN-CIP-BIC-12142",
+              "quote": "二、被告某文化传媒公司、被告某软件公司连带赔偿原告殷某某经济损失25万元；"
+            },
+            {
+              "source_id": "SRC-CN-CIP-BIC-12142",
+              "quote": "三、驳回原告殷某某其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-CIP-BIC-12142",
+              "quote": "二〇二四年四月二十三日"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零二十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。判决适用的是该条第二款（声音保护参照肖像权）。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百六十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百六十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-CIP-BIC-12142",
+            "quote": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（四）",
+            "basis": "EDITORIAL",
+            "note": "该条规定未经同意以自然人声音作训练语料、生成可识别的合成人声时的声音权益保护。该意见晚于本案发布，不是本案裁判依据。"
+          },
+          {
+            "provision": "CN-CAC-DEEPSYN-2022#第十四条",
+            "basis": "EDITORIAL",
+            "note": "该条要求提供人声等生物识别信息编辑功能时提示使用者取得被编辑个人的单独同意。来源未载本案援引该规定。"
+          }
+        ],
+        "notes": "",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）"
+      },
+      "scopes": {
+        "SRC-CN-BJD-BIC-TOP10-2025": {
+          "block_start": "自然人声音权益可及于AI生成声音",
+          "block_end": "主办法官"
+        },
+        "SRC-CN-CIP-BIC-12142": {
+          "block_start": "民 事 判 决 书",
+          "block_end": "上一篇"
+        }
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-CIP-BIC-12142",
+          "text": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-CIP-BIC-12142",
+          "text": "二、被告某文化传媒公司、被告某软件公司连带赔偿原告殷某某经济损失25万元；"
+        }
+      ],
+      "scope_links": {
+        "SRC-CN-BJD-BIC-TOP10-2025": "该页案名写作“殷某某诉某智能公司等人格权侵权案”，与法院典型案例稿的案名略有出入；编者按当事人称谓和裁判要点认定为同一案件，案号由此而来。该案号的判决书所载原告殷某某、五名被告和案情与典型案例稿相符。"
+      }
+    },
+    {
+      "digest": {
+        "block_start": "案例四",
+        "block_end": "案例五"
+      },
+      "record": {
+        "id": "CN-CASE-FACE-SWAP-PERSONAL-INFO",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2023）京0491民初3820号"
+        ],
+        "caption": "廖某诉某科技文化有限公司网络侵权责任纠纷案",
+        "short_name": "“AI 换脸”个人信息权益案",
+        "decided_at": "2024-06-26",
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告主张肖像权和个人信息权益受侵害，请求书面赔礼道歉、赔偿经济损失 3 万元和精神损失 2 万元；法院不支持肖像权主张，认定侵害个人信息权益，判决书面赔礼道歉、赔偿精神损失 500 元和财产损失（含合理维权费用）1500 元，其他请求驳回。判决书取自北大法宝（数据库转载件，不是法院或裁判文书网页面）。案号和裁判日期出自该判决书；典型案例稿没有案号，二者的对应是编者核对的结果（见对应说明）。“已生效”出自法院典型案例稿。",
+        "ai_roles": [
+          "DEPLOYMENT"
+        ],
+        "issues": [
+          "ISSUE-PERSONALITY-DEEPFAKE"
+        ],
+        "field_evidence": {
+          "outcome": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "因此，被告的行为不构成对原告肖像权的侵害。"
+            },
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "被告处理该信息未经过原告同意，因此构成对原告个人信息权益的侵害。"
+            },
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "判决被告向原告书面致歉，赔偿原告精神损失及精神抚慰金。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "2.被告赔偿原告经济损失3万元(含律师费4000元、取证费1000元)；3.被告赔偿原告精神损失2万元。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "二、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某精神损失500元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "三、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某财产损失(含合理维权费用)1500元；"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "四、驳回原告廖某的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "(2023)京0491民初3820号"
+            }
+          ],
+          "decided_at": [
+            {
+              "source_id": "SRC-CN-PKULAW-BIC-3820",
+              "quote": "二〇二四年六月二十六日"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-PIPL-2021#第四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-PIPL-2021#第二十七条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-PIPL-2021#第四十四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-PIPL-2021#第六十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "《中华人民共和国民法典》第九百九十五条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "《中华人民共和国民法典》第九百九十五条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-PKULAW-BIC-3820",
+            "quote": "《中华人民共和国民法典》第九百九十五条、第一千一百八十二条、第一千一百八十三条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CAC-DEEPSYN-2022#第十四条",
+            "basis": "EDITORIAL",
+            "note": "该条规定训练数据含个人信息时应遵守个人信息保护规定，提供人脸编辑功能应提示取得单独同意。判决书未援引该规定。"
+          }
+        ],
+        "notes": "判决另依据《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十一条、第十二条，该司法解释未入库。",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）"
+      },
+      "scopes": {
+        "SRC-CN-PKULAW-BIC-3820": null
+      },
+      "scope_links": {
+        "SRC-CN-PKULAW-BIC-3820": "典型案例稿没有案号，案名写作“廖某诉某科技文化有限公司”，判决书写作“廖某诉某文化有限公司”。编者认定为同一案件的依据：同为北京互联网法院、网络侵权责任纠纷、原告廖某；案情同为被告用原告出镜的古风视频制作换脸模板供用户付费使用；裁判要点同为不构成侵害肖像权、构成侵害个人信息权益；判项同为书面赔礼道歉并赔偿。"
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-BIC-3820",
+          "text": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条，《中华人民共和国民法典》第九百九十五条、第一千一百八十二条、第一千一百八十三条，《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十一条、第十二条的规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-BIC-3820",
+          "text": "二、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某精神损失500元；"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-PKULAW-BIC-3820",
+          "text": "三、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某财产损失(含合理维权费用)1500元；"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "block_start": "案例五",
+        "block_end": "案例六"
+      },
+      "record": {
+        "id": "CN-CASE-AI-DETECTION-PLATFORM",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [],
+        "caption": "唐某某诉某科技有限公司网络服务合同纠纷案",
+        "short_name": "平台误判“AI 生成内容未标识”案",
+        "decided_at": null,
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求撤销隐藏和禁言处理并删除后台记录；法院判决展开被折叠的回答并删除后台记录。被告上诉后撤回，一审判决生效。案号和裁判日期来源未载。",
+        "ai_roles": [
+          "DETECTION"
+        ],
+        "issues": [
+          "ISSUE-CONTENT-LABELLING"
+        ],
+        "field_evidence": {
+          "outcome": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "法院判决被告展开折叠的回答并删除相关后台记录。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CAC-LABEL-2025#第十条",
+            "basis": "EDITORIAL",
+            "note": "该条规定用户发布生成合成内容应主动声明并标识。本案平台处理的依据是其社区公告（服务协议），来源未载援引该办法；该办法自 2025 年 9 月 1 日起施行，本案裁判日期不详，不能认定该办法适用于本案。"
+          }
+        ],
+        "notes": "",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）"
+      }
+    },
+    {
+      "digest": {
+        "block_start": "案例六",
+        "block_end": "案例七"
+      },
+      "record": {
+        "id": "CN-CASE-AI-DEFACED-PORTRAIT",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2024）京0491民初21163号"
+        ],
+        "caption": "程某诉孙某网络侵权责任纠纷案",
+        "short_name": "用 AI 软件丑化他人肖像案",
+        "decided_at": null,
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告主张肖像权、名誉权、一般人格权和个人信息权益受侵害，请求书面和公开致歉、赔偿另案诉讼费 800 元、误工费 149 元、拍照费用 2050 元和精神损害抚慰金 1 元。法院认定在微信群发布图片侵害肖像权和名誉权、私信发送图片侵害一般人格权，不构成侵害个人信息权益（属自然人因个人事务处理个人信息）；判决朋友圈公开致歉并出具书面致歉信、赔偿精神损害抚慰金 1 元，三项费用和“承诺不再制作”的请求未获支持。判决书取自威科先行（数据库转载件，不是法院或裁判文书网页面）。案号出自该判决书；典型案例稿没有案号，二者的对应是编者核对的结果（见对应说明）。该页裁判日期显示为“2025.06****”，正文无落款日期，故裁判日期留空。“已生效”出自法院典型案例稿。",
+        "ai_roles": [
+          "USE_BY_PARTY",
+          "OUTPUT"
+        ],
+        "issues": [
+          "ISSUE-PERSONALITY-DEEPFAKE"
+        ],
+        "field_evidence": {
+          "outcome": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "构成对原告肖像权、名誉权的侵害。"
+            },
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "构成对原告一般人格权的侵害。"
+            },
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "判决孙某向程某公开赔礼道歉，赔偿原告精神损失。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "被告的涉案行为构成对原告肖像权、名誉权及一般人格权的侵害，被告应当承担相应的侵权责任。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "综上，被告的行为一不构成对原告个人信息权益的侵害。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "2.被告赔偿原告（2024）京0491民初5988号案诉讼费800元、误工费149元、拍照费用2050元；3.被告赔偿原告精神损害抚慰金1元。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "二、自本判决生效之日起七日内，被告孙某赔偿原告程某精神损害抚慰金1元；"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "三、驳回原告程某的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "宣判后，双方均未提起上诉，该判决已生效。"
+            }
+          ],
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-WK-BIC-21163",
+              "quote": "北京互联网法院民 事 判 决 书（2024）京0491民初21163号"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CIVIL-CODE#第一百七十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零二十四条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百八十三条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-PIPL-2021#第二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-PIPL-2021#第七十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下：",
+            "note": "判决主文前的裁判依据。法院依该条第一款认定自然人因个人事务处理个人信息不适用该法，个人信息权益主张不成立。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百六十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-21163",
+            "quote": "民法典第一千一百六十五条第一款规定：“行为人因过错侵害他人民事权益造成损害的，应当承担侵权责任。”",
+            "note": "说理部分援引；不在主文前的裁判依据之列。"
+          },
+          {
+            "provision": "CN-CAC-GENAI-2023#第四条",
+            "basis": "EDITORIAL",
+            "note": "判决书说理中“使用生成式人工智能服务时，应当遵守法律、行政法规，尊重社会公德和伦理道德”等表述与该条措辞相同，但判决书没有写明出处，也未列入裁判依据。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（四）",
+            "basis": "EDITORIAL",
+            "note": "该条规定操控可识别特定自然人的生成合成形象、降低其社会评价的，构成侵害名誉权。该意见晚于本案发布，不是本案裁判依据。"
+          }
+        ],
+        "notes": "判决说理另援引民法典第一百一十一条（个人信息受法律保护），该条未入库。",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）"
+      },
+      "scopes": {
+        "SRC-CN-WK-BIC-21163": {
+          "block_start": "正文",
+          "block_end": "审判人员"
+        }
+      },
+      "scope_links": {
+        "SRC-CN-WK-BIC-21163": "典型案例稿没有案号。编者认定该判决书属于本案的依据：同为北京互联网法院、网络侵权责任纠纷、原告程某诉被告孙某；案情同为被告用 AI 软件把原告的微信头像照片生成衣着暴露的图片发到微信群，又生成肢体畸形的图片私信原告；裁判要点同为群内发布侵害肖像权和名誉权、私信发送侵害一般人格权；判项同为赔礼道歉并赔偿精神损失。"
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-21163",
+          "text": "本院认为，涉案AI软件是一种AI工具，被告是该工具的使用者，被诉侵权图片是由被告自主决定生成，并在涉案微信群中发布。"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-21163",
+          "text": "综上，被告的行为二不构成对原告名誉权的侵害，但构成对原告一般人格权的侵害。"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-21163",
+          "text": "综上，依照《中华人民共和国民法典》第一百七十九条、第九百九十条、第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十四条、第一千一百八十二条、第一千一百八十三条，《中华人民共和国个人信息保护法》第二条、第七十二条之规定，判决如下："
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-21163",
+          "text": "二、自本判决生效之日起七日内，被告孙某赔偿原告程某精神损害抚慰金1元；"
+        }
+      ]
+    },
+    {
+      "digest": {
+        "block_start": "案例八",
+        "block_end": "编辑："
+      },
+      "record": {
+        "id": "CN-CASE-AI-COMPANION",
+        "jurisdiction": "CN",
+        "forum": "北京互联网法院",
+        "forum_type": "COURT",
+        "case_numbers": [
+          "（2020）京0491民初9526号",
+          "（2021）京04民终777号"
+        ],
+        "caption": "何某诉某人工智能科技有限公司网络侵权责任纠纷案",
+        "short_name": "“AI 陪伴”虚拟形象人格权案",
+        "decided_at": null,
+        "procedural_stage": "FIRST_INSTANCE",
+        "outcome": "CLAIMANT_PARTLY_PREVAILED",
+        "is_final": true,
+        "outcome_note": "原告请求在《人民法院报》和案涉软件上公开赔礼道歉（网络致歉不少于 30 日）、赔偿经济损失 18.3 万元（含合理维权支出 3000 元）和精神损害抚慰金 2 万元；判决认定侵害肖像权、姓名权和一般人格权，两项赔偿请求全额支持，赔礼道歉限于在案涉软件页面持续七天（不履行时才由法院择报刊登判决主要内容），其他请求驳回。因赔礼道歉的范围被缩减、主文有驳回项，按本库口径标为部分胜诉。被告上诉后申请撤回，北京市第四中级人民法院 2022 年 1 月 12 日裁定准许（（2021）京04民终777号），一审判决生效。一审判决书取自威科先行，二审裁定书取自北大法宝，均为数据库转载件，不是法院或裁判文书网页面。威科先行所载判决书文本不含当事人、审理经过和落款，故一审裁判日期留空：该库“案件历程”栏写 2021.08.20，北大法宝两个编写条目分别写 2021-08-21 和 2021-08-30，三处都是数据库整理的信息且互不一致。一审案号最初取自另一页面，按案名和裁判要旨对应（该页案名写作“何某诉某科技公司网络侵权责任纠纷案”）；一审判决书和二审裁定书均载有同一案号。",
+        "ai_roles": [
+          "DEPLOYMENT"
+        ],
+        "issues": [
+          "ISSUE-PERSONALITY-DEEPFAKE",
+          "ISSUE-PROVIDER-LIABILITY"
+        ],
+        "field_evidence": {
+          "case_numbers": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-TOP10-2025",
+              "quote": "——何某诉某科技公司网络侵权责任纠纷案案例索引北京互联网法院（2020）京0491民初9526号"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "北京互联网法院民事判决书（2020）京0491民初9526号"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BJ4-777",
+              "quote": "不服北京互联网法院(2020)京0491民初9526号民事判决，向本院提起上诉。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BJ4-777",
+              "quote": "(2021)京04民终777号"
+            }
+          ],
+          "outcome": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "判决被告向原告公开赔礼道歉，赔偿原告精神损失及经济损失。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "2.判令被告赔偿原告经济损失183 000元（包括合理维权支出3000元）、精神损害抚慰金20 000元。"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "最新活动页面持续七天向原告何某公开赔礼道歉，致歉内容应包含本案判决书案号和被告上海自古红蓝人工智能科技有限公司侵害原告何某肖像权、姓名权及一般人格权的情节并经本院审核"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "二、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某经济损失183 000元（包括合理维权支出3000元）；"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "三、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某精神损害抚慰金20 000元；"
+            },
+            {
+              "source_id": "SRC-CN-WK-BIC-9526",
+              "quote": "四、驳回原告何某的其他诉讼请求。"
+            }
+          ],
+          "is_final": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BJ4-777",
+              "quote": "一审判决自之日起发生法律效力。"
+            }
+          ],
+          "forum": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "page_level": true,
+              "quote": "近日，北京互联网法院召开涉人工智能案件审理情况新闻发布会，会上发布了八起典型案例。"
+            }
+          ],
+          "procedural_stage": [
+            {
+              "source_id": "SRC-CN-BJD-BIC-AI-2025",
+              "quote": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。"
+            },
+            {
+              "source_id": "SRC-CN-PKULAW-BJ4-777",
+              "quote": "不服北京互联网法院(2020)京0491民初9526号民事判决，向本院提起上诉。"
+            }
+          ]
+        },
+        "legal_anchors": [
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条",
+            "note": "判决主文前的裁判依据。法院依该条认定侵害一般人格权（行为发生在民法典施行前，依时间效力规定适用）。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第九百九十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条",
+            "note": "判决主文前的裁判依据。用于确定被告的责任承担。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十二条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条",
+            "note": "判决主文前的裁判依据。用于认定侵害姓名权。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十八条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条",
+            "note": "判决主文前的裁判依据。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千零一十九条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "民法典第一千零一十九条第一款规定：“任何组织或者个人不得以丑化、污损，或者利用信息技术手段伪造等方式侵害他人的肖像权。未经肖像权人同意，不得制作、使用、公开肖像权人的肖像，但是法律另有规定的除外。”",
+            "note": "说理部分援引，用于说明侵害肖像权不以营利为目的；不在主文前的裁判依据之列。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百九十五条",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-CN-WK-BIC-9526",
+            "quote": "或《中华人民共和国民法典》（以下简称民法典）第一千一百九十五条的情形，因采取必要措施而免责？",
+            "note": "归纳争议焦点时援引（“通知—删除”规则）。法院认定被告是内容服务提供者，不适用该规则；不在主文前的裁判依据之列。"
+          },
+          {
+            "provision": "CN-CIVIL-CODE#第一千一百九十四条",
+            "basis": "EDITORIAL",
+            "note": "判决适用的是《侵权责任法》第三十六条第一款（行为发生在民法典施行前），认定被告是内容服务提供者、直接承担侵权责任；判决书没有援引民法典本条。本条前句与该款文字相同，编者据此关联。《侵权责任法》已废止，未入库。"
+          },
+          {
+            "provision": "CN-SPC-AI-OPINION-2026#（四）",
+            "basis": "EDITORIAL",
+            "note": "该条规定未经同意生成可识别自然人的虚拟数字形象并使用、公开时的人格权保护。该意见晚于本案发布，不是本案裁判依据。"
+          }
+        ],
+        "notes": "判决另依据《侵权责任法》第八条、第十五条、第二十条、第二十二条、第三十六条第一款，《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十五条、第十八条，《最高人民法院关于适用〈中华人民共和国民法典〉时间效力的若干规定》第一条第二款、第二条、第三条，《最高人民法院关于确定民事侵权精神损害赔偿责任若干问题的解释》第十条；上述法律和司法解释未入库。",
+        "discovered_via": "北京互联网法院涉人工智能典型案例（北京日报客户端转载）"
+      },
+      "scopes": {
+        "SRC-CN-BJD-BIC-TOP10-2025": {
+          "block_start": "“AI陪伴”案：",
+          "block_end": "主办法官"
+        },
+        "SRC-CN-PKULAW-BJ4-777": null,
+        "SRC-CN-WK-BIC-9526": {
+          "block_start": "正文",
+          "block_end": "审判人员"
+        }
+      },
+      "scope_links": {
+        "SRC-CN-BJD-BIC-TOP10-2025": "该页案名写作“何某诉某科技公司网络侵权责任纠纷案”，与法院典型案例稿的案名略有出入；编者按当事人称谓和裁判要点认定为同一案件，案号由此而来。该案号的二审裁定书所载上诉人是一家人工智能科技有限公司、被上诉人姓何、案由为网络侵权责任纠纷、上诉后撤回，与典型案例稿相符。"
+      },
+      "quotes": [
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-9526",
+          "text": "综上，案涉软件的模式与侵权责任法第三十六条第二款、第三款规范的仅提供技术服务、未直接实施侵权行为的情形有着本质不同，系通过规则设定、算法设计，组织用户形成素材并提供给用户，故而，被告的行为构成直接的内容服务提供行为，被告属于内容服务提供者。"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-9526",
+          "text": "被告未获原告许可以上述方式利用原告的人格要素，侵害原告人格自由利益及人格被尊重的利益，构成侵害原告一般人格权的行为。"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-9526",
+          "text": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-9526",
+          "text": "二、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某经济损失183 000元（包括合理维权支出3000元）；"
+        },
+        {
+          "kind": "holding",
+          "source_id": "SRC-CN-WK-BIC-9526",
+          "text": "三、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某精神损害抚慰金20 000元；"
+        }
+      ]
+    }
+  ]
+}

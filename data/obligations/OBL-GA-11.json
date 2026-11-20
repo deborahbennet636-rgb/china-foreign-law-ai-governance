@@ -1,0 +1,14 @@
+{
+  "id": "OBL-GA-11",
+  "instrument_id": "CN-CAC-GENAI-2023",
+  "provision": "第十一条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "不得收集非必要个人信息",
+  "duty": "不得超必要收集个人信息",
+  "trigger": "处理使用者输入与使用记录",
+  "extraterritorial": false
+}

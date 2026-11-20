@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EC-07a",
+  "instrument_id": "CN-CAC-EXPORT-CERT-2025",
+  "provision": "第七条",
+  "kind": "CERTIFICATION",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "个人信息处理者通过认证方式向境外提供个人信息的，应当向专业认证机构申请个人信息出境认证",
+  "duty": "向专业认证机构申请",
+  "trigger": "以认证方式出境",
+  "extraterritorial": false
+}

@@ -1,0 +1,41 @@
+{
+  "format": "cn-article",
+  "parts": [
+    {
+      "source_id": "SRC-CN-CAC-PIPL-2021",
+      "start_at": "第一章 总 则",
+      "end_before": "关闭",
+      "select": [
+        "第二条",
+        "第四条",
+        "第二十七条",
+        "第四十四条",
+        "第六十九条",
+        "第七十二条"
+      ]
+    }
+  ],
+  "meta_evidence": {
+    "title": "中华人民共和国个人信息保护法",
+    "issuer": "（2021年8月20日第十三届全国人民代表大会常务委员会第三十次会议通过）",
+    "published_at": "（2021年8月20日第十三届全国人民代表大会常务委员会第三十次会议通过）",
+    "effective_at": "本法自2021年11月1日起施行"
+  },
+  "record": {
+    "id": "CN-PIPL-2021",
+    "jurisdiction": "CN",
+    "title": "中华人民共和国个人信息保护法",
+    "short_title": "个人信息保护法",
+    "issuer": "全国人民代表大会常务委员会",
+    "doc_number": null,
+    "level": "法律",
+    "instrument_type": "GENERAL_LAW_CITED",
+    "status": "IN_FORCE",
+    "status_note": "只收库内案例所涉的 6 条；快照为中国网信网转载的中国人大网稿，不是制定机关发布页；日期为表决通过日",
+    "published_at": "2021-08-20",
+    "effective_at": "2021-11-01",
+    "language": "zh",
+    "discovered_via": "北京互联网法院（2023）京0491民初3820号、（2024）京0491民初21163号判决书的裁判依据",
+    "foreign_related": "FOREIGN_CLAUSE"
+  }
+}

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "ISSUE-TRAINING-COPYRIGHT",
+    "title": "用受著作权保护的作品训练模型",
+    "question": "未经许可使用他人作品训练 AI 模型，是否侵权，或可否主张合理使用？",
+    "status": "OPEN",
+    "editor_note": "三个法域在库内的材料性质不同：中国和欧盟是规范性文件，美国是个案裁判，不能直接比较“结论”。",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "部门规章要求训练数据来源合法、不得侵害知识产权（生成式 AI 办法第七条）。最高法意见把“训练数据来源”列为认定生成内容著作权侵权责任的考量因素，并规定开发者提出不侵权抗辩时应提供训练数据来源等佐证（第十二条）。库内文件没有直接规定训练行为本身是否构成侵权或合理使用，库内也没有就此作出认定的中国案例。",
+        "provisions": [
+          "CN-CAC-GENAI-2023#第七条",
+          "CN-SPC-AI-OPINION-2026#（十二）",
+          "CN-SPC-AI-OPINION-2026#（十六）"
+        ],
+        "cases": []
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "AI Act 第 53 条要求通用目的 AI 模型提供者制定遵守欧盟著作权法的政策（包括识别并遵守权利保留），并公开训练内容的摘要。这是合规义务，不直接回答训练是否侵权；该条所引的 2019/790 号指令未入库。库内条文是 2024 年原始文本，2026/1744 号条例对该条有无修改尚未核对。库内无欧盟案例。",
+        "provisions": [
+          "EU-AI-ACT-2024#Article 53"
+        ],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "库内两份地区法院文书结论不同，事实也不同。Bartz 案法院认定用图书训练大语言模型属于合理使用，但从盗版网站取得并留存的馆藏副本不在此列。Thomson Reuters 诉 Ross 案法院否定合理使用抗辩，同时说明涉案系统不是生成式 AI。两者都是一审阶段的中间裁判，不是终局结论。版权法第 107 条未入库。",
+        "provisions": [],
+        "cases": [
+          "US-CASE-BARTZ-V-ANTHROPIC",
+          "US-CASE-THOMSON-REUTERS-V-ROSS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-AI-OUTPUT-COPYRIGHTABILITY",
+    "title": "AI 生成内容能否受著作权保护",
+    "question": "AI 生成的内容是否构成作品？作者是谁？",
+    "status": "OPEN",
+    "editor_note": "库内中美两案的事实不同：中国案是使用者主张自己为作者，美国案是申请人把机器列为唯一作者。两案不构成对同一问题的相反回答。",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "北京互联网法院在“AI 文生图”案中认定：使用者通过选取模型、输入提示词、设置参数生成的图片体现其智力投入和个性化表达，构成美术作品，著作权归使用者；人工智能模型本身不能成为作者。判决书在说理中援引著作权法第三条（作品定义）和第十一条（作者），主文前的裁判依据是第十条、第五十三条、第五十四条。该判决为已生效的一审判决。著作权法没有专门针对 AI 生成物的条文。",
+        "provisions": [
+          "CN-COPYRIGHT-LAW#第三条",
+          "CN-COPYRIGHT-LAW#第十一条"
+        ],
+        "cases": [
+          "CN-CASE-AI-IMAGE-AUTHORSHIP"
+        ]
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "库内无相关条文或案例。",
+        "provisions": [],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "D.C. 巡回上诉法院在 Thaler 案中认定：1976 年版权法要求作品首先由人创作，机器不能被登记为作者。法院没有处理人借助 AI 创作时本人能否作为作者的问题，该主张因未在行政程序中提出而未予审理。",
+        "provisions": [],
+        "cases": [
+          "US-CASE-THALER-V-PERLMUTTER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-PROVIDER-LIABILITY",
+    "title": "AI 服务提供者的侵权责任与注意义务",
+    "question": "AI 服务生成或呈现侵权内容时，服务提供者在什么条件下承担责任？",
+    "status": "OPEN",
+    "editor_note": "",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "最高法意见以过错责任为一般归责原则（第三条），并就生成内容侵害人格权益规定了通知与必要措施规则（第七条）。库内三件案例显示法院按服务提供者对内容的介入程度区分处理：AI 搜索服务未主动上传、编辑、推荐且及时处理的，不构成侵权；以“AI 换脸”为卖点并提供平台、素材和技术的，构成侵权，不适用技术中立抗辩；通过规则设定和算法设计组织用户生成侵权内容的，按内容服务提供者承担责任。",
+        "provisions": [
+          "CN-SPC-AI-OPINION-2026#（三）",
+          "CN-SPC-AI-OPINION-2026#（七）",
+          "CN-SPC-AI-OPINION-2026#（十二）",
+          "CN-CIVIL-CODE#第一千一百六十五条",
+          "CN-CIVIL-CODE#第一千一百九十五条",
+          "CN-CIVIL-CODE#第一千一百九十七条",
+          "CN-CAC-GENAI-2023#第九条",
+          "CN-CAC-GENAI-2023#第十四条"
+        ],
+        "cases": [
+          "CN-CASE-RAG-SEARCH",
+          "CN-CASE-FACE-SWAP-COPYRIGHT",
+          "CN-CASE-AI-COMPANION"
+        ]
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "AI Act 规定的是投放市场和使用环节的合规义务，不是民事责任规则。库内无欧盟民事责任文件或案例。",
+        "provisions": [],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "库内无相关条文或案例。",
+        "provisions": [],
+        "cases": []
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-PERSONALITY-DEEPFAKE",
+    "title": "换脸、拟声与虚拟形象：人格权益保护",
+    "question": "未经同意用 AI 生成或合成他人的肖像、声音、虚拟形象，侵害何种权益？",
+    "status": "OPEN",
+    "editor_note": "",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "民法典第一千零二十三条第二款规定声音的保护参照适用肖像权保护的规定，第一千零一十九条禁止利用信息技术手段伪造等方式侵害肖像权；AI 生成声音案的判决书以这些条文为裁判依据。最高法意见第四条规定：未经同意生成可识别特定自然人的虚拟形象或合成人声并使用的，构成对肖像权、声音权益等的侵害。库内五件北京互联网法院案例涉及合成声音、换脸模板、丑化肖像和“AI 陪伴”角色，其中换脸模板案法院不认定侵害肖像权，而认定侵害个人信息权益。",
+        "provisions": [
+          "CN-CIVIL-CODE#第一千零二十三条",
+          "CN-CIVIL-CODE#第一千零一十九条",
+          "CN-CIVIL-CODE#第一千零一十八条",
+          "CN-SPC-AI-OPINION-2026#（四）",
+          "CN-SPC-AI-OPINION-2026#（八）",
+          "CN-CAC-DEEPSYN-2022#第十四条",
+          "CN-CAC-GENAI-2023#第四条"
+        ],
+        "cases": [
+          "CN-CASE-AI-VOICE",
+          "CN-CASE-LI-VOICE-LIVESTREAM",
+          "CN-CASE-FACE-SWAP-PERSONAL-INFO",
+          "CN-CASE-AI-DEFACED-PORTRAIT",
+          "CN-CASE-AI-COMPANION"
+        ]
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "AI Act 第 50 条第 4 款要求部署者披露深度伪造内容系人工生成或操纵。这是透明度义务，不是人格权救济。2026/1744 号条例对相关禁止性规定的修改尚未核对入库（见线索）。",
+        "provisions": [
+          "EU-AI-ACT-2024#Article 50"
+        ],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "联邦 TAKE IT DOWN Act 把故意公开未经同意的私密影像（含 digital forgery）规定为犯罪，并要求平台建立通知与删除程序。规制范围限于私密影像，不是一般的肖像或声音权益保护。库内无美国案例。",
+        "provisions": [
+          "US-TAKE-IT-DOWN-2025#SEC. 2.",
+          "US-TAKE-IT-DOWN-2025#SEC. 3."
+        ],
+        "cases": []
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-CONTENT-LABELLING",
+    "title": "生成合成内容的标识与识别",
+    "question": "谁负有标识 AI 生成内容的义务？平台识别错误时如何处理？",
+    "status": "OPEN",
+    "editor_note": "",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "标识办法要求服务提供者对生成合成内容添加显式标识和隐式标识（第四、五条），用户发布此类内容应主动声明并标识（第十条）；深度合成规定第十六、十七条和生成式 AI 办法第十二条是其上游依据。库内一件案例处理的是反向问题：平台用算法把用户内容判定为“AI 生成未标识”并处罚，法院认定平台未就算法判断作出合理说明，应承担违约责任。",
+        "provisions": [
+          "CN-CAC-LABEL-2025#第四条",
+          "CN-CAC-LABEL-2025#第五条",
+          "CN-CAC-LABEL-2025#第十条",
+          "CN-CAC-DEEPSYN-2022#第十六条",
+          "CN-CAC-DEEPSYN-2022#第十七条",
+          "CN-CAC-GENAI-2023#第十二条"
+        ],
+        "cases": [
+          "CN-CASE-AI-DETECTION-PLATFORM"
+        ]
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "AI Act 第 50 条要求提供者确保生成内容以机器可读方式标记并可被检测为人工生成（第 2 款），部署者披露深度伪造（第 4 款）。库内条文是 2024 年原始文本，该条的适用日期是否被 2026/1744 号条例调整尚未核对。",
+        "provisions": [
+          "EU-AI-ACT-2024#Article 50"
+        ],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "库内无相关条文或案例。",
+        "provisions": [],
+        "cases": []
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-AI-UNFAIR-COMPETITION",
+    "title": "利用 AI 实施不正当竞争",
+    "question": "用 AI 批量生成内容引流、仿冒、刷量，是否构成不正当竞争？",
+    "status": "OPEN",
+    "editor_note": "",
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "summary": "最高法意见第十二条末句规定，利用人工智能实施虚假宣传、刷量刷单等行为构成不正当竞争的，依法承担责任；第十六条规定数据集合可受反不正当竞争法保护。库内一件案例：利用 AI 批量生成针对竞争对手产品的测评文章并导流，被认定构成不正当竞争。",
+        "provisions": [
+          "CN-SPC-AI-OPINION-2026#（十二）",
+          "CN-SPC-AI-OPINION-2026#（十六）",
+          "CN-CAC-GENAI-2023#第四条"
+        ],
+        "cases": [
+          "CN-CASE-AI-FAKE-REVIEWS"
+        ]
+      },
+      {
+        "jurisdiction": "EU",
+        "summary": "库内无相关条文或案例。",
+        "provisions": [],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "summary": "库内无相关条文或案例。",
+        "provisions": [],
+        "cases": []
+      }
+    ]
+  },
+  {
+    "id": "ISSUE-PERSONAL-INFO-EXPORT-PATHS",
+    "title": "个人信息出境的合法路径与门槛",
+    "question": "向境外提供个人信息，什么情况下必须申报安全评估，什么情况下可以走标准合同或认证？",
+    "status": "OPEN",
+    "editor_note": "库内只有中国这一栏有规范性文件。欧盟与美国两栏留白，不是因为没有规则，而是因为本库尚未入库，故本条不构成三法域比较。中国一栏内，三条路径的分界取决于出境人数、是否重要数据、是否为关基运营者，2024 年《促进和规范数据跨境流动规定》改写了 2022 年办法的门槛，第十三条规定不一致时适用新规。",
+    "comparison": {
+      "comparable": false,
+      "reason": "仅中国有入库材料；欧盟 GDPR 第五章、美国联邦层面规则均未入库，三法域并排会读成「中国有规定、他国无规定」，那不是事实。"
+    },
+    "positions": [
+      {
+        "jurisdiction": "CN",
+        "nature": "NORMATIVE",
+        "summary": "三条路径：安全评估、标准合同、认证。申报安全评估的情形见《促进和规范数据跨境流动规定》第七条（关基运营者出境个人信息或重要数据；非关基运营者出境重要数据，或累计出境 100 万人以上个人信息、1 万人以上敏感个人信息）。累计出境 10 万人以上不满 100 万人个人信息、或不满 1 万人敏感个人信息的，可订立标准合同或通过认证（第八条）。第十条另设告知、单独同意与影响评估义务。",
+        "provisions": [
+          "CN-CAC-CROSSBORDER-2024#第七条",
+          "CN-CAC-CROSSBORDER-2024#第八条",
+          "CN-CAC-CROSSBORDER-2024#第十条",
+          "CN-CAC-EXPORT-ASSESS-2022#第四条",
+          "CN-CAC-EXPORT-CERT-2025#第五条"
+        ],
+        "obligations": [
+          "OBL-XB-07",
+          "OBL-XB-08",
+          "OBL-XB-10",
+          "OBL-EA-04",
+          "OBL-EC-05a"
+        ],
+        "cases": []
+      },
+      {
+        "jurisdiction": "EU",
+        "nature": "NONE",
+        "summary": "库内未收 GDPR 第五章及充分性认定决定的原文，故本条不就欧盟作任何陈述。",
+        "provisions": [],
+        "obligations": [],
+        "cases": []
+      },
+      {
+        "jurisdiction": "US",
+        "nature": "NONE",
+        "summary": "库内未收美国联邦层面跨境数据规则的原文，故本条不就美国作任何陈述。",
+        "provisions": [],
+        "obligations": [],
+        "cases": []
+      }
+    ]
+  }
+]

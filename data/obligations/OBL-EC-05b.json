@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EC-05b",
+  "instrument_id": "CN-CAC-EXPORT-CERT-2025",
+  "provision": "第五条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "个人信息处理者不得采取数量拆分等手段",
+  "duty": "不得以数量拆分规避安全评估",
+  "trigger": "本应申报安全评估的个人信息",
+  "extraterritorial": false
+}

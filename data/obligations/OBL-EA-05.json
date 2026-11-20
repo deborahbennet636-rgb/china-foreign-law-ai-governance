@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EA-05",
+  "instrument_id": "CN-CAC-EXPORT-ASSESS-2022",
+  "provision": "第五条",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "数据处理者在申报数据出境安全评估前，应当开展数据出境风险自评估",
+  "duty": "先作风险自评估",
+  "trigger": "申报安全评估之前",
+  "extraterritorial": false
+}

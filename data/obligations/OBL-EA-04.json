@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EA-04",
+  "instrument_id": "CN-CAC-EXPORT-ASSESS-2022",
+  "provision": "第四条",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "应当通过所在地省级网信部门向国家网信部门申报数据出境安全评估",
+  "duty": "申报数据出境安全评估",
+  "trigger": "第四条列举的四类情形之一",
+  "extraterritorial": false
+}

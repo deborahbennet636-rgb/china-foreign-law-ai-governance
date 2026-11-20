@@ -1,0 +1,29 @@
+{
+  "source_id": "SRC-US-PL-119-12",
+  "format": "us-publaw",
+  "end_before": "Approved May 19, 2025.",
+  "expected_provisions": 5,
+  "meta_evidence": {
+    "doc_number": "Public Law 119-12 119th Congress",
+    "short_title": "or the ``TAKE IT DOWN Act''.",
+    "published_at": "Approved May 19, 2025.",
+    "issuer": "Public Law 119-12 119th Congress"
+  },
+  "record": {
+    "id": "US-TAKE-IT-DOWN-2025",
+    "jurisdiction": "US",
+    "title": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act",
+    "short_title": "TAKE IT DOWN Act",
+    "issuer": "119th Congress",
+    "doc_number": "Public Law 119-12",
+    "level": "Federal statute",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "ADOPTED",
+    "status_note": "已签署成为法律（签署日见原文）；各条施行日期未逐项核对，故标 ADOPTED 而非 IN_FORCE。规制对象是未经同意的私密影像，含 AI 生成的 digital forgery，不是综合性 AI 立法",
+    "published_at": "2025-05-19",
+    "effective_at": null,
+    "language": "en",
+    "discovered_via": "govinfo",
+    "foreign_related": "DOMESTIC"
+  }
+}

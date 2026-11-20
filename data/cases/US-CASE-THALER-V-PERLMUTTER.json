@@ -1,0 +1,92 @@
+{
+  "id": "US-CASE-THALER-V-PERLMUTTER",
+  "jurisdiction": "US",
+  "forum": "United States Court of Appeals for the District of Columbia Circuit",
+  "forum_type": "COURT",
+  "case_numbers": [
+    "No. 23-5233"
+  ],
+  "caption": "Thaler v. Perlmutter",
+  "short_name": "Thaler 案：机器能否作为作者",
+  "decided_at": "2025-03-18",
+  "procedural_stage": "APPEAL",
+  "outcome": "RESPONDENT_PREVAILED",
+  "is_final": null,
+  "outcome_note": "上诉法院维持版权局拒绝登记的决定。其后是否申请全院复审或向最高法院申请调卷，未核查，故不标终局。",
+  "ai_roles": [
+    "OUTPUT"
+  ],
+  "issues": [
+    "ISSUE-AI-OUTPUT-COPYRIGHTABILITY"
+  ],
+  "field_evidence": {
+    "case_numbers": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "Decided March 18, 2025 No. 23-5233"
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "Decided March 18, 2025"
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "We affirm the denial of Dr. Thaler’s copyright application."
+      }
+    ],
+    "forum": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "United States Court of Appeals FOR THE DISTRICT OF COLUMBIA CIRCUIT"
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "STEPHEN THALER, AN INDIVIDUAL, APPELLANT v. SHIRA PERLMUTTER"
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-US-CADC-THALER-2025",
+        "quote": "United States Court of Appeals FOR THE DISTRICT OF COLUMBIA CIRCUIT"
+      }
+    ]
+  },
+  "legal_anchors": [],
+  "notes": "法院解释的是 1976 年版权法；该法尚未入库，故暂无条文锚点。法院明确没有处理人借助 AI 创作时本人能否作为作者的问题。",
+  "discovered_via": "二手来源提及后，自 D.C. 巡回上诉法院网站取得判决书",
+  "history": [],
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-US-CADC-THALER-2025": null
+  },
+  "scope_links": {},
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "On the application, Dr. Thaler listed the Creativity Machine as the work’s sole author and himself as just the work’s owner."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "The Creativity Machine cannot be the recognized author of a copyrighted work because the Copyright Act of 1976 requires all eligible work to be authored in the first instance by a human being."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "Given that holding, we need not address the Copyright Office’s argument that the Constitution itself requires human authorship of all copyrighted material."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "Nor do we reach Dr. Thaler’s argument that he is the work’s author by virtue of making and using the Creativity Machine because that argument was waived before the agency."
+    }
+  ],
+  "generated_by": "ingest/cases/us-federal.json"
+}

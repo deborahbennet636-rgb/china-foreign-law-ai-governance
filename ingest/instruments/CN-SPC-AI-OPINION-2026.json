@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-CN-SPC-511101",
+  "format": "cn-point",
+  "start_at": "最高人民法院关于依法审理涉人工智能纠纷案件的意见",
+  "end_before": "最高人民法院",
+  "expected_provisions": 24,
+  "meta_evidence": {
+    "doc_number": "法发〔2026〕10号",
+    "published_at": "2026年9月7日",
+    "expected_provisions": "《意见》分为5个部分，共24条",
+    "issuer": "最高人民法院 2026年9月7日"
+  },
+  "record": {
+    "id": "CN-SPC-AI-OPINION-2026",
+    "jurisdiction": "CN",
+    "title": "最高人民法院关于依法审理涉人工智能纠纷案件的意见",
+    "short_title": "最高法涉人工智能纠纷意见",
+    "issuer": "最高人民法院",
+    "doc_number": "法发〔2026〕10号",
+    "level": "司法文件",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "ADOPTED",
+    "status_note": "发布日期见原文；原文未写施行日期，故标“已发布”而不标“现行”；后续修订未专门核查",
+    "published_at": "2026-09-07",
+    "effective_at": null,
+    "language": "zh",
+    "discovered_via": "tavily-search 2026-11-11",
+    "foreign_related": "DOMESTIC"
+  }
+}

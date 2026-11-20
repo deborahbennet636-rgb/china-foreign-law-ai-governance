@@ -1,0 +1,36 @@
+{
+  "format": "cn-article",
+  "parts": [
+    {
+      "source_id": "SRC-CN-NPC-AUCL-2019",
+      "start_at": "第一章 总 则",
+      "end_before": "编 辑： 刘冬",
+      "select": [
+        "第二条",
+        "第十七条"
+      ]
+    }
+  ],
+  "meta_evidence": {
+    "title": "中华人民共和国反不正当竞争法",
+    "issuer": "根据2019年4月23日第十三届全国人民代表大会常务委员会第十次会议《关于修改〈中华人民共和国建筑法〉等八部法律的决定》修正",
+    "published_at": "根据2019年4月23日第十三届全国人民代表大会常务委员会第十次会议《关于修改〈中华人民共和国建筑法〉等八部法律的决定》修正"
+  },
+  "record": {
+    "id": "CN-AUCL-2019",
+    "jurisdiction": "CN",
+    "title": "中华人民共和国反不正当竞争法",
+    "short_title": "反不正当竞争法（2019 年修正）",
+    "issuer": "全国人民代表大会常务委员会",
+    "doc_number": null,
+    "level": "法律",
+    "instrument_type": "GENERAL_LAW_CITED",
+    "status": "ADOPTED",
+    "status_note": "2019 年修正的文本，即库内案例判决时（2025 年 6 月）所适用的文本；日期为修正决定通过日。只收库内案例所涉的 2 条。正文第三十三条写的是 2017 年修订文本的施行日，不是本次修正的施行日，故施行日期留空。据编者所知该法 2025 年又经修订，修订文本未入库、未在本库核对，故不标“现行”",
+    "published_at": "2019-04-23",
+    "effective_at": null,
+    "language": "zh",
+    "discovered_via": "江苏省无锡市新吴区人民法院（2024）苏0214民初9489号判决书的裁判依据",
+    "foreign_related": "DOMESTIC"
+  }
+}

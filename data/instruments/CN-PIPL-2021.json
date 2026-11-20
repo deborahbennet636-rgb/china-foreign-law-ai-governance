@@ -1,0 +1,75 @@
+{
+  "id": "CN-PIPL-2021",
+  "jurisdiction": "CN",
+  "title": "中华人民共和国个人信息保护法",
+  "short_title": "个人信息保护法",
+  "issuer": "全国人民代表大会常务委员会",
+  "doc_number": null,
+  "level": "法律",
+  "instrument_type": "GENERAL_LAW_CITED",
+  "status": "IN_FORCE",
+  "status_note": "只收库内案例所涉的 6 条；快照为中国网信网转载的中国人大网稿，不是制定机关发布页；日期为表决通过日",
+  "published_at": "2021-08-20",
+  "effective_at": "2021-11-01",
+  "language": "zh",
+  "discovered_via": "北京互联网法院（2023）京0491民初3820号、（2024）京0491民初21163号判决书的裁判依据",
+  "foreign_related": "FOREIGN_CLAUSE",
+  "source_id": "SRC-CN-CAC-PIPL-2021",
+  "source_ids": [
+    "SRC-CN-CAC-PIPL-2021"
+  ],
+  "complete": false,
+  "expected_provisions": null,
+  "meta_evidence": {
+    "title": "中华人民共和国个人信息保护法",
+    "issuer": "（2021年8月20日第十三届全国人民代表大会常务委员会第三十次会议通过）",
+    "published_at": "（2021年8月20日第十三届全国人民代表大会常务委员会第三十次会议通过）",
+    "effective_at": "本法自2021年11月1日起施行"
+  },
+  "derived_dates": {},
+  "generated_by": "ingest/instruments/CN-PIPL-2021.json",
+  "provisions": [
+    {
+      "no": "第二条",
+      "ordinal": 2,
+      "division": "第一章 总 则",
+      "text": "自然人的个人信息受法律保护，任何组织、个人不得侵害自然人的个人信息权益。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    },
+    {
+      "no": "第四条",
+      "ordinal": 4,
+      "division": "第一章 总 则",
+      "text": "个人信息是以电子或者其他方式记录的与已识别或者可识别的自然人有关的各种信息，不包括匿名化处理后的信息。\n个人信息的处理包括个人信息的收集、存储、使用、加工、传输、提供、公开、删除等。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    },
+    {
+      "no": "第二十七条",
+      "ordinal": 27,
+      "division": "第二章 个人信息处理规则 / 第一节 一般规定",
+      "text": "个人信息处理者可以在合理的范围内处理个人自行公开或者其他已经合法公开的个人信息；个人明确拒绝的除外。个人信息处理者处理已公开的个人信息，对个人权益有重大影响的，应当依照本法规定取得个人同意。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    },
+    {
+      "no": "第四十四条",
+      "ordinal": 44,
+      "division": "第四章 个人在个人信息处理活动中的权利",
+      "text": "个人对其个人信息的处理享有知情权、决定权，有权限制或者拒绝他人对其个人信息进行处理；法律、行政法规另有规定的除外。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    },
+    {
+      "no": "第六十九条",
+      "ordinal": 69,
+      "division": "第七章 法律责任",
+      "text": "处理个人信息侵害个人信息权益造成损害，个人信息处理者不能证明自己没有过错的，应当承担损害赔偿等侵权责任。\n前款规定的损害赔偿责任按照个人因此受到的损失或者个人信息处理者因此获得的利益确定；个人因此受到的损失和个人信息处理者因此获得的利益难以确定的，根据实际情况确定赔偿数额。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    },
+    {
+      "no": "第七十二条",
+      "ordinal": 72,
+      "division": "第八章 附 则",
+      "text": "自然人因个人或者家庭事务处理个人信息的，不适用本法。\n法律对各级人民政府及其有关部门组织实施的统计、档案管理活动中的个人信息处理有规定的，适用其规定。",
+      "source_id": "SRC-CN-CAC-PIPL-2021"
+    }
+  ]
+}

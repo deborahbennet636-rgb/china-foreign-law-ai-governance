@@ -1,0 +1,40 @@
+{
+  "source_id": "SRC-EU-OMNIBUS-AI-OJ",
+  "format": "metadata-only",
+  "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2026/1744 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "title": "amending Regulations (EU) 2024/1689, (EU) 2018/1139 and (EU) 2023/1230 as regards the simplification of the implementation of harmonised rules on artificial intelligence (Digital Omnibus on AI)",
+    "adopted_at": "Done at Strasbourg, 8 July 2026.",
+    "published_at": "24.7.2026",
+    "entry_into_force": "This Regulation shall enter into force on the third day following that of its publication in the Official Journal of the European Union.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,",
+    "amends": "Regulation (EU) 2024/1689 is amended as follows:"
+  },
+  "record": {
+    "id": "EU-OMNIBUS-AI-2026",
+    "jurisdiction": "EU",
+    "title": "Regulation (EU) 2026/1744 of the European Parliament and of the Council",
+    "short_title": "Digital Omnibus on AI",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Regulation (EU) 2026/1744",
+    "level": "Regulation",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "修订性条例，只登记元数据，未拆条（其条文内嵌被替换的 AI Act 条文，按条切分会出错）；生效日按第 4 条与公报日期推算；各项修订的适用日期未逐项核查",
+    "published_at": "2026-07-24",
+    "effective_at": "2026-07-27",
+    "amends": [
+      "EU-AI-ACT-2024"
+    ],
+    "language": "en",
+    "discovered_via": "tavily-search 2026-11-11",
+    "foreign_related": "DOMESTIC"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 3,
+      "basis": "entry_into_force"
+    }
+  }
+}

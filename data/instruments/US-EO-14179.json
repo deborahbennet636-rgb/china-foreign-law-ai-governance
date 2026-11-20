@@ -1,0 +1,75 @@
+{
+  "id": "US-EO-14179",
+  "jurisdiction": "US",
+  "title": "Removing Barriers to American Leadership in Artificial Intelligence",
+  "short_title": "EO 14179",
+  "issuer": "President",
+  "doc_number": "Executive Order 14179",
+  "level": "Executive order",
+  "instrument_type": "AI_SPECIFIC",
+  "status": "ADOPTED",
+  "status_note": "日期为签署日（见原文），2025-01-31 刊载于 Federal Register；原文未另写生效日期；截至入库日是否被后续行政令修改或撤销未核查，故不标 IN_FORCE",
+  "published_at": "2025-01-23",
+  "effective_at": null,
+  "language": "en",
+  "discovered_via": "federalregister.gov",
+  "foreign_related": "DOMESTIC",
+  "source_id": "SRC-US-EO-14179",
+  "source_ids": [
+    "SRC-US-EO-14179"
+  ],
+  "complete": true,
+  "expected_provisions": 6,
+  "meta_evidence": {
+    "doc_number": "Executive Order 14179 of January 23, 2025",
+    "fr_doc": "[FR Doc No: 2025-02172]",
+    "published_at": "Executive Order 14179 of January 23, 2025",
+    "issuer": "By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered:"
+  },
+  "derived_dates": {},
+  "generated_by": "ingest/instruments/US-EO-14179.json",
+  "provisions": [
+    {
+      "no": "Section 1.",
+      "ordinal": 1,
+      "division": "",
+      "text": "Purpose. The United States has long been at\nthe forefront of artificial intelligence (AI)\ninnovation, driven by the strength of our free markets,\nworld-class research institutions, and entrepreneurial\nspirit. To maintain this leadership, we must develop AI\nsystems that are free from ideological bias or\nengineered social agendas. With the right Government\npolicies, we can solidify our position as the global\nleader in AI and secure a brighter future for all\nAmericans. This order revokes certain existing AI\npolicies and directives that act as barriers to\nAmerican AI innovation, clearing a path for the United\nStates to act decisively to retain global leadership in\nartificial intelligence.",
+      "source_id": "SRC-US-EO-14179"
+    },
+    {
+      "no": "Sec. 2.",
+      "ordinal": 2,
+      "division": "",
+      "text": "Policy. It is the policy of the United States\nto sustain and enhance America's global AI dominance in\norder to promote human flourishing, economic\ncompetitiveness, and national security.",
+      "source_id": "SRC-US-EO-14179"
+    },
+    {
+      "no": "Sec. 3.",
+      "ordinal": 3,
+      "division": "",
+      "text": "Definition. For the purposes of this order,\n``artificial intelligence'' or ``AI'' has the meaning\nset forth in 15 U.S.C. 9401(3).",
+      "source_id": "SRC-US-EO-14179"
+    },
+    {
+      "no": "Sec. 4.",
+      "ordinal": 4,
+      "division": "",
+      "text": "Developing an Artificial Intelligence Action\nPlan. (a) Within 180 days of this order, the Assistant\nto the President for Science and Technology (APST), the\nSpecial Advisor for AI and Crypto, and the Assistant to\nthe President for National Security Affairs (APNSA), in\ncoordination with the Assistant to the President for\nEconomic Policy, the Assistant to the President for\nDomestic Policy, the Director of the Office of\nManagement and Budget (OMB Director), and the heads of\nsuch executive departments and agencies (agencies) as\nthe APST and APNSA deem relevant, shall develop and\nsubmit to the President an action plan to achieve the\npolicy set forth in section 2 of this order.",
+      "source_id": "SRC-US-EO-14179"
+    },
+    {
+      "no": "Sec. 5.",
+      "ordinal": 5,
+      "division": "",
+      "text": "Implementation of Order Revocation. (a) The\nAPST, the Special Advisor for AI and Crypto, and the\nAPNSA shall immediately review, in coordination with\nthe heads of all agencies as they deem relevant, all\npolicies, directives, regulations, orders, and other\nactions taken pursuant to the revoked Executive Order\n14110 of October 30, 2023 (Safe, Secure, and\nTrustworthy Development and Use of Artificial\nIntelligence). The APST, the Special Advisor for AI and\nCrypto, and the APNSA shall, in coordination with the\nheads of relevant agencies, identify any actions taken\npursuant to Executive Order 14110 that are or may be\ninconsistent with, or present obstacles to, the policy\nset forth in section 2 of this order. For any such\nagency actions identified, the heads of agencies shall,\nas appropriate and consistent with applicable law,\nsuspend, revise, or rescind such actions, or propose\nsuspending, revising, or rescinding such actions. If in\nany case such suspension, revision, or rescission\ncannot be finalized immediately, the APST and the heads\nof agencies shall promptly take steps to provide all\navailable exemptions authorized by any such orders,\nrules, regulations, guidelines, or policies, as\nappropriate and consistent with applicable law, until\nsuch action can be finalized.\n(b) Within 60 days of this order, the OMB Director,\nin coordination with the APST, shall revise OMB\nMemoranda M-24-10 and M-24-18 as necessary\n[[Page 8742]]\nto make them consistent with the policy set forth in\nsection 2 of this order.",
+      "source_id": "SRC-US-EO-14179"
+    },
+    {
+      "no": "Sec. 6.",
+      "ordinal": 6,
+      "division": "",
+      "text": "General Provisions. (a) Nothing in this order\nshall be construed to impair or otherwise affect:\n(i) the authority granted by law to an executive department or agency, or\nthe head thereof; or\n(ii) the functions of the Director of the Office of Management and Budget\nrelating to budgetary, administrative, or legislative proposals.\n(b) This order shall be implemented consistent with\napplicable law and subject to the availability of\nappropriations.\n(c) This order is not intended to, and does not,\ncreate any right or benefit, substantive or procedural,\nenforceable at law or in equity by any party against\nthe United States, its departments, agencies, or\nentities, its officers, employees, or agents, or any\nother person.",
+      "source_id": "SRC-US-EO-14179"
+    }
+  ]
+}

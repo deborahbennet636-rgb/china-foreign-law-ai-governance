@@ -1,0 +1,14 @@
+{
+  "id": "OBL-GA-07c",
+  "instrument_id": "CN-CAC-GENAI-2023",
+  "provision": "第七条",
+  "kind": "CONSENT",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "涉及个人信息的，应当取得个人同意或者符合法律、行政法规规定的其他情形",
+  "duty": "取得个人同意或符合法定情形",
+  "trigger": "训练数据涉及个人信息",
+  "extraterritorial": false
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OBL-XB-07",
+  "instrument_id": "CN-CAC-CROSSBORDER-2024",
+  "provision": "第七条",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "应当通过所在地省级网信部门向国家网信部门申报数据出境安全评估",
+  "duty": "申报数据出境安全评估",
+  "trigger": "向境外提供数据且落入第七条所列情形",
+  "extraterritorial": false
+}

@@ -1,0 +1,231 @@
+{
+  "dataset": "AGORA (AI GOvernance and Regulatory Archive)",
+  "version": "1.34.0",
+  "doi": "10.5281/zenodo.23413137",
+  "published": "2026-10-16",
+  "license": "cc-by-nc-4.0",
+  "archive_md5": "96f7faa96b22997cbd7bb101f669908b",
+  "documents": 1255,
+  "by_jurisdiction": {
+    "United States": 1155,
+    "China": 32,
+    "(none)": 29,
+    "Multinational": 21,
+    "Other countries": 18
+  },
+  "by_status": {
+    "Enacted": 546,
+    "Defunct": 422,
+    "Proposed": 287
+  },
+  "china_documents": 32,
+  "china_link_hosts": {
+    "cset.georgetown.edu": 14,
+    "www.chinalawtranslate.com": 4,
+    "digichina.stanford.edu": 4,
+    "ai-ethics-and-governance.institute": 2,
+    "sf.sz.gov.cn": 1,
+    "web.archive.org": 1,
+    "geneva.china-mission.gov.cn": 1,
+    "www.cac.gov.cn": 1,
+    "cr.china-embassy.gov.cn": 1,
+    "un.china-mission.gov.cn": 1,
+    "english.beijing.gov.cn": 1,
+    "www.mfa.gov.cn": 1
+  },
+  "china_links_on_gov_cn": 7,
+  "china_list": [
+    {
+      "agora_id": "1117",
+      "date": "2016-12-12",
+      "status": "Enacted",
+      "name": "The position paper submitted by the Chinese delegation to CCW 5th Review Conference"
+    },
+    {
+      "agora_id": "1065",
+      "date": "2017-07-20",
+      "status": "Enacted",
+      "name": "New Generation Artificial Intelligence Development Plan"
+    },
+    {
+      "agora_id": "35",
+      "date": "2019-06-17",
+      "status": "Enacted",
+      "name": "Governance Principles for a New Generation of Artificial Intelligence: Develop Responsible Artificial Intelligence"
+    },
+    {
+      "agora_id": "1123",
+      "date": "2020-08-05",
+      "status": "Proposed",
+      "name": "National New Generation AI Standards System Construction Guide"
+    },
+    {
+      "agora_id": "2098",
+      "date": "2021-07-28",
+      "status": "Proposed",
+      "name": "Guiding Opinions on Strengthening the Governance of Science and Technology Ethics (Draft for Feedback)"
+    },
+    {
+      "agora_id": "1125",
+      "date": "2021-09-25",
+      "status": "Proposed",
+      "name": "Ethical Norms for the New Generation Artificial Intelligence"
+    },
+    {
+      "agora_id": "1126",
+      "date": "2021-12-13",
+      "status": "Enacted",
+      "name": "Position Paper of the People’s Republic of China on Regulating Military Applications of Artificial Intelligence"
+    },
+    {
+      "agora_id": "266",
+      "date": "2022-03-01",
+      "status": "Enacted",
+      "name": "Internet Information Service Algorithmic Recommendation Management Provisions"
+    },
+    {
+      "agora_id": "2261",
+      "date": "2022-03-20",
+      "status": "Enacted",
+      "name": "Opinions on Strengthening the Governance of Science and Technology Ethics"
+    },
+    {
+      "agora_id": "1127",
+      "date": "2022-03-20",
+      "status": "Enacted",
+      "name": "Opinion on Strengthening Science and Technology Ethics Governance"
+    },
+    {
+      "agora_id": "1128",
+      "date": "2022-10-01",
+      "status": "Enacted",
+      "name": "Regulations for the Promotion of the Development of the Artificial Intelligence Industry in Shanghai Municipality"
+    },
+    {
+      "agora_id": "1064",
+      "date": "2022-11-01",
+      "status": "Enacted",
+      "name": "Regulations of Shenzhen Special Economic Zone on Promoting the Artificial Intelligence Industry"
+    },
+    {
+      "agora_id": "1129",
+      "date": "2022-11-17",
+      "status": "Enacted",
+      "name": "Position Paper of the People's Republic of China on Strengthening Ethical Governance of Artificial Intelligence (AI)"
+    },
+    {
+      "agora_id": "36",
+      "date": "2022-11-25",
+      "status": "Enacted",
+      "name": "Provisions on the Administration of Deep Synthesis Internet Information Services"
+    },
+    {
+      "agora_id": "1395",
+      "date": "2023-02-22",
+      "status": "Enacted",
+      "name": "The Global Security Initiative Concept Paper"
+    },
+    {
+      "agora_id": "2099",
+      "date": "2023-04-04",
+      "status": "Proposed",
+      "name": "(Trial) Measures for Science and Technology Ethics Reviews (Draft for Feedback)"
+    },
+    {
+      "agora_id": "37",
+      "date": "2023-04-11",
+      "status": "Proposed",
+      "name": "Measures for the Management of Generative Artificial Intelligence Services (Draft for Comment)"
+    },
+    {
+      "agora_id": "1135",
+      "date": "2023-05-30",
+      "status": "Proposed",
+      "name": "Measures of Beijing Municipality on Promoting the Innovative Development of Artificial General Intelligence"
+    },
+    {
+      "agora_id": "1137",
+      "date": "2023-07-10",
+      "status": "Enacted",
+      "name": "Interim Measures for the Management of Generative Artificial Intelligence Services"
+    },
+    {
+      "agora_id": "1138",
+      "date": "2023-07-18",
+      "status": "Proposed",
+      "name": "Remarks by Ambassador Zhang Jun at the UN Security Council Briefing on Artificial Intelligence: Opportunities and Risks for International Peace and Security"
+    },
+    {
+      "agora_id": "2263",
+      "date": "2023-10-08",
+      "status": "Enacted",
+      "name": "(Trial) Measures for Science and Technology Ethics Reviews"
+    },
+    {
+      "agora_id": "1144",
+      "date": "2023-10-18",
+      "status": "Enacted",
+      "name": "Global AI Governance Initiative"
+    },
+    {
+      "agora_id": "1151",
+      "date": "2024-02-29",
+      "status": "Enacted",
+      "name": "Technical Documentation of National Technical Committee 260 on Cybersecurity of Standardization Administration of China: Basic Safety Requirements for Generative Artificial Intelligence Services"
+    },
+    {
+      "agora_id": "1723",
+      "date": "2024-05-17",
+      "status": "Proposed",
+      "name": "National Standard of the People’s Republic of China: Cybersecurity Technology – Basic Safety Requirements for Generative Artificial Intelligence Services (Draft for Feedback)"
+    },
+    {
+      "agora_id": "6780",
+      "date": "2024-12-02",
+      "status": "Proposed",
+      "name": "Notice of the Office of the Ministry of Education on Strengthening Artificial Intelligence Education in Primary and Secondary Schools"
+    },
+    {
+      "agora_id": "2096",
+      "date": "2025-03-07",
+      "status": "Enacted",
+      "name": "Measures for Labeling of AI-Generated Synthetic Content"
+    },
+    {
+      "agora_id": "2244",
+      "date": "2025-03-21",
+      "status": "Enacted",
+      "name": "Security Management Measures for the Application of Facial Recognition Technology"
+    },
+    {
+      "agora_id": "6769",
+      "date": "2025-04-25",
+      "status": "Proposed",
+      "name": "National Standard of the People’s Republic of China: Cybersecurity Technology – Basic Safety Requirements for Generative Artificial Intelligence Services"
+    },
+    {
+      "agora_id": "6736",
+      "date": "2025-08-07",
+      "status": "Proposed",
+      "name": "(Trial) Measures for Artificial Intelligence Technology Ethics Management Services (Draft for Public Feedback)"
+    },
+    {
+      "agora_id": "5352",
+      "date": "2026-01-07",
+      "status": "Proposed",
+      "name": "Implementation Opinions on the “AI + Manufacturing” Special Initiative"
+    },
+    {
+      "agora_id": "6779",
+      "date": "2026-04-10",
+      "status": "Proposed",
+      "name": "“AI + Education” Action Plan"
+    },
+    {
+      "agora_id": "6683",
+      "date": "2026-04-10",
+      "status": "Enacted",
+      "name": "Provisional Measures on the Administration of Human-like Interactive Artificial Intelligence Services"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EA-09",
+  "instrument_id": "CN-CAC-EXPORT-ASSESS-2022",
+  "provision": "第九条",
+  "kind": "CONTRACT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "数据处理者应当在与境外接收方订立的法律文件中明确约定数据安全保护责任义务",
+  "duty": "在法律文件中约定数据安全责任",
+  "trigger": "与境外接收方订立法律文件",
+  "extraterritorial": false
+}

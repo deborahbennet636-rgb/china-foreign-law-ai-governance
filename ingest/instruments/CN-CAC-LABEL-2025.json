@@ -1,0 +1,30 @@
+{
+  "source_id": "SRC-CN-CAC-LABEL-2025",
+  "format": "cn-article",
+  "start_at": "人工智能生成合成内容标识办法",
+  "end_before": "关闭",
+  "expected_provisions": 14,
+  "meta_evidence": {
+    "doc_number": "国信办通字〔2025〕2号",
+    "published_at": "2025年3月7日",
+    "effective_at": "自2025年9月1日起施行",
+    "issuer": "国家互联网信息办公室、工业和信息化部、公安部、国家广播电视总局制定了《人工智能生成合成内容标识办法》"
+  },
+  "record": {
+    "id": "CN-CAC-LABEL-2025",
+    "jurisdiction": "CN",
+    "title": "人工智能生成合成内容标识办法",
+    "short_title": "标识办法",
+    "issuer": "国家互联网信息办公室、工业和信息化部、公安部、国家广播电视总局",
+    "doc_number": "国信办通字〔2025〕2号",
+    "level": "规范性文件",
+    "instrument_type": "AI_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "施行日期见原文；后续修订未专门核查",
+    "published_at": "2025-03-07",
+    "effective_at": "2025-09-01",
+    "language": "zh",
+    "discovered_via": "AGORA 2096（英译本线索）；原文取自中国网信网",
+    "foreign_related": "DOMESTIC"
+  }
+}

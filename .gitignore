@@ -1,0 +1,8 @@
+temp/
+__pycache__/
+.pytest_cache/
+# Third-party archive under a non-commercial licence: benchmark only, not redistributed.
+data/raw/agora/agora.zip
+# Judgments taken from a subscription database over the campus network: kept locally, not redistributed.
+data/raw/SRC-CN-PKULAW-*
+data/raw/SRC-CN-WK-*
