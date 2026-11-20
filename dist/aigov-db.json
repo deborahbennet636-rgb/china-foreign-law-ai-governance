@@ -7000,7 +7000,8 @@
       "CN-SPC-AI-OPINION-2026#（十二）",
       "CN-SPC-AI-OPINION-2026#（十六）"
      ],
-     "cases": []
+     "cases": [],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "EU",
@@ -7008,7 +7009,8 @@
      "provisions": [
       "EU-AI-ACT-2024#Article 53"
      ],
-     "cases": []
+     "cases": [],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "US",
@@ -7017,9 +7019,14 @@
      "cases": [
       "US-CASE-BARTZ-V-ANTHROPIC",
       "US-CASE-THOMSON-REUTERS-V-ROSS"
-     ]
+     ],
+     "nature": "CASE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "中国与欧盟是规范性文件（训练数据的合规义务），美国是个案裁判（合理使用认定）。三栏并排会被读成三国对同一问题给出了不同结论，实际上三类材料回答的不是同一个问题。"
+   }
   },
   {
    "id": "ISSUE-AI-OUTPUT-COPYRIGHTABILITY",
@@ -7037,13 +7044,15 @@
      ],
      "cases": [
       "CN-CASE-AI-IMAGE-AUTHORSHIP"
-     ]
+     ],
+     "nature": "CASE"
     },
     {
      "jurisdiction": "EU",
      "summary": "库内无相关条文或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     },
     {
      "jurisdiction": "US",
@@ -7051,9 +7060,14 @@
      "provisions": [],
      "cases": [
       "US-CASE-THALER-V-PERLMUTTER"
-     ]
+     ],
+     "nature": "CASE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "欧盟无材料。中国是一审判决并援引条文，美国是终审判决；即使两栏都有材料，审级与效力不同，不能当作同等份量的结论对照。"
+   }
   },
   {
    "id": "ISSUE-PROVIDER-LIABILITY",
@@ -7079,21 +7093,28 @@
       "CN-CASE-RAG-SEARCH",
       "CN-CASE-FACE-SWAP-COPYRIGHT",
       "CN-CASE-AI-COMPANION"
-     ]
+     ],
+     "nature": "JUDICIAL_INTERPRETATION"
     },
     {
      "jurisdiction": "EU",
      "summary": "AI Act 规定的是投放市场和使用环节的合规义务，不是民事责任规则。库内无欧盟民事责任文件或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     },
     {
      "jurisdiction": "US",
      "summary": "库内无相关条文或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "只有中国有材料，且中国一栏是司法解释与三个个案并存的混合。欧盟一栏说明其规范是投放市场与使用环节的合规义务，不是民事责任规则；美国无材料。三栏不构成比较。"
+   }
   },
   {
    "id": "ISSUE-PERSONALITY-DEEPFAKE",
@@ -7120,7 +7141,8 @@
       "CN-CASE-FACE-SWAP-PERSONAL-INFO",
       "CN-CASE-AI-DEFACED-PORTRAIT",
       "CN-CASE-AI-COMPANION"
-     ]
+     ],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "EU",
@@ -7128,7 +7150,8 @@
      "provisions": [
       "EU-AI-ACT-2024#Article 50"
      ],
-     "cases": []
+     "cases": [],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "US",
@@ -7137,9 +7160,14 @@
       "US-TAKE-IT-DOWN-2025#SEC. 2.",
       "US-TAKE-IT-DOWN-2025#SEC. 3."
      ],
-     "cases": []
+     "cases": [],
+     "nature": "NORMATIVE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "三栏规制对象不同：中国是人格权救济（民法典加五个案例），欧盟是深度伪造的透明度义务，美国限于未经同意的私密影像的刑事与平台删除义务。并排会读成保护水平的高低，而三者管的不是同一件事。"
+   }
   },
   {
    "id": "ISSUE-CONTENT-LABELLING",
@@ -7161,7 +7189,8 @@
      ],
      "cases": [
       "CN-CASE-AI-DETECTION-PLATFORM"
-     ]
+     ],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "EU",
@@ -7169,15 +7198,21 @@
      "provisions": [
       "EU-AI-ACT-2024#Article 50"
      ],
-     "cases": []
+     "cases": [],
+     "nature": "NORMATIVE"
     },
     {
      "jurisdiction": "US",
      "summary": "库内无相关条文或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "美国无材料。中国与欧盟都是标识或披露义务，两者本身可以比较；但加入空栏就会被读成「美国无规制」，那不是事实。"
+   }
   },
   {
    "id": "ISSUE-AI-UNFAIR-COMPETITION",
@@ -7196,21 +7231,28 @@
      ],
      "cases": [
       "CN-CASE-AI-FAKE-REVIEWS"
-     ]
+     ],
+     "nature": "JUDICIAL_INTERPRETATION"
     },
     {
      "jurisdiction": "EU",
      "summary": "库内无相关条文或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     },
     {
      "jurisdiction": "US",
      "summary": "库内无相关条文或案例。",
      "provisions": [],
-     "cases": []
+     "cases": [],
+     "nature": "NONE"
     }
-   ]
+   ],
+   "comparison": {
+    "comparable": false,
+    "reason": "只有中国有材料（司法解释加一个案例），欧盟与美国均无。本条不构成三法域比较。"
+   }
   },
   {
    "id": "ISSUE-PERSONAL-INFO-EXPORT-PATHS",
