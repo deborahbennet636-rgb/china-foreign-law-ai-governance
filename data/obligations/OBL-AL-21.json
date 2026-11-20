@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-21",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第二十一条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "不得根据消费者的偏好、交易习惯等特征，利用算法在交易价格等交易条件上实施不合理的差别待遇",
+  "duty": "不得按消费者特征在价格等交易条件上实施不合理差别待遇",
+  "trigger": "向消费者销售商品或提供服务",
+  "penalty": "第三十二条：本规定不自设罚则，依照有关法律、行政法规和部门规章处理",
+  "extraterritorial": false
+}

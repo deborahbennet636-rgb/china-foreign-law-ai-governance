@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-06",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第六条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PLATFORM"
+  ],
+  "quote": "核验文件元数据中是否含有隐式标识",
+  "duty": "核验隐式标识，按「确认、用户声明、疑似」三种情形在发布内容周边加提示标识",
+  "trigger": "提供网络信息内容传播服务",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

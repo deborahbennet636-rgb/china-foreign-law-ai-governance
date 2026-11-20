@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-05",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第五条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "在生成合成内容的文件元数据中添加隐式标识",
+  "duty": "在文件元数据中添加含内容属性、服务提供者名称或编码、内容编号的隐式标识",
+  "trigger": "提供生成合成服务",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-DS-16",
+  "instrument_id": "CN-CAC-DEEPSYN-2022",
+  "provision": "第十六条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "应当采取技术措施添加不影响用户使用的标识",
+  "duty": "对生成或编辑的内容添加不影响使用的技术标识，并保存日志",
+  "trigger": "用其服务生成或者编辑信息内容",
+  "penalty": "第二十二条：本规定不自设罚则，依照有关法律、行政法规处罚，造成严重后果的从重处罚",
+  "extraterritorial": false
+}

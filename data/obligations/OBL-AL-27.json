@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-27",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第二十七条",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "具有舆论属性或者社会动员能力的算法推荐服务提供者应当按照国家有关规定开展安全评估",
+  "duty": "按国家有关规定开展安全评估",
+  "trigger": "服务具有舆论属性或者社会动员能力",
+  "penalty": "第三十二条：本规定不自设罚则，依照有关法律、行政法规和部门规章处理",
+  "extraterritorial": false
+}

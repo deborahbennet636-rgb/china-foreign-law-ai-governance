@@ -156,7 +156,10 @@
           "CN-CASE-AI-DEFACED-PORTRAIT",
           "CN-CASE-AI-COMPANION"
         ],
-        "nature": "NORMATIVE"
+        "nature": "NORMATIVE",
+        "obligations": [
+          "OBL-DS-14"
+        ]
       },
       {
         "jurisdiction": "EU",
@@ -192,19 +195,33 @@
     "positions": [
       {
         "jurisdiction": "CN",
-        "summary": "标识办法要求服务提供者对生成合成内容添加显式标识和隐式标识（第四、五条），用户发布此类内容应主动声明并标识（第十条）；深度合成规定第十六、十七条和生成式 AI 办法第十二条是其上游依据。库内一件案例处理的是反向问题：平台用算法把用户内容判定为“AI 生成未标识”并处罚，法院认定平台未就算法判断作出合理说明，应承担违约责任。",
+        "summary": "标识办法要求服务提供者对生成合成内容添加显式标识和隐式标识（第四、五条），用户发布此类内容应主动声明并标识（第十条）；传播平台须核验元数据中的隐式标识，按确认、用户声明、疑似三种情形加提示（第六条）；任何组织和个人不得恶意删除、篡改标识（第十条第二款，深度合成规定第十八条同旨）；深度合成规定第十六、十七条和生成式 AI 办法第十二条是其上游依据。库内一件案例处理的是反向问题：平台用算法把用户内容判定为“AI 生成未标识”并处罚，法院认定平台未就算法判断作出合理说明，应承担违约责任。",
         "provisions": [
           "CN-CAC-LABEL-2025#第四条",
           "CN-CAC-LABEL-2025#第五条",
           "CN-CAC-LABEL-2025#第十条",
           "CN-CAC-DEEPSYN-2022#第十六条",
           "CN-CAC-DEEPSYN-2022#第十七条",
-          "CN-CAC-GENAI-2023#第十二条"
+          "CN-CAC-GENAI-2023#第十二条",
+          "CN-CAC-LABEL-2025#第六条",
+          "CN-CAC-DEEPSYN-2022#第十八条",
+          "CN-CAC-ALGO-2022#第九条"
         ],
         "cases": [
           "CN-CASE-AI-DETECTION-PLATFORM"
         ],
-        "nature": "NORMATIVE"
+        "nature": "NORMATIVE",
+        "obligations": [
+          "OBL-LB-04",
+          "OBL-LB-05",
+          "OBL-LB-06",
+          "OBL-LB-10a",
+          "OBL-LB-10b",
+          "OBL-DS-16",
+          "OBL-DS-17",
+          "OBL-DS-18",
+          "OBL-AL-09"
+        ]
       },
       {
         "jurisdiction": "EU",

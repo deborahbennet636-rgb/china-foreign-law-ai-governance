@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-07",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第七条",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PLATFORM"
+  ],
+  "quote": "应当核验其生成合成内容标识相关材料",
+  "duty": "上架审核时要求说明是否提供生成合成服务，并核验标识材料",
+  "trigger": "应用程序分发平台审核上架或上线",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

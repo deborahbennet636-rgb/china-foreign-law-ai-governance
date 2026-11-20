@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-09",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第九条",
+  "kind": "RECORD_KEEPING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "依法留存提供对象信息等相关日志不少于六个月",
+  "duty": "留存提供对象信息等日志不少于六个月",
+  "trigger": "应用户申请提供不含显式标识的内容",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

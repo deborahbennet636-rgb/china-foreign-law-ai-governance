@@ -1,0 +1,16 @@
+{
+  "id": "OBL-DS-18",
+  "instrument_id": "CN-CAC-DEEPSYN-2022",
+  "provision": "第十八条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "不得采用技术手段删除、篡改、隐匿本规定第十六条和第十七条规定的深度合成标识",
+  "duty": "不得删除、篡改、隐匿深度合成标识",
+  "trigger": "任何时候",
+  "penalty": "第二十二条：本规定不自设罚则，依照有关法律、行政法规处罚，造成严重后果的从重处罚",
+  "extraterritorial": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-10a",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第十条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "USER"
+  ],
+  "quote": "应当主动声明并使用服务提供者提供的标识功能进行标识",
+  "duty": "主动声明并使用平台的标识功能",
+  "trigger": "用户发布生成合成内容",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-28",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第二十八条",
+  "kind": "RECORD_KEEPING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "应当依法留存网络日志",
+  "duty": "依法留存网络日志并配合安全评估与监督检查",
+  "trigger": "提供算法推荐服务",
+  "penalty": "第三十二条：本规定不自设罚则，依照有关法律、行政法规和部门规章处理",
+  "extraterritorial": false
+}

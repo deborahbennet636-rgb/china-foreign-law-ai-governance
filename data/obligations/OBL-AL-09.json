@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-09",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第九条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "发现未作显著标识的算法生成合成信息的，应当作出显著标识后，方可继续传输",
+  "duty": "对未标识的算法生成合成信息先作显著标识再传输",
+  "trigger": "传输中发现未作显著标识的生成合成信息",
+  "penalty": "第三十一条：警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停信息更新，并处一万元以上十万元以下罚款",
+  "extraterritorial": false
+}

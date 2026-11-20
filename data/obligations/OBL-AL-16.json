@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-16",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第十六条",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "以显著方式告知用户其提供算法推荐服务的情况",
+  "duty": "显著告知用户在使用算法推荐，并公示基本原理、目的意图与主要运行机制",
+  "trigger": "提供算法推荐服务",
+  "penalty": "第三十一条：警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停信息更新，并处一万元以上十万元以下罚款",
+  "extraterritorial": false
+}

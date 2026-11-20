@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-08",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第八条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "不得设置诱导用户沉迷、过度消费等违反法律法规或者违背伦理道德的算法模型",
+  "duty": "不得设置诱导沉迷、过度消费的算法模型",
+  "trigger": "设计与运行算法模型",
+  "penalty": "第三十一条：警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停信息更新，并处一万元以上十万元以下罚款",
+  "extraterritorial": false
+}

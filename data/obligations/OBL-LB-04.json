@@ -1,0 +1,15 @@
+{
+  "id": "OBL-LB-04",
+  "instrument_id": "CN-CAC-LABEL-2025",
+  "provision": "第四条",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "应当按照下列要求对生成合成内容添加显式标识",
+  "duty": "按文本、音频、图片、视频、虚拟场景分别添加显式标识；下载、导出的文件也须含显式标识",
+  "trigger": "所提供服务属于深度合成规定第十七条第一款情形",
+  "penalty": "第十三条：本办法不自设罚则，由有关主管部门依照法律、行政法规、部门规章处理",
+  "extraterritorial": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-DS-09",
+  "instrument_id": "CN-CAC-DEEPSYN-2022",
+  "provision": "第九条",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "依法对深度合成服务使用者进行真实身份信息认证",
+  "duty": "对使用者进行真实身份认证；未认证者不得提供信息发布服务",
+  "trigger": "向使用者提供信息发布服务",
+  "penalty": "第二十二条：本规定不自设罚则，依照有关法律、行政法规处罚，造成严重后果的从重处罚",
+  "extraterritorial": false
+}

@@ -355,3 +355,15 @@ def test_a_label_without_its_full_stop_does_not_match_a_decimal_sub_number() -> 
     assert not states_token("Sec. 4.1 applies", "Sec. 4")
     assert states_token("17 U.S.C. § 201(a).", "§201")
     assert states_token("as Sec. 4. provides", "Sec. 4")
+
+
+def test_an_issue_position_lists_only_obligations_of_its_own_jurisdiction() -> None:
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "dist" / "aigov-db.json").read_text(encoding="utf-8"))
+    jurisdiction = {item["id"]: item["jurisdiction"] for item in data["instruments"]}
+    owner = {item["id"]: jurisdiction[item["instrument_id"]] for item in data["obligations"]}
+    for issue in data["issues"]:
+        for position in issue["positions"]:
+            for obligation_id in position.get("obligations", []):
+                assert owner[obligation_id] == position["jurisdiction"], (issue["id"], obligation_id)

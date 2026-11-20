@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-07",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第七条",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "制定并公开算法推荐服务相关规则",
+  "duty": "制定并公开算法推荐服务规则",
+  "trigger": "提供算法推荐服务",
+  "penalty": "第三十一条：警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停信息更新，并处一万元以上十万元以下罚款",
+  "extraterritorial": false
+}

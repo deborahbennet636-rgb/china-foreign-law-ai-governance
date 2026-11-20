@@ -1,0 +1,15 @@
+{
+  "id": "OBL-AL-17",
+  "instrument_id": "CN-CAC-ALGO-2022",
+  "provision": "第十七条",
+  "kind": "CONSENT",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "向用户提供不针对其个人特征的选项，或者向用户提供便捷的关闭算法推荐服务的选项",
+  "duty": "提供不针对个人特征的选项或便捷的关闭选项；用户关闭后立即停止",
+  "trigger": "提供个性化算法推荐",
+  "penalty": "第三十一条：警告、通报批评，责令限期改正；拒不改正或者情节严重的，责令暂停信息更新，并处一万元以上十万元以下罚款",
+  "extraterritorial": false
+}
