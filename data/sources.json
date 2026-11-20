@@ -363,6 +363,19 @@
     "via": "direct",
     "note": "制定机关网站发布的 2019 年修正文本"
   },
+  "SRC-CN-NPC-COPYRIGHT-2020": {
+    "id": "SRC-CN-NPC-COPYRIGHT-2020",
+    "url": "http://www.npc.gov.cn/c2/c30834/202011/t20201119_308796.html",
+    "publisher": "中国人大网",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-NPC-COPYRIGHT-2020.html",
+    "sha256": "4ec0f57790c81e716903bcc4605c9d1636fd07555a7f3b9bb6264dffec7c8b81",
+    "bytes": 49251,
+    "via": "direct",
+    "note": "全国人大常委会发布的《著作权法》2020 年修正文本全文"
+  },
   "SRC-CN-NPC-EXPORTCTRL-2020": {
     "id": "SRC-CN-NPC-EXPORTCTRL-2020",
     "url": "http://www.npc.gov.cn/npc/c2/c30834/202010/t20201017_308277.html",
@@ -375,6 +388,19 @@
     "bytes": 29603,
     "via": "direct",
     "note": "中华人民共和国出口管制法（2020-10-17通过）"
+  },
+  "SRC-CN-NPC-PIPL-2021": {
+    "id": "SRC-CN-NPC-PIPL-2021",
+    "url": "http://www.npc.gov.cn/npc/c2/c30834/202108/t20210820_313088.html",
+    "publisher": "中国人大网",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-NPC-PIPL-2021.html",
+    "sha256": "23eeb747cb57b852929e30906c51b5816095dc43977868543a4bce5b3540b429",
+    "bytes": 42748,
+    "via": "direct",
+    "note": "全国人大常委会发布的《个人信息保护法》全文"
   },
   "SRC-CN-PKULAW-BIC-10085": {
     "id": "SRC-CN-PKULAW-BIC-10085",

@@ -2,9 +2,9 @@
   "format": "cn-article",
   "parts": [
     {
-      "source_id": "SRC-CN-CAC-PIPL-2021",
+      "source_id": "SRC-CN-NPC-PIPL-2021",
       "start_at": "第一章 总 则",
-      "end_before": "关闭",
+      "end_before": "编 辑： 夏红真",
       "select": [
         "第二条",
         "第四条",
@@ -31,11 +31,11 @@
     "level": "法律",
     "instrument_type": "GENERAL_LAW_CITED",
     "status": "IN_FORCE",
-    "status_note": "只收库内案例所涉的 6 条；快照为中国网信网转载的中国人大网稿，不是制定机关发布页；日期为表决通过日",
+    "status_note": "只收库内案例所涉的 6 条，取自中国人大网发布页（原取自中国网信网转载页，2026-11-20 换为制定机关页面）；日期为表决通过日，第七十四条定 2021-11-01 施行。第六十九条第二款的分号在人大网页面上是半角「;」，照原样收录",
     "published_at": "2021-08-20",
     "effective_at": "2021-11-01",
     "language": "zh",
-    "discovered_via": "北京互联网法院（2023）京0491民初3820号、（2024）京0491民初21163号判决书的裁判依据",
+    "discovered_via": "中国人大网发布页",
     "foreign_related": "FOREIGN_CLAUSE"
   }
 }

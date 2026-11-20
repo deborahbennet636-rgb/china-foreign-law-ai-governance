@@ -2,9 +2,9 @@
   "format": "cn-article",
   "parts": [
     {
-      "source_id": "SRC-CN-BJIPO-COPYRIGHT-2020",
-      "start_at": "第一章 总则",
-      "end_before": "分享：",
+      "source_id": "SRC-CN-NPC-COPYRIGHT-2020",
+      "start_at": "第一章 总 则",
+      "end_before": "编 辑： 冯 涛",
       "select": [
         "第三条",
         "第十条",
@@ -30,11 +30,11 @@
     "level": "法律",
     "instrument_type": "GENERAL_LAW_CITED",
     "status": "ADOPTED",
-    "status_note": "2020 年第三次修正的文本；日期为修正决定通过日。只收库内案例所涉的 6 条。快照为北京市知识产权局网站转载，不是制定机关发布页；该页所标实施日期（2021-06-01）出自网站的栏目字段，不是法律正文（正文第六十七条写的是原法 1991 年施行日），故施行日期留空、不标“现行”",
+    "status_note": "2020 年第三次修正后的文本，只收库内案例所涉的 6 条，取自中国人大网发布页（原取自北京市知识产权局转载页，2026-11-20 换为制定机关页面）；日期为修正决定通过日。正文第六十七条写的是原法 1991 年施行日，不是本次修正的施行日；修正决定本身未入库，故施行日期留空、不标“现行”",
     "published_at": "2020-11-11",
     "effective_at": null,
     "language": "zh",
-    "discovered_via": "北京互联网法院（2023）京0491民初11279号、上海市嘉定区人民法院（2024）沪0114民初1326号、上海市徐汇区人民法院（2025）沪0104民初2432号判决书的裁判依据",
+    "discovered_via": "中国人大网发布页",
     "foreign_related": "DOMESTIC"
   }
 }
