@@ -1,0 +1,21 @@
+{
+  "id": "CM-CN-UEL-2025-01",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "不可靠实体清单工作机制（商务部代章）",
+  "title": "不可靠实体清单工作机制关于对环太平洋防务公司等4家美国企业采取不可靠实体清单措施的公告",
+  "target": "环太平洋防务公司（Pacific Rim Defense）等 4 家美国企业",
+  "measure_type": "ENTITY_LIST",
+  "status": "IN_FORCE",
+  "announced_at": "2025-01-15",
+  "effective_at": "2025-01-15",
+  "effective_on_publication": true,
+  "source_id": "SRC-CN-MOFCOM-UEL-3-2025",
+  "source_ids": [
+    "SRC-CN-MOFCOM-UEL-3-2025"
+  ],
+  "meta_evidence": {
+    "announced_at": "2025-01-15 20:30",
+    "effective_at": "本公告自公布之日起实施"
+  }
+}

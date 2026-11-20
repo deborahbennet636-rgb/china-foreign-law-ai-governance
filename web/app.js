@@ -10,6 +10,7 @@
   var NAV = [
     ["issues", "争点", function () { return DB.issues.length; }],
     ["obligations", "义务", function () { return DB.obligations.length; }],
+    ["countermeasures", "措施", function () { return DB.countermeasures.length; }],
     ["instruments", "法规", function () { return DB.instruments.length; }],
     ["cases", "案例", function () { return DB.cases.length; }],
     ["leads", "线索", function () { return DB.leads.length; }],
@@ -27,6 +28,7 @@
   var ISSUE = byId(DB.issues);
   var SOURCE = byId(DB.sources);
   var OBLIGATION = byId(DB.obligations);
+  var MEASURE_BY_ID = byId(DB.countermeasures);
 
   function seal(level) { return h("span", { class: "seal " + level, title: VERIFICATION_HELP[level] || "" }, VERIFICATION[level] || level); }
   function tag(text, cls) { return h("span", { class: "tag" + (cls ? " " + cls : "") }, text); }
@@ -193,6 +195,65 @@
         h("p", null, provision.text)));
     }
     out.push(h("p", { class: "meta" }, "义务的“概括”是编者撰写的，不是原文；“原句”和条文才是。"));
+    return out;
+  }
+
+  /* The two directions are never shown as one list: reading inbound measures
+     and outbound countermeasures as a single column is how a comparison turns
+     into a claim. */
+  function measureTable(items) {
+    var body = h("tbody");
+    items.forEach(function (item) {
+      append(body, h("tr", null,
+        h("td", null, link("measure/" + item.id, item.title),
+          h("div", { class: "meta" }, item.issuer)),
+        h("td", null, tag(MEASURE[item.measure_type] || item.measure_type)),
+        h("td", null, item.target),
+        h("td", null, item.effective_at || "未载",
+          item.effective_on_publication ? h("div", { class: "meta" }, "自公布之日起") : null),
+        h("td", null, tag(STATUS[item.status] || item.status, item.status === "IN_FORCE" ? "ok" : "warn"))));
+    });
+    return h("table", null, h("thead", null, h("tr", null,
+      h("th", null, "措施"), h("th", null, "类型"), h("th", null, "对象"),
+      h("th", null, "生效"), h("th", null, "状态"))), body);
+  }
+
+  function viewCountermeasures() {
+    var out = page("MEASURES", "对外措施",
+      "境外对华的措施和中国反制的措施分表列出。合成一张表看起来像对等，但它们依据的法律、程序和对象都不同。");
+    out.push(h("p", { class: "note" },
+      "每条措施的标题和生效日期都取自发布机关自己的页面，逐字核对；对“自公布之日起实施”的公告，生效日取公布日，并单独标出。"));
+    var inbound = DB.countermeasures.filter(function (m) { return m.direction === "INBOUND_TO_CN"; });
+    var outbound = DB.countermeasures.filter(function (m) { return m.direction === "OUTBOUND_FROM_CN"; });
+    out.push(h("h2", null, "境外对华措施（" + inbound.length + "）"));
+    out.push(inbound.length ? measureTable(inbound) : h("p", { class: "empty" }, "库内尚无记录。"));
+    out.push(h("h2", null, "中国对外措施（" + outbound.length + "）"));
+    out.push(outbound.length ? measureTable(outbound) : h("p", { class: "empty" }, "库内尚无记录。"));
+    return out;
+  }
+
+  function viewMeasure(id) {
+    var item = MEASURE_BY_ID[id];
+    if (!item) { return notFound(); }
+    var out = page("MEASURE · " + item.jurisdiction, item.title);
+    out.push(h("div", { class: "tags" },
+      tag(DIRECTION[item.direction] || item.direction, item.direction === "INBOUND_TO_CN" ? "warn" : "ok"),
+      tag(MEASURE[item.measure_type] || item.measure_type),
+      tag(STATUS[item.status] || item.status, item.status === "IN_FORCE" ? "ok" : "warn")));
+    out.push(facts([
+      ["发布机关", item.issuer],
+      ["对象", item.target],
+      ["公布日期", item.announced_at || null],
+      ["生效日期", item.effective_at || "未载"],
+      ["生效规则", item.effective_on_publication ? "自公布之日起实施（原文如此，故生效日取公布日）" : null],
+      ["依据法规", item.instrument_id ? link("instrument/" + item.instrument_id, (INSTRUMENT[item.instrument_id] || {}).short_title || item.instrument_id) : null],
+      ["来源", item.source_ids.map(function (sourceId) { return h("div", null, sourceLine(sourceId)); })]
+    ]));
+    Object.keys(item.meta_evidence || {}).forEach(function (field) {
+      out.push(h("div", { class: "ev" }, h("b", null, META[field] || field), "“" + item.meta_evidence[field] + "”"));
+    });
+    if (item.note) { out.push(h("p", { class: "note" }, "编者注：" + item.note)); }
+    out.push(h("p", { class: "meta" }, "标题与日期由脚本对照快照核对；措施类型、方向和对象是编者的分类。"));
     return out;
   }
 
@@ -368,7 +429,8 @@
     var out = page("SCOPE", "口径", "这个库收什么、没收什么、每个数字怎么来的。");
     out.push(h("p", { class: "note" }, "覆盖范围：试点只做“生成式 AI × 中国、欧盟、美国”。它不是全球库，也不是三地的全量库。数据截至 " + DB.built_at + "。"));
     out.push(h("div", { class: "figures" }, figure(s.instruments, "部法规"), figure(s.provisions, "条条文"), figure(s.obligations, "条义务"),
-      figure(s.cases, "件案例"), figure(s.issues, "个争点"), figure(s.leads_open, "条待核线索"), figure(s.sources, "份快照")));
+      figure(s.countermeasures, "条对外措施"), figure(s.cases, "件案例"), figure(s.issues, "个争点"),
+      figure(s.leads_open, "条待核线索"), figure(s.sources, "份快照")));
     out.push(h("p", { class: "meta" }, "以上数字由构建脚本从数据文件清点得出。"));
 
     out.push(h("h2", null, "核验等级"));
@@ -391,6 +453,12 @@
       return (FOREIGN[key] || key) + " " + s.instruments_by_foreign_related[key] + " 部";
     }).join("，" ) + "。"));
     out.push(h("p", null, "争点层多了两项：每栏声明所依据材料的性质（规范性文件、个案裁判、库内无材料等），整个争点声明各栏是否可比，不可比时要写明理由。"));
+
+    out.push(h("h2", null, "对外措施层"));
+    out.push(h("p", null, "库内 " + s.countermeasures + " 条措施，按方向分列：" + Object.keys(s.countermeasures_by_direction).map(function (key) {
+      return (DIRECTION[key] || key) + " " + s.countermeasures_by_direction[key] + " 条";
+    }).join("，") + "。境外对华措施与中国对外措施分表列出，不合并统计。"));
+    out.push(h("p", null, "措施的标题必须逐字出现在发布机关的页面上，生效日期必须由一句原文写明。公告只写“自公布之日起实施”的，生效日取公布日，并在页面上单独标出，不当作原文写明了日期。"));
 
     out.push(h("h2", null, "已知缺口"));
     out.push(h("ul", null,
@@ -463,6 +531,7 @@
     var views = {
       issues: viewIssues, issue: function () { return viewIssue(arg); },
       obligations: viewObligations, obligation: function () { return viewObligation(arg); },
+      countermeasures: viewCountermeasures, measure: function () { return viewMeasure(arg); },
       instruments: viewInstruments, instrument: function () { return viewInstrument(arg, safeDecode(parts.slice(2).join("/"))); },
       cases: viewCases, "case": function () { return viewCase(arg); },
       leads: viewLeads, sources: viewSources, about: viewAbout,
@@ -471,7 +540,7 @@
     var render = Object.prototype.hasOwnProperty.call(views, name) ? views[name] : notFound;
     view.textContent = "";
     append(view, render());
-    var section = { issue: "issues", obligation: "obligations", instrument: "instruments", "case": "cases" }[name] || name;
+    var section = { issue: "issues", obligation: "obligations", measure: "countermeasures", instrument: "instruments", "case": "cases" }[name] || name;
     Array.prototype.forEach.call(document.querySelectorAll("#nav a"), function (item) {
       if (item.getAttribute("data-section") === section) { item.setAttribute("aria-current", "page"); } else { item.removeAttribute("aria-current"); }
     });

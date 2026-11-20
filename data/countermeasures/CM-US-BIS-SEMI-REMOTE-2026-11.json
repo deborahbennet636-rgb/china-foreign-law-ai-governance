@@ -1,0 +1,19 @@
+{
+  "id": "CM-US-BIS-SEMI-REMOTE-2026-11",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "Bureau of Industry and Security, Department of Commerce",
+  "title": "Addressing Remote Access to Advanced Semiconductors",
+  "target": "涉及先进半导体的中国及其他境外主体",
+  "measure_type": "EXPORT_CONTROL",
+  "status": "IN_FORCE",
+  "effective_at": "2026-11-19",
+  "source_id": "SRC-US-FR-SEMI-REMOTE-2026",
+  "source_ids": [
+    "SRC-US-FR-SEMI-REMOTE-2026"
+  ],
+  "meta_evidence": {
+    "effective_at": "Effective date: This rule is effective November 19, 2026."
+  },
+  "note": "联邦公报文件号 2026-23529，公布即生效。"
+}

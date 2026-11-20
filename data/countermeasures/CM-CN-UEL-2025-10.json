@@ -1,0 +1,21 @@
+{
+  "id": "CM-CN-UEL-2025-10",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "不可靠实体清单工作机制（商务部代章）",
+  "title": "不可靠实体清单工作机制关于将反无人机技术公司等外国实体列入不可靠实体清单的公告",
+  "target": "反无人机技术公司（Dedrone by Axon）等 14 家外国实体",
+  "measure_type": "ENTITY_LIST",
+  "status": "IN_FORCE",
+  "announced_at": "2025-10-09",
+  "effective_at": "2025-10-09",
+  "effective_on_publication": true,
+  "source_id": "SRC-CN-MOFCOM-UEL-10-2025",
+  "source_ids": [
+    "SRC-CN-MOFCOM-UEL-10-2025"
+  ],
+  "meta_evidence": {
+    "announced_at": "2025-10-09 16:00",
+    "effective_at": "本公告自公布之日起实施"
+  }
+}

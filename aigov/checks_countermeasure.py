@@ -20,6 +20,9 @@ Record = Dict[str, Any]
 
 DATE_FIELDS = ("announced_at", "effective_at")
 MIN_TITLE_CHARS = 6
+# A notice that takes effect the day it is published states no date of its
+# own. The clause is quoted and the date is taken from the announcement.
+ON_PUBLICATION_CLAUSES = ("自公布之日起实施", "自公布之日起施行", "effective upon publication")
 
 
 def _parse_date(value: Any) -> Optional[datetime.date]:
@@ -69,8 +72,18 @@ def check_countermeasure(record: Record, instrument_by_id: Mapping[str, Record],
             continue
         if _parse_date(value) is None:
             errors.append(f"{owner}: {field}={value!r} is not a date")
+        elif field == "effective_at" and record.get("effective_on_publication"):
+            # Checked below instead: the text gives no date, only the rule.
+            continue
         elif not quote_states_date(evidence.get(field, ""), value):
             errors.append(f"{owner}: {field}={value} is not stated in meta_evidence[{field!r}]")
+
+    if record.get("effective_on_publication"):
+        clause = normalize(evidence.get("effective_at", ""))
+        if not any(stated_clause in clause for stated_clause in ON_PUBLICATION_CLAUSES):
+            errors.append(f"{owner}: effective_on_publication is set but meta_evidence['effective_at'] does not say so")
+        if record.get("effective_at") != record.get("announced_at"):
+            errors.append(f"{owner}: effective_on_publication means effective_at must equal announced_at")
 
     for field, quote in evidence.items():
         if not quote or not any(index.found(item, quote) for item in record["source_ids"]):

@@ -207,6 +207,32 @@
     "via": "direct",
     "note": "第三方转载，非法院或裁判文书网页面"
   },
+  "SRC-CN-MOFCOM-UEL-10-2025": {
+    "id": "SRC-CN-MOFCOM-UEL-10-2025",
+    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html",
+    "publisher": "商务部安全与管制局",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-UEL-10-2025.html",
+    "sha256": "5ce9278f21c2c857e683ff0ecc02ab76966fd3993126349f05354ce023fc60c8",
+    "bytes": 17616,
+    "via": "direct",
+    "note": "不可靠实体清单工作机制公告2025年第10号"
+  },
+  "SRC-CN-MOFCOM-UEL-3-2025": {
+    "id": "SRC-CN-MOFCOM-UEL-3-2025",
+    "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_a4e1d7ae955d409780b01fa4a08a1331.html",
+    "publisher": "商务部安全与管制局",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-UEL-3-2025.html",
+    "sha256": "02665249cce6fb5d3e8f308a8610bf1a12b59033e0f97736e0aa5e628d387e18",
+    "bytes": 16100,
+    "via": "direct",
+    "note": "不可靠实体清单工作机制公告2025年第3号"
+  },
   "SRC-CN-NPC-AUCL-2019": {
     "id": "SRC-CN-NPC-AUCL-2019",
     "url": "http://www.npc.gov.cn/npc/c2/c30834/201906/t20190608_296509.html",
@@ -464,6 +490,32 @@
     "sha256": "a0abdc5b1687931a348a65f8b33359b165e3ece12d96c0f728732e21fb385f06",
     "bytes": 7060,
     "via": "proxy"
+  },
+  "SRC-US-FR-ENTITYLIST-2026": {
+    "id": "SRC-US-FR-ENTITYLIST-2026",
+    "url": "https://www.federalregister.gov/documents/2026/08/24/2026-17231/revisions-to-the-entity-list",
+    "publisher": "Federal Register / Bureau of Industry and Security",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-FR-ENTITYLIST-2026.html",
+    "sha256": "572efc0549dceb76c01f727a1624dc5c91839e996421a143bdafd63654cd0e80",
+    "bytes": 77789,
+    "via": "proxy",
+    "note": "BIS Revisions to the Entity List, 91 FR (2026-08-24)"
+  },
+  "SRC-US-FR-SEMI-REMOTE-2026": {
+    "id": "SRC-US-FR-SEMI-REMOTE-2026",
+    "url": "https://www.federalregister.gov/documents/2026/11/19/2026-23529/addressing-remote-access-to-advanced-semiconductors",
+    "publisher": "Federal Register / Bureau of Industry and Security",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-FR-SEMI-REMOTE-2026.html",
+    "sha256": "8804069b9c01db282d22db25cfa588140ac0aac58a3c76a8b21b593b0c6a3ef8",
+    "bytes": 516505,
+    "via": "proxy",
+    "note": "BIS Addressing Remote Access to Advanced Semiconductors (2026-11-19)"
   },
   "SRC-US-NDCAL-BARTZ-FAIRUSE": {
     "id": "SRC-US-NDCAL-BARTZ-FAIRUSE",

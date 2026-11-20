@@ -139,6 +139,10 @@ def date_renderings(iso_date: str) -> List[str]:
         f"{month} {day.day}, {day.year}",
         f"{day.day} {month} {day.year}",
         f"{day.day}.{day.month}.{day.year}",
+        # Publishing systems stamp pages in ISO form, with a leading zero and
+        # often a time beside it ("2025-10-09 16:00"). It is still the date the
+        # source states, so it counts.
+        f"{day.year}-{day.month:02d}-{day.day:02d}",
     ]
 
 

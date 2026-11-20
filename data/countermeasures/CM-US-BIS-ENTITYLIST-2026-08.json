@@ -1,0 +1,19 @@
+{
+  "id": "CM-US-BIS-ENTITYLIST-2026-08",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "Bureau of Industry and Security, Department of Commerce",
+  "title": "Revisions to the Entity List",
+  "target": "被列入实体清单的中国实体",
+  "measure_type": "ENTITY_LIST",
+  "status": "IN_FORCE",
+  "effective_at": "2026-08-21",
+  "source_id": "SRC-US-FR-ENTITYLIST-2026",
+  "source_ids": [
+    "SRC-US-FR-ENTITYLIST-2026"
+  ],
+  "meta_evidence": {
+    "effective_at": "This rule is effective August 21, 2026."
+  },
+  "note": "联邦公报文件号 2026-17231，2026-08-24 公布，2026-08-21 起生效（公布日早于生效日，原文如此）。快照中公布日只出现在一处未填完的模板占位里，故入库只记生效日。"
+}

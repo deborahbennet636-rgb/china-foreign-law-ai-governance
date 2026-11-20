@@ -234,6 +234,61 @@ def test_ids_are_unique_across_every_layer() -> None:
     assert rejected(database, "id is used more than once")
 
 
+# ---- measures that take effect the day they are published ----
+
+NOTICE_TEXT = """某某工作机制公告
+2025-10-09 16:00
+本公告自公布之日起实施
+"""
+
+
+def make_notice(**changes: Any) -> Database:
+    """A notice that names no date of its own, only the rule."""
+    database = make_database()
+    database.manifest["SRC-NOTICE"] = {
+        "id": "SRC-NOTICE", "official": True, "kind": "OFFICIAL_TEXT", "text": NOTICE_TEXT,
+    }
+    record = {
+        "id": "CM-CN-1", "direction": "OUTBOUND_FROM_CN", "jurisdiction": "CN",
+        "issuer": "某某工作机制", "title": "某某工作机制公告",
+        "target": "某某公司", "measure_type": "ENTITY_LIST", "status": "IN_FORCE",
+        "announced_at": "2025-10-09", "effective_at": "2025-10-09",
+        "effective_on_publication": True,
+        "source_id": "SRC-NOTICE", "source_ids": ["SRC-NOTICE"],
+        "meta_evidence": {"announced_at": "2025-10-09 16:00", "effective_at": "本公告自公布之日起实施"},
+    }
+    record.update(changes)
+    database.countermeasures.append(record)
+    return database
+
+
+def test_a_notice_that_takes_effect_on_publication_is_valid() -> None:
+    assert problems(make_notice()) == []
+
+
+def test_the_clause_must_actually_say_it_takes_effect_on_publication() -> None:
+    """A record cannot claim the rule without quoting a clause that states it."""
+    assert rejected(
+        make_notice(meta_evidence={"announced_at": "2025-10-09 16:00", "effective_at": "某某工作机制公告"}),
+        "does not say so",
+    )
+
+
+def test_effective_on_publication_pins_the_date_to_the_announcement() -> None:
+    assert rejected(make_notice(effective_at="2025-10-10"), "must equal announced_at")
+
+
+def test_an_iso_date_in_the_source_counts_as_stating_the_date() -> None:
+    """Publishing systems stamp pages as 2025-10-09 16:00; that is the date."""
+    database = make_notice(
+        effective_on_publication=False,
+        announced_at="2025-10-09",
+        effective_at="2025-10-09",
+        meta_evidence={"announced_at": "2025-10-09 16:00", "effective_at": "2025-10-09 16:00"},
+    )
+    assert problems(database) == []
+
+
 # ---- shipped data ----
 
 def shipped(kind: str, record_id: str, change: Callable[[Dict[str, Any]], Any]) -> List[str]:
