@@ -31,8 +31,8 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 56,
-  "sources_official": 39,
+  "sources": 58,
+  "sources_official": 41,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
    "FOREIGN_SPECIFIC": 8,
@@ -60,10 +60,10 @@
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
-  "countermeasures": 12,
+  "countermeasures": 13,
   "countermeasures_by_direction": {
    "OUTBOUND_FROM_CN": 7,
-   "INBOUND_TO_CN": 5
+   "INBOUND_TO_CN": 6
   }
  },
  "reference": {
@@ -571,6 +571,17 @@
    "note": "第三方存档，非法院或裁判文书网页面；当事人姓名在存档中已被隐去"
   },
   {
+   "id": "SRC-EU-A2M-BEV-2024",
+   "url": "https://trade.ec.europa.eu/access-to-markets/en/news/eu-commission-imposes-countervailing-duties-imports-battery-electric-vehicles-bevs-china",
+   "publisher": "European Commission, Access2Markets",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "c057af838852ba797103eee13332d77b49493d3dbba07d5b513e97304487f03b",
+   "bytes": 74967,
+   "note": "Access2Markets notice on Implementing Regulation (EU) 2024/2754"
+  },
+  {
    "id": "SRC-EU-AIACT-OJ",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202401689",
    "publisher": "EUR-Lex (Official Journal of the EU)",
@@ -579,6 +590,17 @@
    "fetched_at": "2026-11-11",
    "sha256": "ec62b6a85d32b5057a55546c10be79d72ddf3e172452781f7a5d53ec59030426",
    "bytes": 1264463
+  },
+  {
+   "id": "SRC-EU-COM-BEV-DUTIES-2024",
+   "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_24_5589/IP_24_5589_EN.pdf",
+   "publisher": "European Commission",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "768c0bb7c2ecfe6ef3fa2692397adbea251cd5efc0b57fa0584edb2cdf518928",
+   "bytes": 41793,
+   "note": "Commission press release IP/24/5589: definitive countervailing duties on BEVs from China, 29 Oct 2024"
   },
   {
    "id": "SRC-EU-OMNIBUS-AI-OJ",
@@ -8294,6 +8316,30 @@
     "effective_at": "本公告自公布之日起实施"
    },
    "instrument_id": "CN-MOFCOM-UEL-2020",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-EU-BEV-DUTIES-2024-10",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "EU",
+   "issuer": "European Commission",
+   "title": "EU imposes duties on unfairly subsidised electric vehicles from China while discussions on price undertakings continue",
+   "target": "原产于中国的纯电动乘用车（BEV）；反补贴税率 7.8%–35.3%，为期五年",
+   "measure_type": "TARIFF",
+   "status": "IN_FORCE",
+   "announced_at": "2024-10-29",
+   "effective_at": "2024-10-30",
+   "source_id": "SRC-EU-COM-BEV-DUTIES-2024",
+   "source_ids": [
+    "SRC-EU-COM-BEV-DUTIES-2024",
+    "SRC-EU-A2M-BEV-2024"
+   ],
+   "meta_evidence": {
+    "announced_at": "Brussels, 29 October 2024",
+    "effective_at": "applicable as of 30 October 2024"
+   },
+   "note": "法律依据是 Implementing Regulation (EU) 2024/2754。EUR-Lex 对本次取数全线返回 202，条例原文未取到，所引是委员会新闻稿与其 Access2Markets 通知；生效日期由后者写明，前者只写「公布次日生效」这条规则。",
    "verification": "VERIFIED",
    "evidence_grade": "A"
   },

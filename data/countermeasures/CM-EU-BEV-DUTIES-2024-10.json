@@ -1,0 +1,22 @@
+{
+  "id": "CM-EU-BEV-DUTIES-2024-10",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "EU",
+  "issuer": "European Commission",
+  "title": "EU imposes duties on unfairly subsidised electric vehicles from China while discussions on price undertakings continue",
+  "target": "原产于中国的纯电动乘用车（BEV）；反补贴税率 7.8%–35.3%，为期五年",
+  "measure_type": "TARIFF",
+  "status": "IN_FORCE",
+  "announced_at": "2024-10-29",
+  "effective_at": "2024-10-30",
+  "source_id": "SRC-EU-COM-BEV-DUTIES-2024",
+  "source_ids": [
+    "SRC-EU-COM-BEV-DUTIES-2024",
+    "SRC-EU-A2M-BEV-2024"
+  ],
+  "meta_evidence": {
+    "announced_at": "Brussels, 29 October 2024",
+    "effective_at": "applicable as of 30 October 2024"
+  },
+  "note": "法律依据是 Implementing Regulation (EU) 2024/2754。EUR-Lex 对本次取数全线返回 202，条例原文未取到，所引是委员会新闻稿与其 Access2Markets 通知；生效日期由后者写明，前者只写「公布次日生效」这条规则。"
+}
