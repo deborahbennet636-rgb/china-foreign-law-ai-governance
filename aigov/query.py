@@ -204,7 +204,7 @@ def get_provision(index: Index, instrument_id: str, article: Any) -> Record:
     if label is None:
         partial = "" if item.get("complete") else (
             f"本库只收了该法规的部分条文（{len(labels)} 条），找不到不说明原文没有这一条。")
-        raise NotFound(f"{instrument_id} 中找不到 {article!r}（只接受 第七条、（七）、Article 7、Sec. 7 "
+        raise NotFound(f"{instrument_id} 中找不到 {article!r}（只接受 第七条、（七）、Article 7、Sec. 7、§ 7 "
                        f"或纯数字 7 这几种写法）。可选：{near}。{partial}")
     provision = next(p for p in item["provisions"] if p["no"] == label)
     ref = f"{instrument_id}#{label}"

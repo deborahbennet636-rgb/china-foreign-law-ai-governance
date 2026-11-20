@@ -1,0 +1,57 @@
+{
+  "format": "us-code",
+  "parts": [
+    {
+      "source_id": "SRC-US-USC17-SEC102",
+      "start_at": "§102. Subject matter of copyright: In general",
+      "end_before": "(Pub. L. 94–553, title I, §101, Oct. 19, 1976, 90 Stat. 2544; Pub. L. 101–650, title VII, §703, Dec. 1, 1990, 104 Stat. 5133.)",
+      "select": [
+        "§102."
+      ]
+    },
+    {
+      "source_id": "SRC-US-USC17-SEC106",
+      "start_at": "§106. Exclusive rights in copyrighted works",
+      "end_before": "(Pub. L. 94–553, title I, §101, Oct. 19, 1976, 90 Stat. 2546; Pub. L. 101–318, §3(d), July 3, 1990, 104 Stat. 288; Pub. L. 101–650, title VII, §704(b)(2), Dec. 1, 1990, 104 Stat. 5134; Pub. L. 104–39, §2, Nov. 1, 1995, 109 Stat. 336; Pub. L. 106–44, §1(g)(2), Aug. 5, 1999, 113 Stat. 222; Pub. L. 107–273, div. C, title III, §13210(4)(A), Nov. 2, 2002, 116 Stat. 1909.)",
+      "select": [
+        "§106."
+      ]
+    },
+    {
+      "source_id": "SRC-US-USC17-SEC107",
+      "start_at": "§107. Limitations on exclusive rights: Fair use",
+      "end_before": "(Pub. L. 94–553, title I, §101, Oct. 19, 1976, 90 Stat. 2546; Pub. L. 101–650, title VI, §607, Dec. 1, 1990, 104 Stat. 5132; Pub. L. 102–492, Oct. 24, 1992, 106 Stat. 3145.)",
+      "select": [
+        "§107."
+      ]
+    },
+    {
+      "source_id": "SRC-US-USC17-SEC201",
+      "start_at": "§201. Ownership of copyright",
+      "end_before": "(Pub. L. 94–553, title I, §101, Oct. 19, 1976, 90 Stat. 2568; Pub. L. 95–598, title III, §313, Nov. 6, 1978, 92 Stat. 2676.)",
+      "select": [
+        "§201."
+      ]
+    }
+  ],
+  "meta_evidence": {
+    "status": "United States Code, 2023 Edition"
+  },
+  "record": {
+    "id": "US-USC-17",
+    "jurisdiction": "US",
+    "title": "Title 17 - Copyrights",
+    "short_title": "17 U.S.C.",
+    "issuer": null,
+    "doc_number": "17 U.S.C.",
+    "level": "Federal statute (codified)",
+    "instrument_type": "GENERAL_LAW_CITED",
+    "foreign_related": "DOMESTIC",
+    "status": "UNKNOWN",
+    "status_note": "取自美国政府出版局 govinfo 的《美国法典》2023 年版，是该版本所载的现行编纂文本，不是 1976 年版权法的原始文本。只收库内三件美国案例援引的 §102、§106、§107、§201。所取页面未写 1976 年法的施行日期，故施行日期留空、状态记为未核实；2023 年版之后的修改未核查",
+    "published_at": null,
+    "effective_at": null,
+    "language": "en",
+    "discovered_via": "库内美国案例（Thaler、Ross、Bartz）的法院意见所援引的条文"
+  }
+}

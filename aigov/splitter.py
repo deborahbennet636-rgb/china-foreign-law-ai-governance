@@ -177,6 +177,19 @@ def split_us_publaw(lines: List[str]) -> List[Provision]:
     return _split(lines, style)
 
 
+@register_splitter("us-code")
+def split_us_code(lines: List[str]) -> List[Provision]:
+    """Sections of the United States Code as GPO prints them: ``§107. Heading``.
+
+    The section's catchline stands on the label's own line and becomes its
+    heading. The source credit line that follows the text, ``(Pub. L. ...)``,
+    is an editorial note of the Code and is cut off by the spec's
+    ``end_before``, not by this splitter.
+    """
+    style = _Style(heading=re.compile(r"^(§(\d+)\.)\s+(.+)$"), title_on_next_line=True)
+    return _split(lines, style)
+
+
 @register_splitter("us-eo")
 def split_us_eo(lines: List[str]) -> List[Provision]:
     """US executive orders in the Federal Register text: ``Section 1.``, ``Sec. N.``.

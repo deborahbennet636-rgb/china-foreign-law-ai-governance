@@ -1,0 +1,65 @@
+{
+  "id": "US-USC-17",
+  "jurisdiction": "US",
+  "title": "Title 17 - Copyrights",
+  "short_title": "17 U.S.C.",
+  "issuer": null,
+  "doc_number": "17 U.S.C.",
+  "level": "Federal statute (codified)",
+  "instrument_type": "GENERAL_LAW_CITED",
+  "foreign_related": "DOMESTIC",
+  "status": "UNKNOWN",
+  "status_note": "取自美国政府出版局 govinfo 的《美国法典》2023 年版，是该版本所载的现行编纂文本，不是 1976 年版权法的原始文本。只收库内三件美国案例援引的 §102、§106、§107、§201。所取页面未写 1976 年法的施行日期，故施行日期留空、状态记为未核实；2023 年版之后的修改未核查",
+  "published_at": null,
+  "effective_at": null,
+  "language": "en",
+  "discovered_via": "库内美国案例（Thaler、Ross、Bartz）的法院意见所援引的条文",
+  "source_id": "SRC-US-USC17-SEC102",
+  "source_ids": [
+    "SRC-US-USC17-SEC102",
+    "SRC-US-USC17-SEC106",
+    "SRC-US-USC17-SEC107",
+    "SRC-US-USC17-SEC201"
+  ],
+  "complete": false,
+  "expected_provisions": null,
+  "meta_evidence": {
+    "status": "United States Code, 2023 Edition"
+  },
+  "derived_dates": {},
+  "generated_by": "ingest/instruments/US-USC-17.json",
+  "provisions": [
+    {
+      "no": "§102.",
+      "ordinal": 102,
+      "division": "",
+      "heading": "Subject matter of copyright: In general",
+      "text": "(a) Copyright protection subsists, in accordance with this title, in original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. Works of authorship include the following categories:\n(1) literary works;\n(2) musical works, including any accompanying words;\n(3) dramatic works, including any accompanying music;\n(4) pantomimes and choreographic works;\n(5) pictorial, graphic, and sculptural works;\n(6) motion pictures and other audiovisual works;\n(7) sound recordings; and\n(8) architectural works.\n(b) In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work.",
+      "source_id": "SRC-US-USC17-SEC102"
+    },
+    {
+      "no": "§106.",
+      "ordinal": 106,
+      "division": "",
+      "heading": "Exclusive rights in copyrighted works",
+      "text": "Subject to sections 107 through 122, the owner of copyright under this title has the exclusive rights to do and to authorize any of the following:\n(1) to reproduce the copyrighted work in copies or phonorecords;\n(2) to prepare derivative works based upon the copyrighted work;\n(3) to distribute copies or phonorecords of the copyrighted work to the public by sale or other transfer of ownership, or by rental, lease, or lending;\n(4) in the case of literary, musical, dramatic, and choreographic works, pantomimes, and motion pictures and other audiovisual works, to perform the copyrighted work publicly;\n(5) in the case of literary, musical, dramatic, and choreographic works, pantomimes, and pictorial, graphic, or sculptural works, including the individual images of a motion picture or other audiovisual work, to display the copyrighted work publicly; and\n(6) in the case of sound recordings, to perform the copyrighted work publicly by means of a digital audio transmission.",
+      "source_id": "SRC-US-USC17-SEC106"
+    },
+    {
+      "no": "§107.",
+      "ordinal": 107,
+      "division": "",
+      "heading": "Limitations on exclusive rights: Fair use",
+      "text": "Notwithstanding the provisions of sections 106 and 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copyright. In determining whether the use made of a work in any particular case is a fair use the factors to be considered shall include—\n(1) the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;\n(2) the nature of the copyrighted work;\n(3) the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and\n(4) the effect of the use upon the potential market for or value of the copyrighted work.\nThe fact that a work is unpublished shall not itself bar a finding of fair use if such finding is made upon consideration of all the above factors.",
+      "source_id": "SRC-US-USC17-SEC107"
+    },
+    {
+      "no": "§201.",
+      "ordinal": 201,
+      "division": "",
+      "heading": "Ownership of copyright",
+      "text": "(a) Initial Ownership.—Copyright in a work protected under this title vests initially in the author or authors of the work. The authors of a joint work are coowners of copyright in the work.\n(b) Works Made for Hire.—In the case of a work made for hire, the employer or other person for whom the work was prepared is considered the author for purposes of this title, and, unless the parties have expressly agreed otherwise in a written instrument signed by them, owns all of the rights comprised in the copyright.\n(c) Contributions to Collective Works.—Copyright in each separate contribution to a collective work is distinct from copyright in the collective work as a whole, and vests initially in the author of the contribution. In the absence of an express transfer of the copyright or of any rights under it, the owner of copyright in the collective work is presumed to have acquired only the privilege of reproducing and distributing the contribution as part of that particular collective work, any revision of that collective work, and any later collective work in the same series.\n(d) Transfer of Ownership.—\n(1) The ownership of a copyright may be transferred in whole or in part by any means of conveyance or by operation of law, and may be bequeathed by will or pass as personal property by the applicable laws of intestate succession.\n(2) Any of the exclusive rights comprised in a copyright, including any subdivision of any of the rights specified by section 106, may be transferred as provided by clause (1) and owned separately. The owner of any particular exclusive right is entitled, to the extent of that right, to all of the protection and remedies accorded to the copyright owner by this title.\n(e) Involuntary Transfer.—When an individual author's ownership of a copyright, or of any of the exclusive rights under a copyright, has not previously been transferred voluntarily by that individual author, no action by any governmental body or other official or organization purporting to seize, expropriate, transfer, or exercise rights of ownership with respect to the copyright, or any of the exclusive rights under a copyright, shall be given effect under this title, except as provided under title 11.",
+      "source_id": "SRC-US-USC17-SEC201"
+    }
+  ]
+}

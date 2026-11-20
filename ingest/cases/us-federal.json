@@ -82,8 +82,23 @@
             }
           ]
         },
-        "legal_anchors": [],
-        "notes": "法院解释的是 1976 年版权法；该法尚未入库，故暂无条文锚点。法院明确没有处理人借助 AI 创作时本人能否作为作者的问题。",
+        "legal_anchors": [
+          {
+            "provision": "US-USC-17#§102.",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-US-CADC-THALER-2025",
+            "quote": "ownership in a work’s author as soon as a work is created. 17 U.S.C. §§ 102(a); 201(a)",
+            "note": "法院以 §102(a) 与 §201(a) 说明版权自作品创作时归属作者，是「作者须为人类」论证的起点。"
+          },
+          {
+            "provision": "US-USC-17#§201.",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-US-CADC-THALER-2025",
+            "quote": "A copyright “vests initially in the author or authors of the work.” 17 U.S.C. § 201(a).",
+            "note": "版权原始归属于作者；法院据此讨论机器能否作为「作者」。"
+          }
+        ],
+        "notes": "法院解释的是 1976 年版权法；条文锚点指向本库收录的《美国法典》第 17 编 §102、§201（2023 年版编纂文本，不是 1976 年原始文本）。法院明确没有处理人借助 AI 创作时本人能否作为作者的问题。",
         "discovered_via": "二手来源提及后，自 D.C. 巡回上诉法院网站取得判决书"
       },
       "scopes": {
@@ -183,8 +198,23 @@
             }
           ]
         },
-        "legal_anchors": [],
-        "notes": "法院适用的是版权法第 107 条（17 U.S.C. § 107）；该条尚未入库，故暂无条文锚点。",
+        "legal_anchors": [
+          {
+            "provision": "US-USC-17#§107.",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+            "quote": "The second fair use factor is “the nature of the copyrighted work.” 17 U.S.C. § 107(2).",
+            "note": "合理使用第二要素；判决逐项适用 §107 四要素。"
+          },
+          {
+            "provision": "US-USC-17#§106.",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+            "quote": "Plaintiffs’ infringement claims are predicated on Anthropic’s unauthorized reproduction (17 U.S.C. § 106(1))",
+            "note": "原告的侵权主张只依据复制权 §106(1)，不主张演绎权。"
+          }
+        ],
+        "notes": "法院适用的是版权法第 107 条（17 U.S.C. § 107）；条文锚点指向本库收录的《美国法典》第 17 编 §106、§107（2023 年版编纂文本）。",
         "discovered_via": "二手来源提及后，自 govinfo（美国政府出版局）取得法院命令"
       },
       "scopes": {
@@ -287,8 +317,16 @@
             }
           ]
         },
-        "legal_anchors": [],
-        "notes": "涉案系统不是生成式 AI，法院自己限定了适用范围；列入“训练数据与著作权”争点仅供对照。17 U.S.C. § 107 尚未入库，故暂无条文锚点。",
+        "legal_anchors": [
+          {
+            "provision": "US-USC-17#§107.",
+            "basis": "CITED_IN_SOURCE",
+            "source_id": "SRC-US-DDEL-ROSS-2025",
+            "quote": "I consider the purpose and character of Ross’s use. 17 U.S.C. § 107(1).",
+            "note": "合理使用第一要素；法院认定 Ross 的使用具有商业性且不具转换性。"
+          }
+        ],
+        "notes": "涉案系统不是生成式 AI，法院自己限定了适用范围；列入“训练数据与著作权”争点仅供对照。条文锚点指向本库收录的《美国法典》第 17 编相应各节（2023 年版编纂文本）。",
         "discovered_via": "二手来源提及后，自 govinfo（美国政府出版局）取得法院意见"
       },
       "scopes": {

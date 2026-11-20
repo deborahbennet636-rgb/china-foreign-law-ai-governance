@@ -57,8 +57,23 @@
       }
     ]
   },
-  "legal_anchors": [],
-  "notes": "法院解释的是 1976 年版权法；该法尚未入库，故暂无条文锚点。法院明确没有处理人借助 AI 创作时本人能否作为作者的问题。",
+  "legal_anchors": [
+    {
+      "provision": "US-USC-17#§102.",
+      "basis": "CITED_IN_SOURCE",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "quote": "ownership in a work’s author as soon as a work is created. 17 U.S.C. §§ 102(a); 201(a)",
+      "note": "法院以 §102(a) 与 §201(a) 说明版权自作品创作时归属作者，是「作者须为人类」论证的起点。"
+    },
+    {
+      "provision": "US-USC-17#§201.",
+      "basis": "CITED_IN_SOURCE",
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "quote": "A copyright “vests initially in the author or authors of the work.” 17 U.S.C. § 201(a).",
+      "note": "版权原始归属于作者；法院据此讨论机器能否作为「作者」。"
+    }
+  ],
+  "notes": "法院解释的是 1976 年版权法；条文锚点指向本库收录的《美国法典》第 17 编 §102、§201（2023 年版编纂文本，不是 1976 年原始文本）。法院明确没有处理人借助 AI 创作时本人能否作为作者的问题。",
   "discovered_via": "二手来源提及后，自 D.C. 巡回上诉法院网站取得判决书",
   "history": [],
   "also_reported_in": [],

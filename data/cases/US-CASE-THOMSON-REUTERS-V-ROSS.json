@@ -71,8 +71,16 @@
       }
     ]
   },
-  "legal_anchors": [],
-  "notes": "涉案系统不是生成式 AI，法院自己限定了适用范围；列入“训练数据与著作权”争点仅供对照。17 U.S.C. § 107 尚未入库，故暂无条文锚点。",
+  "legal_anchors": [
+    {
+      "provision": "US-USC-17#§107.",
+      "basis": "CITED_IN_SOURCE",
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "quote": "I consider the purpose and character of Ross’s use. 17 U.S.C. § 107(1).",
+      "note": "合理使用第一要素；法院认定 Ross 的使用具有商业性且不具转换性。"
+    }
+  ],
+  "notes": "涉案系统不是生成式 AI，法院自己限定了适用范围；列入“训练数据与著作权”争点仅供对照。条文锚点指向本库收录的《美国法典》第 17 编相应各节（2023 年版编纂文本）。",
   "discovered_via": "二手来源提及后，自 govinfo（美国政府出版局）取得法院意见",
   "history": [],
   "also_reported_in": [],

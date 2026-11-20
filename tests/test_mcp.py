@@ -42,6 +42,7 @@ def test_chinese_numerals_round_trip_over_every_article_number_in_use() -> None:
 @pytest.mark.parametrize(("label", "number"), [
     ("第十二条", 12), ("（十二）", 12), ("Article 50", 50), ("Sec. 2.", 2), ("SECTION 1.", 1),
     ("12", 12), ("第12条", 12), ("第七条之一", None), ("附则", None),
+    ("§107.", 107), ("§ 107", 107), ("§107(a)", None), ("§§107", None),
 ])
 def test_label_numbers(label: str, number: Any) -> None:
     assert label_number(label) == number
@@ -293,6 +294,7 @@ def test_batches_follow_the_negotiated_revision() -> None:
     ("CN-NPC-ANTISANCTION-2021", "第十二条第2项"), ("CN-NPC-ANTISANCTION-2021", "第3章"),
     ("CN-NPC-ANTISANCTION-2021", "第一二条"), ("CN-GOV-DUALUSE-2024", "第十十条"),
     ("CN-NPC-ANTISANCTION-2021", "（七）"), ("US-EO-14179", "Sec. 2A."),
+    ("US-USC-17", "§107(a)"), ("US-USC-17", "Article 107"), ("US-USC-17", "§1070"),
 ])
 def test_a_label_of_another_shape_or_kind_is_refused_not_mapped(index: query.Index, instrument_id: str,
                                                                  article: str) -> None:
@@ -304,6 +306,7 @@ def test_a_label_of_another_shape_or_kind_is_refused_not_mapped(index: query.Ind
     ("CN-NPC-ANTISANCTION-2021", "第7条", "第七条"), ("CN-NPC-ANTISANCTION-2021", "Article 7", "第七条"),
     ("CN-SPC-AI-OPINION-2026", "12", "（十二）"), ("CN-SPC-AI-OPINION-2026", "(12)", "（十二）"),
     ("US-EO-14179", "Section 2", "Sec. 2."), ("EU-AI-ACT-2024", "art. 50", "Article 50"),
+    ("US-USC-17", "107", "§107."), ("US-USC-17", "§ 107", "§107."), ("US-USC-17", "Section 107", "§107."),
 ])
 def test_accepted_label_shapes_resolve_to_the_one_matching_article(index: query.Index, instrument_id: str,
                                                                    article: str, expected: str) -> None:
@@ -371,3 +374,11 @@ def test_editor_fields_of_issues_and_measures_sit_under_editorial(index: query.I
 
 def test_an_unregistered_source_is_flagged(index: query.Index) -> None:
     assert "未登记" in index.cite(["SRC-NOT-REGISTERED"])["warning"]
+
+
+def test_us_cases_cite_the_code_sections_they_rely_on(index: query.Index) -> None:
+    fair_use = query.get_provision(index, "US-USC-17", "107")
+    assert fair_use["heading"] == "Limitations on exclusive rights: Fair use"
+    citing = {item["case_id"] for item in fair_use["cited_by_cases"]}
+    assert citing == {"US-CASE-BARTZ-V-ANTHROPIC", "US-CASE-THOMSON-REUTERS-V-ROSS"}
+    assert all(item["basis"] == "CITED_IN_SOURCE" for item in fair_use["cited_by_cases"])

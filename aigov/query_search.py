@@ -3,7 +3,7 @@
 Two jobs that share one rule: when unsure, refuse.
 
 * An article label is read only if it has one of a closed set of shapes
-  (第七条, （七）, Article 7, Sec. 7., or a bare 7). Anything else, such as
+  (第七条, （七）, Article 7, Sec. 7., §7., or a bare 7). Anything else, such as
   Article 4a, Recital 27 or 第十二条第1款, is refused rather than mapped to
   the article that happens to carry the same number: returning the wrong
   article as if it were verbatim is the worst mistake this layer can make.
@@ -31,10 +31,13 @@ _LABEL = re.compile(
     rf"|\((?P<point>[{_CN_NUM}]+|\d+)\)"
     r"|(?:article|art\.?)(?P<article>\d+)"
     r"|(?:section|sec\.?)(?P<section>\d+)\.?"
+    r"|§(?P<section_sign>\d+)\.?"
     r"|(?P<bare>\d+))$"
 )
-# 第七条 and Article 7 are the same kind of unit in different languages.
-_KIND = {"article_cn": "article", "article": "article", "point": "point", "section": "section"}
+# 第七条 and Article 7 are the same kind of unit in different languages, as
+# are Sec. 2 and §2.
+_KIND = {"article_cn": "article", "article": "article", "point": "point", "section": "section",
+         "section_sign": "section"}
 
 
 def to_cn_numeral(number: int) -> str:

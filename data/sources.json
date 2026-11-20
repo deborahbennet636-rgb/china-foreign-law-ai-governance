@@ -858,5 +858,57 @@
     "bytes": 79113,
     "via": "proxy",
     "note": "OFAC designations, Iran weapons procurement, China/HK-based persons"
+  },
+  "SRC-US-USC17-SEC102": {
+    "id": "SRC-US-USC17-SEC102",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17-chap1-sec102.htm",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-USC17-SEC102.html",
+    "sha256": "01fbd6167f8cc166cd12f1d58e7d6bda8c10b20bc26d9130ce808f30528a20bb",
+    "bytes": 28270,
+    "via": "proxy",
+    "note": "17 U.S.C. § 102，美国法典 2023 年版"
+  },
+  "SRC-US-USC17-SEC106": {
+    "id": "SRC-US-USC17-SEC106",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17-chap1-sec106.htm",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-USC17-SEC106.html",
+    "sha256": "c58a4747d5a516dd26c6c264add960eaa9121431a088fe0a6422e6069e606eb2",
+    "bytes": 25119,
+    "via": "proxy",
+    "note": "17 U.S.C. § 106，美国法典 2023 年版"
+  },
+  "SRC-US-USC17-SEC107": {
+    "id": "SRC-US-USC17-SEC107",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17-chap1-sec107.htm",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-USC17-SEC107.html",
+    "sha256": "34fbcb0f35836bd39f2aee05f1af910d43f30c163039469e4b80e96bdce02fcf",
+    "bytes": 35757,
+    "via": "proxy",
+    "note": "17 U.S.C. § 107，美国法典 2023 年版"
+  },
+  "SRC-US-USC17-SEC201": {
+    "id": "SRC-US-USC17-SEC201",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title17/html/USCODE-2023-title17-chap2-sec201.htm",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-USC17-SEC201.html",
+    "sha256": "e4e18b568a0a622c1d2cf98b19e7ee16dd8e7e48125ebe277b3b3eb76e1a6222",
+    "bytes": 19312,
+    "via": "proxy",
+    "note": "17 U.S.C. § 201，美国法典 2023 年版"
   }
 }

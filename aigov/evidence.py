@@ -14,9 +14,10 @@ MIN_QUOTE_CHARS = 8
 MIN_LATIN_QUOTE_CHARS = 16
 _FIRST_CJK = 0x2E80
 _NOT_ALNUM_BEFORE = r"(?<![0-9A-Za-z])"
-# After a token: no letter or digit, and no "之一"-style suffix, which would
-# make a Chinese provision label name a different provision.
-_NOT_CONTINUED = r"(?![0-9A-Za-z])(?!之[一二三四五六七八九十])"
+# After a token: no letter or digit, no decimal continuation (§ 201 is not
+# found in § 201.4, Sec. 4 not in Sec. 4.1), and no "之一"-style suffix,
+# which would make a Chinese provision label name a different provision.
+_NOT_CONTINUED = r"(?![0-9A-Za-z])(?!\.\d)(?!之[一二三四五六七八九十])"
 _CN_DIGITS = "〇一二三四五六七八九"
 
 _MONTHS = (

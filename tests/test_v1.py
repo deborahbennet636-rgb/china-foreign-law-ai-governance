@@ -328,3 +328,30 @@ def test_a_shipped_obligation_pointed_at_the_wrong_article_is_caught() -> None:
     if not others:
         pytest.skip("first shipped obligation sits on a single-article instrument")
     assert shipped("obligations", record["id"], lambda r: r.update(provision=others[0]))
+
+
+def test_us_code_splitter_keeps_the_catchline_apart_and_drops_nothing() -> None:
+    from aigov.splitter import get_splitter
+    lines = ["§107. Limitations on exclusive rights: Fair use", "Notwithstanding the provisions of sections 106,",
+             "(1) the purpose and character of the use;"]
+    [section] = get_splitter("us-code")(lines)
+    assert section["no"] == "§107." and section["ordinal"] == 107
+    assert section["heading"] == "Limitations on exclusive rights: Fair use"
+    assert section["text"] == "\n".join(lines[1:])
+
+
+def test_a_section_label_matches_a_citation_of_its_subsection_but_not_a_longer_number() -> None:
+    from aigov.evidence import states_token
+    token = "§107.".rstrip(".")
+    assert states_token("17 U.S.C. § 107(1).", token)
+    assert states_token("17 U.S.C. §§ 107(a); 201(a)", token)
+    assert not states_token("17 U.S.C. § 1070", token)
+
+
+def test_a_label_without_its_full_stop_does_not_match_a_decimal_sub_number() -> None:
+    # Review regression: stripping "." from "§201." let "§ 201.4" pass as §201.
+    from aigov.evidence import states_token
+    assert not states_token("37 C.F.R. § 201.4", "§201")
+    assert not states_token("Sec. 4.1 applies", "Sec. 4")
+    assert states_token("17 U.S.C. § 201(a).", "§201")
+    assert states_token("as Sec. 4. provides", "Sec. 4")

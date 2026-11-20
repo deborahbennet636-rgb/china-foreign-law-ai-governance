@@ -252,7 +252,10 @@ def _check_anchor(owner: str, record: Record, anchor: Record, index: SnapshotInd
     instrument = instruments[instrument_id]
     quote = anchor.get("quote", "")
     names = [instrument.get("short_title", ""), instrument.get("title", "")]
-    if not states_token(quote, label) or not any(contains_name(quote, name, 2) for name in names):
+    # "§107." and "Sec. 2." end in the heading's full stop, which a citation
+    # such as "§ 107(1)" does not repeat; the number itself must still match.
+    token = label.rstrip(".")
+    if not states_token(quote, token) or not any(contains_name(quote, name, 2) for name in names):
         return [f"{owner}: cited anchor quote does not name {instrument.get('short_title')} {label}"]
     return []
 
