@@ -1,0 +1,14 @@
+{
+  "id": "OBL-BL-12",
+  "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+  "provision": "第十二条",
+  "kind": "OTHER",
+  "modality": "MAY",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "中国政府可以根据实际情况和需要，采取必要的反制措施",
+  "duty": "可采取必要反制措施",
+  "trigger": "外国法律与措施不当域外适用",
+  "extraterritorial": false
+}

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-SAN-12",
+  "instrument_id": "CN-NPC-ANTISANCTION-2021",
+  "provision": "第十二条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION"
+  ],
+  "quote": "任何组织和个人均不得执行或者协助执行外国国家对我国公民、组织采取的歧视性限制措施",
+  "duty": "不得执行或协助执行外国歧视性限制措施",
+  "trigger": "外国国家采取歧视性限制措施",
+  "extraterritorial": true,
+  "extraterritorial_basis": "条文对「任何组织和个人」设定不作为义务，不以国籍或所在地为限。"
+}

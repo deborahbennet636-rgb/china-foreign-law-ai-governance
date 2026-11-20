@@ -1,0 +1,14 @@
+{
+  "id": "OBL-BL-05",
+  "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+  "provision": "第五条",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION"
+  ],
+  "quote": "应当在30日内向国务院商务主管部门如实报告有关情况",
+  "duty": "30 日内如实报告",
+  "trigger": "遇到外国法律与措施禁止或限制其与第三国正常经贸活动",
+  "extraterritorial": false
+}

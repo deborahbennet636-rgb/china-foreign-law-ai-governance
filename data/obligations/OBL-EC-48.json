@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EC-48",
+  "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+  "provision": "第四十八条",
+  "kind": "OTHER",
+  "modality": "MAY",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "任何国家或者地区滥用出口管制措施危害中华人民共和国国家安全和利益的，中华人民共和国可以根据实际情况对该国家或者地区对等采取措施",
+  "duty": "可对该国家或地区对等采取措施",
+  "trigger": "他国滥用出口管制措施危害中国国家安全和利益",
+  "extraterritorial": false
+}

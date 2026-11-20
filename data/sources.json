@@ -207,6 +207,19 @@
     "via": "direct",
     "note": "第三方转载，非法院或裁判文书网页面"
   },
+  "SRC-CN-MOFCOM-BLOCKING-2021": {
+    "id": "SRC-CN-MOFCOM-BLOCKING-2021",
+    "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",
+    "publisher": "商务部条法司",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-BLOCKING-2021.html",
+    "sha256": "14715a487743570aff76e674835ad0791ea909156f2110127e56d04808834bd5",
+    "bytes": 22638,
+    "via": "direct",
+    "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
+  },
   "SRC-CN-MOFCOM-UEL-10-2025": {
     "id": "SRC-CN-MOFCOM-UEL-10-2025",
     "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html",
@@ -219,6 +232,19 @@
     "bytes": 17616,
     "via": "direct",
     "note": "不可靠实体清单工作机制公告2025年第10号"
+  },
+  "SRC-CN-MOFCOM-UEL-2020": {
+    "id": "SRC-CN-MOFCOM-UEL-2020",
+    "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2020/art_886ed76931cb4ff1911943018840c45d.html",
+    "publisher": "商务部条法司",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-UEL-2020.html",
+    "sha256": "9cfe0f0fa9ef7a553f8d6313512674422826b9fe67383dfba43c95523370ce0b",
+    "bytes": 22617,
+    "via": "direct",
+    "note": "不可靠实体清单规定（商务部令2020年第4号）"
   },
   "SRC-CN-MOFCOM-UEL-3-2025": {
     "id": "SRC-CN-MOFCOM-UEL-3-2025",
@@ -233,6 +259,19 @@
     "via": "direct",
     "note": "不可靠实体清单工作机制公告2025年第3号"
   },
+  "SRC-CN-NPC-ANTISANCTION-2021": {
+    "id": "SRC-CN-NPC-ANTISANCTION-2021",
+    "url": "http://www.npc.gov.cn/npc/c2/c30834/202106/t20210610_311892.html",
+    "publisher": "中国人大网",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-NPC-ANTISANCTION-2021.html",
+    "sha256": "c02794a5ad35f169e68c14b7b26b0383e521b8570ba04155376ae70541d734b4",
+    "bytes": 9432,
+    "via": "direct",
+    "note": "中华人民共和国反外国制裁法（2021-06-10通过）"
+  },
   "SRC-CN-NPC-AUCL-2019": {
     "id": "SRC-CN-NPC-AUCL-2019",
     "url": "http://www.npc.gov.cn/npc/c2/c30834/201906/t20190608_296509.html",
@@ -245,6 +284,19 @@
     "bytes": 20479,
     "via": "direct",
     "note": "制定机关网站发布的 2019 年修正文本"
+  },
+  "SRC-CN-NPC-EXPORTCTRL-2020": {
+    "id": "SRC-CN-NPC-EXPORTCTRL-2020",
+    "url": "http://www.npc.gov.cn/npc/c2/c30834/202010/t20201017_308277.html",
+    "publisher": "中国人大网",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-NPC-EXPORTCTRL-2020.html",
+    "sha256": "7e238432424a9d3e0a02a8178b6255cad42dbfacb1db64bbc3ffaab8623865a7",
+    "bytes": 29603,
+    "via": "direct",
+    "note": "中华人民共和国出口管制法（2020-10-17通过）"
   },
   "SRC-CN-PKULAW-BIC-10085": {
     "id": "SRC-CN-PKULAW-BIC-10085",

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-EC-44",
+  "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+  "provision": "第四十四条",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION"
+  ],
+  "quote": "中华人民共和国境外的组织和个人，违反本法有关出口管制管理规定，危害中华人民共和国国家安全和利益，妨碍履行防扩散等国际义务的，依法处理并追究其法律责任",
+  "duty": "境外组织和个人违反出口管制规定将被追究责任",
+  "trigger": "境外组织或个人危害中国国家安全和利益",
+  "extraterritorial": true,
+  "extraterritorial_basis": "条文直接对「中华人民共和国境外的组织和个人」设定责任，是出口管制法的域外适用条款。"
+}

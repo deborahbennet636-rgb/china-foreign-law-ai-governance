@@ -1,0 +1,14 @@
+{
+  "id": "OBL-EC-12",
+  "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+  "provision": "第十二条",
+  "kind": "LICENSE",
+  "modality": "MUST",
+  "subject": [
+    "EXPORTER"
+  ],
+  "quote": "国家对管制物项的出口实行许可制度",
+  "duty": "出口管制物项须取得许可",
+  "trigger": "出口管制清单所列物项或临时管制物项",
+  "extraterritorial": false
+}

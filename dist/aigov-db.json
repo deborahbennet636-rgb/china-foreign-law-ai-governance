@@ -2,14 +2,14 @@
  "schema": "aigov-db/v1",
  "built_at": "2026-11-20",
  "stats": {
-  "instruments": 16,
+  "instruments": 20,
   "instruments_by_jurisdiction": {
-   "CN": 12,
+   "CN": 16,
    "EU": 2,
    "US": 2
   },
-  "instruments_complete": 11,
-  "provisions": 331,
+  "instruments_complete": 15,
+  "provisions": 426,
   "cases": 13,
   "cases_by_jurisdiction": {
    "CN": 10,
@@ -31,29 +31,34 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 42,
-  "sources_official": 25,
+  "sources": 46,
+  "sources_official": 29,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
-   "FOREIGN_SPECIFIC": 3,
+   "FOREIGN_SPECIFIC": 7,
    "FOREIGN_CLAUSE": 3
   },
-  "obligations": 17,
+  "obligations": 25,
   "obligations_by_kind": {
+   "PROHIBITION": 5,
    "SECURITY_ASSESSMENT": 3,
    "CERTIFICATION": 3,
-   "PROHIBITION": 3,
    "CONSENT": 3,
+   "REPORTING": 2,
+   "OTHER": 2,
    "CONTRACT": 2,
+   "LICENSE": 1,
    "DATA_SOURCE": 1,
-   "REPORTING": 1,
+   "COOPERATION": 1,
+   "FILING": 1,
    "PROTECTION": 1
   },
   "obligations_by_modality": {
-   "MUST": 14,
-   "MUST_NOT": 3
+   "MUST": 18,
+   "MUST_NOT": 5,
+   "MAY": 2
   },
-  "obligations_extraterritorial": 1,
+  "obligations_extraterritorial": 3,
   "countermeasures": 4,
   "countermeasures_by_direction": {
    "OUTBOUND_FROM_CN": 2,
@@ -273,6 +278,17 @@
    "note": "第三方转载，非法院或裁判文书网页面"
   },
   {
+   "id": "SRC-CN-MOFCOM-BLOCKING-2021",
+   "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",
+   "publisher": "商务部条法司",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "14715a487743570aff76e674835ad0791ea909156f2110127e56d04808834bd5",
+   "bytes": 22638,
+   "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
+  },
+  {
    "id": "SRC-CN-MOFCOM-UEL-10-2025",
    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html",
    "publisher": "商务部安全与管制局",
@@ -282,6 +298,17 @@
    "sha256": "5ce9278f21c2c857e683ff0ecc02ab76966fd3993126349f05354ce023fc60c8",
    "bytes": 17616,
    "note": "不可靠实体清单工作机制公告2025年第10号"
+  },
+  {
+   "id": "SRC-CN-MOFCOM-UEL-2020",
+   "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2020/art_886ed76931cb4ff1911943018840c45d.html",
+   "publisher": "商务部条法司",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "9cfe0f0fa9ef7a553f8d6313512674422826b9fe67383dfba43c95523370ce0b",
+   "bytes": 22617,
+   "note": "不可靠实体清单规定（商务部令2020年第4号）"
   },
   {
    "id": "SRC-CN-MOFCOM-UEL-3-2025",
@@ -295,6 +322,17 @@
    "note": "不可靠实体清单工作机制公告2025年第3号"
   },
   {
+   "id": "SRC-CN-NPC-ANTISANCTION-2021",
+   "url": "http://www.npc.gov.cn/npc/c2/c30834/202106/t20210610_311892.html",
+   "publisher": "中国人大网",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "c02794a5ad35f169e68c14b7b26b0383e521b8570ba04155376ae70541d734b4",
+   "bytes": 9432,
+   "note": "中华人民共和国反外国制裁法（2021-06-10通过）"
+  },
+  {
    "id": "SRC-CN-NPC-AUCL-2019",
    "url": "http://www.npc.gov.cn/npc/c2/c30834/201906/t20190608_296509.html",
    "publisher": "中国人大网",
@@ -304,6 +342,17 @@
    "sha256": "f806b03fa76b2f84b5265f01a7e8cabf8a5f2762b9773dc89d3f973673699472",
    "bytes": 20479,
    "note": "制定机关网站发布的 2019 年修正文本"
+  },
+  {
+   "id": "SRC-CN-NPC-EXPORTCTRL-2020",
+   "url": "http://www.npc.gov.cn/npc/c2/c30834/202010/t20201017_308277.html",
+   "publisher": "中国人大网",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "7e238432424a9d3e0a02a8178b6255cad42dbfacb1db64bbc3ffaab8623865a7",
+   "bytes": 29603,
+   "note": "中华人民共和国出口管制法（2020-10-17通过）"
   },
   {
    "id": "SRC-CN-PKULAW-BIC-10085",
@@ -2150,6 +2199,829 @@
    ],
    "amended_by": [],
    "verification": "PARSED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CN-MOFCOM-BLOCKING-2021",
+   "jurisdiction": "CN",
+   "title": "阻断外国法律与措施不当域外适用办法",
+   "short_title": "阻断办法",
+   "issuer": "商务部",
+   "doc_number": "中华人民共和国商务部令二〇二一年第1号",
+   "level": "部门规章",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第十六条只写「自公布之日起施行」，故生效日取公布日；该办法是 2025 年《反外国制裁法》实施前的主要阻断依据",
+   "published_at": "2021-01-09",
+   "effective_at": "2021-01-09",
+   "language": "zh",
+   "discovered_via": "商务部政策发布页原文",
+   "source_id": "SRC-CN-MOFCOM-BLOCKING-2021",
+   "source_ids": [
+    "SRC-CN-MOFCOM-BLOCKING-2021"
+   ],
+   "complete": true,
+   "expected_provisions": 16,
+   "meta_evidence": {
+    "doc_number": "中华人民共和国商务部令 二〇二一年 第1号",
+    "published_at": "2021年1月9日",
+    "effective_at": "现予公布，自公布之日起施行",
+    "issuer": "中华人民共和国商务部令"
+   },
+   "derived_dates": {
+    "effective_at": {
+     "from": "published_at",
+     "plus_days": 0,
+     "basis": "effective_at"
+    }
+   },
+   "generated_by": "ingest/instruments/CN-MOFCOM-BLOCKING-2021.json",
+   "provisions": [
+    {
+     "no": "第一条",
+     "ordinal": 1,
+     "division": "",
+     "text": "为了阻断外国法律与措施不当域外适用对中国的影响，维护国家主权、安全、发展利益，保护中国公民、法人或者其他组织的合法权益，根据《中华人民共和国国家安全法》等有关法律，制定本办法。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第二条",
+     "ordinal": 2,
+     "division": "",
+     "text": "本办法适用于外国法律与措施的域外适用违反国际法和国际关系基本准则，不当禁止或者限制中国公民、法人或者其他组织与第三国（地区）及其公民、法人或者其他组织进行正常的经贸及相关活动的情形。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第三条",
+     "ordinal": 3,
+     "division": "",
+     "text": "中国政府坚持独立自主的对外政策，坚持互相尊重主权、互不干涉内政和平等互利等国际关系基本准则，遵守所缔结的国际条约、协定，履行承担的国际义务。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第四条",
+     "ordinal": 4,
+     "division": "",
+     "text": "国家建立由中央国家机关有关部门参加的工作机制（以下简称工作机制），负责外国法律与措施不当域外适用的应对工作。工作机制由国务院商务主管部门牵头，具体事宜由国务院商务主管部门、发展改革部门会同其他有关部门负责。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第五条",
+     "ordinal": 5,
+     "division": "",
+     "text": "中国公民、法人或者其他组织遇到外国法律与措施禁止或者限制其与第三国（地区）及其公民、法人或者其他组织正常的经贸及相关活动情形的，应当在30日内向国务院商务主管部门如实报告有关情况。报告人要求保密的，国务院商务主管部门及其工作人员应当为其保密。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第六条",
+     "ordinal": 6,
+     "division": "",
+     "text": "有关外国法律与措施是否存在不当域外适用情形，由工作机制综合考虑下列因素评估确认：\n（一）是否违反国际法和国际关系基本准则；\n（二）对中国国家主权、安全、发展利益可能产生的影响；\n（三）对中国公民、法人或者其他组织合法权益可能产生的影响；\n（四）其他应当考虑的因素。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第七条",
+     "ordinal": 7,
+     "division": "",
+     "text": "工作机制经评估，确认有关外国法律与措施存在不当域外适用情形的，可以决定由国务院商务主管部门发布不得承认、不得执行、不得遵守有关外国法律与措施的禁令（以下简称禁令）。\n工作机制可以根据实际情况，决定中止或者撤销禁令。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第八条",
+     "ordinal": 8,
+     "division": "",
+     "text": "中国公民、法人或者其他组织可以向国务院商务主管部门申请豁免遵守禁令。\n申请豁免遵守禁令的，申请人应当向国务院商务主管部门提交书面申请，书面申请应当包括申请豁免的理由以及申请豁免的范围等内容。国务院商务主管部门应当自受理申请之日起30日内作出是否批准的决定；情况紧急时应当及时作出决定。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第九条",
+     "ordinal": 9,
+     "division": "",
+     "text": "当事人遵守禁令范围内的外国法律与措施，侵害中国公民、法人或者其他组织合法权益的，中国公民、法人或者其他组织可以依法向人民法院提起诉讼，要求该当事人赔偿损失；但是，当事人依照本办法第八条规定获得豁免的除外。\n根据禁令范围内的外国法律作出的判决、裁定致使中国公民、法人或者其他组织遭受损失的，中国公民、法人或者其他组织可以依法向人民法院提起诉讼，要求在该判决、裁定中获益的当事人赔偿损失。\n本条第一款、第二款规定的当事人拒绝履行人民法院生效的判决、裁定的，中国公民、法人或者其他组织可以依法申请人民法院强制执行。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十条",
+     "ordinal": 10,
+     "division": "",
+     "text": "工作机制成员单位应当依照各自职责，为中国公民、法人或者其他组织应对外国法律与措施不当域外适用提供指导和服务。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十一条",
+     "ordinal": 11,
+     "division": "",
+     "text": "中国公民、法人或者其他组织根据禁令，未遵守有关外国法律与措施并因此受到重大损失的，政府有关部门可以根据具体情况给予必要的支持。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十二条",
+     "ordinal": 12,
+     "division": "",
+     "text": "对外国法律与措施不当域外适用，中国政府可以根据实际情况和需要，采取必要的反制措施。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十三条",
+     "ordinal": 13,
+     "division": "",
+     "text": "中国公民、法人或者其他组织未按照规定如实报告有关情况或者不遵守禁令的，国务院商务主管部门可以给予警告，责令限期改正，并可以根据情节轻重处以罚款。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十四条",
+     "ordinal": 14,
+     "division": "",
+     "text": "国务院商务主管部门工作人员未按照规定为报告有关情况的中国公民、法人或者其他组织保密的，依法给予处分；构成犯罪的，依法追究刑事责任。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十五条",
+     "ordinal": 15,
+     "division": "",
+     "text": "中华人民共和国缔结或者参加的国际条约、协定规定的外国法律与措施域外适用情形，不适用本办法。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    },
+    {
+     "no": "第十六条",
+     "ordinal": 16,
+     "division": "",
+     "text": "本办法自公布之日起施行。",
+     "source_id": "SRC-CN-MOFCOM-BLOCKING-2021"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CN-MOFCOM-UEL-2020",
+   "jurisdiction": "CN",
+   "title": "不可靠实体清单规定",
+   "short_title": "不可靠实体清单规定",
+   "issuer": "商务部",
+   "doc_number": "中华人民共和国商务部令二〇二〇年第4号",
+   "level": "部门规章",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第十四条只写「自公布之日起施行」，故生效日取公布日；2025 年的公告把《反外国制裁法》也列为依据，本规定本身未作修改",
+   "published_at": "2020-09-19",
+   "effective_at": "2020-09-19",
+   "language": "zh",
+   "discovered_via": "商务部政策发布页原文",
+   "source_id": "SRC-CN-MOFCOM-UEL-2020",
+   "source_ids": [
+    "SRC-CN-MOFCOM-UEL-2020"
+   ],
+   "complete": true,
+   "expected_provisions": 14,
+   "meta_evidence": {
+    "doc_number": "中华人民共和国商务部令 二〇二〇年 第4号",
+    "published_at": "2020年9月19日",
+    "effective_at": "现予公布，自公布之日起施行",
+    "issuer": "中华人民共和国商务部令"
+   },
+   "derived_dates": {
+    "effective_at": {
+     "from": "published_at",
+     "plus_days": 0,
+     "basis": "effective_at"
+    }
+   },
+   "generated_by": "ingest/instruments/CN-MOFCOM-UEL-2020.json",
+   "provisions": [
+    {
+     "no": "第一条",
+     "ordinal": 1,
+     "division": "",
+     "text": "为了维护国家主权、安全、发展利益，维护公平、自由的国际经贸秩序，保护中国企业、其他组织或者个人的合法权益，根据《中华人民共和国对外贸易法》、《中华人民共和国国家安全法》等有关法律，制定本规定。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第二条",
+     "ordinal": 2,
+     "division": "",
+     "text": "国家建立不可靠实体清单制度，对外国实体在国际经贸及相关活动中的下列行为采取相应措施：\n（一）危害中国国家主权、安全、发展利益；\n（二）违反正常的市场交易原则，中断与中国企业、其他组织或者个人的正常交易，或者对中国企业、其他组织或者个人采取歧视性措施，严重损害中国企业、其他组织或者个人合法权益。\n本规定所称外国实体，包括外国企业、其他组织或者个人。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第三条",
+     "ordinal": 3,
+     "division": "",
+     "text": "中国政府坚持独立自主的对外政策，坚持互相尊重主权、互不干涉内政和平等互利等国际关系基本准则，反对单边主义和保护主义，坚决维护国家核心利益，维护多边贸易体制，推动建设开放型世界经济。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第四条",
+     "ordinal": 4,
+     "division": "",
+     "text": "国家建立中央国家机关有关部门参加的工作机制（以下简称工作机制），负责不可靠实体清单制度的组织实施。工作机制办公室设在国务院商务主管部门。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第五条",
+     "ordinal": 5,
+     "division": "",
+     "text": "工作机制依职权或者根据有关方面的建议、举报，决定是否对有关外国实体的行为进行调查；决定进行调查的，予以公告。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第六条",
+     "ordinal": 6,
+     "division": "",
+     "text": "工作机制对有关外国实体的行为进行调查，可以采取询问有关当事人、查阅或者复制相关文件、资料以及其他必要的方式。调查期间，有关外国实体可以陈述、申辩。\n工作机制可以根据实际情况决定中止或者终止调查；中止调查决定所依据的事实发生重大变化的，可以恢复调查。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第七条",
+     "ordinal": 7,
+     "division": "",
+     "text": "工作机制根据调查结果，综合考虑以下因素，作出是否将有关外国实体列入不可靠实体清单的决定，并予以公告：\n（一）对中国国家主权、安全、发展利益的危害程度；\n（二）对中国企业、其他组织或者个人合法权益的损害程度；\n（三）是否符合国际通行经贸规则；\n（四）其他应当考虑的因素。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第八条",
+     "ordinal": 8,
+     "division": "",
+     "text": "有关外国实体的行为事实清楚的，工作机制可以直接综合考虑本规定第七条规定的因素，作出是否将其列入不可靠实体清单的决定；决定列入的，予以公告。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第九条",
+     "ordinal": 9,
+     "division": "",
+     "text": "将有关外国实体列入不可靠实体清单的公告中可以提示与该外国实体进行交易的风险，并可以根据实际情况，明确该外国实体改正其行为的期限。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第十条",
+     "ordinal": 10,
+     "division": "",
+     "text": "对列入不可靠实体清单的外国实体，工作机制根据实际情况，可以决定采取下列一项或者多项措施（以下称处理措施），并予以公告：\n（一）限制或者禁止其从事与中国有关的进出口活动；\n（二）限制或者禁止其在中国境内投资；\n（三）限制或者禁止其相关人员、交通运输工具等入境；\n（四）限制或者取消其相关人员在中国境内工作许可、停留或者居留资格；\n（五）根据情节轻重给予相应数额的罚款；\n（六）其他必要的措施。\n前款规定的处理措施，由有关部门按照职责分工依法实施，其他有关单位和个人应当配合实施。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第十一条",
+     "ordinal": 11,
+     "division": "",
+     "text": "将有关外国实体列入不可靠实体清单的公告中明确有关外国实体改正期限的，在期限内不对其采取本规定第十条规定的处理措施；有关外国实体逾期不改正其行为的，依照本规定第十条的规定对其采取处理措施。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第十二条",
+     "ordinal": 12,
+     "division": "",
+     "text": "有关外国实体被限制或者禁止从事与中国有关的进出口活动，中国企业、其他组织或者个人在特殊情况下确需与该外国实体进行交易的，应当向工作机制办公室提出申请，经同意可以与该外国实体进行相应的交易。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第十三条",
+     "ordinal": 13,
+     "division": "",
+     "text": "工作机制根据实际情况，可以决定将有关外国实体移出不可靠实体清单；有关外国实体在公告明确的改正期限内改正其行为并采取措施消除行为后果的，工作机制应当作出决定，将其移出不可靠实体清单。\n有关外国实体可以申请将其移出不可靠实体清单，工作机制根据实际情况决定是否将其移出。\n将有关外国实体移出不可靠实体清单的决定应当公告；自公告发布之日起，依照本规定第十条规定采取的处理措施停止实施。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    },
+    {
+     "no": "第十四条",
+     "ordinal": 14,
+     "division": "",
+     "text": "本规定自公布之日起施行。",
+     "source_id": "SRC-CN-MOFCOM-UEL-2020"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CN-NPC-ANTISANCTION-2021",
+   "jurisdiction": "CN",
+   "title": "中华人民共和国反外国制裁法",
+   "short_title": "反外国制裁法",
+   "issuer": "全国人民代表大会常务委员会",
+   "level": "法律",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第十六条只写「自公布之日起施行」，故生效日取通过并公布日；此后的修正未专门核查",
+   "published_at": "2021-06-10",
+   "effective_at": "2021-06-10",
+   "language": "zh",
+   "discovered_via": "中国人大网原文页",
+   "source_id": "SRC-CN-NPC-ANTISANCTION-2021",
+   "source_ids": [
+    "SRC-CN-NPC-ANTISANCTION-2021"
+   ],
+   "complete": true,
+   "expected_provisions": 16,
+   "meta_evidence": {
+    "published_at": "2021年06月10日 20:01",
+    "effective_at": "本法自公布之日起施行",
+    "issuer": "（2021年6月10日第十三届全国人民代表大会常务委员会第二十九次会议通过）"
+   },
+   "derived_dates": {
+    "effective_at": {
+     "from": "published_at",
+     "plus_days": 0,
+     "basis": "effective_at"
+    }
+   },
+   "generated_by": "ingest/instruments/CN-NPC-ANTISANCTION-2021.json",
+   "provisions": [
+    {
+     "no": "第一条",
+     "ordinal": 1,
+     "division": "",
+     "text": "为了维护国家主权、安全、发展利益，保护我国公民、组织的合法权益，根据宪法，制定本法。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第二条",
+     "ordinal": 2,
+     "division": "",
+     "text": "中华人民共和国坚持独立自主的和平外交政策，坚持互相尊重主权和领土完整、互不侵犯、互不干涉内政、平等互利、和平共处的五项原则，维护以联合国为核心的国际体系和以国际法为基础的国际秩序，发展同世界各国的友好合作，推动构建人类命运共同体。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第三条",
+     "ordinal": 3,
+     "division": "",
+     "text": "中华人民共和国反对霸权主义和强权政治，反对任何国家以任何借口、任何方式干涉中国内政。\n外国国家违反国际法和国际关系基本准则，以各种借口或者依据其本国法律对我国进行遏制、打压，对我国公民、组织采取歧视性限制措施，干涉我国内政的，我国有权采取相应反制措施。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第四条",
+     "ordinal": 4,
+     "division": "",
+     "text": "国务院有关部门可以决定将直接或者间接参与制定、决定、实施本法第三条规定的歧视性限制措施的个人、组织列入反制清单。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第五条",
+     "ordinal": 5,
+     "division": "",
+     "text": "除根据本法第四条规定列入反制清单的个人、组织以外，国务院有关部门还可以决定对下列个人、组织采取反制措施：\n（一）列入反制清单个人的配偶和直系亲属；\n（二）列入反制清单组织的高级管理人员或者实际控制人；\n（三）由列入反制清单个人担任高级管理人员的组织；\n（四）由列入反制清单个人和组织实际控制或者参与设立、运营的组织。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第六条",
+     "ordinal": 6,
+     "division": "",
+     "text": "国务院有关部门可以按照各自职责和任务分工，对本法第四条、第五条规定的个人、组织，根据实际情况决定采取下列一种或者几种措施：\n（一）不予签发签证、不准入境、注销签证或者驱逐出境；\n（二）查封、扣押、冻结在我国境内的动产、不动产和其他各类财产；\n（三）禁止或者限制我国境内的组织、个人与其进行有关交易、合作等活动；\n（四）其他必要措施。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第七条",
+     "ordinal": 7,
+     "division": "",
+     "text": "国务院有关部门依据本法第四条至第六条规定作出的决定为最终决定。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第八条",
+     "ordinal": 8,
+     "division": "",
+     "text": "采取反制措施所依据的情形发生变化的，国务院有关部门可以暂停、变更或者取消有关反制措施。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第九条",
+     "ordinal": 9,
+     "division": "",
+     "text": "反制清单和反制措施的确定、暂停、变更或者取消，由外交部或者国务院其他有关部门发布命令予以公布。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十条",
+     "ordinal": 10,
+     "division": "",
+     "text": "国家设立反外国制裁工作协调机制，负责统筹协调相关工作。\n国务院有关部门应当加强协同配合和信息共享，按照各自职责和任务分工确定和实施有关反制措施。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十一条",
+     "ordinal": 11,
+     "division": "",
+     "text": "我国境内的组织和个人应当执行国务院有关部门采取的反制措施。\n对违反前款规定的组织和个人，国务院有关部门依法予以处理，限制或者禁止其从事相关活动。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十二条",
+     "ordinal": 12,
+     "division": "",
+     "text": "任何组织和个人均不得执行或者协助执行外国国家对我国公民、组织采取的歧视性限制措施。\n组织和个人违反前款规定，侵害我国公民、组织合法权益的，我国公民、组织可以依法向人民法院提起诉讼，要求其停止侵害、赔偿损失。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十三条",
+     "ordinal": 13,
+     "division": "",
+     "text": "对于危害我国主权、安全、发展利益的行为，除本法规定外，有关法律、行政法规、部门规章可以规定采取其他必要的反制措施。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十四条",
+     "ordinal": 14,
+     "division": "",
+     "text": "任何组织和个人不执行、不配合实施反制措施的，依法追究法律责任。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十五条",
+     "ordinal": 15,
+     "division": "",
+     "text": "对于外国国家、组织或者个人实施、协助、支持危害我国主权、安全、发展利益的行为，需要采取必要反制措施的，参照本法有关规定执行。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    },
+    {
+     "no": "第十六条",
+     "ordinal": 16,
+     "division": "",
+     "text": "本法自公布之日起施行。",
+     "source_id": "SRC-CN-NPC-ANTISANCTION-2021"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CN-NPC-EXPORTCTRL-2020",
+   "jurisdiction": "CN",
+   "title": "中华人民共和国出口管制法",
+   "short_title": "出口管制法",
+   "issuer": "全国人民代表大会常务委员会",
+   "level": "法律",
+   "instrument_type": "RELATED_LAW",
+   "foreign_related": "FOREIGN_SPECIFIC",
+   "status": "IN_FORCE",
+   "status_note": "第四十八条设对等反制条款，第四十四条对境外组织和个人设定责任；配套的两用物项出口管制条例未入库",
+   "published_at": "2020-10-17",
+   "effective_at": "2020-12-01",
+   "language": "zh",
+   "discovered_via": "中国人大网原文页",
+   "source_id": "SRC-CN-NPC-EXPORTCTRL-2020",
+   "source_ids": [
+    "SRC-CN-NPC-EXPORTCTRL-2020"
+   ],
+   "complete": true,
+   "expected_provisions": 49,
+   "meta_evidence": {
+    "published_at": "2020年10月17日 19:47",
+    "effective_at": "第四十九条 本法自2020年12月1日起施行",
+    "issuer": "（2020年10月17日第十三届全国人民代表大会常务委员会第二十二次会议通过）"
+   },
+   "derived_dates": {},
+   "generated_by": "ingest/instruments/CN-NPC-EXPORTCTRL-2020.json",
+   "provisions": [
+    {
+     "no": "第一条",
+     "ordinal": 1,
+     "division": "第一章 总 则",
+     "text": "为了维护国家安全和利益，履行防扩散等国际义务，加强和规范出口管制，制定本法。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二条",
+     "ordinal": 2,
+     "division": "第一章 总 则",
+     "text": "国家对两用物项、军品、核以及其他与维护国家安全和利益、履行防扩散等国际义务相关的货物、技术、服务等物项（以下统称管制物项）的出口管制，适用本法。\n前款所称管制物项，包括物项相关的技术资料等数据。\n本法所称出口管制，是指国家对从中华人民共和国境内向境外转移管制物项，以及中华人民共和国公民、法人和非法人组织向外国组织和个人提供管制物项，采取禁止或者限制性措施。\n本法所称两用物项，是指既有民事用途，又有军事用途或者有助于提升军事潜力，特别是可以用于设计、开发、生产或者使用大规模杀伤性武器及其运载工具的货物、技术和服务。\n本法所称军品，是指用于军事目的的装备、专用生产设备以及其他相关货物、技术和服务。\n本法所称核，是指核材料、核设备、反应堆用非核材料以及相关技术和服务。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三条",
+     "ordinal": 3,
+     "division": "第一章 总 则",
+     "text": "出口管制工作应当坚持总体国家安全观，维护国际和平，统筹安全和发展，完善出口管制管理和服务。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四条",
+     "ordinal": 4,
+     "division": "第一章 总 则",
+     "text": "国家实行统一的出口管制制度，通过制定管制清单、名录或者目录（以下统称管制清单）、实施出口许可等方式进行管理。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第五条",
+     "ordinal": 5,
+     "division": "第一章 总 则",
+     "text": "国务院、中央军事委员会承担出口管制职能的部门（以下统称国家出口管制管理部门）按照职责分工负责出口管制工作。国务院、中央军事委员会其他有关部门按照职责分工负责出口管制有关工作。\n国家建立出口管制工作协调机制，统筹协调出口管制工作重大事项。国家出口管制管理部门和国务院有关部门应当密切配合，加强信息共享。\n国家出口管制管理部门会同有关部门建立出口管制专家咨询机制，为出口管制工作提供咨询意见。\n国家出口管制管理部门适时发布有关行业出口管制指南，引导出口经营者建立健全出口管制内部合规制度，规范经营。\n省、自治区、直辖市人民政府有关部门依照法律、行政法规的规定负责出口管制有关工作。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第六条",
+     "ordinal": 6,
+     "division": "第一章 总 则",
+     "text": "国家加强出口管制国际合作，参与出口管制有关国际规则的制定。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第七条",
+     "ordinal": 7,
+     "division": "第一章 总 则",
+     "text": "出口经营者可以依法成立和参加有关的商会、协会等行业自律组织。\n有关商会、协会等行业自律组织应当遵守法律、行政法规，按照章程对其成员提供与出口管制有关的服务，发挥协调和自律作用。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第八条",
+     "ordinal": 8,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家出口管制管理部门会同有关部门制定出口管制政策，其中重大政策应当报国务院批准，或者报国务院、中央军事委员会批准。\n国家出口管制管理部门可以对管制物项出口目的国家和地区进行评估，确定风险等级，采取相应的管制措施。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第九条",
+     "ordinal": 9,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家出口管制管理部门依据本法和有关法律、行政法规的规定，根据出口管制政策，按照规定程序会同有关部门制定、调整管制物项出口管制清单，并及时公布。\n根据维护国家安全和利益、履行防扩散等国际义务的需要，经国务院批准，或者经国务院、中央军事委员会批准，国家出口管制管理部门可以对出口管制清单以外的货物、技术和服务实施临时管制，并予以公告。临时管制的实施期限不超过二年。临时管制实施期限届满前应当及时进行评估，根据评估结果决定取消临时管制、延长临时管制或者将临时管制物项列入出口管制清单。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十条",
+     "ordinal": 10,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "根据维护国家安全和利益、履行防扩散等国际义务的需要，经国务院批准，或者经国务院、中央军事委员会批准，国家出口管制管理部门会同有关部门可以禁止相关管制物项的出口，或者禁止相关管制物项向特定目的国家和地区、特定组织和个人出口。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十一条",
+     "ordinal": 11,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "出口经营者从事管制物项出口，应当遵守本法和有关法律、行政法规的规定；依法需要取得相关管制物项出口经营资格的，应当取得相应的资格。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十二条",
+     "ordinal": 12,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家对管制物项的出口实行许可制度。\n出口管制清单所列管制物项或者临时管制物项，出口经营者应当向国家出口管制管理部门申请许可。\n出口管制清单所列管制物项以及临时管制物项之外的货物、技术和服务，出口经营者知道或者应当知道，或者得到国家出口管制管理部门通知，相关货物、技术和服务可能存在以下风险的，应当向国家出口管制管理部门申请许可：\n（一）危害国家安全和利益；\n（二）被用于设计、开发、生产或者使用大规模杀伤性武器及其运载工具；\n（三）被用于恐怖主义目的。\n出口经营者无法确定拟出口的货物、技术和服务是否属于本法规定的管制物项，向国家出口管制管理部门提出咨询的，国家出口管制管理部门应当及时答复。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十三条",
+     "ordinal": 13,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家出口管制管理部门综合考虑下列因素，对出口经营者出口管制物项的申请进行审查，作出准予或者不予许可的决定：\n（一）国家安全和利益；\n（二）国际义务和对外承诺；\n（三）出口类型；\n（四）管制物项敏感程度；\n（五）出口目的国家或者地区；\n（六）最终用户和最终用途；\n（七）出口经营者的相关信用记录；\n（八）法律、行政法规规定的其他因素。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十四条",
+     "ordinal": 14,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "出口经营者建立出口管制内部合规制度，且运行情况良好的，国家出口管制管理部门可以对其出口有关管制物项给予通用许可等便利措施。具体办法由国家出口管制管理部门规定。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十五条",
+     "ordinal": 15,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "出口经营者应当向国家出口管制管理部门提交管制物项的最终用户和最终用途证明文件，有关证明文件由最终用户或者最终用户所在国家和地区政府机构出具。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十六条",
+     "ordinal": 16,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "管制物项的最终用户应当承诺，未经国家出口管制管理部门允许，不得擅自改变相关管制物项的最终用途或者向任何第三方转让。\n出口经营者、进口商发现最终用户或者最终用途有可能改变的，应当按照规定立即报告国家出口管制管理部门。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十七条",
+     "ordinal": 17,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家出口管制管理部门建立管制物项最终用户和最终用途风险管理制度,对管制物项的最终用户和最终用途进行评估、核查，加强最终用户和最终用途管理。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十八条",
+     "ordinal": 18,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "国家出口管制管理部门对有下列情形之一的进口商和最终用户，建立管控名单：\n（一）违反最终用户或者最终用途管理要求的；\n（二）可能危害国家安全和利益的；\n（三）将管制物项用于恐怖主义目的的。\n对列入管控名单的进口商和最终用户，国家出口管制管理部门可以采取禁止、限制有关管制物项交易，责令中止有关管制物项出口等必要的措施。\n出口经营者不得违反规定与列入管控名单的进口商、最终用户进行交易。出口经营者在特殊情况下确需与列入管控名单的进口商、最终用户进行交易的，可以向国家出口管制管理部门提出申请。\n列入管控名单的进口商、最终用户经采取措施，不再有第一款规定情形的，可以向国家出口管制管理部门申请移出管控名单；国家出口管制管理部门可以根据实际情况，决定将列入管控名单的进口商、最终用户移出管控名单。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第十九条",
+     "ordinal": 19,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "出口货物的发货人或者代理报关企业出口管制货物时，应当向海关交验由国家出口管制管理部门颁发的许可证件，并按照国家有关规定办理报关手续。\n出口货物的发货人未向海关交验由国家出口管制管理部门颁发的许可证件，海关有证据表明出口货物可能属于出口管制范围的，应当向出口货物发货人提出质疑；海关可以向国家出口管制管理部门提出组织鉴别，并根据国家出口管制管理部门作出的鉴别结论依法处置。在鉴别或者质疑期间，海关对出口货物不予放行。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十条",
+     "ordinal": 20,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第一节 一般规定",
+     "text": "任何组织和个人不得为出口经营者从事出口管制违法行为提供代理、货运、寄递、报关、第三方电子商务交易平台和金融等服务。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十一条",
+     "ordinal": 21,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第二节 两用物项出口管理",
+     "text": "出口经营者向国家两用物项出口管制管理部门申请出口两用物项时，应当依照法律、行政法规的规定如实提交相关材料。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十二条",
+     "ordinal": 22,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第二节 两用物项出口管理",
+     "text": "国家两用物项出口管制管理部门受理两用物项出口申请，单独或者会同有关部门依照本法和有关法律、行政法规的规定对两用物项出口申请进行审查，并在法定期限内作出准予或者不予许可的决定。作出准予许可决定的，由发证机关统一颁发出口许可证。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十三条",
+     "ordinal": 23,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第三节 军品出口管理",
+     "text": "国家实行军品出口专营制度。从事军品出口的经营者，应当获得军品出口专营资格并在核定的经营范围内从事军品出口经营活动。\n军品出口专营资格由国家军品出口管制管理部门审查批准。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十四条",
+     "ordinal": 24,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第三节 军品出口管理",
+     "text": "军品出口经营者应当根据管制政策和产品属性，向国家军品出口管制管理部门申请办理军品出口立项、军品出口项目、军品出口合同审查批准手续。\n重大军品出口立项、重大军品出口项目、重大军品出口合同，应当经国家军品出口管制管理部门会同有关部门审查，报国务院、中央军事委员会批准。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十五条",
+     "ordinal": 25,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第三节 军品出口管理",
+     "text": "军品出口经营者在出口军品前，应当向国家军品出口管制管理部门申请领取军品出口许可证。\n军品出口经营者出口军品时，应当向海关交验由国家军品出口管制管理部门颁发的许可证件，并按照国家有关规定办理报关手续。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十六条",
+     "ordinal": 26,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第三节 军品出口管理",
+     "text": "军品出口经营者应当委托经批准的军品出口运输企业办理军品出口运输及相关业务。具体办法由国家军品出口管制管理部门会同有关部门规定。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十七条",
+     "ordinal": 27,
+     "division": "第二章 管制政策、管制清单和管制措施 / 第三节 军品出口管理",
+     "text": "军品出口经营者或者科研生产单位参加国际性军品展览，应当按照程序向国家军品出口管制管理部门办理审批手续。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十八条",
+     "ordinal": 28,
+     "division": "第三章 监督管理",
+     "text": "国家出口管制管理部门依法对管制物项出口活动进行监督检查。\n国家出口管制管理部门对涉嫌违反本法规定的行为进行调查，可以采取下列措施：\n（一）进入被调查者营业场所或者其他有关场所进行检查；\n（二）询问被调查者、利害关系人以及其他有关组织或者个人，要求其对与被调查事件有关的事项作出说明；\n（三）查阅、复制被调查者、利害关系人以及其他有关组织或者个人的有关单证、协议、会计账簿、业务函电等文件、资料；\n（四）检查用于出口的运输工具，制止装载可疑的出口物项，责令运回非法出口的物项；\n（五）查封、扣押相关涉案物项；\n（六）查询被调查者的银行账户。\n采取前款第五项、第六项措施，应当经国家出口管制管理部门负责人书面批准。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第二十九条",
+     "ordinal": 29,
+     "division": "第三章 监督管理",
+     "text": "国家出口管制管理部门依法履行职责，国务院有关部门、地方人民政府及其有关部门应当予以协助。\n国家出口管制管理部门单独或者会同有关部门依法开展监督检查和调查工作，有关组织和个人应当予以配合，不得拒绝、阻碍。\n有关国家机关及其工作人员对调查中知悉的国家秘密、商业秘密、个人隐私和个人信息依法负有保密义务。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十条",
+     "ordinal": 30,
+     "division": "第三章 监督管理",
+     "text": "为加强管制物项出口管理，防范管制物项出口违法风险，国家出口管制管理部门可以采取监管谈话、出具警示函等措施。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十一条",
+     "ordinal": 31,
+     "division": "第三章 监督管理",
+     "text": "对涉嫌违反本法规定的行为，任何组织和个人有权向国家出口管制管理部门举报，国家出口管制管理部门接到举报后应当依法及时处理，并为举报人保密。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十二条",
+     "ordinal": 32,
+     "division": "第三章 监督管理",
+     "text": "国家出口管制管理部门根据缔结或者参加的国际条约，或者按照平等互惠原则，与其他国家或者地区、国际组织等开展出口管制合作与交流。\n中华人民共和国境内的组织和个人向境外提供出口管制相关信息，应当依法进行；可能危害国家安全和利益的，不得提供。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十三条",
+     "ordinal": 33,
+     "division": "第四章 法律责任",
+     "text": "出口经营者未取得相关管制物项的出口经营资格从事有关管制物项出口的，给予警告，责令停止违法行为，没收违法所得，违法经营额五十万元以上的，并处违法经营额五倍以上十倍以下罚款；没有违法经营额或者违法经营额不足五十万元的，并处五十万元以上五百万元以下罚款。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十四条",
+     "ordinal": 34,
+     "division": "第四章 法律责任",
+     "text": "出口经营者有下列行为之一的，责令停止违法行为，没收违法所得，违法经营额五十万元以上的，并处违法经营额五倍以上十倍以下罚款；没有违法经营额或者违法经营额不足五十万元的，并处五十万元以上五百万元以下罚款；情节严重的，责令停业整顿，直至吊销相关管制物项出口经营资格：\n（一）未经许可擅自出口管制物项；\n（二）超出出口许可证件规定的许可范围出口管制物项；\n（三）出口禁止出口的管制物项。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十五条",
+     "ordinal": 35,
+     "division": "第四章 法律责任",
+     "text": "以欺骗、贿赂等不正当手段获取管制物项出口许可证件，或者非法转让管制物项出口许可证件的，撤销许可，收缴出口许可证，没收违法所得，违法经营额二十万元以上的，并处违法经营额五倍以上十倍以下罚款；没有违法经营额或者违法经营额不足二十万元的，并处二十万元以上二百万元以下罚款。\n伪造、变造、买卖管制物项出口许可证件的，没收违法所得，违法经营额五万元以上的，并处违法经营额五倍以上十倍以下罚款；没有违法经营额或者违法经营额不足五万元的，并处五万元以上五十万元以下罚款。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十六条",
+     "ordinal": 36,
+     "division": "第四章 法律责任",
+     "text": "明知出口经营者从事出口管制违法行为仍为其提供代理、货运、寄递、报关、第三方电子商务交易平台和金融等服务的，给予警告，责令停止违法行为，没收违法所得，违法经营额十万元以上的，并处违法经营额三倍以上五倍以下罚款；没有违法经营额或者违法经营额不足十万元的，并处十万元以上五十万元以下罚款。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十七条",
+     "ordinal": 37,
+     "division": "第四章 法律责任",
+     "text": "出口经营者违反本法规定与列入管控名单的进口商、最终用户进行交易的，给予警告，责令停止违法行为，没收违法所得，违法经营额五十万元以上的，并处违法经营额十倍以上二十倍以下罚款；没有违法经营额或者违法经营额不足五十万元的，并处五十万元以上五百万元以下罚款；情节严重的，责令停业整顿，直至吊销相关管制物项出口经营资格。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十八条",
+     "ordinal": 38,
+     "division": "第四章 法律责任",
+     "text": "出口经营者拒绝、阻碍监督检查的，给予警告，并处十万元以上三十万元以下罚款；情节严重的，责令停业整顿，直至吊销相关管制物项出口经营资格。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第三十九条",
+     "ordinal": 39,
+     "division": "第四章 法律责任",
+     "text": "违反本法规定受到处罚的出口经营者，自处罚决定生效之日起，国家出口管制管理部门可以在五年内不受理其提出的出口许可申请；对其直接负责的主管人员和其他直接责任人员，可以禁止其在五年内从事有关出口经营活动，因出口管制违法行为受到刑事处罚的，终身不得从事有关出口经营活动。\n国家出口管制管理部门依法将出口经营者违反本法的情况纳入信用记录。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十条",
+     "ordinal": 40,
+     "division": "第四章 法律责任",
+     "text": "本法规定的出口管制违法行为，由国家出口管制管理部门进行处罚；法律、行政法规规定由海关处罚的，由其依照本法进行处罚。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十一条",
+     "ordinal": 41,
+     "division": "第四章 法律责任",
+     "text": "有关组织或者个人对国家出口管制管理部门的不予许可决定不服的，可以依法申请行政复议。行政复议决定为最终裁决。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十二条",
+     "ordinal": 42,
+     "division": "第四章 法律责任",
+     "text": "从事出口管制管理的国家工作人员玩忽职守、徇私舞弊、滥用职权的，依法给予处分。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十三条",
+     "ordinal": 43,
+     "division": "第四章 法律责任",
+     "text": "违反本法有关出口管制管理规定，危害国家安全和利益的，除依照本法规定处罚外，还应当依照有关法律、行政法规的规定进行处理和处罚。\n违反本法规定，出口国家禁止出口的管制物项或者未经许可出口管制物项的，依法追究刑事责任。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十四条",
+     "ordinal": 44,
+     "division": "第四章 法律责任",
+     "text": "中华人民共和国境外的组织和个人，违反本法有关出口管制管理规定，危害中华人民共和国国家安全和利益，妨碍履行防扩散等国际义务的，依法处理并追究其法律责任。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十五条",
+     "ordinal": 45,
+     "division": "第五章 附 则",
+     "text": "管制物项的过境、转运、通运、再出口或者从保税区、出口加工区等海关特殊监管区域和出口监管仓库、保税物流中心等保税监管场所向境外出口，依照本法的有关规定执行。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十六条",
+     "ordinal": 46,
+     "division": "第五章 附 则",
+     "text": "核以及其他管制物项的出口，本法未作规定的，依照有关法律、行政法规的规定执行。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十七条",
+     "ordinal": 47,
+     "division": "第五章 附 则",
+     "text": "用于武装力量海外运用、对外军事交流、军事援助等的军品出口，依照有关法律法规的规定执行。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十八条",
+     "ordinal": 48,
+     "division": "第五章 附 则",
+     "text": "任何国家或者地区滥用出口管制措施危害中华人民共和国国家安全和利益的，中华人民共和国可以根据实际情况对该国家或者地区对等采取措施。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    },
+    {
+     "no": "第四十九条",
+     "ordinal": 49,
+     "division": "第五章 附 则",
+     "text": "本法自2020年12月1日起施行。",
+     "source_id": "SRC-CN-NPC-EXPORTCTRL-2020"
+    }
+   ],
+   "amended_by": [],
+   "verification": "VERIFIED",
    "evidence_grade": "A"
   },
   {
@@ -6239,6 +7111,38 @@
  ],
  "obligations": [
   {
+   "id": "OBL-BL-05",
+   "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+   "provision": "第五条",
+   "kind": "REPORTING",
+   "modality": "MUST",
+   "subject": [
+    "ORGANIZATION"
+   ],
+   "quote": "应当在30日内向国务院商务主管部门如实报告有关情况",
+   "duty": "30 日内如实报告",
+   "trigger": "遇到外国法律与措施禁止或限制其与第三国正常经贸活动",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "30 日内如实报告"
+  },
+  {
+   "id": "OBL-BL-12",
+   "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+   "provision": "第十二条",
+   "kind": "OTHER",
+   "modality": "MAY",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "中国政府可以根据实际情况和需要，采取必要的反制措施",
+   "duty": "可采取必要反制措施",
+   "trigger": "外国法律与措施不当域外适用",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "可采取必要反制措施"
+  },
+  {
    "id": "OBL-EA-04",
    "instrument_id": "CN-CAC-EXPORT-ASSESS-2022",
    "provision": "第四条",
@@ -6368,6 +7272,55 @@
    "duty_text": "境外处理者须由境内专门机构或指定代表协助申请"
   },
   {
+   "id": "OBL-EC-12",
+   "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+   "provision": "第十二条",
+   "kind": "LICENSE",
+   "modality": "MUST",
+   "subject": [
+    "EXPORTER"
+   ],
+   "quote": "国家对管制物项的出口实行许可制度",
+   "duty": "出口管制物项须取得许可",
+   "trigger": "出口管制清单所列物项或临时管制物项",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "出口管制物项须取得许可"
+  },
+  {
+   "id": "OBL-EC-44",
+   "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+   "provision": "第四十四条",
+   "kind": "PROHIBITION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "ORGANIZATION"
+   ],
+   "quote": "中华人民共和国境外的组织和个人，违反本法有关出口管制管理规定，危害中华人民共和国国家安全和利益，妨碍履行防扩散等国际义务的，依法处理并追究其法律责任",
+   "duty": "境外组织和个人违反出口管制规定将被追究责任",
+   "trigger": "境外组织或个人危害中国国家安全和利益",
+   "extraterritorial": true,
+   "extraterritorial_basis": "条文直接对「中华人民共和国境外的组织和个人」设定责任，是出口管制法的域外适用条款。",
+   "verification": "VERIFIED",
+   "duty_text": "境外组织和个人违反出口管制规定将被追究责任"
+  },
+  {
+   "id": "OBL-EC-48",
+   "instrument_id": "CN-NPC-EXPORTCTRL-2020",
+   "provision": "第四十八条",
+   "kind": "OTHER",
+   "modality": "MAY",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "任何国家或者地区滥用出口管制措施危害中华人民共和国国家安全和利益的，中华人民共和国可以根据实际情况对该国家或者地区对等采取措施",
+   "duty": "可对该国家或地区对等采取措施",
+   "trigger": "他国滥用出口管制措施危害中国国家安全和利益",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "可对该国家或地区对等采取措施"
+  },
+  {
    "id": "OBL-GA-07a",
    "instrument_id": "CN-CAC-GENAI-2023",
    "provision": "第七条",
@@ -6430,6 +7383,55 @@
    "extraterritorial": false,
    "verification": "VERIFIED",
    "duty_text": "不得超必要收集个人信息"
+  },
+  {
+   "id": "OBL-SAN-11",
+   "instrument_id": "CN-NPC-ANTISANCTION-2021",
+   "provision": "第十一条",
+   "kind": "COOPERATION",
+   "modality": "MUST",
+   "subject": [
+    "ORGANIZATION"
+   ],
+   "quote": "我国境内的组织和个人应当执行国务院有关部门采取的反制措施",
+   "duty": "执行国务院有关部门的反制措施",
+   "trigger": "反制措施已由国务院有关部门采取",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "执行国务院有关部门的反制措施"
+  },
+  {
+   "id": "OBL-SAN-12",
+   "instrument_id": "CN-NPC-ANTISANCTION-2021",
+   "provision": "第十二条",
+   "kind": "PROHIBITION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "ORGANIZATION"
+   ],
+   "quote": "任何组织和个人均不得执行或者协助执行外国国家对我国公民、组织采取的歧视性限制措施",
+   "duty": "不得执行或协助执行外国歧视性限制措施",
+   "trigger": "外国国家采取歧视性限制措施",
+   "extraterritorial": true,
+   "extraterritorial_basis": "条文对「任何组织和个人」设定不作为义务，不以国籍或所在地为限。",
+   "verification": "VERIFIED",
+   "duty_text": "不得执行或协助执行外国歧视性限制措施"
+  },
+  {
+   "id": "OBL-UEL-12",
+   "instrument_id": "CN-MOFCOM-UEL-2020",
+   "provision": "第十二条",
+   "kind": "FILING",
+   "modality": "MUST",
+   "subject": [
+    "ORGANIZATION"
+   ],
+   "quote": "应当向工作机制办公室提出申请",
+   "duty": "向工作机制办公室申请",
+   "trigger": "中国企业确需与被限制交易的外国实体交易",
+   "extraterritorial": false,
+   "verification": "VERIFIED",
+   "duty_text": "向工作机制办公室申请"
   },
   {
    "id": "OBL-XB-02",
@@ -6532,7 +7534,8 @@
    "meta_evidence": {
     "announced_at": "2025-01-15 20:30",
     "effective_at": "本公告自公布之日起实施"
-   }
+   },
+   "instrument_id": "CN-MOFCOM-UEL-2020"
   },
   {
    "id": "CM-CN-UEL-2025-10",
@@ -6553,7 +7556,8 @@
    "meta_evidence": {
     "announced_at": "2025-10-09 16:00",
     "effective_at": "本公告自公布之日起实施"
-   }
+   },
+   "instrument_id": "CN-MOFCOM-UEL-2020"
   },
   {
    "id": "CM-US-BIS-ENTITYLIST-2026-08",

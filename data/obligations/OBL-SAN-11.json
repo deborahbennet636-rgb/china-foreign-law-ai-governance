@@ -1,0 +1,14 @@
+{
+  "id": "OBL-SAN-11",
+  "instrument_id": "CN-NPC-ANTISANCTION-2021",
+  "provision": "第十一条",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION"
+  ],
+  "quote": "我国境内的组织和个人应当执行国务院有关部门采取的反制措施",
+  "duty": "执行国务院有关部门的反制措施",
+  "trigger": "反制措施已由国务院有关部门采取",
+  "extraterritorial": false
+}

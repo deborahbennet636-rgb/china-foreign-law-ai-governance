@@ -1,0 +1,35 @@
+{
+  "source_id": "SRC-CN-NPC-ANTISANCTION-2021",
+  "format": "cn-article",
+  "start_at": "中华人民共和国反外国制裁法",
+  "end_before": "编 辑： 刘 冬",
+  "expected_provisions": 16,
+  "meta_evidence": {
+    "published_at": "2021年06月10日 20:01",
+    "effective_at": "本法自公布之日起施行",
+    "issuer": "（2021年6月10日第十三届全国人民代表大会常务委员会第二十九次会议通过）"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 0,
+      "basis": "effective_at"
+    }
+  },
+  "record": {
+    "id": "CN-NPC-ANTISANCTION-2021",
+    "jurisdiction": "CN",
+    "title": "中华人民共和国反外国制裁法",
+    "short_title": "反外国制裁法",
+    "issuer": "全国人民代表大会常务委员会",
+    "level": "法律",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "第十六条只写「自公布之日起施行」，故生效日取通过并公布日；此后的修正未专门核查",
+    "published_at": "2021-06-10",
+    "effective_at": "2021-06-10",
+    "language": "zh",
+    "discovered_via": "中国人大网原文页"
+  }
+}

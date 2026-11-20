@@ -135,6 +135,7 @@ def date_renderings(iso_date: str) -> List[str]:
     cn_year = "".join(_CN_DIGITS[int(digit)] for digit in str(day.year))
     return [
         f"{day.year}年{day.month}月{day.day}日",
+        f"{day.year}年{day.month:02d}月{day.day:02d}日",
         f"{cn_year}年{_cn_numeral(day.month)}月{_cn_numeral(day.day)}日",
         f"{month} {day.day}, {day.year}",
         f"{day.day} {month} {day.year}",

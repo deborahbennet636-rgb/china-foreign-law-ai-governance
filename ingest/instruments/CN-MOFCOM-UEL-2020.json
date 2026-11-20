@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-CN-MOFCOM-UEL-2020",
+  "format": "cn-article",
+  "start_at": "中华人民共和国商务部令",
+  "end_before": "商务热点",
+  "expected_provisions": 14,
+  "meta_evidence": {
+    "doc_number": "中华人民共和国商务部令 二〇二〇年 第4号",
+    "published_at": "2020年9月19日",
+    "effective_at": "现予公布，自公布之日起施行",
+    "issuer": "中华人民共和国商务部令"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 0,
+      "basis": "effective_at"
+    }
+  },
+  "record": {
+    "id": "CN-MOFCOM-UEL-2020",
+    "jurisdiction": "CN",
+    "title": "不可靠实体清单规定",
+    "short_title": "不可靠实体清单规定",
+    "issuer": "商务部",
+    "doc_number": "中华人民共和国商务部令二〇二〇年第4号",
+    "level": "部门规章",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "第十四条只写「自公布之日起施行」，故生效日取公布日；2025 年的公告把《反外国制裁法》也列为依据，本规定本身未作修改",
+    "published_at": "2020-09-19",
+    "effective_at": "2020-09-19",
+    "language": "zh",
+    "discovered_via": "商务部政策发布页原文"
+  }
+}

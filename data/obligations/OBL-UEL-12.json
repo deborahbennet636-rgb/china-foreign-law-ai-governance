@@ -1,0 +1,14 @@
+{
+  "id": "OBL-UEL-12",
+  "instrument_id": "CN-MOFCOM-UEL-2020",
+  "provision": "第十二条",
+  "kind": "FILING",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION"
+  ],
+  "quote": "应当向工作机制办公室提出申请",
+  "duty": "向工作机制办公室申请",
+  "trigger": "中国企业确需与被限制交易的外国实体交易",
+  "extraterritorial": false
+}
