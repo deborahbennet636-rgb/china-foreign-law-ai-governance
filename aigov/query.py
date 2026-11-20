@@ -99,8 +99,10 @@ class Index:
                 "penalty": item.get("penalty"),
                 "extraterritorial": item.get("extraterritorial"),
                 "extraterritorial_basis": item.get("extraterritorial_basis"),
+                "note": item.get("note"),
             }),
             "cite": self.cite([provision["source_id"]] if provision else []),
+            **({"warning": warning} if (warning := _currency_warning(instrument)) else {}),
         }
 
     def instrument_summary(self, item: Record) -> Record:

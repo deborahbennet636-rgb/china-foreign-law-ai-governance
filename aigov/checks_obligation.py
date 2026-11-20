@@ -60,7 +60,7 @@ def _check_vocab(owner: str, record: Record) -> List[str]:
     unknown = [item for item in subjects if item not in OBLIGATION_SUBJECTS]
     if unknown:
         errors.append(f"{owner}: unknown subject(s) {unknown}")
-    for field in ("duty", "trigger", "exception", "penalty"):
+    for field in ("duty", "trigger", "exception", "penalty", "note"):
         value = record.get(field)
         if value is not None and len(normalize(str(value))) > MAX_PARAPHRASE_CHARS:
             errors.append(f"{owner}: {field} is longer than {MAX_PARAPHRASE_CHARS} characters; quote the provision instead")

@@ -204,7 +204,8 @@
       ["触发情形", item.trigger || null],
       ["例外", item.exception || null],
       ["罚则", item.penalty || null],
-      ["域外依据", item.extraterritorial_basis || null]
+      ["域外依据", item.extraterritorial_basis || null],
+      ["编者注", item.note || null]
     ]));
     out.push(h("h2", null, "所引原句"));
     out.push(h("blockquote", { lang: inst.language || null }, item.quote));
