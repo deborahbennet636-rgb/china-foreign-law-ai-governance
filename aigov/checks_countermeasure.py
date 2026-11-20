@@ -22,7 +22,13 @@ DATE_FIELDS = ("announced_at", "effective_at")
 MIN_TITLE_CHARS = 6
 # A notice that takes effect the day it is published states no date of its
 # own. The clause is quoted and the date is taken from the announcement.
-ON_PUBLICATION_CLAUSES = ("自公布之日起实施", "自公布之日起施行", "effective upon publication")
+ON_PUBLICATION_CLAUSES = (
+    "自公布之日起实施",
+    "自公布之日起施行",
+    "自发布之日起实施",
+    "自发布之日起正式实施",
+    "effective upon publication",
+)
 
 
 def _parse_date(value: Any) -> Optional[datetime.date]:

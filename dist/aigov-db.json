@@ -31,8 +31,8 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 47,
-  "sources_official": 30,
+  "sources": 51,
+  "sources_official": 34,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
    "FOREIGN_SPECIFIC": 8,
@@ -60,10 +60,10 @@
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
-  "countermeasures": 4,
+  "countermeasures": 8,
   "countermeasures_by_direction": {
-   "OUTBOUND_FROM_CN": 2,
-   "INBOUND_TO_CN": 2
+   "OUTBOUND_FROM_CN": 4,
+   "INBOUND_TO_CN": 4
   }
  },
  "reference": {
@@ -301,6 +301,17 @@
    "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
   },
   {
+   "id": "SRC-CN-MOFCOM-RAREEARTH-2025",
+   "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9c2108ccaf754f22a34abab2fedaa944.html",
+   "publisher": "商务部、海关总署",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "ff83d20a71072eb41751c9a5c32c2d81f19fc45c180c6e29a94fc23eb39d204c",
+   "bytes": 24530,
+   "note": "商务部 海关总署公告2025年第18号 稀土出口管制"
+  },
+  {
    "id": "SRC-CN-MOFCOM-UEL-10-2025",
    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html",
    "publisher": "商务部安全与管制局",
@@ -483,6 +494,17 @@
    "bytes": 27068
   },
   {
+   "id": "SRC-CN-TARIFF-2025-02",
+   "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202503/t20250304_3959228.htm",
+   "publisher": "国务院关税税则委员会（财政部关税司）",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "8ca76989a07445e5ecfb9a483519a5fff287dca2004b2120a356d769c3860c41",
+   "bytes": 16133,
+   "note": "税委会公告2025年第2号 对美加征关税"
+  },
+  {
    "id": "SRC-CN-WK-BIC-21163",
    "url": "https://law.wkinfo.com.cn/judgment-documents/detail/MjA0MTgyNDcyNjk%3D",
    "publisher": "威科先行·法律信息库（机构订阅数据库）",
@@ -575,6 +597,28 @@
    "sha256": "572efc0549dceb76c01f727a1624dc5c91839e996421a143bdafd63654cd0e80",
    "bytes": 77789,
    "note": "BIS Revisions to the Entity List, 91 FR (2026-08-24)"
+  },
+  {
+   "id": "SRC-US-FR-OUTBOUND-INV-2026",
+   "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+   "publisher": "Federal Register / Treasury Department",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "f95885ee397ed36314a2be36143b9b2fe38294423a0d6b1454b83d7e140dc166",
+   "bytes": 563536,
+   "note": "Outbound Investment Security Program Regulations (proposed rule)"
+  },
+  {
+   "id": "SRC-US-FR-S301-2024",
+   "url": "https://www.federalregister.gov/documents/2024/09/18/2024-21217/notice-of-modification-chinas-acts-policies-and-practices-related-to-technology-transfer-intellectual",
+   "publisher": "Federal Register / Office of the United States Trade Representative",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "f2274aa1d852b4e43a0b93baf7e405bbea4042c1e5b76654da8dd995b2724505",
+   "bytes": 448462,
+   "note": "USTR Section 301 modification (2024-09-18)"
   },
   {
    "id": "SRC-US-FR-SEMI-REMOTE-2026",
@@ -8036,6 +8080,48 @@
  ],
  "countermeasures": [
   {
+   "id": "CM-CN-RAREEARTH-2025-04",
+   "direction": "OUTBOUND_FROM_CN",
+   "jurisdiction": "CN",
+   "issuer": "商务部、海关总署",
+   "title": "商务部 海关总署公告2025年第18号 公布对部分中重稀土相关物项实施出口管制的决定",
+   "target": "钐、钆、铽、镝、镥、钪、钇七类中重稀土相关物项",
+   "measure_type": "EXPORT_CONTROL",
+   "status": "IN_FORCE",
+   "announced_at": "2025-04-04",
+   "effective_at": "2025-04-04",
+   "effective_on_publication": true,
+   "instrument_id": "CN-GOV-DUALUSE-2024",
+   "source_id": "SRC-CN-MOFCOM-RAREEARTH-2025",
+   "source_ids": [
+    "SRC-CN-MOFCOM-RAREEARTH-2025"
+   ],
+   "meta_evidence": {
+    "announced_at": "2025-04-04 18:00",
+    "effective_at": "本公告自发布之日起正式实施"
+   }
+  },
+  {
+   "id": "CM-CN-TARIFF-2025-03",
+   "direction": "OUTBOUND_FROM_CN",
+   "jurisdiction": "CN",
+   "issuer": "国务院关税税则委员会",
+   "title": "国务院关税税则委员会关于对原产于美国的部分进口商品加征关税的公告",
+   "target": "原产于美国的鸡肉、小麦、玉米、棉花、高粱、大豆、猪肉、牛肉、水产品、水果、蔬菜、乳制品",
+   "measure_type": "TARIFF",
+   "status": "IN_FORCE",
+   "announced_at": "2025-03-04",
+   "effective_at": "2025-03-10",
+   "source_id": "SRC-CN-TARIFF-2025-02",
+   "source_ids": [
+    "SRC-CN-TARIFF-2025-02"
+   ],
+   "meta_evidence": {
+    "announced_at": "2025年3月4日",
+    "effective_at": "自2025年3月10日起，对原产于美国的部分进口商品加征关税"
+   }
+  },
+  {
    "id": "CM-CN-UEL-2025-01",
    "direction": "OUTBOUND_FROM_CN",
    "jurisdiction": "CN",
@@ -8116,6 +8202,40 @@
     "effective_at": "Effective date: This rule is effective November 19, 2026."
    },
    "note": "联邦公报文件号 2026-23529，公布即生效。"
+  },
+  {
+   "id": "CM-US-TREASURY-OUTBOUND-2026-10",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "Treasury Department, Office of Investment Security",
+   "title": "Outbound Investment Security Program Regulations",
+   "target": "涉及中国（含港澳）半导体与微电子、量子信息技术、人工智能的对外投资",
+   "measure_type": "INVESTMENT_SCREENING",
+   "status": "ANNOUNCED",
+   "source_id": "SRC-US-FR-OUTBOUND-INV-2026",
+   "source_ids": [
+    "SRC-US-FR-OUTBOUND-INV-2026"
+   ],
+   "meta_evidence": {},
+   "note": "这是拟议规则，尚未生效，原文写明生效日要等规则定稿时才确定，故不记生效日期。"
+  },
+  {
+   "id": "CM-US-USTR-S301-2024-09",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "Office of the United States Trade Representative",
+   "title": "Notice of Modification: China's Acts, Policies and Practices Related to Technology Transfer, Intellectual Property and Innovation",
+   "target": "中国输美的电动汽车、电池、光伏、半导体、钢铝等商品",
+   "measure_type": "TARIFF",
+   "status": "IN_FORCE",
+   "effective_at": "2024-09-27",
+   "source_id": "SRC-US-FR-S301-2024",
+   "source_ids": [
+    "SRC-US-FR-S301-2024"
+   ],
+   "meta_evidence": {
+    "effective_at": "Effective on September 27, 2024, subchapter III of chapter 99 of the HTSUS is modified"
+   }
   }
  ]
 }

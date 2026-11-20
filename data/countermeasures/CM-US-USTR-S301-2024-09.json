@@ -1,0 +1,18 @@
+{
+  "id": "CM-US-USTR-S301-2024-09",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "Office of the United States Trade Representative",
+  "title": "Notice of Modification: China's Acts, Policies and Practices Related to Technology Transfer, Intellectual Property and Innovation",
+  "target": "中国输美的电动汽车、电池、光伏、半导体、钢铝等商品",
+  "measure_type": "TARIFF",
+  "status": "IN_FORCE",
+  "effective_at": "2024-09-27",
+  "source_id": "SRC-US-FR-S301-2024",
+  "source_ids": [
+    "SRC-US-FR-S301-2024"
+  ],
+  "meta_evidence": {
+    "effective_at": "Effective on September 27, 2024, subchapter III of chapter 99 of the HTSUS is modified"
+  }
+}

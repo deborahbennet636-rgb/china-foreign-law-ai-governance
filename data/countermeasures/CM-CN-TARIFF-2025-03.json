@@ -1,0 +1,20 @@
+{
+  "id": "CM-CN-TARIFF-2025-03",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "国务院关税税则委员会",
+  "title": "国务院关税税则委员会关于对原产于美国的部分进口商品加征关税的公告",
+  "target": "原产于美国的鸡肉、小麦、玉米、棉花、高粱、大豆、猪肉、牛肉、水产品、水果、蔬菜、乳制品",
+  "measure_type": "TARIFF",
+  "status": "IN_FORCE",
+  "announced_at": "2025-03-04",
+  "effective_at": "2025-03-10",
+  "source_id": "SRC-CN-TARIFF-2025-02",
+  "source_ids": [
+    "SRC-CN-TARIFF-2025-02"
+  ],
+  "meta_evidence": {
+    "announced_at": "2025年3月4日",
+    "effective_at": "自2025年3月10日起，对原产于美国的部分进口商品加征关税"
+  }
+}

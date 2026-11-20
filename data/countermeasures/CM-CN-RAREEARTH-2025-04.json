@@ -1,0 +1,22 @@
+{
+  "id": "CM-CN-RAREEARTH-2025-04",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "商务部、海关总署",
+  "title": "商务部 海关总署公告2025年第18号 公布对部分中重稀土相关物项实施出口管制的决定",
+  "target": "钐、钆、铽、镝、镥、钪、钇七类中重稀土相关物项",
+  "measure_type": "EXPORT_CONTROL",
+  "status": "IN_FORCE",
+  "announced_at": "2025-04-04",
+  "effective_at": "2025-04-04",
+  "effective_on_publication": true,
+  "instrument_id": "CN-GOV-DUALUSE-2024",
+  "source_id": "SRC-CN-MOFCOM-RAREEARTH-2025",
+  "source_ids": [
+    "SRC-CN-MOFCOM-RAREEARTH-2025"
+  ],
+  "meta_evidence": {
+    "announced_at": "2025-04-04 18:00",
+    "effective_at": "本公告自发布之日起正式实施"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "CM-US-TREASURY-OUTBOUND-2026-10",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "Treasury Department, Office of Investment Security",
+  "title": "Outbound Investment Security Program Regulations",
+  "target": "涉及中国（含港澳）半导体与微电子、量子信息技术、人工智能的对外投资",
+  "measure_type": "INVESTMENT_SCREENING",
+  "status": "ANNOUNCED",
+  "source_id": "SRC-US-FR-OUTBOUND-INV-2026",
+  "source_ids": [
+    "SRC-US-FR-OUTBOUND-INV-2026"
+  ],
+  "meta_evidence": {},
+  "note": "这是拟议规则，尚未生效，原文写明生效日要等规则定稿时才确定，故不记生效日期。"
+}

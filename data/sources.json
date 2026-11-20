@@ -233,6 +233,19 @@
     "via": "direct",
     "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
   },
+  "SRC-CN-MOFCOM-RAREEARTH-2025": {
+    "id": "SRC-CN-MOFCOM-RAREEARTH-2025",
+    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9c2108ccaf754f22a34abab2fedaa944.html",
+    "publisher": "商务部、海关总署",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-RAREEARTH-2025.html",
+    "sha256": "ff83d20a71072eb41751c9a5c32c2d81f19fc45c180c6e29a94fc23eb39d204c",
+    "bytes": 24530,
+    "via": "direct",
+    "note": "商务部 海关总署公告2025年第18号 稀土出口管制"
+  },
   "SRC-CN-MOFCOM-UEL-10-2025": {
     "id": "SRC-CN-MOFCOM-UEL-10-2025",
     "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2025/art_9b662990fa4a4d26ba3984ab5d826960.html",
@@ -449,6 +462,19 @@
     "bytes": 27068,
     "via": "direct"
   },
+  "SRC-CN-TARIFF-2025-02": {
+    "id": "SRC-CN-TARIFF-2025-02",
+    "url": "https://gss.mof.gov.cn/gzdt/zhengcefabu/202503/t20250304_3959228.htm",
+    "publisher": "国务院关税税则委员会（财政部关税司）",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-TARIFF-2025-02.html",
+    "sha256": "8ca76989a07445e5ecfb9a483519a5fff287dca2004b2120a356d769c3860c41",
+    "bytes": 16133,
+    "via": "direct",
+    "note": "税委会公告2025年第2号 对美加征关税"
+  },
   "SRC-CN-WK-BIC-21163": {
     "id": "SRC-CN-WK-BIC-21163",
     "url": "https://law.wkinfo.com.cn/judgment-documents/detail/MjA0MTgyNDcyNjk%3D",
@@ -568,6 +594,32 @@
     "bytes": 77789,
     "via": "proxy",
     "note": "BIS Revisions to the Entity List, 91 FR (2026-08-24)"
+  },
+  "SRC-US-FR-OUTBOUND-INV-2026": {
+    "id": "SRC-US-FR-OUTBOUND-INV-2026",
+    "url": "https://www.federalregister.gov/documents/2026/10/26/2026-21786/outbound-investment-security-program-regulations",
+    "publisher": "Federal Register / Treasury Department",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-FR-OUTBOUND-INV-2026.html",
+    "sha256": "f95885ee397ed36314a2be36143b9b2fe38294423a0d6b1454b83d7e140dc166",
+    "bytes": 563536,
+    "via": "proxy",
+    "note": "Outbound Investment Security Program Regulations (proposed rule)"
+  },
+  "SRC-US-FR-S301-2024": {
+    "id": "SRC-US-FR-S301-2024",
+    "url": "https://www.federalregister.gov/documents/2024/09/18/2024-21217/notice-of-modification-chinas-acts-policies-and-practices-related-to-technology-transfer-intellectual",
+    "publisher": "Federal Register / Office of the United States Trade Representative",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-FR-S301-2024.html",
+    "sha256": "f2274aa1d852b4e43a0b93baf7e405bbea4042c1e5b76654da8dd995b2724505",
+    "bytes": 448462,
+    "via": "proxy",
+    "note": "USTR Section 301 modification (2024-09-18)"
   },
   "SRC-US-FR-SEMI-REMOTE-2026": {
     "id": "SRC-US-FR-SEMI-REMOTE-2026",
