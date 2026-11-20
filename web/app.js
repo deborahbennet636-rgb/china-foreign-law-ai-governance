@@ -112,6 +112,18 @@
     if (!issue) { return notFound(); }
     var out = page("ISSUE", issue.title, issue.question);
     if (issue.editor_note) { out.push(h("p", { class: "note" }, "编者注：" + issue.editor_note)); }
+    /* Whether the columns may be read side by side is a claim of its own, so
+       it is stated before the table rather than left to the reader. */
+    var comparison = issue.comparison;
+    if (comparison) {
+      out.push(h("div", { class: "lead" },
+        h("div", { class: "band" }, comparison.comparable ? "可比较" : "不可比较"),
+        h("div", { class: "body" },
+          h("p", null, comparison.comparable
+            ? "各栏的材料性质相称，可以并排读。"
+            : "下面各栏不能并排当作同一问题的三种答案。"),
+          comparison.reason ? h("p", { class: "meta" }, comparison.reason) : null)));
+    }
     var matrix = h("div", { class: "matrix" });
     issue.positions.forEach(function (position) {
       var blank = !position.provisions.length && !position.cases.length;
@@ -122,12 +134,21 @@
         var item = CASE[caseId];
         return h("li", null, h("b", null, "案例"), link("case/" + caseId, item.short_name), " ", seal(item.verification));
       }));
+      var obligations = h("ul", { class: "reflist" }, (position.obligations || []).map(function (obligationId) {
+        var item = OBLIGATION[obligationId];
+        if (!item) { return null; }
+        return h("li", null, h("b", null, "义务"), link("obligation/" + obligationId, item.duty_text));
+      }));
       append(matrix, h("section", { class: blank ? "blank" : "" },
-        h("h3", null, position.jurisdiction + " · " + (JUR[position.jurisdiction] || "")),
-        h("p", null, position.summary), provisions, cases));
+        h("h3", null, position.jurisdiction + " · " + (JUR[position.jurisdiction] || ""),
+          position.nature ? h("small", null, " ", tag(NATURE[position.nature] || position.nature)) : null),
+        h("p", null, position.summary),
+        position.provisions.length ? provisions : null,
+        position.cases.length ? cases : null,
+        (position.obligations || []).length ? obligations : null));
     });
     out.push(matrix);
-    out.push(h("p", { class: "meta" }, "各栏的概述是编者撰写的，不是引文；所依据的条文和案例见各栏下方链接。"));
+    out.push(h("p", { class: "meta" }, "各栏的概述是编者撰写的，不是引文；所依据的条文和案例见各栏下方链接。栏题上的标签是该栏材料的性质，由编者判定。"));
     return out;
   }
 
