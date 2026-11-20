@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aigov-db": {
+      "command": "python",
+      "args": ["-I", "tools/mcp_server.py"]
+    }
+  }
+}

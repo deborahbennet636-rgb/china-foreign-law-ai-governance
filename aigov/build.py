@@ -140,7 +140,9 @@ def build_dataset(database: Database, index: Optional[SnapshotIndex] = None,
         "issues": database.issues,
         "leads": database.leads,
         "obligations": obligations,
-        "countermeasures": database.countermeasures,
+        "countermeasures": [
+            {**record, **assess(record.get("source_ids", []), index)} for record in database.countermeasures
+        ],
     }
 
 

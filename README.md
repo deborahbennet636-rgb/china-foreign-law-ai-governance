@@ -106,9 +106,9 @@
 | 义务结构化 | 无 | 有，17 条 |
 | 跨法域比较 | 无（按法域组织） | 议题层，按议题并列，声明可比性 |
 | 中文 | 无中文界面 | 原生中文 |
-| 接口 | MCP + REST | 静态单页（MCP 待补） |
+| 接口 | MCP + REST | 静态单页 + MCP（10 个只读工具，零依赖） |
 
-**本库不如它的地方，也说清楚：** 法域数差得远；它做到了一法一 commit 的逐条版本史，本库只到「这部法被哪部法修订过」，没有逐条变动标注；它有 MCP server，本库还没有。
+**本库不如它的地方，也说清楚：** 法域数差得远；它做到了一法一 commit 的逐条版本史，本库只到「这部法被哪部法修订过」，没有逐条变动标注；它另有免密钥 REST API 和托管的公共服务，本库只有本地 MCP，需要 clone 下来跑。
 
 ---
 
@@ -151,7 +151,7 @@
 
 ### 这套规则是怎么来的
 
-校验规则经过两轮独立代码审查，**两轮结论都是不通过**，之后又做过一次小范围审查。每一种被构造出来的「事实没有依据却能通过校验」的情形，都有回归测试（`tests/`，共 144 项）。**尚未做完整的第三轮审查**，所以不能说校验已经没有漏洞。
+校验规则经过两轮独立代码审查，**两轮结论都是不通过**，之后又做过一次小范围审查。每一种被构造出来的「事实没有依据却能通过校验」的情形，都有回归测试（`tests/`，共 179 项）。**尚未做完整的第三轮审查**，所以不能说校验已经没有漏洞。
 
 ---
 
@@ -170,11 +170,41 @@
 | 欧盟没有案例 | 争点表欧盟一栏只有条文 | 见线索表 |
 | 标「现行」的只依据原文所载施行日期 | 此后是否被修订或废止没有核查 | 定期复核 |
 | 条文之间的引用关系没有结构化 | 例如标识办法援引深度合成规定，目前只能靠检索 | 后续版本 |
-| 没有 MCP server | 不能像 global-law 那样被 agent 直接调用 | 后续版本 |
 
 ---
 
-## 七、怎么用
+## 七、给 AI 用：MCP 接口
+
+本库带一个 MCP server，Claude Code、Cursor、Claude Desktop 等客户端可以直接查询。**只用 Python 标准库**，clone 下来就能跑，不用装 SDK。
+
+在 Claude Code 里打开本仓库，`.mcp.json` 会自动登记它（首次会问你是否允许）。其他客户端，或想在别的目录里用：
+
+```bash
+claude mcp add aigov-db -- python -I /本仓库的绝对路径/tools/mcp_server.py
+```
+
+macOS / Linux 上把 `python` 换成 `python3`。server 读的是 `dist/aigov-db.json`，所以改了数据要先 `python tools/build.py`。
+
+| 工具 | 做什么 |
+|---|---|
+| `describe_database` | 范围、各层数量、核验等级的含义、没收什么、引用规则。先调这个 |
+| `search_law` | 全文检索条文、义务、案例、争点、措施；忽略空格和全半角，不排序 |
+| `list_instruments` / `get_instrument` | 法规清单；单部法规的文号、日期（推算的会标出）、条号、义务 |
+| `get_provision` | 一条条文的原文、从中切出的义务、援引它的案例、发布机关原址。条号可写 `第七条`、`7`、`第7条`、`Article 50` |
+| `find_obligations` | 按类别、型态（应当/不得）、主体、法规、是否域外筛义务 |
+| `list_issues` / `get_issue` | 争点；**先返回是否可比**，再返回各栏 |
+| `list_countermeasures` | 对外措施，**永远分境外对华、中国对外两个列表返回** |
+| `get_case` | 案例的法院、案号、日期、原文摘录、援引的条文 |
+
+每个返回结果都守三条规矩，和网页上一样：
+
+1. **原文与编者判断分开。** `text`、`quote` 是与快照逐字核过的原文；`editorial` 下的类别、概括、案件结果是编者判断，脚本没核对。agent 拿到结果，不会把概括当法条引
+2. **引用指回发布机关。** 每个答案带 `cite`：官方原址、取回快照的日期、SHA-256；转载页会加警告。本库副本只供核对，不作引用来源
+3. **不可比就先说不可比。** `get_issue` 返回的第一个字段就是 `comparison`；没有命中时明说「本库没有收，不说明不存在」
+
+---
+
+## 八、怎么用（维护数据）
 
 ```bash
 python tools/build.py
@@ -182,7 +212,7 @@ python tools/build.py
 
 校验全部记录并生成 `dist/index.html` 和 `dist/aigov-db.json`。只校验不生成：`python tools/build.py --check`
 
-跑测试（144 项）：
+跑测试（179 项）：
 
 ```bash
 PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -I -m pytest tests/ -q
@@ -203,7 +233,7 @@ PYTEST_DISABLE_PLUGIN_AUTOLOAD=1 python -I -m pytest tests/ -q
 
 ---
 
-## 八、目录
+## 九、目录
 
 ```
 aigov/            核心模块
@@ -219,7 +249,9 @@ aigov/            核心模块
   checks_countermeasure.py  对外措施：标题与日期须有原文
   validate.py       总校验
   build.py          生成数据集和页面
-tools/            命令行：fetch / register_snapshot / ingest_instrument / ingest_case / build
+  query.py / query_search.py  只读查询（MCP 用）
+  mcp_tools.py      MCP 工具清单与参数校验
+tools/            命令行：fetch / register_snapshot / ingest_instrument / ingest_case / build / mcp_server
 ingest/           入库说明（人写的部分都在这里）
 data/raw/         来源快照（原始文件，勿改）
 data/sources.json 快照清单：网址、取回日期、SHA-256
@@ -236,7 +268,7 @@ tests/            测试
 
 ---
 
-## 九、许可与引用
+## 十、许可与引用
 
 本库只分发中国法律、法规、规章的正文（属官方文件）与自己撰写的元数据。第三方数据库（北大法宝、威科先行）的页面快照不随库分发。AGORA 数据集为非商业许可，只当线索用，其数据不随本库分发。
 

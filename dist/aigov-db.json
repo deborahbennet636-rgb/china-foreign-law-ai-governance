@@ -8099,7 +8099,9 @@
    "meta_evidence": {
     "announced_at": "2025-04-04 18:00",
     "effective_at": "本公告自发布之日起正式实施"
-   }
+   },
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-CN-TARIFF-2025-03",
@@ -8119,7 +8121,9 @@
    "meta_evidence": {
     "announced_at": "2025年3月4日",
     "effective_at": "自2025年3月10日起，对原产于美国的部分进口商品加征关税"
-   }
+   },
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-CN-UEL-2025-01",
@@ -8141,7 +8145,9 @@
     "announced_at": "2025-01-15 20:30",
     "effective_at": "本公告自公布之日起实施"
    },
-   "instrument_id": "CN-MOFCOM-UEL-2020"
+   "instrument_id": "CN-MOFCOM-UEL-2020",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-CN-UEL-2025-10",
@@ -8163,7 +8169,9 @@
     "announced_at": "2025-10-09 16:00",
     "effective_at": "本公告自公布之日起实施"
    },
-   "instrument_id": "CN-MOFCOM-UEL-2020"
+   "instrument_id": "CN-MOFCOM-UEL-2020",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-US-BIS-ENTITYLIST-2026-08",
@@ -8182,7 +8190,9 @@
    "meta_evidence": {
     "effective_at": "This rule is effective August 21, 2026."
    },
-   "note": "联邦公报文件号 2026-17231，2026-08-24 公布，2026-08-21 起生效（公布日早于生效日，原文如此）。快照中公布日只出现在一处未填完的模板占位里，故入库只记生效日。"
+   "note": "联邦公报文件号 2026-17231，2026-08-24 公布，2026-08-21 起生效（公布日早于生效日，原文如此）。快照中公布日只出现在一处未填完的模板占位里，故入库只记生效日。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-US-BIS-SEMI-REMOTE-2026-11",
@@ -8201,7 +8211,9 @@
    "meta_evidence": {
     "effective_at": "Effective date: This rule is effective November 19, 2026."
    },
-   "note": "联邦公报文件号 2026-23529，公布即生效。"
+   "note": "联邦公报文件号 2026-23529，公布即生效。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-US-TREASURY-OUTBOUND-2026-10",
@@ -8217,7 +8229,9 @@
     "SRC-US-FR-OUTBOUND-INV-2026"
    ],
    "meta_evidence": {},
-   "note": "这是拟议规则，尚未生效，原文写明生效日要等规则定稿时才确定，故不记生效日期。"
+   "note": "这是拟议规则，尚未生效，原文写明生效日要等规则定稿时才确定，故不记生效日期。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   },
   {
    "id": "CM-US-USTR-S301-2024-09",
@@ -8235,7 +8249,9 @@
    ],
    "meta_evidence": {
     "effective_at": "Effective on September 27, 2024, subchapter III of chapter 99 of the HTSUS is modified"
-   }
+   },
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
   }
  ]
 }
