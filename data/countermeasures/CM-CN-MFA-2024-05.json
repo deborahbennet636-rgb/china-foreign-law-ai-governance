@@ -1,0 +1,20 @@
+{
+  "id": "CM-CN-MFA-2024-05",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "中华人民共和国外交部",
+  "title": "关于对美国军工企业及高级管理人员采取反制措施的决定",
+  "target": "洛克希德·马丁导弹与火控公司等 12 家美国军工企业及 10 名高级管理人员",
+  "measure_type": "SANCTION",
+  "status": "IN_FORCE",
+  "effective_at": "2024-05-22",
+  "instrument_id": "CN-NPC-ANTISANCTION-2021",
+  "source_id": "SRC-CN-MFA-COUNTER-7-2024",
+  "source_ids": [
+    "SRC-CN-MFA-COUNTER-7-2024"
+  ],
+  "meta_evidence": {
+    "effective_at": "本决定自2024年5月22日起施行"
+  },
+  "note": "外交部令第7号。对 12 家企业冻结在华财产，对 10 名高管不予签证、不准入境（含港澳），依据同一条法律。"
+}

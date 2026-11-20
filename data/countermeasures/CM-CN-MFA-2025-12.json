@@ -1,0 +1,20 @@
+{
+  "id": "CM-CN-MFA-2025-12",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "中华人民共和国外交部",
+  "title": "关于对美国军工相关企业及高级管理人员采取反制措施的决定",
+  "target": "诺斯罗普·格鲁曼系统公司等 20 家美国军工相关企业及 10 名高级管理人员",
+  "measure_type": "SANCTION",
+  "status": "IN_FORCE",
+  "effective_at": "2025-12-26",
+  "instrument_id": "CN-NPC-ANTISANCTION-2021",
+  "source_id": "SRC-CN-MFA-COUNTER-19-2025",
+  "source_ids": [
+    "SRC-CN-MFA-COUNTER-19-2025"
+  ],
+  "meta_evidence": {
+    "effective_at": "本决定自2025年12月26日起施行"
+  },
+  "note": "外交部令第19号。措施为冻结在华财产、禁止境内组织个人与其交易合作、不予签证并不准入境（含港澳），依据《反外国制裁法》第三至六条、第九条、第十五条。"
+}

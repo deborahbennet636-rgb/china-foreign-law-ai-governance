@@ -1,0 +1,16 @@
+{
+  "id": "CM-US-OFAC-IRAN-2026-04",
+  "direction": "INBOUND_TO_CN",
+  "jurisdiction": "US",
+  "issuer": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+  "title": "Iran-related Designations; Counter Terrorism and Iran-related Designation Update; Issuance of Iran-related General License",
+  "target": "涉伊朗石油交易的中国炼化企业及关联航运实体与船舶",
+  "measure_type": "SANCTION",
+  "status": "ANNOUNCED",
+  "source_id": "SRC-US-OFAC-2026-04-24",
+  "source_ids": [
+    "SRC-US-OFAC-2026-04-24"
+  ],
+  "meta_evidence": {},
+  "note": "该页只标 Release Date 而未给出可逐字引用的日期文本，故未记日期，也未标「现行」。行动日期见官方地址路径 20260424；同日签发 General License V，授权在 2026-05-24 前完成与相关实体的清算交易。中国商务部 2026 年第 21 号公告针对的正是这批制裁措施。"
+}

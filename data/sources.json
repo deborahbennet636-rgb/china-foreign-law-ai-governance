@@ -220,6 +220,32 @@
     "via": "direct",
     "note": "中华人民共和国两用物项出口管制条例（国务院令第792号）"
   },
+  "SRC-CN-MFA-COUNTER-19-2025": {
+    "id": "SRC-CN-MFA-COUNTER-19-2025",
+    "url": "https://www.fmprc.gov.cn/wjbxw_new/202512/t20251226_11787617.shtml",
+    "publisher": "中华人民共和国外交部",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MFA-COUNTER-19-2025.html",
+    "sha256": "0de82a506e85036dd032906e122aa318e1786c9e3c323740431055102a02ce91",
+    "bytes": 66055,
+    "via": "direct",
+    "note": "外交部令第19号 反制清单（2025-12-26）"
+  },
+  "SRC-CN-MFA-COUNTER-7-2024": {
+    "id": "SRC-CN-MFA-COUNTER-7-2024",
+    "url": "https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/gknrlb/fzcqdcs/202405/t20240522_11309756.shtml",
+    "publisher": "中华人民共和国外交部",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MFA-COUNTER-7-2024.html",
+    "sha256": "d79194d2b69c8bd1d6a500f404af7398e1c5083c31ad92404989277c47921b83",
+    "bytes": 64808,
+    "via": "direct",
+    "note": "外交部令第7号 反制清单（2024-05-22）"
+  },
   "SRC-CN-MOFCOM-BLOCKING-2021": {
     "id": "SRC-CN-MOFCOM-BLOCKING-2021",
     "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",
@@ -232,6 +258,19 @@
     "bytes": 22638,
     "via": "direct",
     "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
+  },
+  "SRC-CN-MOFCOM-BLOCKORDER-2026": {
+    "id": "SRC-CN-MOFCOM-BLOCKORDER-2026",
+    "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0ff88c45f1974962a539775085014888.html",
+    "publisher": "商务部条法司",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-CN-MOFCOM-BLOCKORDER-2026.html",
+    "sha256": "f3c7c9b46ad832128bd74749ce754ff36139600bb2ef0b71670888f0316a314f",
+    "bytes": 14766,
+    "via": "direct",
+    "note": "商务部公告2026年第21号 首个阻断禁令"
   },
   "SRC-CN-MOFCOM-RAREEARTH-2025": {
     "id": "SRC-CN-MOFCOM-RAREEARTH-2025",
@@ -649,6 +688,19 @@
     "text_sha256": "f12d943577aa8a636e447622866d471a80f9baad32d8567751bab9948277a1d9",
     "extractor": "pypdf 3.17.4"
   },
+  "SRC-US-OFAC-2026-04-24": {
+    "id": "SRC-US-OFAC-2026-04-24",
+    "url": "https://ofac.treasury.gov/recent-actions/20260424",
+    "publisher": "U.S. Department of the Treasury, OFAC",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-OFAC-2026-04-24.html",
+    "sha256": "f9bff139225f257f660257254dc868f5714f7e1fcd3efbb88c207d746f504ee6",
+    "bytes": 50670,
+    "via": "proxy",
+    "note": "OFAC recent action 2026-04-24, Iran-related designations"
+  },
   "SRC-US-PL-119-12": {
     "id": "SRC-US-PL-119-12",
     "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm",
@@ -660,5 +712,18 @@
     "sha256": "ec3e9bf342bc39778cca8845ee9f2bd61e8130517a799ddc95618997e8f7f8da",
     "bytes": 28491,
     "via": "proxy"
+  },
+  "SRC-US-TREASURY-OFAC-IRAN-2026": {
+    "id": "SRC-US-TREASURY-OFAC-IRAN-2026",
+    "url": "https://home.treasury.gov/news/press-releases/sb0528",
+    "publisher": "U.S. Department of the Treasury, OFAC",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-20",
+    "file": "raw/SRC-US-TREASURY-OFAC-IRAN-2026.html",
+    "sha256": "ffcdf3af59f42190845cb3cda7afbf95bed5cc969839315bb1ad4d21bd2e4518",
+    "bytes": 79113,
+    "via": "proxy",
+    "note": "OFAC designations, Iran weapons procurement, China/HK-based persons"
   }
 }

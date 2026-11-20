@@ -31,8 +31,8 @@
   "cases_without_anchor": 3,
   "issues": 7,
   "leads_open": 18,
-  "sources": 51,
-  "sources_official": 34,
+  "sources": 56,
+  "sources_official": 39,
   "instruments_by_foreign_related": {
    "DOMESTIC": 10,
    "FOREIGN_SPECIFIC": 8,
@@ -60,10 +60,10 @@
    "MAY": 2
   },
   "obligations_extraterritorial": 3,
-  "countermeasures": 8,
+  "countermeasures": 12,
   "countermeasures_by_direction": {
-   "OUTBOUND_FROM_CN": 4,
-   "INBOUND_TO_CN": 4
+   "OUTBOUND_FROM_CN": 7,
+   "INBOUND_TO_CN": 5
   }
  },
  "reference": {
@@ -290,6 +290,28 @@
    "note": "中华人民共和国两用物项出口管制条例（国务院令第792号）"
   },
   {
+   "id": "SRC-CN-MFA-COUNTER-19-2025",
+   "url": "https://www.fmprc.gov.cn/wjbxw_new/202512/t20251226_11787617.shtml",
+   "publisher": "中华人民共和国外交部",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "0de82a506e85036dd032906e122aa318e1786c9e3c323740431055102a02ce91",
+   "bytes": 66055,
+   "note": "外交部令第19号 反制清单（2025-12-26）"
+  },
+  {
+   "id": "SRC-CN-MFA-COUNTER-7-2024",
+   "url": "https://www.mfa.gov.cn/web/wjb_673085/zfxxgk_674865/gknrlb/fzcqdcs/202405/t20240522_11309756.shtml",
+   "publisher": "中华人民共和国外交部",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "d79194d2b69c8bd1d6a500f404af7398e1c5083c31ad92404989277c47921b83",
+   "bytes": 64808,
+   "note": "外交部令第7号 反制清单（2024-05-22）"
+  },
+  {
    "id": "SRC-CN-MOFCOM-BLOCKING-2021",
    "url": "https://www.mofcom.gov.cn/zcfb/zhzc/art/2021/art_bb49d4cdaae04eac9b309077c9dd63ed.html",
    "publisher": "商务部条法司",
@@ -299,6 +321,17 @@
    "sha256": "14715a487743570aff76e674835ad0791ea909156f2110127e56d04808834bd5",
    "bytes": 22638,
    "note": "阻断外国法律与措施不当域外适用办法（商务部令2021年第1号）"
+  },
+  {
+   "id": "SRC-CN-MOFCOM-BLOCKORDER-2026",
+   "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_0ff88c45f1974962a539775085014888.html",
+   "publisher": "商务部条法司",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "f3c7c9b46ad832128bd74749ce754ff36139600bb2ef0b71670888f0316a314f",
+   "bytes": 14766,
+   "note": "商务部公告2026年第21号 首个阻断禁令"
   },
   {
    "id": "SRC-CN-MOFCOM-RAREEARTH-2025",
@@ -642,6 +675,17 @@
    "bytes": 401974
   },
   {
+   "id": "SRC-US-OFAC-2026-04-24",
+   "url": "https://ofac.treasury.gov/recent-actions/20260424",
+   "publisher": "U.S. Department of the Treasury, OFAC",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "f9bff139225f257f660257254dc868f5714f7e1fcd3efbb88c207d746f504ee6",
+   "bytes": 50670,
+   "note": "OFAC recent action 2026-04-24, Iran-related designations"
+  },
+  {
    "id": "SRC-US-PL-119-12",
    "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ12/html/PLAW-119publ12.htm",
    "publisher": "U.S. Government Publishing Office (govinfo)",
@@ -650,6 +694,17 @@
    "fetched_at": "2026-11-11",
    "sha256": "ec3e9bf342bc39778cca8845ee9f2bd61e8130517a799ddc95618997e8f7f8da",
    "bytes": 28491
+  },
+  {
+   "id": "SRC-US-TREASURY-OFAC-IRAN-2026",
+   "url": "https://home.treasury.gov/news/press-releases/sb0528",
+   "publisher": "U.S. Department of the Treasury, OFAC",
+   "kind": "OFFICIAL_TEXT",
+   "official": true,
+   "fetched_at": "2026-11-20",
+   "sha256": "ffcdf3af59f42190845cb3cda7afbf95bed5cc969839315bb1ad4d21bd2e4518",
+   "bytes": 79113,
+   "note": "OFAC designations, Iran weapons procurement, China/HK-based persons"
   }
  ],
  "instruments": [
@@ -8080,6 +8135,75 @@
  ],
  "countermeasures": [
   {
+   "id": "CM-CN-BLOCKORDER-2026-05",
+   "direction": "OUTBOUND_FROM_CN",
+   "jurisdiction": "CN",
+   "issuer": "中华人民共和国商务部",
+   "title": "商务部公告2026年第21号 公布关于美国对5家中国企业实施涉伊朗石油制裁措施的阻断禁令",
+   "target": "美国依据第13902号、第13846号行政令对恒力石化（大连）炼化等 5 家中国企业采取的 SDN 列名、冻结资产与禁止交易措施",
+   "measure_type": "BLOCKING",
+   "status": "IN_FORCE",
+   "announced_at": "2026-05-02",
+   "effective_at": "2026-05-02",
+   "effective_on_publication": true,
+   "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+   "source_id": "SRC-CN-MOFCOM-BLOCKORDER-2026",
+   "source_ids": [
+    "SRC-CN-MOFCOM-BLOCKORDER-2026"
+   ],
+   "meta_evidence": {
+    "announced_at": "2026-05-02 19:00",
+    "effective_at": "本禁令自公布之日起施行"
+   },
+   "note": "《阻断办法》2021 年施行以来的第一个阻断禁令：不得承认、不得执行、不得遵守上述美国制裁措施。它与美国 2026 年 4 月的 SDN 列名构成一对。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-CN-MFA-2024-05",
+   "direction": "OUTBOUND_FROM_CN",
+   "jurisdiction": "CN",
+   "issuer": "中华人民共和国外交部",
+   "title": "关于对美国军工企业及高级管理人员采取反制措施的决定",
+   "target": "洛克希德·马丁导弹与火控公司等 12 家美国军工企业及 10 名高级管理人员",
+   "measure_type": "SANCTION",
+   "status": "IN_FORCE",
+   "effective_at": "2024-05-22",
+   "instrument_id": "CN-NPC-ANTISANCTION-2021",
+   "source_id": "SRC-CN-MFA-COUNTER-7-2024",
+   "source_ids": [
+    "SRC-CN-MFA-COUNTER-7-2024"
+   ],
+   "meta_evidence": {
+    "effective_at": "本决定自2024年5月22日起施行"
+   },
+   "note": "外交部令第7号。对 12 家企业冻结在华财产，对 10 名高管不予签证、不准入境（含港澳），依据同一条法律。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-CN-MFA-2025-12",
+   "direction": "OUTBOUND_FROM_CN",
+   "jurisdiction": "CN",
+   "issuer": "中华人民共和国外交部",
+   "title": "关于对美国军工相关企业及高级管理人员采取反制措施的决定",
+   "target": "诺斯罗普·格鲁曼系统公司等 20 家美国军工相关企业及 10 名高级管理人员",
+   "measure_type": "SANCTION",
+   "status": "IN_FORCE",
+   "effective_at": "2025-12-26",
+   "instrument_id": "CN-NPC-ANTISANCTION-2021",
+   "source_id": "SRC-CN-MFA-COUNTER-19-2025",
+   "source_ids": [
+    "SRC-CN-MFA-COUNTER-19-2025"
+   ],
+   "meta_evidence": {
+    "effective_at": "本决定自2025年12月26日起施行"
+   },
+   "note": "外交部令第19号。措施为冻结在华财产、禁止境内组织个人与其交易合作、不予签证并不准入境（含港澳），依据《反外国制裁法》第三至六条、第九条、第十五条。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
    "id": "CM-CN-RAREEARTH-2025-04",
    "direction": "OUTBOUND_FROM_CN",
    "jurisdiction": "CN",
@@ -8212,6 +8336,24 @@
     "effective_at": "Effective date: This rule is effective November 19, 2026."
    },
    "note": "联邦公报文件号 2026-23529，公布即生效。",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "CM-US-OFAC-IRAN-2026-04",
+   "direction": "INBOUND_TO_CN",
+   "jurisdiction": "US",
+   "issuer": "U.S. Department of the Treasury, Office of Foreign Assets Control",
+   "title": "Iran-related Designations; Counter Terrorism and Iran-related Designation Update; Issuance of Iran-related General License",
+   "target": "涉伊朗石油交易的中国炼化企业及关联航运实体与船舶",
+   "measure_type": "SANCTION",
+   "status": "ANNOUNCED",
+   "source_id": "SRC-US-OFAC-2026-04-24",
+   "source_ids": [
+    "SRC-US-OFAC-2026-04-24"
+   ],
+   "meta_evidence": {},
+   "note": "该页只标 Release Date 而未给出可逐字引用的日期文本，故未记日期，也未标「现行」。行动日期见官方地址路径 20260424；同日签发 General License V，授权在 2026-05-24 前完成与相关实体的清算交易。中国商务部 2026 年第 21 号公告针对的正是这批制裁措施。",
    "verification": "VERIFIED",
    "evidence_grade": "A"
   },

@@ -1,0 +1,23 @@
+{
+  "id": "CM-CN-BLOCKORDER-2026-05",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "中华人民共和国商务部",
+  "title": "商务部公告2026年第21号 公布关于美国对5家中国企业实施涉伊朗石油制裁措施的阻断禁令",
+  "target": "美国依据第13902号、第13846号行政令对恒力石化（大连）炼化等 5 家中国企业采取的 SDN 列名、冻结资产与禁止交易措施",
+  "measure_type": "BLOCKING",
+  "status": "IN_FORCE",
+  "announced_at": "2026-05-02",
+  "effective_at": "2026-05-02",
+  "effective_on_publication": true,
+  "instrument_id": "CN-MOFCOM-BLOCKING-2021",
+  "source_id": "SRC-CN-MOFCOM-BLOCKORDER-2026",
+  "source_ids": [
+    "SRC-CN-MOFCOM-BLOCKORDER-2026"
+  ],
+  "meta_evidence": {
+    "announced_at": "2026-05-02 19:00",
+    "effective_at": "本禁令自公布之日起施行"
+  },
+  "note": "《阻断办法》2021 年施行以来的第一个阻断禁令：不得承认、不得执行、不得遵守上述美国制裁措施。它与美国 2026 年 4 月的 SDN 列名构成一对。"
+}
