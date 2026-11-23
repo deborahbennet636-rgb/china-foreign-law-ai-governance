@@ -1,0 +1,168 @@
+{
+  "id": "ARG-CN-CASE-FACE-SWAP-COPYRIGHT",
+  "case_id": "CN-CASE-FACE-SWAP-COPYRIGHT",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "陈某在抖音平台实名认证账号“摄影师某某”，发布13段其拍摄的女子身着古装展示的短视频，每段时长10秒左右。",
+      "role": "FACT",
+      "rationale": "交代原告在抖音发布13段古装短视频的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "上海易某网络科技有限公司开发抖音小程序“某颜”，使用AI视频合成算法为用户提供换脸技术。",
+      "role": "FACT",
+      "rationale": "交代被告开发AI换脸小程序“某颜”的事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "“某颜”上展示的13段短视频与陈某发布的13段短视频，仅在人物面部五官特征上存在差别，视频场景、镜头、人物造型、动作则基本一致。",
+      "role": "FACT",
+      "rationale": "交代小程序13段视频与原告视频除面部五官外基本一致的比对事实"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "“某颜”用户可通过观看广告或购买会员，将小程序上展示的视频中的人脸换成用户自己的人脸并进行保存。",
+      "role": "FACT",
+      "rationale": "交代小程序用户通过广告或会员使用换脸并保存的商业模式事实"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "陈某提起诉讼，请求判令上海易某网络科技有限公司停止侵权、赔礼道歉，赔偿损失4.8万元和合理开支2000元。",
+      "role": "FACT",
+      "rationale": "陈述原告起诉请求停止侵权、赔礼道歉与赔偿损失的事实"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "上海市嘉定区人民法院一审认为，陈某拍摄的原始视频在内容编排、景别选取、拍摄角度等方面体现了独创性的选择安排，属于受著作权法保护的视听作品。",
+      "role": "ANALYSIS",
+      "rationale": "论证原告原始视频在编排景别角度具独创性，构成受保护的视听作品"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "“某颜”小程序展示的涉案视频，系通过AI算法将原始视频进行局部替换合成，二者构成实质性相似。",
+      "role": "ANALYSIS",
+      "rationale": "认定涉案视频经AI局部替换合成与原视频构成实质性相似"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "上海易某网络科技有限公司以“AI换脸”为卖点，提供平台、素材和技术，使用户能够在任意选定的时间和地点以“换脸”方式使用原始视频，谋取商业利益，侵害了陈某作品信息网络传播权。",
+      "role": "ANALYSIS",
+      "rationale": "论证被告以AI换脸为卖点提供平台素材技术牟利，侵害信息网络传播权"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "该行为既非独创性改编，亦不构成合理使用，也不适用技术中立抗辩。",
+      "role": "CONCLUSION",
+      "rationale": "否定独创性改编、合理使用与技术中立三项抗辩"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "上海易某网络科技有限公司在诉讼中积极配合删除视频、履行算法备案手续等整改行为，并接受关于运用算法技术提供网络服务的司法建议，作出规范经营承诺。",
+      "role": "FACT",
+      "rationale": "记录被告在诉讼中删除视频、履行算法备案及接受司法建议整改的事实"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "陈某表示谅解并撤回停止侵权、赔礼道歉的诉请。",
+      "role": "FACT",
+      "rationale": "记录原告表示谅解并撤回停止侵权与赔礼道歉诉请的程序事实"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "据此，判决上海易某网络科技有限公司赔偿陈某经济损失及合理开支共计7500元。",
+      "role": "CONCLUSION",
+      "rationale": "概括一审判决被告赔偿经济损失及合理开支7500元的结果"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "一审判决后，双方当事人均未上诉。",
+      "role": "FACT",
+      "rationale": "记录一审后双方均未上诉的程序状态"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "本案系生成合成类算法应用场景下的典型纠纷，涉及使用人工智能技术对他人作品进行局部合成行为的性质认定。",
+      "role": "ISSUE",
+      "rationale": "点明本案系生成合成算法场景下使用AI局部合成他人作品性质认定的典型纠纷"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "本案判决明确了“AI换脸”不构成对原作品的独创性改编与合理使用；使用人工智能技术提供网络服务者负有合理注意义务，不得利用算法技术侵害他人著作权。",
+      "role": "RULE",
+      "rationale": "提炼AI换脸不构成独创性改编与合理使用、AI网络服务者负合理注意义务的裁判规则"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "本案平衡兼顾技术创新和权利保护，明晰了人工智能技术应用的合法边界。",
+      "role": "OTHER",
+      "rationale": "评价本案平衡技术创新与权利保护、明晰合法边界的意义"
+    },
+    {
+      "id": "S017",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-462881",
+      "text": "人民法院聚焦新兴技术创新应用和算法治理需求，促使企业加强对素材来源及生成内容的合法性审查和算法安全评估，强化知识产权和人格权益保护，引导企业规范数字化转型。",
+      "role": "OTHER",
+      "rationale": "阐发法院引导企业加强合法性审查、算法安全评估与规范转型的司法政策导向"
+    },
+    {
+      "id": "S018",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-PKULAW-JD-1326",
+      "text": "综上所述，依照《中华人民共和国著作权法》第三条第六项、第十条第一款第十二项、第五十三条第一项、第五十四条第一款、第二款、第三款，《最高人民法院关于审理著作权民事纠纷案件适用法律若干问题的解释》第七条，《最高人民法院关于审理侵害信息网络传播权民事纠纷案件适用法律若干问题的规定》第三条及《中华人民共和国民事诉讼法》第十三条第二款、第六十七条第一款之规定，判决如下：",
+      "role": "RULE",
+      "rationale": "援引著作权法、司法解释及民事诉讼法具体条文作为裁判依据",
+      "provisions_mentioned": [
+        "CN-COPYRIGHT-LAW#第三条",
+        "CN-COPYRIGHT-LAW#第十条",
+        "CN-COPYRIGHT-LAW#第五十三条",
+        "CN-COPYRIGHT-LAW#第五十四条"
+      ]
+    },
+    {
+      "id": "S019",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-PKULAW-JD-1326",
+      "text": "一、被告某某公司1应于本判决生效之日起十日内赔偿原告陈某经济损失及合理维权费用共计7,500元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第一项：判令被告赔偿经济损失及合理维权费用7500元"
+    }
+  ]
+}

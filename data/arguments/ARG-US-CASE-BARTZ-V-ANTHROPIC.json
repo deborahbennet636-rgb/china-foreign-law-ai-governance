@@ -1,0 +1,53 @@
+{
+  "id": "ARG-US-CASE-BARTZ-V-ANTHROPIC",
+  "case_id": "US-CASE-BARTZ-V-ANTHROPIC",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "An artificial intelligence firm downloaded for free millions of copyrighted books in digital form from pirate sites on the internet.",
+      "role": "FACT",
+      "rationale": "交代AI公司从盗版网站免费下载数百万册受版权保护电子书的核心事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 1,
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "the use of the books at issue to train Claude and its precursors was exceedingly transformative and was a fair use under Section 107 of the Copyright Act.",
+      "role": "ANALYSIS",
+      "rationale": "法院认定用涉案图书训练Claude及其前身具高度转换性，依版权法第107条构成合理使用",
+      "provisions_mentioned": [
+        "US-USC-17#§107."
+      ]
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 2,
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "This order grants summary judgment for Anthropic that the training use was a fair use.",
+      "role": "CONCLUSION",
+      "rationale": "裁定就模型训练构成合理使用部分支持Anthropic的简易判决动议"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 3,
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "But it denies summary judgment for Anthropic that the pirated library copies must be treated as training copies.",
+      "role": "CONCLUSION",
+      "rationale": "裁定驳回Anthropic请求将盗版馆藏副本视为训练副本的简易判决动议"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 4,
+      "source_id": "SRC-US-NDCAL-BARTZ-FAIRUSE",
+      "text": "We will have a trial on the pirated copies used to create Anthropic’s central library and the resulting damages, actual or statutory (including for willfulness).",
+      "role": "CONCLUSION",
+      "rationale": "裁定就用于建立中央图书馆的盗版副本及损害赔偿问题进入庭审"
+    }
+  ]
+}

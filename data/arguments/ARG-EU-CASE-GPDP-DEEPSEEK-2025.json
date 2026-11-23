@@ -1,0 +1,79 @@
+{
+  "id": "ARG-EU-CASE-GPDP-DEEPSEEK-2025",
+  "case_id": "EU-CASE-GPDP-DEEPSEEK-2025",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "WHEREAS Hangzhou DeepSeek Artificial Intelligence Co., Ltd. and Beijing DeepSeek Artificial Intelligence Co., Ltd. (hereinafter referred to as the ‘Companies’) run the DeepSeek service (hereinafter referred to as the ‘DeepSeek service’), through app, website, software and related services;",
+      "role": "FACT",
+      "rationale": "交代杭州与北京两家DeepSeek公司通过应用与网页运营DeepSeek服务的主体事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 1,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "TAKING NOTE that in the same reply the Companies claimed that the Regulation does not apply to the personal data processing activities carried out by them;",
+      "role": "FACT",
+      "rationale": "记录两家公司在答复中主张GDPR不适用于其个人数据处理活动的抗辩事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "CONSIDERING therefore that Article 3(2)(a) of the Regulation applies, laying down a specific territorial scope for said Regulation;",
+      "role": "ANALYSIS",
+      "rationale": "认定GDPR第3(2)(a)条域外管辖规则适用于涉案面向意大利用户的服务",
+      "provisions_mentioned": [
+        "EU-GDPR-2016#Article 3"
+      ]
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 3,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "FINDING that, in accordance with the privacy policy, the data collected by the data controller in connection with the provision of the DeepSeek service are stored in the People's Republic of China, in violation of the safeguards provided for by the Regulation, in particular Article 32 on security of processing;",
+      "role": "ANALYSIS",
+      "rationale": "依据隐私政策认定数据存储于中国境内违反GDPR第32条安全保障要求",
+      "provisions_mentioned": [
+        "EU-GDPR-2016#Article 32"
+      ]
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 4,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "FINDING that the data controller, whilst required to comply with the Regulation on account of the service provided (pursuant to Article 3(2) of the Regulation), has failed to designate a representative by written mandate, in violation of Article 27 of the Regulation;",
+      "role": "ANALYSIS",
+      "rationale": "认定两家公司依第3(2)条受GDPR约束却未书面指定欧盟代表，违反第27条",
+      "provisions_mentioned": [
+        "EU-GDPR-2016#Article 3",
+        "EU-GDPR-2016#Article 27"
+      ]
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 5,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "ORDERS",
+      "role": "OTHER",
+      "rationale": "决定书主文结构标题（ORDERS）"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 5,
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "text": "Pursuant to Article 58 (2)(f), Hangzhou DeepSeek Artificial Intelligence Co., Ltd., and Beijing DeepSeek Artificial Intelligence Co., Ltd, established at 5th Floor, North Building, Block C, Rongke Information Center, No.2 South Science Academy Road, Haidian District Beijing, China, to definitively limit the processing activities of personal data of data subjects located in the Italian territory that are carried out in the context of the DeepSeek service.",
+      "role": "CONCLUSION",
+      "rationale": "依GDPR第58(2)(f)条下令永久限制两家公司处理意大利境内用户个人数据",
+      "provisions_mentioned": [
+        "EU-GDPR-2016#Article 58"
+      ]
+    }
+  ]
+}

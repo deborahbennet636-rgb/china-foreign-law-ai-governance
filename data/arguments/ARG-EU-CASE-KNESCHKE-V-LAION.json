@@ -1,0 +1,77 @@
+{
+  "id": "ARG-EU-CASE-KNESCHKE-V-LAION",
+  "case_id": "EU-CASE-KNESCHKE-V-LAION",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-EUIPO-LAION-2024",
+      "text": "The photographer Robert Kneschke (the ‘claimant’) brought a lawsuit before the Hamburg District Court against LAION, a non-profit organisation that created a dataset for training AI models (the ‘defendant’).",
+      "role": "FACT",
+      "rationale": "交代摄影师Kneschke在汉堡州法院起诉AI训练数据集非营利机构LAION的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-EUIPO-LAION-2024",
+      "text": "According to the claimant’s allegations, LAION had infringed his copyright by reproducing one of his images without permission as part of the dataset creation process.",
+      "role": "FACT",
+      "rationale": "陈述原告主张LAION在制作数据集时未经许可复制其图片构成著作权侵权"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 1,
+      "source_id": "SRC-EU-EUIPO-LAION-2024",
+      "text": "The Court of Hamburg dismissed the lawsuit ruling out a copyright infringement as LAION’s reproduction of Kneschke’s image was covered by the TDM exception for scientific research under Article 3 of the Digital Single Market (DSM) Directive, implemented in German law by Section 60d of the Act on Copyright and Related Rights (Urheberrechtsgesetz ‘ UrhG’).",
+      "role": "CONCLUSION",
+      "rationale": "汉堡州法院一审以DSM指令第3条及德国§60d UrhG科研TDM例外驳回起诉",
+      "provisions_mentioned": [
+        "EU-DSM-2019#Article 3"
+      ]
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der 5. Zivilsenat hat heute entschieden, dass das Landgericht die Klage zu Recht abgewiesen hat.",
+      "role": "CONCLUSION",
+      "rationale": "汉堡高等州法院第5民事庭二审裁决一审驳回诉讼正确"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Dem klagenden Fotografen stehe kein urheberrechtlicher Unterlassungsanspruch zu.",
+      "role": "CONCLUSION",
+      "rationale": "二审确认原告摄影师不享有著作权停止侵害请求权"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Zur Begründung führt der Senat aus, dass sich der Beklagte hinsichtlich der Nutzung der heruntergeladenen Fotografie auf die Schrankenregelungen für das sog. Text und Data Mining aus § 44b UrhG berufen könne.",
+      "role": "ANALYSIS",
+      "rationale": "二审说理指出被告就下载图片的使用可援引§44b UrhG文本与数据挖掘限制规则"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 3,
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der auf der Webseite der Bildagentur zum Zeitpunkt des Downloads der Fotografie vorhandene Nutzungsvorbehalt habe vorliegend aber nicht die gesetzlich vorgesehene Form (Maschinenlesbarkeit) aufgewiesen (§ 44b Abs. 3 S. 2 UrhG), so dass die streitgegenständliche Vervielfältigung zulässig gewesen sei.",
+      "role": "ANALYSIS",
+      "rationale": "二审论证图片社网页在下载时的权利保留声明未达§44b Abs.3 S.2 UrhG机器可读法定形式，故复制合法"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 4,
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der Senat hat zudem ausgeführt, dass das Landgericht im Ergebnis zu Recht davon ausgegangen sei, dass die streitgegenständliche Nutzung der Fotografie auch deswegen gerechtfertigt gewesen sei, weil sie für Zwecke der wissenschaftlichen Forschung erfolgt sei (Schrankenregelung des § 60d UrhG).",
+      "role": "ANALYSIS",
+      "rationale": "二审补充论证涉案图片使用服务于科学研究目的，亦受§60d UrhG科研TDM例外正当化"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ARG-US-CASE-THOMSON-REUTERS-V-ROSS",
+  "case_id": "US-CASE-THOMSON-REUTERS-V-ROSS",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Ross was using Thomson Reuters’s headnotes as AI data to create a legal research tool to compete with Westlaw.",
+      "role": "FACT",
+      "rationale": "交代Ross使用Thomson Reuters判例提要作为AI数据以构建竞品法律检索工具的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 1,
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "It is undisputed that Ross’s AI is not generative AI (AI that writes new content itself).",
+      "role": "FACT",
+      "rationale": "交代双方无争议的事实：Ross的AI并非可自行撰写新内容的生成式AI"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 2,
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Weighing them all together, I grant summary judgment for Thomson Reuters on fair use.",
+      "role": "CONCLUSION",
+      "rationale": "法院综合权衡合理使用各项因素后，就合理使用问题支持Thomson Reuters的简易判决"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 3,
+      "source_id": "SRC-US-DDEL-ROSS-2025",
+      "text": "Because the AI landscape is changing rapidly, I note for readers that only non-generative AI is before me today.",
+      "role": "OTHER",
+      "rationale": "法官向读者作出适用射程说明：鉴于AI格局变化迅速，本案仅涉及非生成式AI"
+    }
+  ]
+}

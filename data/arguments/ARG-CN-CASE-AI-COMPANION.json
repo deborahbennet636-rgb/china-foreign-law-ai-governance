@@ -1,0 +1,200 @@
+{
+  "id": "ARG-CN-CASE-AI-COMPANION",
+  "case_id": "CN-CASE-AI-COMPANION",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "某人工智能科技有限公司（以下简称被告）是某款手机记账软件的开发运营者，用户在该软件中可自行创设“AI陪伴者”，设置陪伴者的名称、头像，设置与该陪伴者的人物关系（如男女朋友、兄妹、母子等）。",
+      "role": "FACT",
+      "rationale": "介绍被告身份及涉案软件“AI陪伴者”功能机制"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "何某系公众人物，知名度较高，在该款软件中被大量用户设置为陪伴人物。",
+      "role": "FACT",
+      "rationale": "交代原告公众人物身份及被大量设置为陪伴角色的事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "用户在设置“何某”为陪伴人物时，上传了大量何某的肖像图片设置人物头像，同时设置了人物关系。",
+      "role": "FACT",
+      "rationale": "交代用户上传肖像图片及设定人物关系的具体行为"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告通过算法部属，将陪伴者“何某”按关系设定分类，并向其他用户推荐该角色。",
+      "role": "FACT",
+      "rationale": "交代被告通过算法分类并推荐该角色的事实"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "为了使AI角色更加拟人化，被告还为AI角色提供了“调教”算法机制，即用户上传各类文字、肖像图片、动态表情等互动语料，部分用户参与审核，软件进行筛选、分类，形成人物语料。",
+      "role": "FACT",
+      "rationale": "交代软件提供“调教”语料算法机制的运作事实"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "软件可以根据话题类别、角色的人设特点等，在“何某”与用户的对话中向用户推送与其有关的“肖像表情包”和“撩人情话”，营造出与其真人真实互动的使用体验。",
+      "role": "FACT",
+      "rationale": "交代软件向用户推送肖像表情包与情话的交互事实"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告认为，被告的行为侵害了原告的姓名权、肖像权、一般人格权，故诉至法院。",
+      "role": "FACT",
+      "rationale": "陈述原告侵权主张与起诉事实"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院认为，被告行为构成对原告姓名权、肖像权、一般人格权的侵害。",
+      "role": "CONCLUSION",
+      "rationale": "总括性认定被告行为侵害姓名权、肖像权与一般人格权"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "在被告的软件功能和算法设计下，用户使用何某的姓名、肖像创设虚拟人物，制作互动语料素材，将何某的姓名、肖像、人格特点等综合而成的整体形象投射到AI角色上，形成了何某的虚拟形象，是对包含何某肖像、姓名的整体人格形象的使用。",
+      "role": "ANALYSIS",
+      "rationale": "分析软件功能与算法设计下形成虚拟形象并构成整体人格形象使用"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告使用何某姓名、肖像的行为并未获得何某的许可，构成对何某姓名权、肖像权的侵害。",
+      "role": "CONCLUSION",
+      "rationale": "认定未经许可使用姓名与肖像构成姓名权、肖像权侵权"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "同时，用户可以与AI角色设置虚拟身份关系，设定任意相互称谓，通过制作语料素材“调教”角色，使得AI角色与真实自然人高度关联，容易让用户产生一种与何某真实互动的情感体验。",
+      "role": "ANALYSIS",
+      "rationale": "分析虚拟身份关系与调教语料使AI角色高度关联真实自然人"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "上述使用方式未经何某同意，侵害了何某的人格尊严和人格自由利益，构成对何某一般人格权益的侵害。",
+      "role": "CONCLUSION",
+      "rationale": "认定未经同意的交互体验侵害人格尊严与自由，构成一般人格权侵权"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "同时，涉案软件的服务与技术服务存在本质不同，被告并非提供简单的用户内容上传服务，而是通过规则设定、算法设计，组织、鼓励用户形成侵权素材，与其共同创设虚拟形象，并使用到用户服务中。",
+      "role": "ANALYSIS",
+      "rationale": "辨析涉案软件通过规则与算法组织素材，区别于中立技术服务"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告的产品设计和算法应用鼓励、组织了涉案虚拟形象的创设，直接决定了软件核心功能的实现，不再是中立的技术服务提供者，而应作为网络内容服务提供者承担侵权责任。",
+      "role": "ANALYSIS",
+      "rationale": "论证产品与算法设计决定核心功能，应按网络内容服务提供者担责"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "判决被告向原告公开赔礼道歉，赔偿原告精神损失及经济损失。",
+      "role": "CONCLUSION",
+      "rationale": "概括一审判决赔礼道歉与赔偿损失的裁判结果"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。",
+      "role": "FACT",
+      "rationale": "记录被告上诉后撤回上诉及判决生效的程序经过"
+    },
+    {
+      "id": "S017",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案明确自然人的人格权及于其虚拟形象，未经许可擅自创设、使用自然人虚拟形象的，构成对自然人人格权的侵害；网络服务提供者通过算法设计实质参与了侵权内容的生成和提供，应按照内容服务提供者承担侵权责任。",
+      "role": "RULE",
+      "rationale": "提炼自然人人格权及于虚拟形象与算法实质参与即按内容提供者担责的一般规则"
+    },
+    {
+      "id": "S018",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案对加强人格权保护具有重要意义，入选最高人民法院“民法典颁布后人格权司法保护典型民事案例”、北京法院参阅案例。",
+      "role": "OTHER",
+      "rationale": "评价本案意义及入选最高法与北京法院典型/参阅案例的情况"
+    },
+    {
+      "id": "S019",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-WK-BIC-9526",
+      "text": "综上，案涉软件的模式与侵权责任法第三十六条第二款、第三款规范的仅提供技术服务、未直接实施侵权行为的情形有着本质不同，系通过规则设定、算法设计，组织用户形成素材并提供给用户，故而，被告的行为构成直接的内容服务提供行为，被告属于内容服务提供者。",
+      "role": "ANALYSIS",
+      "rationale": "判决书原文涵摄涉案模式区别于侵权责任法第三十六条技术服务，认定构成内容服务提供行为"
+    },
+    {
+      "id": "S020",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-WK-BIC-9526",
+      "text": "被告未获原告许可以上述方式利用原告的人格要素，侵害原告人格自由利益及人格被尊重的利益，构成侵害原告一般人格权的行为。",
+      "role": "CONCLUSION",
+      "rationale": "判决书原文认定未获许可利用人格要素构成侵害一般人格权"
+    },
+    {
+      "id": "S021",
+      "excerpt_index": 5,
+      "source_id": "SRC-CN-WK-BIC-9526",
+      "text": "综上，依照《中华人民共和国民法典》第九百九十条、第九百九十八条、第一千零一十二条、第一千零一十八条",
+      "role": "RULE",
+      "rationale": "援引民法典具体条文作为裁判法律依据",
+      "provisions_mentioned": [
+        "CN-CIVIL-CODE#第九百九十条",
+        "CN-CIVIL-CODE#第九百九十八条",
+        "CN-CIVIL-CODE#第一千零一十二条",
+        "CN-CIVIL-CODE#第一千零一十八条"
+      ]
+    },
+    {
+      "id": "S022",
+      "excerpt_index": 6,
+      "source_id": "SRC-CN-WK-BIC-9526",
+      "text": "二、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某经济损失183 000元（包括合理维权支出3000元）；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第二项：判令赔偿经济损失183000元"
+    },
+    {
+      "id": "S023",
+      "excerpt_index": 7,
+      "source_id": "SRC-CN-WK-BIC-9526",
+      "text": "三、被告上海自古红蓝人工智能科技有限公司于本判决生效之日起七日内赔偿原告何某精神损害抚慰金20 000元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第三项：判令赔偿精神损害抚慰金20000元"
+    }
+  ]
+}

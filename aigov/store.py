@@ -23,6 +23,7 @@ class Database:
     # a database, and so that a database without them is a valid one.
     obligations: List[Record] = field(default_factory=list)
     countermeasures: List[Record] = field(default_factory=list)
+    arguments: List[Record] = field(default_factory=list)
 
 
 def _load_dir(path: Path) -> List[Record]:
@@ -47,6 +48,7 @@ def load_database() -> Database:
         leads=_load_list(PATHS.leads / "leads.json"),
         obligations=_load_dir(PATHS.obligations) if PATHS.obligations.exists() else [],
         countermeasures=_load_dir(PATHS.countermeasures) if PATHS.countermeasures.exists() else [],
+        arguments=_load_dir(PATHS.arguments) if PATHS.arguments.exists() else [],
     )
 
 

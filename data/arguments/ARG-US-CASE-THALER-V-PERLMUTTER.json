@@ -1,0 +1,42 @@
+{
+  "id": "ARG-US-CASE-THALER-V-PERLMUTTER",
+  "case_id": "US-CASE-THALER-V-PERLMUTTER",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "On the application, Dr. Thaler listed the Creativity Machine as the work’s sole author and himself as just the work’s owner.",
+      "role": "FACT",
+      "rationale": "交代Thaler博士在登记申请中将Creativity Machine列为唯一作者、将自己列为所有权人的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 1,
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "The Creativity Machine cannot be the recognized author of a copyrighted work because the Copyright Act of 1976 requires all eligible work to be authored in the first instance by a human being.",
+      "role": "ANALYSIS",
+      "rationale": "上诉法院依据1976年版权法要求合格作品须首先由人类创作的规定，论证AI系统不能成为作者"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 2,
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "Given that holding, we need not address the Copyright Office’s argument that the Constitution itself requires human authorship of all copyrighted material.",
+      "role": "ISSUE",
+      "rationale": "明确因前述认定而无需审理版权局关于宪法是否要求人类作者身份的争点"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 3,
+      "source_id": "SRC-US-CADC-THALER-2025",
+      "text": "Nor do we reach Dr. Thaler’s argument that he is the work’s author by virtue of making and using the Creativity Machine because that argument was waived before the agency.",
+      "role": "ISSUE",
+      "rationale": "明确不审理Thaler博士关于因制造使用机器成为作者的主张（该主张已在行政阶段放弃）"
+    }
+  ]
+}

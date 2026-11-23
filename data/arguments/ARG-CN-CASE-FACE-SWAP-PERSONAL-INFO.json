@@ -1,0 +1,176 @@
+{
+  "id": "ARG-CN-CASE-FACE-SWAP-PERSONAL-INFO",
+  "case_id": "CN-CASE-FACE-SWAP-PERSONAL-INFO",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告廖某是一名古风短视频博主，在全网拥有较多粉丝，被告某科技文化有限公司在未经其授权同意的情况下，使用原告出镜的系列视频制作换脸模板，并上传至涉案软件中，提供给用户付费以此牟利。",
+      "role": "FACT",
+      "rationale": "交代原告古风博主身份及被告未经同意用其视频制作付费换脸模板的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告认为被告的行为侵犯其肖像权与个人信息权益，要求被告书面赔礼道歉、并赔偿原告经济损失与精神损失。",
+      "role": "FACT",
+      "rationale": "陈述原告主张侵害肖像权与个人信息权益的诉讼请求"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告某科技文化有限公司认为，被告平台发布的视频均有合法来源，并且面部特征并非原告，并未侵害原告肖像权。",
+      "role": "FACT",
+      "rationale": "陈述被告主张视频来源合法、面部非原告、不构成肖像权侵权的抗辩"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "此外，涉案软件所使用的“换脸技术”实际由第三方提供，被告并未处理原告的个人信息，并未侵害原告的个人信息权益。",
+      "role": "FACT",
+      "rationale": "陈述被告主张换脸技术由第三方提供、未处理原告个人信息的抗辩"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "经法院查明，涉案换脸模板视频与原告创作的系列视频的妆容、发型、服饰、动作、灯光及镜头切换呈现一致特征，但出镜人的面部特征均不相同且并非原告。",
+      "role": "FACT",
+      "rationale": "记录法院查明模板与原视频妆造动作一致但面部特征非原告的事实"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "涉案软件通过第三方公司的服务实现换脸功能，用户交纳会员费可以解锁所有换脸功能。",
+      "role": "FACT",
+      "rationale": "记录法院查明软件通过第三方实现换脸并向会员收费的事实"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院认为，判断是否侵犯肖像权的关键在于是否具备可识别性，可识别性强调肖像的本质在于指向特定的人，而肖像的范围以面部为核心，也可能涉及独特的身体部位、声音、识别性较高的特定动作等能够与特定自然人对应的部分。",
+      "role": "RULE",
+      "rationale": "阐明侵害肖像权以可识别性为关键及肖像范围以面部为核心的一般法律标准"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案中，被告虽然使用原告的视频制作视频模板，但并未利用原告的肖像，而是通过技术手段将原告面部特征替换，模板中所保留的妆容、发型、服饰、灯光、镜头切换等要素并非与特定自然人不可分割，与自然人与生俱来的人格要素存在区别，一般公众通过替换后的视频识别的主体为案外人而非本案原告。",
+      "role": "ANALYSIS",
+      "rationale": "涵摄论证替换面部后保留的妆造灯光等要素非与自然人不可分割，公众识别为案外人"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "同时，被告将视频模板提供给用户使用的行为并未丑化、污损、伪造原告肖像。",
+      "role": "ANALYSIS",
+      "rationale": "补充论证提供视频模板的行为未丑化、污损或伪造原告肖像"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "因此，被告的行为不构成对原告肖像权的侵害。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告行为不构成对原告肖像权的侵害"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "但是，被告收集了包含原告人脸信息的出镜视频，将该视频中的原告面部替换成自己提供的照片中面部，该合成过程需要将新的静态图片中的特征与原视频部分面部特征、表情等通过算法进行融合。",
+      "role": "ANALYSIS",
+      "rationale": "剖析被告收集含原告人脸视频并以算法融合面部特征表情的技术过程"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "上述过程，涉及对原告个人信息的收集、使用、分析等，属于对原告个人信息的处理。",
+      "role": "ANALYSIS",
+      "rationale": "涵摄认定该融合过程涉及收集使用分析，属于对原告个人信息的处理"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告处理该信息未经过原告同意，因此构成对原告个人信息权益的侵害。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告未经同意处理原告人脸信息构成侵害个人信息权益"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "对于被告擅自使用他人制作的视频侵害他人创造性劳动成果的，应由相应权利人主张权利。",
+      "role": "RULE",
+      "rationale": "指出擅自使用他人视频侵害创造性劳动成果应由相应权利人另行主张权利"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "判决被告向原告书面致歉，赔偿原告精神损失及精神抚慰金。",
+      "role": "CONCLUSION",
+      "rationale": "概括判决被告书面致歉并赔偿精神损失及抚慰金的结果"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "宣判后，双方均未提起上诉，该判决已生效。",
+      "role": "FACT",
+      "rationale": "记录宣判后双方未上诉、判决生效的程序事实"
+    },
+    {
+      "id": "S017",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案围绕“AI换脸”这一新商业模式，对于生成合成式人工智能应用过程中的肖像权、个人信息权益及基于劳动创造投入的合法权益进行准确区分，既维护自然人的合法权益，又为人工智能技术和新兴产业发展留有合理空间，对于服务和保障数字经济规范健康发展有重要意义。",
+      "role": "OTHER",
+      "rationale": "评述本案在AI换脸新商业模式下准确区分肖像权与个人信息权益的示范意义"
+    },
+    {
+      "id": "S018",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-PKULAW-BIC-3820",
+      "text": "综上，依照《中华人民共和国个人信息保护法》第四条、第二十七条、第四十四条、第六十九条，《中华人民共和国民法典》第九百九十五条、第一千一百八十二条、第一千一百八十三条，《最高人民法院关于审理利用信息网络侵害人身权益民事纠纷案件适用法律若干问题的规定》第十一条、第十二条的规定，判决如下：",
+      "role": "RULE",
+      "rationale": "援引个人信息保护法、民法典与网络侵权司法解释条文作为裁判依据",
+      "provisions_mentioned": [
+        "CN-PIPL-2021#第四条",
+        "CN-PIPL-2021#第二十七条",
+        "CN-PIPL-2021#第四十四条",
+        "CN-PIPL-2021#第六十九条"
+      ]
+    },
+    {
+      "id": "S019",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-PKULAW-BIC-3820",
+      "text": "二、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某精神损失500元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第二项：判令赔偿精神损失500元"
+    },
+    {
+      "id": "S020",
+      "excerpt_index": 5,
+      "source_id": "SRC-CN-PKULAW-BIC-3820",
+      "text": "三、被告某文化有限公司于本判决生效之日起七日内赔偿原告廖某财产损失(含合理维权费用)1500元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第三项：判令赔偿财产损失及合理维权费用1500元"
+    }
+  ]
+}

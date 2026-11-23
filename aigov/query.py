@@ -42,6 +42,7 @@ class Index:
         self.issues = {item["id"]: item for item in dataset["issues"]}
         self.obligations = {item["id"]: item for item in dataset["obligations"]}
         self.countermeasures = {item["id"]: item for item in dataset["countermeasures"]}
+        self.arguments_by_case = {item["case_id"]: item for item in dataset.get("arguments", [])}
 
     def lookup(self, table: str, record_id: str) -> Record:
         """Return one record, or raise NotFound naming the ids that exist."""
@@ -362,6 +363,36 @@ def get_case(index: Index, case_id: str) -> Record:
     """One case with verbatim excerpts, cited provisions and citation."""
     case = index.lookup("cases", case_id)
     sources = list((case.get("scopes") or {}).keys()) + [e["source_id"] for e in case.get("excerpts", [])]
+    arg = index.arguments_by_case.get(case["id"])
+    argument_annotations = None
+    if arg:
+        mode = arg.get("annotation_mode")
+        arg_warnings = []
+        if mode == "LLM_DRAFT":
+            arg_warnings.append("句级 FIRAC 角色为模型初标，尚未经法学双盲人工复核，仅作研究试点参考。")
+        if arg.get("complete_excerpts") is False:
+            arg_warnings.append("仅覆盖本案部分摘录，并非全部摘录的句级标注。")
+        argument_annotations = _drop_empty({
+            "id": arg["id"],
+            "annotation_mode": mode,
+            "annotator": arg.get("annotator"),
+            "complete_excerpts": arg.get("complete_excerpts", True),
+            "warning": " ".join(arg_warnings) if arg_warnings else None,
+            "sentences": [
+                _drop_empty({
+                    "id": s["id"],
+                    "excerpt_index": s["excerpt_index"],
+                    "source_id": s["source_id"],
+                    "text": s["text"],
+                    "editorial": _drop_empty({
+                        "role": s["role"],
+                        "rationale": s.get("rationale"),
+                        "provisions_mentioned": s.get("provisions_mentioned"),
+                    }),
+                })
+                for s in arg.get("sentences", [])
+            ],
+        })
     return _drop_empty({
         "id": case["id"],
         "short_name": case.get("short_name"),
@@ -378,6 +409,7 @@ def get_case(index: Index, case_id: str) -> Record:
         "verification": case.get("verification"),
         "editorial": _drop_empty({"outcome": case.get("outcome"), "is_final": case.get("is_final"),
                                   "outcome_note": case.get("outcome_note")}),
+        "argument_annotations": argument_annotations,
         "cite": index.cite(sources),
     })
 

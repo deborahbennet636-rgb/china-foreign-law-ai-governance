@@ -1,0 +1,50 @@
+{
+  "id": "ARG-EU-CASE-GPDP-REPLIKA-2025",
+  "case_id": "EU-CASE-GPDP-REPLIKA-2025",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "The proceedings originated from an investigation initiated by the Italian Supervisory Authority (SA) of its own motion following the publication of press reports and preliminary fact-finding conducted on the Replika service, a chatbot with a written and voice interface developed and managed by the US company Luka Inc and based on a generative AI system.",
+      "role": "FACT",
+      "rationale": "交代意大利监管机构依职权就美国公司Luka Inc.运营的Replika启动调查的程序经过"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "The chatbot features both a written and voice interface, allowing users to ‘generate’ a ‘virtual companion’ that can take on the role of a confidant, therapist, romantic partner, or mentor.",
+      "role": "FACT",
+      "rationale": "说明Replika具备文字与语音交互、可生成虚拟陪伴者的产品形态事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 1,
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "The Italian SA has imposed on Luka Inc. an administrative fine of 5 million € for infringing Articles 5.1 (a) and 6; Articles 5.1 (a), 12, 13, 5.1 (c), 24 and 25.1 of the GDPR.",
+      "role": "CONCLUSION",
+      "rationale": "监管机构因违反GDPR第5、6、12、13、24、25条对Luka Inc.处500万欧元罚款",
+      "provisions_mentioned": [
+        "EU-GDPR-2016#Article 5",
+        "EU-GDPR-2016#Article 6",
+        "EU-GDPR-2016#Article 12",
+        "EU-GDPR-2016#Article 13",
+        "EU-GDPR-2016#Article 24",
+        "EU-GDPR-2016#Article 25"
+      ]
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "Additionally, the Italian SA reserves the right to investigate and assess in a separate and autonomous proceeding, the aspects concerning the lawfulness of the processing operations carried out by Luka Inc., with specific reference to the legal bases for processing applicable throughout the entire lifecycle of the generative AI system underlying the Replika service.",
+      "role": "ISSUE",
+      "rationale": "监管机构保留在独立程序中另行调查生成式AI全生命周期数据处理合法性基础的待决事项"
+    }
+  ]
+}

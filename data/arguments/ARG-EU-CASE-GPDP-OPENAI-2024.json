@@ -1,0 +1,50 @@
+{
+  "id": "ARG-EU-CASE-GPDP-OPENAI-2024",
+  "case_id": "EU-CASE-GPDP-OPENAI-2024",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "According to the Italian Data Protection Authority, the US company, which created and manages the generative artificial intelligence chatbot, did not notify the Authority of the data breach it underwent in March 2023, it has processed users’ personal data to train ChatGPT without first identifying an appropriate legal basis and has violated the principle of transparency and the related information obligations toward users.",
+      "role": "ANALYSIS",
+      "rationale": "监管机构认定OpenAI未报告2023年3月数据泄露、无合法基础训练ChatGPT且违反透明告知义务"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "Furthermore, OpenAI has not provided for mechanisms for age verification, which could lead to the risk of exposing children under 13 to inappropriate responses with respect to their degree of development and self-awareness.",
+      "role": "ANALYSIS",
+      "rationale": "监管机构进一步认定OpenAI未设置年龄验证机制致13岁以下未成年人面临不当回复风险"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 1,
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "The Data Protection Authority imposed a fine of EUR 15 million on OpenAI, which was also calculated taking into account the company’s cooperative attitude.",
+      "role": "CONCLUSION",
+      "rationale": "意大利数据保护局考量配合态度后对OpenAI处以1500万欧元罚款"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome.",
+      "role": "FACT",
+      "rationale": "官方页注说明第755号决定因罗马法院第4153/2026号判决已暂时撤下"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 2,
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision",
+      "role": "CONCLUSION",
+      "rationale": "载明罗马法院2026年3月18日公布的判决支持针对监管机构决定的上诉"
+    }
+  ]
+}

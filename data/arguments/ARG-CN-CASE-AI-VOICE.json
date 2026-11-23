@@ -1,0 +1,208 @@
+{
+  "id": "ARG-CN-CASE-AI-VOICE",
+  "case_id": "CN-CASE-AI-VOICE",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告殷某某是一名配音演员，发现他人利用其配音制作的作品在多个知名APP广泛流传。",
+      "role": "FACT",
+      "rationale": "交代原告配音演员身份及发现他人使用其配音广泛流传的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "经声音筛选和溯源，发现上述作品中的声音来自于被告一某智能科技公司运营的平台中的文本转语音产品。",
+      "role": "FACT",
+      "rationale": "交代经溯源声音来自被告一平台文本转语音产品的事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告曾接受被告二某文化传媒公司的委托录制录音制品，被告二为录音制品的著作权人。",
+      "role": "FACT",
+      "rationale": "交代原告曾受被告二委托录制录音制品及被告二享著作权的事实"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "后被告二将原告为其录制的录音制品的音频提供给被告三某软件公司。",
+      "role": "FACT",
+      "rationale": "交代被告二将原告录音音频提供给被告三的事实"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告三仅以原告录制的一部录音制品作为素材进行AI化处理，生成了涉案文本转语音产品并在被告四某网络科技公司运营的云服务平台对外出售。",
+      "role": "FACT",
+      "rationale": "交代被告三仅以原告录音进行AI化处理生成产品并在被告四平台出售的事实"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告一某智能科技公司与被告五某科技发展公司签订在线服务买卖合同，由被告五向被告三下单采购，其中包括了涉案文本转语音产品。",
+      "role": "FACT",
+      "rationale": "交代被告一与被告五签订合同并由被告五向被告三采购的交易链条事实"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告一某智能科技公司采取应用程序接口形式，在未经技术处理的情况下，直接调取并生成文本转语音产品在其平台中使用。",
+      "role": "FACT",
+      "rationale": "交代被告一通过API未经处理直接调取使用的事实"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告主张，被告的行为已经严重侵犯了原告的声音权益，被告一某智能科技公司、被告三某软件公司应立即停止侵权、赔礼道歉，五被告应当赔偿原告经济损失、精神损失。",
+      "role": "FACT",
+      "rationale": "陈述原告主张侵害声音权益及对五被告的具体诉讼请求"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院认为，自然人声音以声纹、音色、频率为区分，具有独特性、唯一性、稳定性特点，能够给他人形成或引起一般人产生与该自然人有关的思想或感情活动，可以对外展示个人的行为和身份。",
+      "role": "RULE",
+      "rationale": "界定自然人声音具独特性、唯一性、稳定性及展示身份的一般人格属性"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "自然人声音的可识别性是指在他人反复多次或长期聆听的基础上，通过该声音特征能识别出特定自然人。",
+      "role": "RULE",
+      "rationale": "界定自然人声音可识别性的一般法律标准"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "利用人工智能合成的声音，如果能使一般社会公众或者相关领域的公众根据其音色、语调和发音风格，关联到该自然人，可以认定为具有可识别性。",
+      "role": "RULE",
+      "rationale": "确立AI合成声音若能使公众依音色语调风格关联到自然人即具可识别性的判断标准"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案中，因被告三系仅使用原告个人声音开发涉案文本转语音产品，而且经当庭勘验，该AI声音与原告的音色、语调、发音风格等具有高度一致性，能够引起一般人产生与原告有关的思想或感情活动，能够将该声音联系到原告本人，进而识别出原告的主体身份。",
+      "role": "ANALYSIS",
+      "rationale": "结合单人素材开发与当庭勘验结果，涵摄论证涉案AI声音可识别出原告身份"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告二对录音制品享有著作权等权利，但不包括授权他人对原告声音进行AI化使用的权利。",
+      "role": "RULE",
+      "rationale": "厘清录音制品著作权不包含授权他人对表演者声音进行AI化使用的权利边界"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告二与被告三公司签订数据协议，在未经原告本人知情同意的情况下，授权被告三AI化使用原告声音的行为无合法权利来源。",
+      "role": "ANALYSIS",
+      "rationale": "论证被告二与被告三未经原告知情同意签订数据协议授权AI化无合法来源"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "因此，被告二、被告三关于获得原告合法授权的抗辩不能成立。",
+      "role": "CONCLUSION",
+      "rationale": "驳回被告二、被告三关于获得原告合法授权的抗辩"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告二、被告三未经原告许可AI化使用了原告声音，构成对原告声音权益的侵犯，其侵权行为造成了原告声音权益受损的后果，应承担相应的法律责任。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告二、被告三未经许可AI化使用声音构成侵权并应担责"
+    },
+    {
+      "id": "S017",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告一、被告四、被告五主观上不存在过错，不承担损害赔偿责任。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告一、四、五主观无过错，不承担损害赔偿责任"
+    },
+    {
+      "id": "S018",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "因此，综合考量被告侵权情节、同类市场产品价值、产品播放量等因素，对损害赔偿予以酌定。",
+      "role": "ANALYSIS",
+      "rationale": "说明综合侵权情节、市场价值与播放量酌定损害赔偿数额的考量"
+    },
+    {
+      "id": "S019",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "判决被告一、被告三向原告书面赔礼道歉，被告二、被告三赔偿原告经济损失。",
+      "role": "CONCLUSION",
+      "rationale": "概括判决被告一、三书面赔礼道歉及被告二、三赔偿经济损失的结果"
+    },
+    {
+      "id": "S020",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "宣判后，双方均未提起上诉，该判决已生效。",
+      "role": "FACT",
+      "rationale": "记录宣判后双方未上诉、判决生效的程序事实"
+    },
+    {
+      "id": "S021",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案明确了经人工智能技术处理的声音受声音权保护的认定标准，为新业态、新技术的应用划定了行为界限，有助于规范和引导人工智能技术沿着为民、向善的方向发展。",
+      "role": "RULE",
+      "rationale": "提炼经AI处理声音受声音权保护的认定标准及技术应用界限"
+    },
+    {
+      "id": "S022",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案入选最高人民法院发布的民法典颁布五周年典型案例，利用网络、信息技术侵害人格权典型案例，2024年度中国十大传媒法事例。",
+      "role": "OTHER",
+      "rationale": "列举本案入选最高法民法典五周年典型案例及传媒法事例的记录"
+    },
+    {
+      "id": "S023",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-CIP-BIC-12142",
+      "text": "综上，本院依照《中华人民共和国民法典》第九百九十五条、第一千条、第一千零一十八条、第一千零一十九条、第一千零二十三条第二款、第一千一百六十五条、第一千一百六十八条、第一千一百八十二条、第一千一百八十三条",
+      "role": "RULE",
+      "rationale": "援引民法典声音权益与侵权责任具体条文作为裁判依据",
+      "provisions_mentioned": [
+        "CN-CIVIL-CODE#第一千零一十八条",
+        "CN-CIVIL-CODE#第一千零一十九条",
+        "CN-CIVIL-CODE#第一千零二十三条",
+        "CN-CIVIL-CODE#第一千一百六十五条"
+      ]
+    },
+    {
+      "id": "S024",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-CIP-BIC-12142",
+      "text": "二、被告某文化传媒公司、被告某软件公司连带赔偿原告殷某某经济损失25万元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第二项：判令被告二、三连带赔偿经济损失25万元"
+    }
+  ]
+}

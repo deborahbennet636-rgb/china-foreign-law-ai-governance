@@ -1,0 +1,138 @@
+{
+  "id": "ARG-CN-CASE-AI-DETECTION-PLATFORM",
+  "case_id": "CN-CASE-AI-DETECTION-PLATFORM",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告唐某某在被告某科技有限公司运营的网络平台上发布二百多字文字内容“打工并不能让你真的赚到多少钱，但可以开启你的新视角……如果你对学车感兴趣的话并且以后打算开车的话，可以在你最清闲的一个假期完成它……工作之后就没有太多完整的时间学驾照了”。",
+      "role": "FACT",
+      "rationale": "交代原告在被告平台发布文字内容的具体事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告某科技有限公司运营的平台将该内容判定为“包含AI生成内容但未标识”的违规情况，并将该内容隐藏并作出将用户禁言一天的处理。",
+      "role": "FACT",
+      "rationale": "交代被告平台判定内容为未标识AI生成并隐藏、禁言一天的处理事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "后原告唐某某进行申诉未成功。",
+      "role": "FACT",
+      "rationale": "交代原告向平台申诉未成功的事实"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告唐某某主张其并未使用AI创作，被告某科技有限公司的行为违约，请求法院判令被告撤销隐藏涉案内容和禁言账号一天的违规处理，并在后台系统中删除违规处理记录。",
+      "role": "FACT",
+      "rationale": "陈述原告主张未使用AI创作、被告违约及撤销处理的诉讼请求"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院认为，网络用户在使用AI工具进行创作并将相关内容发布到网络平台时，应依照诚信原则如实标记。",
+      "role": "RULE",
+      "rationale": "确立网络用户发布AI创作内容应依诚信原则如实标记的一般行为规则"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告发布社区公告要求创作者在发布包含AIGC生成的内容时，应主动使用标识，对发布时未主动声明的内容，平台将采取适当措施进行流通限制并添加相关标识；未经标签声明，使用人工智能生成的内容构成违规。",
+      "role": "FACT",
+      "rationale": "查明被告社区公告关于AIGC标识与违规处理的合同条款内容"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告系平台注册用户，上述公告属于平台服务协议的组成部分，被告有权根据协议对用户发布内容是否属于AI生成合成内容进行审查和处理。",
+      "role": "ANALYSIS",
+      "rationale": "认定社区公告属平台服务协议组成部分，被告享有依约审查处理权"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "在一般情况下，原告应该提供如创作底稿、原件、源文件、源数据等证明人类创作属性的初步证据，但本案中原告回答内容系即时性创作文本，客观上无法提供上述证据，由其提供上述证据不存在合理性和现实可行性。",
+      "role": "ANALYSIS",
+      "rationale": "分析即时性创作文本场景下要求用户提交底稿或源数据不具合理性与可行性"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告基于算法工具的运算结果得出涉案内容为AI生成合成的审查结论，被告既是算法工具掌控方又是结果判断方，算法工具运算过程和审查结果由被告掌控，被告应就该事实进行合理举证或解释说明。",
+      "role": "RULE",
+      "rationale": "确立算法工具掌控方兼判断方对算法审查结果负合理举证与解释说明义务的分配规则"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "虽然被告提供了算法的备案信息，但无法确认备案信息与本案争议的关联性。",
+      "role": "ANALYSIS",
+      "rationale": "评析被告提交的算法备案信息无法证明与本案争议的关联性"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告未对算法决策依据和结果进行适度的解释和说明，未对涉案内容属于AI生成合成的判断依据和结果作出合理解释，应对其没有事实依据的情况下对涉案账户的处理行为承担违约责任。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告未对算法判断依据作出合理解释，在无事实依据下处理账号应担违约责任"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告进行人工复核的标准要求具有非常明显的人类情感特征，该判断并不具有科学依据以及较强的说服力和可信度。",
+      "role": "ANALYSIS",
+      "rationale": "驳斥被告人工复核以明显人类情感特征为标准缺乏科学依据与可信度"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院判决被告展开折叠的回答并删除相关后台记录。",
+      "role": "CONCLUSION",
+      "rationale": "概括法院判令展开折叠回答并删除后台记录的裁判结果"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告不服一审判决提起上诉，后撤回上诉，一审判决生效。",
+      "role": "FACT",
+      "rationale": "记录被告上诉后撤回上诉及一审判决生效的程序事实"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案是对AI生成合成内容标识的标记、平台识别和治理在司法审查规则方面的有益探索，一方面肯定了网络内容服务平台利用算法工具对AI生成合成内容进行审查和处理，履行信息内容管理主体责任的积极作用；另一方面，认定网络内容服务平台在即时性创作文本场景下对使用算法自动化决策结果承担适度说明义务，并为司法审查阶段的算法解释说明程度确立了一定的标准。",
+      "role": "RULE",
+      "rationale": "提炼平台算法审查主体责任与即时性创作场景下算法适度说明义务标准"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案通过司法个案裁判，合理分配网络内容服务平台和用户的举证责任，推动网络内容服务平台提高算法的识别能力和决策能力，切实提升人工智能信息内容治理水平。",
+      "role": "OTHER",
+      "rationale": "评述本案在合理分配举证责任与提升AI信息内容治理水平方面的宏观意义"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": "ARG-CN-CASE-AI-FAKE-REVIEWS",
+  "case_id": "CN-CASE-AI-FAKE-REVIEWS",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "某科技公司主营销售进销存软件产品等业务。",
+      "role": "FACT",
+      "rationale": "交代原告主营进销存软件业务的背景事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "某软件公司为同业经营者。",
+      "role": "FACT",
+      "rationale": "交代被告为同业竞争者的主体关系事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "某软件公司以“进销存”为词根，利用AI批量生成文章标题，再交由AI自动生成相应文章，文章内容均为对某科技公司进销存软件的介绍和点评。",
+      "role": "FACT",
+      "rationale": "交代被告利用AI批量生成针对原告软件的介绍与点评文章的事实"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "某软件公司在自有网站发布上述文章，并在文章前后位置设置了指向其自有进销存软件产品的链接。",
+      "role": "FACT",
+      "rationale": "交代被告在自有网站发布文章并附自有产品链接的事实"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "某科技公司认为，某软件公司的上述行为构成不正当竞争，遂诉至法院。",
+      "role": "FACT",
+      "rationale": "陈述原告主张不正当竞争并起诉的事实"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "江苏省无锡市新吴区人民法院一审认为，某软件公司利用人工智能等工具批量生成大量针对他人“进销存”软件的介绍、点评文章，并将其中含有“某进销存软件”字样的多篇文章发布至其官网，目的是利用搜索引擎的自然检索规则，使其官网发布的多篇涉案文章可以被检索并呈现至相关公众的检索结果中，以吸引相关公众点击文章中设置的其自有产品链接，实现引流目的。",
+      "role": "ANALYSIS",
+      "rationale": "剖析被告利用搜索引擎自然检索规则借AI测评文章引流至自有产品的行为目的"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "该行为降低了某科技公司的用户流量和交易机会，同时在网络中制造了大量垃圾信息，造成数据污染，扰乱了竞争秩序，构成不正当竞争。",
+      "role": "ANALYSIS",
+      "rationale": "论证该行为降低原告流量与交易机会、制造数据污染并扰乱竞争秩序，认定构成不正当竞争"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "一审法院遂判令某软件公司赔偿某科技公司相应经济损失。",
+      "role": "CONCLUSION",
+      "rationale": "概括一审法院判令被告赔偿经济损失的结果"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "该一审判决已生效。",
+      "role": "FACT",
+      "rationale": "记录一审判决已生效的程序状态"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "本案是适用反不正当竞争法一般条款规制新类型不正当竞争行为的典型案例。",
+      "role": "ISSUE",
+      "rationale": "点明本案核心争点为适用反不正当竞争法一般条款规制AI新类型不正当竞争行为"
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "判决明确，利用AI技术批量生成、发布虚构测评文章，搭载自身产品或服务进行引流的行为，有违诚实信用原则和商业道德，构成不当截取他人交易机会的不正当竞争行为。",
+      "role": "RULE",
+      "rationale": "提炼利用AI批量生成虚构测评文章搭载自身产品引流违背商业道德构成不正当竞争的裁判规则"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-SPC-511301",
+      "text": "本案对稳妥适用反不正当竞争法一般条款，有效规制新类型不正当竞争行为，依法规范新兴领域竞争秩序具有示范作用。",
+      "role": "OTHER",
+      "rationale": "评价本案对稳妥适用反不正当竞争法一般条款的示范作用"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-PKULAW-XW-9489",
+      "text": "综上所述，依照《中华人民共和国商标法》第四十八条，《中华人民共和国反不正当竞争法》第二条、第十七条，《中华人民共和国公司法》第二十三条第三款，《最高人民法院关于适用<中华人民共和国反不正当竞争法>若干问题的解释》第一条、第三条、第二十三条，《最高人民法院关于适用<中华人民共和国民事诉讼法>的解释》第九十条规定，判决如下：",
+      "role": "RULE",
+      "rationale": "援引商标法、反不正当竞争法、公司法及司法解释作为裁判依据"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-PKULAW-XW-9489",
+      "text": "一、某软件公司于本判决发生法律效力之日起十日内赔偿四川某公司经济损失及为制止侵权行为所支付的合理开支3000元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第一项：判令赔偿经济损失及合理开支3000元"
+    }
+  ]
+}

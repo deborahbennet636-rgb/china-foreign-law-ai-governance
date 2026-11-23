@@ -7,6 +7,7 @@ cannot show its evidence does not build.
 import datetime
 from typing import Any, Dict, List, Optional, Set
 
+from .checks_argument import check_argument_record
 from .checks_case import check_case
 from .checks_countermeasure import check_countermeasure
 from .checks_instrument import check_instrument
@@ -122,9 +123,16 @@ def _cross_checks(database: Database, refs: Set[str]) -> List[str]:
         database.leads,
         database.obligations,
         database.countermeasures,
+        database.arguments,
     )
-    ids = [record["id"] for group in groups for record in group]
+    ids = [record["id"] for group in groups for record in group if record.get("id")]
     errors += [f"{item}: id is used more than once" for item in sorted({item for item in ids if ids.count(item) > 1})]
+
+    arg_cases = [record.get("case_id") for record in database.arguments if record.get("case_id")]
+    errors += [
+        f"{cid}: annotated more than once in data/arguments"
+        for cid in sorted({cid for cid in arg_cases if arg_cases.count(cid) > 1})
+    ]
 
     listed: Dict[str, Set[str]] = {issue["id"]: set() for issue in database.issues}
     used: Set[Any] = set()
@@ -188,4 +196,7 @@ def validate(database: Database, index: Optional[SnapshotIndex] = None, check_fi
         errors += check_obligation(record, instruments, refs)
     for record in database.countermeasures:
         errors += check_countermeasure(record, instruments, index)
+    cases_by_id = {record["id"]: record for record in database.cases}
+    for record in database.arguments:
+        errors += check_argument_record(record, cases_by_id, refs)
     return errors + _cross_checks(database, refs)

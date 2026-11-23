@@ -24,6 +24,7 @@ class Paths:
     leads: Path = ROOT / "data" / "leads"
     obligations: Path = ROOT / "data" / "obligations"
     countermeasures: Path = ROOT / "data" / "countermeasures"
+    arguments: Path = ROOT / "data" / "arguments"
     specs: Path = ROOT / "ingest"
     web: Path = ROOT / "web"
     dist: Path = ROOT / "dist"
@@ -213,5 +214,33 @@ MATERIAL_NATURES: FrozenSet[str] = frozenset(
         "STANDARD",  # 国家标准、行业标准
         "UNOFFICIAL",  # 只有二手材料
         "NONE",  # 库内没有这一法域的材料，留白
+    }
+)
+
+# ---------------------------------------------------------------------------
+# v1 · 句级论证标注层（LAMUS 6-class FIRAC 试点）
+#
+# Each sentence is cut verbatim from a validated case excerpt so the chain
+# ``sentence.text`` ⊆ ``case.excerpts[i].text`` ⊆ snapshot holds with zero
+# dropped characters. The FIRAC role is an editorial or LLM-draft judgement
+# and always declares its verification mode explicitly.
+# ---------------------------------------------------------------------------
+
+ARGUMENT_ROLES: FrozenSet[str] = frozenset(
+    {
+        "FACT",  # 案件事实、当事人主张及诉讼/调查程序经过
+        "ISSUE",  # 法院或监管机构归纳的待决法律问题或争议焦点
+        "RULE",  # 法条、先例、抽象法律标准或确立的普遍裁判规则
+        "ANALYSIS",  # 将法律规则适用于本案具体事实的涵摄与说理
+        "CONCLUSION",  # 对责任、救济、罚则或上诉结果的最终认定与判项主文
+        "OTHER",  # 典型意义评述、入选记录、衔接语或程序性套话
+    }
+)
+
+ANNOTATION_MODES: FrozenSet[str] = frozenset(
+    {
+        "LLM_DRAFT",  # 模型初标，尚未经法学人工复核
+        "HUMAN_REVIEWED",  # 单人法学人工复核
+        "DOUBLE_BLIND_ADJUDICATED",  # 双盲复核并仲裁定稿
     }
 )

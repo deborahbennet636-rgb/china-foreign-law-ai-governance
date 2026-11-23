@@ -1,0 +1,186 @@
+{
+  "id": "ARG-CN-CASE-AI-IMAGE-AUTHORSHIP",
+  "case_id": "CN-CASE-AI-IMAGE-AUTHORSHIP",
+  "schema": "LAMUS-FIRAC-6",
+  "annotation_mode": "LLM_DRAFT",
+  "annotator": "claude-sonnet-5/pilot-v1",
+  "complete_excerpts": true,
+  "sentences": [
+    {
+      "id": "S001",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "2023年2月24日，原告李某某为画出一幅在黄昏的光线条件下具有摄影风格的少女特写，使用生成式人工智能大模型Stable Diffusion，通过选取模型、输入提示词及反向提示词、设置生成参数等操作生成图片，并于2023年2月26日发布在小红书平台。",
+      "role": "FACT",
+      "rationale": "交代原告使用Stable Diffusion通过提示词与参数生成少女图片并发布小红书的事实"
+    },
+    {
+      "id": "S002",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "2023年3月2日，被告刘某某在其注册及使用的百家号账号发布文章，将涉案图片作为配图，配图中截去了原告的署名水印，未说明图片具体来源。",
+      "role": "FACT",
+      "rationale": "交代被告在百家号使用涉案图片作配图并截去署名水印的事实"
+    },
+    {
+      "id": "S003",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "据此，原告李某某提起诉讼，请求判令被告刘某某赔礼道歉并赔偿经济损失。",
+      "role": "FACT",
+      "rationale": "陈述原告提起诉讼并请求赔礼道歉与赔偿经济损失的事实"
+    },
+    {
+      "id": "S004",
+      "excerpt_index": 0,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "经当庭勘验，在使用生成式人工智能大模型Stable Diffusion时，通过变更个别提示词或者变更个别参数，大模型生成的图片不同。",
+      "role": "FACT",
+      "rationale": "记录当庭勘验变更提示词或参数会生成不同图片的查明事实"
+    },
+    {
+      "id": "S005",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "法院认为，从涉案图片的外观上来看，涉案图片与通常人们见到的照片、绘画无异，显然属于艺术领域，且具有一定的表现形式。",
+      "role": "ANALYSIS",
+      "rationale": "从外观与表现形式分析涉案图片属于艺术领域并具表现形式"
+    },
+    {
+      "id": "S006",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "涉案图片系原告利用生成式人工智能技术生成的，从原告构思涉案图片起，到最终选定涉案图片止，原告进行了一定的智力投入，故涉案图片具备“智力成果”要件。",
+      "role": "ANALYSIS",
+      "rationale": "结合构思到选定的操作过程论证原告付出智力投入，满足智力成果要件"
+    },
+    {
+      "id": "S007",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "从涉案图片本身来看，体现出了与在先作品存在可以识别的差异性，体现了原告的选择和安排，调整修正过程亦体现了原告的审美选择和个性判断。",
+      "role": "ANALYSIS",
+      "rationale": "分析图片差异性与调整过程体现原告审美选择与个性判断"
+    },
+    {
+      "id": "S008",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "在无相反证据的情况下，可以认定涉案图片由原告独立完成，体现出了原告的个性化表达，故涉案图片具备“独创性”要件。",
+      "role": "ANALYSIS",
+      "rationale": "在无相反证据下认定原告独立完成并具个性化表达，满足独创性要件"
+    },
+    {
+      "id": "S009",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "涉案图片是以线条、色彩构成的有审美意义的平面造型艺术作品，属于美术作品，受到著作权法的保护。",
+      "role": "CONCLUSION",
+      "rationale": "认定涉案图片构成美术作品并受著作权法保护"
+    },
+    {
+      "id": "S010",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "就涉案作品的权利归属而言，著作权法规定，作者限于自然人、法人或非法人组织，因此人工智能模型本身无法成为我国著作权法上的作者。",
+      "role": "RULE",
+      "rationale": "阐明著作权法上作者限于自然人、法人或非法人组织，AI模型本身不能成为作者的规则",
+      "provisions_mentioned": [
+        "CN-COPYRIGHT-LAW#第十一条"
+      ]
+    },
+    {
+      "id": "S011",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "原告根据需要对涉案人工智能模型进行相关设置，并最终选定涉案图片的人，涉案图片是基于原告的智力投入直接产生，且体现出原告的个性化表达，故原告是涉案图片的作者，享有涉案图片的著作权。",
+      "role": "CONCLUSION",
+      "rationale": "基于原告设置与选定过程中的智力投入，认定原告为作者并享有著作权"
+    },
+    {
+      "id": "S012",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "被告未经许可，使用涉案图片作为配图并发布在自己的账号中，使公众可以在其选定的时间和地点获得涉案图片，侵害了原告就涉案图片享有的信息网络传播权。",
+      "role": "ANALYSIS",
+      "rationale": "认定被告未经许可网络传播涉案图片侵害信息网络传播权"
+    },
+    {
+      "id": "S013",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "此外，被告将涉案图片进行去除署名水印的处理，侵害了原告的署名权，应当承担侵权责任。",
+      "role": "CONCLUSION",
+      "rationale": "认定被告去除署名水印侵害署名权并应承担侵权责任"
+    },
+    {
+      "id": "S014",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "判决被告刘某某赔礼道歉并赔偿经济损失。",
+      "role": "CONCLUSION",
+      "rationale": "概括一审判决被告赔礼道歉并赔偿经济损失的结果"
+    },
+    {
+      "id": "S015",
+      "excerpt_index": 1,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "宣判后，双方均未提起上诉，该判决已生效。",
+      "role": "FACT",
+      "rationale": "记录宣判后双方未上诉、判决生效的程序事实"
+    },
+    {
+      "id": "S016",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案明确人利用人工智能生成的内容，若符合作品的定义，则应被认定为作品，受到著作权法保护。",
+      "role": "RULE",
+      "rationale": "提炼人利用AI生成内容符合作品定义即受著作权法保护的一般规则"
+    },
+    {
+      "id": "S017",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "同时人工智能生成内容的著作权权属可根据开发者、使用者、所有者等各参与方对人工智能生成内容的独创性智力贡献进行认定。",
+      "role": "RULE",
+      "rationale": "提炼AI生成内容权属依各参与方独创性智力贡献认定的规则"
+    },
+    {
+      "id": "S018",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案在回应技术变革带来权利认定新问题的同时，为人工智能生成内容的司法审查提供了制度适应与规则回应的实践范式，具有引领性和方向性意义。",
+      "role": "OTHER",
+      "rationale": "评价本案为AI生成内容司法审查提供实践范式的引领意义"
+    },
+    {
+      "id": "S019",
+      "excerpt_index": 2,
+      "source_id": "SRC-CN-BJD-BIC-AI-2025",
+      "text": "本案入选新时代推动法治进程2024年度十大提名案件，2024中国数字经济发展与法治建设十个重大影响力事件、2023年度中国法治实施十大事件等。",
+      "role": "OTHER",
+      "rationale": "列举本案入选年度法治推进提名案件与重大影响力事件的荣誉记录"
+    },
+    {
+      "id": "S020",
+      "excerpt_index": 3,
+      "source_id": "SRC-CN-WS-BIC-11279",
+      "text": "综上，依据《中华人民共和国著作权法》第十条第一款第二项、第十二项，第五十三条，第五十四条，本院判决如下：",
+      "role": "RULE",
+      "rationale": "援引著作权法第十条、第五十三条、第五十四条作为裁判依据",
+      "provisions_mentioned": [
+        "CN-COPYRIGHT-LAW#第十条",
+        "CN-COPYRIGHT-LAW#第五十三条",
+        "CN-COPYRIGHT-LAW#第五十四条"
+      ]
+    },
+    {
+      "id": "S021",
+      "excerpt_index": 4,
+      "source_id": "SRC-CN-WS-BIC-11279",
+      "text": "二、被告刘 于本判决生效之日起七日内赔偿原告李 经济损失500元；",
+      "role": "CONCLUSION",
+      "rationale": "判决主文第二项：判令被告赔偿原告经济损失500元"
+    }
+  ]
+}

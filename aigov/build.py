@@ -76,6 +76,12 @@ def compute_stats(instruments: List[Record], cases: List[Record], database: Data
         "obligations_extraterritorial": sum(1 for item in database.obligations if item.get("extraterritorial")),
         "countermeasures": len(database.countermeasures),
         "countermeasures_by_direction": _count([item.get("direction", "") for item in database.countermeasures]),
+        "arguments_cases": len(database.arguments),
+        "arguments_sentences": sum(len(item.get("sentences", [])) for item in database.arguments),
+        "arguments_by_role": _count(
+            [sent.get("role", "") for item in database.arguments for sent in item.get("sentences", [])]
+        ),
+        "arguments_by_mode": _count([item.get("annotation_mode", "") for item in database.arguments]),
     }
 
 
@@ -129,6 +135,17 @@ def build_dataset(database: Database, index: Optional[SnapshotIndex] = None,
         }
         for record in database.obligations
     ]
+    case_meta = {
+        item["id"]: {
+            "verification": item.get("verification", "PENDING"),
+            "evidence_grade": item.get("evidence_grade", "-"),
+        }
+        for item in cases
+    }
+    arguments = [
+        {**record, **case_meta.get(record.get("case_id", ""), {"verification": "PENDING", "evidence_grade": "-"})}
+        for record in database.arguments
+    ]
     return {
         "schema": SCHEMA_VERSION,
         "built_at": built_at or date.today().isoformat(),
@@ -143,6 +160,7 @@ def build_dataset(database: Database, index: Optional[SnapshotIndex] = None,
         "countermeasures": [
             {**record, **assess(record.get("source_ids", []), index)} for record in database.countermeasures
         ],
+        "arguments": arguments,
     }
 
 
