@@ -1,0 +1,15 @@
+{
+  "id": "OBL-US-EO14179-04",
+  "instrument_id": "US-EO-14179",
+  "provision": "Sec. 4.",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order",
+  "duty": "总统科技助理、AI 与加密特别顾问及国家安全事务助理须在 180 日内会同 OMB 及相关部门制定并向总统提交人工智能行动计划",
+  "trigger": "自 2025-01-23 签署本行政令之日起 180 日内",
+  "extraterritorial": false,
+  "note": "行政令仅约束联邦行政机构内部；第 6(c) 条明文声明不创设任何可对美国政府或任何他人强制执行的实体或程序权利。"
+}

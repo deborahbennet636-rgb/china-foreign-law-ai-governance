@@ -661,6 +661,71 @@
     "via": "proxy",
     "note": "EU adopts 19th sanctions package against Russia (12 Chinese entities)"
   },
+  "SRC-EU-EDPB-REPLIKA-2025": {
+    "id": "SRC-EU-EDPB-REPLIKA-2025",
+    "url": "https://www.edpb.europa.eu/news/national-news/2025/ai-italian-supervisory-authority-fines-company-behind-chatbot-replika_en",
+    "publisher": "European Data Protection Board",
+    "kind": "OFFICIAL_DIGEST",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-EDPB-REPLIKA-2025.html",
+    "sha256": "1689153cf855a9fdeefd75691abe4906c23e6c16afe16cde4a6c8472571309e6",
+    "bytes": 35554,
+    "via": "proxy",
+    "note": "欧洲数据保护委员会（EDPB）官方摘要：意大利数据保护局对 AI 陪伴聊天机器人 Replika 开发商 Luka Inc. 作出处罚决定（2025-04-10）"
+  },
+  "SRC-EU-EUIPO-LAION-2024": {
+    "id": "SRC-EU-EUIPO-LAION-2024",
+    "url": "https://www.euipo.europa.eu/en/law/recent-case-law/germany-hamburg-district-court-310-o-22723-laion-v-robert-kneschke",
+    "publisher": "European Union Intellectual Property Office (EUIPO)",
+    "kind": "OFFICIAL_DIGEST",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-EUIPO-LAION-2024.html",
+    "sha256": "3f9dd42bd83df44e1bdc8c2a336c985c679ec75c3dc2357ef65e7d5ba53d78a6",
+    "bytes": 271380,
+    "via": "proxy",
+    "note": "欧盟知识产权局（EUIPO）官方判例摘要：德国汉堡州法院 310 O 227/23 号 Robert Kneschke v. LAION e.V. 案（2024-09-27）"
+  },
+  "SRC-EU-GPDP-DEEPSEEK-2025": {
+    "id": "SRC-EU-GPDP-DEEPSEEK-2025",
+    "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10098477",
+    "publisher": "Garante per la protezione dei dati personali",
+    "kind": "JUDGMENT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-GPDP-DEEPSEEK-2025.html",
+    "sha256": "3650188df221952eabcf47d30b821668bfbe6d0d893a9eadea6a48a52a141a29",
+    "bytes": 136248,
+    "via": "proxy",
+    "note": "意大利数据保护局第 33 号决定（2025-01-30），对杭州/北京 DeepSeek 下达停止处理意大利用户个人数据命令（含意大利文与英文官方文本）"
+  },
+  "SRC-EU-GPDP-OPENAI-2024": {
+    "id": "SRC-EU-GPDP-OPENAI-2024",
+    "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+    "publisher": "Garante per la protezione dei dati personali",
+    "kind": "OFFICIAL_DIGEST",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-GPDP-OPENAI-2024.html",
+    "sha256": "3e65cb54dcd301a9e40a8d4f1cc3d389822cfed92c5187d8e035b885245509a8",
+    "bytes": 126175,
+    "via": "proxy",
+    "note": "意大利数据保护局官方通告（2024-12-20，docweb 10085432）：对 OpenAI 处 1500 万欧元罚款并责令开展 6 个月公众告知活动（第 755 号决定）"
+  },
+  "SRC-EU-OLGHAMBURG-LAION-2025": {
+    "id": "SRC-EU-OLGHAMBURG-LAION-2025",
+    "url": "https://justiz.hamburg.de/gerichte/oberlandesgericht/gerichtspressestelle/ki-und-urheberrecht-hanseatisches-oberlandesgericht-weist-berufung-zurueck-1126528",
+    "publisher": "Hanseatisches Oberlandesgericht Hamburg",
+    "kind": "OFFICIAL_DIGEST",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-OLGHAMBURG-LAION-2025.html",
+    "sha256": "fd97164e74c7824efe8c8e30e3c60f4a76133e941cc7ef9cc91d6783522ce90e",
+    "bytes": 170221,
+    "via": "browser",
+    "note": "汉堡高等州法院官方新闻稿（2025-12-10，案号 5 U 104/24）：驳回摄影师对 LAION 案一审判决 310 O 227/23 的上诉"
+  },
   "SRC-EU-OMNIBUS-AI-OJ": {
     "id": "SRC-EU-OMNIBUS-AI-OJ",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
@@ -685,6 +750,19 @@
     "bytes": 75737,
     "via": "proxy",
     "note": "DG TRADE news: countervailing duties on mobile access equipment from China, 28 Apr 2025"
+  },
+  "SRC-EU-WIPO-LAION-2024": {
+    "id": "SRC-EU-WIPO-LAION-2024",
+    "url": "https://www.wipo.int/wipolex/en/judgments/details/2381",
+    "publisher": "World Intellectual Property Organization (WIPO Lex)",
+    "kind": "OFFICIAL_DIGEST",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-WIPO-LAION-2024.html",
+    "sha256": "7f614abe3df1aa6655130d7b14133f7d08749c1d51e41ace4aea333e3fb5e5fc",
+    "bytes": 32685,
+    "via": "proxy",
+    "note": "WIPO Lex 判例库记录：德国汉堡州法院 Robert Kneschke v. LAION e.V.，案号 310 O 227/23（2024-09-27）"
   },
   "SRC-US-CADC-THALER-2025": {
     "id": "SRC-US-CADC-THALER-2025",

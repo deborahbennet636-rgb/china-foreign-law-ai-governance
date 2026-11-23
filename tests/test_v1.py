@@ -367,3 +367,12 @@ def test_an_issue_position_lists_only_obligations_of_its_own_jurisdiction() -> N
         for position in issue["positions"]:
             for obligation_id in position.get("obligations", []):
                 assert owner[obligation_id] == position["jurisdiction"], (issue["id"], obligation_id)
+
+
+def test_latin_case_number_pattern_accepts_us_de_it_and_rejects_bare_numbers() -> None:
+    from aigov.checks_case import LATIN_CASE_NUMBER
+    for good in ("No. 23-5233", "No. C 24-05417 WHA", "No. 310 O 227/23", "Az.: 5 U 104/24", "n. 33 del 30 gennaio 2025"):
+        assert LATIN_CASE_NUMBER.fullmatch(good), good
+    for bad in ("", "23-52", "No.", "No. abc", "Az. ", "n. without-digits"):
+        assert not LATIN_CASE_NUMBER.fullmatch(bad), bad
+

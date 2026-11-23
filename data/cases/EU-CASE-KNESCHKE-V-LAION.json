@@ -1,0 +1,147 @@
+{
+  "id": "EU-CASE-KNESCHKE-V-LAION",
+  "jurisdiction": "EU",
+  "forum": "Hanseatisches Oberlandesgericht",
+  "forum_type": "COURT",
+  "case_numbers": [
+    "No. 310 O 227/23",
+    "Az.: 5 U 104/24"
+  ],
+  "caption": "Robert Kneschke v. LAION e.V.",
+  "short_name": "Kneschke 诉 LAION 案：AI 训练数据集制作与欧盟 TDM 例外",
+  "decided_at": "2025-12-10",
+  "procedural_stage": "APPEAL",
+  "outcome": "RESPONDENT_PREVAILED",
+  "is_final": false,
+  "outcome_note": "汉堡州法院一审（2024-09-27）依科研文本数据挖掘例外（§ 60d UrhG / DSM 指令第 3 条）驳回原告诉请；汉堡高等州法院二审（2025-12-10）驳回上诉，同时适用一般 TDM 例外（§ 44b UrhG，认图片社网页上的自然语言保留不具机器可读性）与科研 TDM 例外（§ 60d UrhG）。法院准许向德国联邦最高法院提起法律审上诉（Revision），判决尚未生效。",
+  "ai_roles": [
+    "TRAINING"
+  ],
+  "issues": [
+    "ISSUE-TRAINING-COPYRIGHT"
+  ],
+  "history": [
+    {
+      "stage": "FIRST_INSTANCE",
+      "forum": "Regional Court of Hamburg",
+      "decided_at": "2024-09-27",
+      "result": {
+        "source_id": "SRC-EU-WIPO-LAION-2024",
+        "quote": "Date of Judgment\nSeptember 27, 2024\nIssuing Authority\nRegional Court of Hamburg\nLevel of the Issuing Authority\nFirst Instance"
+      }
+    },
+    {
+      "stage": "APPEAL",
+      "forum": "Hanseatisches Oberlandesgericht",
+      "decided_at": "2025-12-10",
+      "result": {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "Stand: 10.12.2025, 12:00\nKI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück\nDer 5. Zivilsenat des Hanseatischen Oberlandesgerichts hat mit heute verkündetem Urteil (Az.: 5 U 104/24) die Berufung eines Fotografen gegen das klagabweisende Urteil des Landgerichts Hamburg (Az.: 310 O 227/23) zurückgewiesen."
+      }
+    }
+  ],
+  "field_evidence": {
+    "forum": [
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "KI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+      }
+    ],
+    "case_numbers": [
+      {
+        "source_id": "SRC-EU-WIPO-LAION-2024",
+        "quote": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,"
+      },
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "Der 5. Zivilsenat des Hanseatischen Oberlandesgerichts hat mit heute verkündetem Urteil (Az.: 5 U 104/24) die Berufung eines Fotografen gegen das klagabweisende Urteil des Landgerichts Hamburg (Az.: 310 O 227/23) zurückgewiesen."
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "Stand: 10.12.2025, 12:00\nKI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "KI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "Der 5. Zivilsenat hat heute entschieden, dass das Landgericht die Klage zu Recht abgewiesen hat. Dem klagenden Fotografen stehe kein urheberrechtlicher Unterlassungsanspruch zu."
+      }
+    ],
+    "is_final": [
+      {
+        "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+        "quote": "Die Entscheidung ist nicht rechtskräftig. Der Senat hat die Revision zugelassen, über die der Bundesgerichtshof zu entscheiden hätte."
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-EU-WIPO-LAION-2024",
+        "quote": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,"
+      }
+    ]
+  },
+  "legal_anchors": [
+    {
+      "provision": "EU-AI-ACT-2024#Article 53",
+      "basis": "EDITORIAL",
+      "note": "WIPO Lex 将 EU AI Act 第 53 条第 1 款第 (c) 项列为本案相关立法（与 DSM 指令第 3–4 条及德国著作权法 §§ 44b、60d UrhG 并列）；本案直接适用的是德国转化 DSM 指令的 TDM 条款，该指令与德国著作权法尚未入库，故此处标为编者对应。"
+    }
+  ],
+  "notes": "所取三份材料均为官方摘要或法院新闻稿（WIPO Lex、EUIPO、汉堡高等州法院新闻稿），不是判决书全文，故核验等级仍受来源类型约束；案号与核心裁判要旨均有官方来源交叉印证。本案涉及的是训练数据集构建阶段的下载比对，不同于模型本身记忆输出作品的纠纷。",
+  "discovered_via": "EUIPO 近期判例库、WIPO Lex 与汉堡司法门户官方新闻稿",
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-EU-WIPO-LAION-2024": {
+      "block_start": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,",
+      "block_end": "WIPO Lex No."
+    },
+    "SRC-EU-EUIPO-LAION-2024": {
+      "block_start": "Germany - Hamburg District Court, 310 O.22723, LAION v Robert Kneschke",
+      "block_end": "The text of the judgment is available here."
+    },
+    "SRC-EU-OLGHAMBURG-LAION-2025": {
+      "block_start": "Stand: 10.12.2025, 12:00",
+      "block_end": "Info-Spalte"
+    }
+  },
+  "scope_links": {
+    "SRC-EU-EUIPO-LAION-2024": "EUIPO 判例摘要标题写为「LAION v Robert Kneschke」（省去 e.V.）且案号漏印斜杠写为 310 O.22723，实质同为德国汉堡州法院 2024-09-27 对摄影师 Robert Kneschke 诉 LAION 案的一审判决。",
+    "SRC-EU-OLGHAMBURG-LAION-2025": "汉堡高等州法院官方新闻稿按德国惯例匿名，未写当事人姓名，但明文载明被上诉一审案号 310 O 227/23（与 WIPO Lex 中 Robert Kneschke v. LAION e.V. 一审案号一致），且案情为摄影师起诉非营利协会制作图像-文本训练数据集。"
+  },
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-EU-EUIPO-LAION-2024",
+      "text": "The photographer Robert Kneschke (the ‘claimant’) brought a lawsuit before the Hamburg District Court against LAION, a non-profit organisation that created a dataset for training AI models (the ‘defendant’). According to the claimant’s allegations, LAION had infringed his copyright by reproducing one of his images without permission as part of the dataset creation process."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-EUIPO-LAION-2024",
+      "text": "The Court of Hamburg dismissed the lawsuit ruling out a copyright infringement as LAION’s reproduction of Kneschke’s image was covered by the TDM exception for scientific research under Article 3 of the Digital Single Market (DSM) Directive, implemented in German law by Section 60d of the Act on Copyright and Related Rights (Urheberrechtsgesetz ‘ UrhG’)."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der 5. Zivilsenat hat heute entschieden, dass das Landgericht die Klage zu Recht abgewiesen hat. Dem klagenden Fotografen stehe kein urheberrechtlicher Unterlassungsanspruch zu. Zur Begründung führt der Senat aus, dass sich der Beklagte hinsichtlich der Nutzung der heruntergeladenen Fotografie auf die Schrankenregelungen für das sog. Text und Data Mining aus § 44b UrhG berufen könne."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der auf der Webseite der Bildagentur zum Zeitpunkt des Downloads der Fotografie vorhandene Nutzungsvorbehalt habe vorliegend aber nicht die gesetzlich vorgesehene Form (Maschinenlesbarkeit) aufgewiesen (§ 44b Abs. 3 S. 2 UrhG), so dass die streitgegenständliche Vervielfältigung zulässig gewesen sei."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "text": "Der Senat hat zudem ausgeführt, dass das Landgericht im Ergebnis zu Recht davon ausgegangen sei, dass die streitgegenständliche Nutzung der Fotografie auch deswegen gerechtfertigt gewesen sei, weil sie für Zwecke der wissenschaftlichen Forschung erfolgt sei (Schrankenregelung des § 60d UrhG)."
+    }
+  ],
+  "generated_by": "ingest/cases/eu-cases.json"
+}

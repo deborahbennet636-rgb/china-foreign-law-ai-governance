@@ -1,0 +1,92 @@
+{
+  "id": "EU-CASE-GPDP-REPLIKA-2025",
+  "jurisdiction": "EU",
+  "forum": "Italian Supervisory Authority",
+  "forum_type": "REGULATOR",
+  "case_numbers": [],
+  "caption": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”",
+  "short_name": "意大利数据保护局处罚 Replika（Luka Inc.）案：AI 虚拟陪伴与未成年人年龄验证",
+  "decided_at": "2025-04-10",
+  "procedural_stage": "ENFORCEMENT_DECISION",
+  "outcome": "CLAIMANT_PREVAILED",
+  "is_final": null,
+  "outcome_note": "意大利数据保护局对美国公司 Luka Inc. 处 500 万欧元行政罚款并责令合规整改，认定其未确定合法基础、隐私政策不充分、未落实未成年人年龄验证；另保留就生成式 AI 全生命周期数据处理合法性另案调查的权利。是否提起司法复议未核查，故不标终局。",
+  "ai_roles": [
+    "DEPLOYMENT"
+  ],
+  "issues": [
+    "ISSUE-PROVIDER-LIABILITY"
+  ],
+  "field_evidence": {
+    "forum": [
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”"
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "Date of final decision: 10 April 2025"
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "Decision: administrative fine, Compliance order"
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "The Italian SA has imposed on Luka Inc. an administrative fine of 5 million € for infringing Articles 5.1 (a) and 6; Articles 5.1 (a), 12, 13, 5.1 (c), 24 and 25.1 of the GDPR."
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”"
+      },
+      {
+        "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+        "quote": "Controller: Luka Inc."
+      }
+    ]
+  },
+  "legal_anchors": [
+    {
+      "provision": "EU-AI-ACT-2024#Article 50",
+      "basis": "EDITORIAL",
+      "note": "本决定直接适用的是 GDPR 第 5、6、12、13、24、25 条（GDPR 尚未入库）；此处仅作编者对应，对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统的透明度要求，并可与库内北京互联网法院「AI 陪伴」软件案（CN-CASE-AI-COMPANION）跨法域对照。"
+    }
+  ],
+  "notes": "取自欧洲数据保护委员会（EDPB）官网刊载的国家监管决定官方摘要；完整意大利文决定书原文未单独取回。注意 EDPB 页面所称「Date of final decision」指行政决定作出日期，不代表已经过司法终审，故 is_final 留空。",
+  "discovered_via": "欧洲数据保护委员会（EDPB）官网国家新闻摘要",
+  "history": [],
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-EU-EDPB-REPLIKA-2025": {
+      "block_start": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”",
+      "block_end": "Latest news"
+    }
+  },
+  "scope_links": {},
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "The proceedings originated from an investigation initiated by the Italian Supervisory Authority (SA) of its own motion following the publication of press reports and preliminary fact-finding conducted on the Replika service, a chatbot with a written and voice interface developed and managed by the US company Luka Inc and based on a generative AI system. The chatbot features both a written and voice interface, allowing users to ‘generate’ a ‘virtual companion’ that can take on the role of a confidant, therapist, romantic partner, or mentor."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "The Italian SA has imposed on Luka Inc. an administrative fine of 5 million € for infringing Articles 5.1 (a) and 6; Articles 5.1 (a), 12, 13, 5.1 (c), 24 and 25.1 of the GDPR."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "text": "Additionally, the Italian SA reserves the right to investigate and assess in a separate and autonomous proceeding, the aspects concerning the lawfulness of the processing operations carried out by Luka Inc., with specific reference to the legal bases for processing applicable throughout the entire lifecycle of the generative AI system underlying the Replika service."
+    }
+  ],
+  "generated_by": "ingest/cases/eu-cases.json"
+}

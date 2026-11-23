@@ -1,0 +1,17 @@
+{
+  "id": "OBL-US-TID-03c",
+  "instrument_id": "US-TAKE-IT-DOWN-2025",
+  "provision": "SEC. 3.",
+  "kind": "PROTECTION",
+  "modality": "MUST",
+  "subject": [
+    "PLATFORM"
+  ],
+  "quote": "a covered platform shall, as soon as possible, but not later than 48 hours after receiving such request",
+  "duty": "涵盖平台收到有效删除请求后，须尽快且最迟在 48 小时内删除该未经同意的私密影像，并采取合理努力识别和删除已知的相同副本",
+  "trigger": "通过通知删除程序收到可识别个人或其授权代表提交的有效删除请求",
+  "exception": "Sec. 3(a)(4) 另设善意下架免责：平台基于明显违法事实善意禁用访问或删除的，不承担法律责任",
+  "penalty": "Sec. 3(b)：视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条规则，由 FTC 执法",
+  "extraterritorial": false,
+  "note": "规制对象限于未经同意的私密影像（含 AI 深度伪造），不覆盖一般肖像或声音侵权；与欧盟 AI Act 第 50 条的透明度披露义务、中国民法典人格权救济属于不同路径。"
+}

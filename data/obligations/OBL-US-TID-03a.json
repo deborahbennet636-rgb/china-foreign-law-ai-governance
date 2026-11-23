@@ -1,0 +1,16 @@
+{
+  "id": "OBL-US-TID-03a",
+  "instrument_id": "US-TAKE-IT-DOWN-2025",
+  "provision": "SEC. 3.",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PLATFORM"
+  ],
+  "quote": "Not later than 1 year after the date of enactment of this Act, a covered platform shall establish a process",
+  "duty": "涵盖平台须在法案颁布后 1 年内（2026-05-19 前）建立书面通知与删除程序，供可识别个人或其授权代表请求删除未经同意的私密影像（含深度伪造）",
+  "trigger": "法案颁布满 1 年前（法案签署日为 2025-05-19）",
+  "penalty": "Sec. 3(b)：未合理履行通知与删除义务视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条关于不公平或欺骗性行为的规则，由 FTC 依法执法（含非营利组织）",
+  "extraterritorial": false,
+  "note": "本法未设整体生效日（故法规状态标为 ADOPTED），但第 3 条明确为平台建立通知删除程序设了颁布后 1 年的期限。"
+}

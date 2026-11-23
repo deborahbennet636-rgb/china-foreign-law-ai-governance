@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-TID-02b",
+  "instrument_id": "US-TAKE-IT-DOWN-2025",
+  "provision": "SEC. 2.",
+  "kind": "PROTECTION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "it shall be unlawful for any person, in interstate or foreign commerce, to use an interactive computer service to knowingly publish a digital forgery of an identifiable individual who is a minor",
+  "duty": "禁止在州际或对外商业中使用交互式计算机服务，以虐待、羞辱、骚扰、贬低或满足性欲为意图，故意发布未成年人深度伪造私密影像",
+  "trigger": "在州际或对外商业中使用交互式计算机服务发布可识别未成年人的深度伪造私密影像，且具有虐待、羞辱、骚扰、贬低或满足性欲意图",
+  "exception": "第 223(h)(3)(C) 条所列执法、医疗科研教育等例外；构成儿童色情犯罪的另依 18 U.S.C. § 2256 / § 1466A 追责",
+  "penalty": "47 U.S.C. § 223(h)(4)(B)：依美国法典第 18 编处以罚金、不超过 3 年监禁或并处；威胁发布的依第 (6)(B)(ii) 项处不超过 30 个月监禁或罚金",
+  "extraterritorial": false,
+  "note": "同条第 (2) 款对真实私密影像设平行罪名；本条与 OBL-US-TID-02a 聚焦 AI 深度伪造（digital forgery），未成年人情形刑期上限更高且不以证明受害人实际损害为要件。"
+}

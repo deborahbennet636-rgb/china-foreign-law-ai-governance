@@ -393,3 +393,20 @@ def test_eu_obligations_carry_amendment_warning_only_for_amended_instruments(ind
     assert all(o["editorial"].get("extraterritorial") is True for o in ai_act)
     assert all(o["editorial"].get("extraterritorial") is False for o in aci)
 
+
+def test_us_obligations_and_eu_cases_are_queryable(index: query.Index) -> None:
+    tid = query.find_obligations(index, instrument_id="US-TAKE-IT-DOWN-2025")["obligations"]
+    eo = query.find_obligations(index, instrument_id="US-EO-14179")["obligations"]
+    assert len(tid) == 5 and len(eo) == 2
+    assert all(o["editorial"].get("penalty") for o in tid)
+
+    laion = query.get_case(index, "EU-CASE-KNESCHKE-V-LAION")
+    assert laion["decided_at"] == "2025-12-10" and laion["procedural_stage"] == "APPEAL"
+    assert len(index.cases["EU-CASE-KNESCHKE-V-LAION"]["history"]) == 2
+    deepseek = query.get_case(index, "EU-CASE-GPDP-DEEPSEEK-2025")
+    assert deepseek["jurisdiction"] == "EU" and deepseek["decided_at"] == "2025-01-30"
+    openai_it = query.get_case(index, "EU-CASE-GPDP-OPENAI-2024")
+    assert openai_it["decided_at"] == "2026-03-18" and openai_it["procedural_stage"] == "APPEAL"
+    assert len(index.cases["EU-CASE-GPDP-OPENAI-2024"]["history"]) == 2
+
+

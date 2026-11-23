@@ -1,0 +1,15 @@
+{
+  "id": "OBL-US-EO14179-05",
+  "instrument_id": "US-EO-14179",
+  "provision": "Sec. 5.",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "shall immediately review, in coordination with the heads of all agencies as they deem relevant, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110",
+  "duty": "立即审查依已撤销的第 14110 号行政令采取的全部政策、指令与规章，识别障碍举措并由各机构依法中止、修订或废止；OMB 主任须在 60 日内修订 M-24-10 与 M-24-18 备忘录",
+  "trigger": "本行政令签署后立即执行（OMB 备忘录修订期限为 60 日内）",
+  "extraterritorial": false,
+  "note": "同属联邦行政系统内部指令，不直接对私营企业设定义务，不创设可诉权利（Sec. 6(c)）。"
+}

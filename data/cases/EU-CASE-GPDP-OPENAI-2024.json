@@ -1,0 +1,117 @@
+{
+  "id": "EU-CASE-GPDP-OPENAI-2024",
+  "jurisdiction": "EU",
+  "forum": "Court of Rome",
+  "forum_type": "COURT",
+  "case_numbers": [
+    "No. 755",
+    "No. 4153/2026"
+  ],
+  "caption": "ChatGPT, The Italian Data Protection Authority closes the preliminary investigation",
+  "short_name": "意大利数据保护局诉 OpenAI（ChatGPT）案：1500 万欧元罚单与罗马法院支持上诉",
+  "decided_at": "2026-03-18",
+  "procedural_stage": "APPEAL",
+  "outcome": "RESPONDENT_PREVAILED",
+  "is_final": null,
+  "outcome_note": "意大利数据保护局第 755 号决定（2024-11-02 作出、2024-12-20 公布）因训练数据缺少合法基础、未报告 2023 年 3 月数据泄露、透明度不足及缺少年龄验证，对 OpenAI 处 1500 万欧元罚款并责令开展 6 个月公众告知活动；但 2026-03-18 公布的罗马法院第 4153/2026 号判决支持了针对该决定的上诉，决定全文已从官网暂时撤下。是否继续上诉未核查，故不标终局。",
+  "ai_roles": [
+    "TRAINING",
+    "DEPLOYMENT"
+  ],
+  "issues": [
+    "ISSUE-PROVIDER-LIABILITY"
+  ],
+  "history": [
+    {
+      "stage": "ENFORCEMENT_DECISION",
+      "forum": "Italian Data Protection Authority",
+      "decided_at": "2024-11-02",
+      "result": {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome."
+      }
+    },
+    {
+      "stage": "APPEAL",
+      "forum": "Court of Rome",
+      "decided_at": "2026-03-18",
+      "result": {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "following judgment No. 4153/2026 of the Court of Rome. The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+      }
+    }
+  ],
+  "field_evidence": {
+    "forum": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "following judgment No. 4153/2026 of the Court of Rome."
+      }
+    ],
+    "case_numbers": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome."
+      }
+    ],
+    "decided_at": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+      }
+    ],
+    "procedural_stage": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+      }
+    ],
+    "outcome": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+      }
+    ],
+    "caption": [
+      {
+        "source_id": "SRC-EU-GPDP-OPENAI-2024",
+        "quote": "The Italian Data Protection Authority has recently taken corrective and sanctioning measures against OpenAI in relation to the management of the ChatGPT service."
+      }
+    ]
+  },
+  "legal_anchors": [
+    {
+      "provision": "EU-AI-ACT-2024#Article 53",
+      "basis": "EDITORIAL",
+      "note": "本案适用的是 GDPR 与意大利隐私法典（第 166 条第 7 款），两者尚未入库；此处仅作编者对应，对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据透明与摘要公开义务。"
+    }
+  ],
+  "notes": "依据意大利数据保护局 2024-12-20 官方通告及其页首标注的 2026-03-18 罗马法院撤销进展。第 755 号决定原文已因法院判决从官网撤下，罗马法院第 4153/2026 号判决全文未取得，本条仅记录官方通告明文载明的事实。",
+  "discovered_via": "意大利数据保护局官方通告 docweb 10085432",
+  "also_reported_in": [],
+  "scopes": {
+    "SRC-EU-GPDP-OPENAI-2024": {
+      "block_start": "ChatGPT, The Italian Data Protection Authority closes the preliminary investigation*",
+      "block_end": "Scheda"
+    }
+  },
+  "scope_links": {},
+  "excerpts": [
+    {
+      "kind": "facts",
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "According to the Italian Data Protection Authority, the US company, which created and manages the generative artificial intelligence chatbot, did not notify the Authority of the data breach it underwent in March 2023, it has processed users’ personal data to train ChatGPT without first identifying an appropriate legal basis and has violated the principle of transparency and the related information obligations toward users. Furthermore, OpenAI has not provided for mechanisms for age verification, which could lead to the risk of exposing children under 13 to inappropriate responses with respect to their degree of development and self-awareness."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "The Data Protection Authority imposed a fine of EUR 15 million on OpenAI, which was also calculated taking into account the company’s cooperative attitude."
+    },
+    {
+      "kind": "holding",
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "text": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome. The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+    }
+  ],
+  "generated_by": "ingest/cases/eu-cases.json"
+}

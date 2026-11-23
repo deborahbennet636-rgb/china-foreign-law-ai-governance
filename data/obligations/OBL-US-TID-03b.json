@@ -1,0 +1,16 @@
+{
+  "id": "OBL-US-TID-03b",
+  "instrument_id": "US-TAKE-IT-DOWN-2025",
+  "provision": "SEC. 3.",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "PLATFORM"
+  ],
+  "quote": "A covered platform shall provide on the platform a clear and conspicuous notice",
+  "duty": "涵盖平台须在平台上以清晰显著、通俗易懂的语言公示通知与删除程序、平台责任及提交删除请求的方法",
+  "trigger": "涵盖平台运营并建立通知与删除程序",
+  "penalty": "Sec. 3(b)：视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条规则，由 FTC 执法",
+  "extraterritorial": false,
+  "note": "可通过清晰显著的网页链接或披露页面提供。"
+}

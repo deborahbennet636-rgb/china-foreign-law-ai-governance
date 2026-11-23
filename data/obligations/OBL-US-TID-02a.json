@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-TID-02a",
+  "instrument_id": "US-TAKE-IT-DOWN-2025",
+  "provision": "SEC. 2.",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "it shall be unlawful for any person, in interstate or foreign commerce, to use an interactive computer service to knowingly publish a digital forgery of an identifiable individual who is not a minor",
+  "duty": "禁止在州际或对外商业中使用交互式计算机服务，故意发布未经同意且意图或实际造成损害的成年人深度伪造私密影像（digital forgery）",
+  "trigger": "在州际或对外商业中使用交互式计算机服务发布可识别成年人的深度伪造私密影像，且非自愿公开、非涉公共关切并意图或实际造成损害",
+  "exception": "第 223(h)(3)(C) 条：依法授权的执法或情报活动、善意执法报告或法律程序提交、医疗科研教育目的、善意协助受害人、本人自发公开等",
+  "penalty": "47 U.S.C. § 223(h)(4)(A)：依美国法典第 18 编处以罚金、不超过 2 年监禁或并处；威胁发布的依第 (6)(B)(i) 项处不超过 18 个月监禁或罚金，另依第 (7) 项没收财产",
+  "extraterritorial": false,
+  "note": "修正《1934 年通信法》第 223 条新增第 (h) 款；「digital forgery」定义明确涵盖经机器学习或人工智能生成的以假乱真私密影像。「州际或对外商业」是美国联邦刑法常规管辖连结点，本库不标为域外效力。"
+}

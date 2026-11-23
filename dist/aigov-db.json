@@ -10,46 +10,47 @@
   },
   "instruments_complete": 18,
   "provisions": 545,
-  "cases": 13,
+  "cases": 17,
   "cases_by_jurisdiction": {
    "CN": 10,
+   "EU": 4,
    "US": 3
   },
   "cases_by_verification": {
    "PARSED": 10,
-   "VERIFIED": 3
+   "VERIFIED": 7
   },
-  "cases_with_case_number": 12,
+  "cases_with_case_number": 15,
   "cases_final": 10,
-  "cases_with_judgment": 12,
-  "cases_with_editorial_link": 6,
-  "anchors": 77,
+  "cases_with_judgment": 13,
+  "cases_with_editorial_link": 7,
+  "anchors": 81,
   "anchors_by_basis": {
    "CITED_IN_SOURCE": 64,
-   "EDITORIAL": 13
+   "EDITORIAL": 17
   },
   "cases_without_anchor": 0,
   "issues": 8,
   "leads_open": 18,
-  "sources": 72,
-  "sources_official": 55,
+  "sources": 78,
+  "sources_official": 61,
   "instruments_by_foreign_related": {
    "DOMESTIC": 11,
    "FOREIGN_SPECIFIC": 10,
    "FOREIGN_CLAUSE": 3
   },
-  "obligations": 79,
+  "obligations": 86,
   "obligations_by_kind": {
-   "OTHER": 12,
-   "PROHIBITION": 11,
+   "OTHER": 15,
+   "PROHIBITION": 12,
    "LABELING": 9,
    "SECURITY_ASSESSMENT": 7,
+   "PROTECTION": 6,
+   "DISCLOSURE": 5,
    "CONSENT": 5,
    "COOPERATION": 4,
-   "PROTECTION": 4,
    "RECORD_KEEPING": 4,
    "FILING": 4,
-   "DISCLOSURE": 4,
    "LICENSE": 4,
    "DATA_SOURCE": 3,
    "REPORTING": 3,
@@ -57,8 +58,8 @@
    "CONTRACT": 2
   },
   "obligations_by_modality": {
-   "MUST": 64,
-   "MUST_NOT": 13,
+   "MUST": 69,
+   "MUST_NOT": 15,
    "MAY": 2
   },
   "obligations_extraterritorial": 19,
@@ -660,6 +661,61 @@
    "note": "EU adopts 19th sanctions package against Russia (12 Chinese entities)"
   },
   {
+   "id": "SRC-EU-EDPB-REPLIKA-2025",
+   "url": "https://www.edpb.europa.eu/news/national-news/2025/ai-italian-supervisory-authority-fines-company-behind-chatbot-replika_en",
+   "publisher": "European Data Protection Board",
+   "kind": "OFFICIAL_DIGEST",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "1689153cf855a9fdeefd75691abe4906c23e6c16afe16cde4a6c8472571309e6",
+   "bytes": 35554,
+   "note": "欧洲数据保护委员会（EDPB）官方摘要：意大利数据保护局对 AI 陪伴聊天机器人 Replika 开发商 Luka Inc. 作出处罚决定（2025-04-10）"
+  },
+  {
+   "id": "SRC-EU-EUIPO-LAION-2024",
+   "url": "https://www.euipo.europa.eu/en/law/recent-case-law/germany-hamburg-district-court-310-o-22723-laion-v-robert-kneschke",
+   "publisher": "European Union Intellectual Property Office (EUIPO)",
+   "kind": "OFFICIAL_DIGEST",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "3f9dd42bd83df44e1bdc8c2a336c985c679ec75c3dc2357ef65e7d5ba53d78a6",
+   "bytes": 271380,
+   "note": "欧盟知识产权局（EUIPO）官方判例摘要：德国汉堡州法院 310 O 227/23 号 Robert Kneschke v. LAION e.V. 案（2024-09-27）"
+  },
+  {
+   "id": "SRC-EU-GPDP-DEEPSEEK-2025",
+   "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10098477",
+   "publisher": "Garante per la protezione dei dati personali",
+   "kind": "JUDGMENT",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "3650188df221952eabcf47d30b821668bfbe6d0d893a9eadea6a48a52a141a29",
+   "bytes": 136248,
+   "note": "意大利数据保护局第 33 号决定（2025-01-30），对杭州/北京 DeepSeek 下达停止处理意大利用户个人数据命令（含意大利文与英文官方文本）"
+  },
+  {
+   "id": "SRC-EU-GPDP-OPENAI-2024",
+   "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432",
+   "publisher": "Garante per la protezione dei dati personali",
+   "kind": "OFFICIAL_DIGEST",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "3e65cb54dcd301a9e40a8d4f1cc3d389822cfed92c5187d8e035b885245509a8",
+   "bytes": 126175,
+   "note": "意大利数据保护局官方通告（2024-12-20，docweb 10085432）：对 OpenAI 处 1500 万欧元罚款并责令开展 6 个月公众告知活动（第 755 号决定）"
+  },
+  {
+   "id": "SRC-EU-OLGHAMBURG-LAION-2025",
+   "url": "https://justiz.hamburg.de/gerichte/oberlandesgericht/gerichtspressestelle/ki-und-urheberrecht-hanseatisches-oberlandesgericht-weist-berufung-zurueck-1126528",
+   "publisher": "Hanseatisches Oberlandesgericht Hamburg",
+   "kind": "OFFICIAL_DIGEST",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "fd97164e74c7824efe8c8e30e3c60f4a76133e941cc7ef9cc91d6783522ce90e",
+   "bytes": 170221,
+   "note": "汉堡高等州法院官方新闻稿（2025-12-10，案号 5 U 104/24）：驳回摄影师对 LAION 案一审判决 310 O 227/23 的上诉"
+  },
+  {
    "id": "SRC-EU-OMNIBUS-AI-OJ",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202601744",
    "publisher": "EUR-Lex (Official Journal of the EU)",
@@ -679,6 +735,17 @@
    "sha256": "a4bb7d6f0ee0acba483ea3383ecaaa14ab2de3f7f465630ea0fc426fb5b00202",
    "bytes": 75737,
    "note": "DG TRADE news: countervailing duties on mobile access equipment from China, 28 Apr 2025"
+  },
+  {
+   "id": "SRC-EU-WIPO-LAION-2024",
+   "url": "https://www.wipo.int/wipolex/en/judgments/details/2381",
+   "publisher": "World Intellectual Property Organization (WIPO Lex)",
+   "kind": "OFFICIAL_DIGEST",
+   "official": true,
+   "fetched_at": "2026-11-23",
+   "sha256": "7f614abe3df1aa6655130d7b14133f7d08749c1d51e41ace4aea333e3fb5e5fc",
+   "bytes": 32685,
+   "note": "WIPO Lex 判例库记录：德国汉堡州法院 Robert Kneschke v. LAION e.V.，案号 310 O 227/23（2024-09-27）"
   },
   {
    "id": "SRC-US-CADC-THALER-2025",
@@ -7575,6 +7642,489 @@
    "evidence_grade": "B"
   },
   {
+   "id": "EU-CASE-GPDP-DEEPSEEK-2025",
+   "jurisdiction": "EU",
+   "forum": "Garante per la protezione dei dati personali",
+   "forum_type": "REGULATOR",
+   "case_numbers": [
+    "n. 33 del 30 gennaio 2025"
+   ],
+   "caption": "Hangzhou DeepSeek Artificial Intelligence Co., Ltd. and Beijing DeepSeek Artificial Intelligence Co., Ltd.",
+   "short_name": "意大利数据保护局禁令 DeepSeek 案：GDPR 域外管辖与中国 AI 服务",
+   "decided_at": "2025-01-30",
+   "procedural_stage": "ENFORCEMENT_DECISION",
+   "outcome": "PENDING",
+   "is_final": false,
+   "outcome_note": "意大利数据保护局紧急下令立即停止处理位于意大利境内的用户个人数据，同时保留对已启动调查的进一步决定权，并告知境外控制者可在 60 日内向普通法院提起异议。后续调查或诉讼进展未核查，故标 PENDING、非终局。",
+   "ai_roles": [
+    "DEPLOYMENT"
+   ],
+   "issues": [
+    "ISSUE-PROVIDER-LIABILITY",
+    "ISSUE-PERSONAL-INFO-EXPORT-PATHS"
+   ],
+   "field_evidence": {
+    "forum": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "GARANTE PER LA PROTEZIONE DEI DATI PERSONALI"
+     }
+    ],
+    "case_numbers": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "Registro dei provvedimenti\nn. 33 del 30 gennaio 2025"
+     }
+    ],
+    "decided_at": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "Rome, 30 January 2025"
+     }
+    ],
+    "procedural_stage": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "Pursuant to Article 58 (2)(f), Hangzhou DeepSeek Artificial Intelligence Co., Ltd., and Beijing DeepSeek Artificial Intelligence Co., Ltd"
+     }
+    ],
+    "outcome": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "The aforementioned limitation shall take immediate effect as from the date of receipt of this order, subject to any other decision upon the outcome of the investigation initiated on the case."
+     }
+    ],
+    "is_final": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "an objection to this order may be lodged with the ordinary judicial authorities upon appeal to the ordinary court of the place of residence of the data controller within thirty days from the date of communication of the order, or sixty days if the applicant resides abroad."
+     }
+    ],
+    "caption": [
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "WHEREAS Hangzhou DeepSeek Artificial Intelligence Co., Ltd. and Beijing DeepSeek Artificial Intelligence Co., Ltd. (hereinafter referred to as the ‘Companies’) run the DeepSeek service"
+     },
+     {
+      "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+      "quote": "GARANTE PER LA PROTEZIONE DEI DATI PERSONALI"
+     }
+    ]
+   },
+   "legal_anchors": [
+    {
+     "provision": "EU-AI-ACT-2024#Article 54",
+     "basis": "EDITORIAL",
+     "note": "本决定直接适用的是 GDPR（第 3(2)(a)、6、12–14、27、31、32、58(2)(f) 条，GDPR 正文尚未入库），并非 EU AI Act；此处仅作制度对照，指向 AI Act 第 54 条同样要求第三国通用目的 AI 模型提供者书面委任欧盟授权代表（与 GDPR 第 27 条平行）。"
+    }
+   ],
+   "notes": "官方完整双语决定书原文（意大利文与英文同页，doc. web n. 10098477）。本案是欧盟成员国监管机关直接针对中国大模型企业行使 GDPR 第 3(2)(a) 条域外管辖权的代表性个案：两家中国公司主张未进入意大利市场且不受欧盟法约束，但监管机关因网页仍可访问认定构成向欧盟提供服务，并点出数据存储在中华人民共和国境内及未委任欧盟代表。",
+   "discovered_via": "意大利数据保护局（Garante Privacy）官方决定库 docweb 10098477",
+   "history": [],
+   "also_reported_in": [],
+   "scopes": {
+    "SRC-EU-GPDP-DEEPSEEK-2025": null
+   },
+   "scope_links": {},
+   "excerpts": [
+    {
+     "kind": "facts",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "WHEREAS Hangzhou DeepSeek Artificial Intelligence Co., Ltd. and Beijing DeepSeek Artificial Intelligence Co., Ltd. (hereinafter referred to as the ‘Companies’) run the DeepSeek service (hereinafter referred to as the ‘DeepSeek service’), through app, website, software and related services;"
+    },
+    {
+     "kind": "facts",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "TAKING NOTE that in the same reply the Companies claimed that the Regulation does not apply to the personal data processing activities carried out by them;"
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "CONSIDERING therefore that Article 3(2)(a) of the Regulation applies, laying down a specific territorial scope for said Regulation;"
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "FINDING that, in accordance with the privacy policy, the data collected by the data controller in connection with the provision of the DeepSeek service are stored in the People's Republic of China, in violation of the safeguards provided for by the Regulation, in particular Article 32 on security of processing;"
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "FINDING that the data controller, whilst required to comply with the Regulation on account of the service provided (pursuant to Article 3(2) of the Regulation), has failed to designate a representative by written mandate, in violation of Article 27 of the Regulation;"
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-DEEPSEEK-2025",
+     "text": "ORDERS\nPursuant to Article 58 (2)(f), Hangzhou DeepSeek Artificial Intelligence Co., Ltd., and Beijing DeepSeek Artificial Intelligence Co., Ltd, established at 5th Floor, North Building, Block C, Rongke Information Center, No.2 South Science Academy Road, Haidian District Beijing, China, to definitively limit the processing activities of personal data of data subjects located in the Italian territory that are carried out in the context of the DeepSeek service."
+    }
+   ],
+   "generated_by": "ingest/cases/eu-cases.json",
+   "verification": "VERIFIED",
+   "evidence_grade": "A"
+  },
+  {
+   "id": "EU-CASE-GPDP-OPENAI-2024",
+   "jurisdiction": "EU",
+   "forum": "Court of Rome",
+   "forum_type": "COURT",
+   "case_numbers": [
+    "No. 755",
+    "No. 4153/2026"
+   ],
+   "caption": "ChatGPT, The Italian Data Protection Authority closes the preliminary investigation",
+   "short_name": "意大利数据保护局诉 OpenAI（ChatGPT）案：1500 万欧元罚单与罗马法院支持上诉",
+   "decided_at": "2026-03-18",
+   "procedural_stage": "APPEAL",
+   "outcome": "RESPONDENT_PREVAILED",
+   "is_final": null,
+   "outcome_note": "意大利数据保护局第 755 号决定（2024-11-02 作出、2024-12-20 公布）因训练数据缺少合法基础、未报告 2023 年 3 月数据泄露、透明度不足及缺少年龄验证，对 OpenAI 处 1500 万欧元罚款并责令开展 6 个月公众告知活动；但 2026-03-18 公布的罗马法院第 4153/2026 号判决支持了针对该决定的上诉，决定全文已从官网暂时撤下。是否继续上诉未核查，故不标终局。",
+   "ai_roles": [
+    "TRAINING",
+    "DEPLOYMENT"
+   ],
+   "issues": [
+    "ISSUE-PROVIDER-LIABILITY"
+   ],
+   "history": [
+    {
+     "stage": "ENFORCEMENT_DECISION",
+     "forum": "Italian Data Protection Authority",
+     "decided_at": "2024-11-02",
+     "result": {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome."
+     }
+    },
+    {
+     "stage": "APPEAL",
+     "forum": "Court of Rome",
+     "decided_at": "2026-03-18",
+     "result": {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "following judgment No. 4153/2026 of the Court of Rome. The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+     }
+    }
+   ],
+   "field_evidence": {
+    "forum": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "following judgment No. 4153/2026 of the Court of Rome."
+     }
+    ],
+    "case_numbers": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome."
+     }
+    ],
+    "decided_at": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+     }
+    ],
+    "procedural_stage": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+     }
+    ],
+    "outcome": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+     }
+    ],
+    "caption": [
+     {
+      "source_id": "SRC-EU-GPDP-OPENAI-2024",
+      "quote": "The Italian Data Protection Authority has recently taken corrective and sanctioning measures against OpenAI in relation to the management of the ChatGPT service."
+     }
+    ]
+   },
+   "legal_anchors": [
+    {
+     "provision": "EU-AI-ACT-2024#Article 53",
+     "basis": "EDITORIAL",
+     "note": "本案适用的是 GDPR 与意大利隐私法典（第 166 条第 7 款），两者尚未入库；此处仅作编者对应，对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据透明与摘要公开义务。"
+    }
+   ],
+   "notes": "依据意大利数据保护局 2024-12-20 官方通告及其页首标注的 2026-03-18 罗马法院撤销进展。第 755 号决定原文已因法院判决从官网撤下，罗马法院第 4153/2026 号判决全文未取得，本条仅记录官方通告明文载明的事实。",
+   "discovered_via": "意大利数据保护局官方通告 docweb 10085432",
+   "also_reported_in": [],
+   "scopes": {
+    "SRC-EU-GPDP-OPENAI-2024": {
+     "block_start": "ChatGPT, The Italian Data Protection Authority closes the preliminary investigation*",
+     "block_end": "Scheda"
+    }
+   },
+   "scope_links": {},
+   "excerpts": [
+    {
+     "kind": "facts",
+     "source_id": "SRC-EU-GPDP-OPENAI-2024",
+     "text": "According to the Italian Data Protection Authority, the US company, which created and manages the generative artificial intelligence chatbot, did not notify the Authority of the data breach it underwent in March 2023, it has processed users’ personal data to train ChatGPT without first identifying an appropriate legal basis and has violated the principle of transparency and the related information obligations toward users. Furthermore, OpenAI has not provided for mechanisms for age verification, which could lead to the risk of exposing children under 13 to inappropriate responses with respect to their degree of development and self-awareness."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-OPENAI-2024",
+     "text": "The Data Protection Authority imposed a fine of EUR 15 million on OpenAI, which was also calculated taking into account the company’s cooperative attitude."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-GPDP-OPENAI-2024",
+     "text": "*Decision No. 755 of 2 November 2024 has been temporarily removed from the website of the Italian Data Protection Authority following judgment No. 4153/2026 of the Court of Rome. The judgment, published on 18 March 2026, upheld the appeal lodged against the Authority’s decision"
+    }
+   ],
+   "generated_by": "ingest/cases/eu-cases.json",
+   "verification": "VERIFIED",
+   "evidence_grade": "B"
+  },
+  {
+   "id": "EU-CASE-GPDP-REPLIKA-2025",
+   "jurisdiction": "EU",
+   "forum": "Italian Supervisory Authority",
+   "forum_type": "REGULATOR",
+   "case_numbers": [],
+   "caption": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”",
+   "short_name": "意大利数据保护局处罚 Replika（Luka Inc.）案：AI 虚拟陪伴与未成年人年龄验证",
+   "decided_at": "2025-04-10",
+   "procedural_stage": "ENFORCEMENT_DECISION",
+   "outcome": "CLAIMANT_PREVAILED",
+   "is_final": null,
+   "outcome_note": "意大利数据保护局对美国公司 Luka Inc. 处 500 万欧元行政罚款并责令合规整改，认定其未确定合法基础、隐私政策不充分、未落实未成年人年龄验证；另保留就生成式 AI 全生命周期数据处理合法性另案调查的权利。是否提起司法复议未核查，故不标终局。",
+   "ai_roles": [
+    "DEPLOYMENT"
+   ],
+   "issues": [
+    "ISSUE-PROVIDER-LIABILITY"
+   ],
+   "field_evidence": {
+    "forum": [
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”"
+     }
+    ],
+    "decided_at": [
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "Date of final decision: 10 April 2025"
+     }
+    ],
+    "procedural_stage": [
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "Decision: administrative fine, Compliance order"
+     }
+    ],
+    "outcome": [
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "The Italian SA has imposed on Luka Inc. an administrative fine of 5 million € for infringing Articles 5.1 (a) and 6; Articles 5.1 (a), 12, 13, 5.1 (c), 24 and 25.1 of the GDPR."
+     }
+    ],
+    "caption": [
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”"
+     },
+     {
+      "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+      "quote": "Controller: Luka Inc."
+     }
+    ]
+   },
+   "legal_anchors": [
+    {
+     "provision": "EU-AI-ACT-2024#Article 50",
+     "basis": "EDITORIAL",
+     "note": "本决定直接适用的是 GDPR 第 5、6、12、13、24、25 条（GDPR 尚未入库）；此处仅作编者对应，对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统的透明度要求，并可与库内北京互联网法院「AI 陪伴」软件案（CN-CASE-AI-COMPANION）跨法域对照。"
+    }
+   ],
+   "notes": "取自欧洲数据保护委员会（EDPB）官网刊载的国家监管决定官方摘要；完整意大利文决定书原文未单独取回。注意 EDPB 页面所称「Date of final decision」指行政决定作出日期，不代表已经过司法终审，故 is_final 留空。",
+   "discovered_via": "欧洲数据保护委员会（EDPB）官网国家新闻摘要",
+   "history": [],
+   "also_reported_in": [],
+   "scopes": {
+    "SRC-EU-EDPB-REPLIKA-2025": {
+     "block_start": "AI: the Italian Supervisory Authority fines company behind chatbot “Replika”",
+     "block_end": "Latest news"
+    }
+   },
+   "scope_links": {},
+   "excerpts": [
+    {
+     "kind": "facts",
+     "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+     "text": "The proceedings originated from an investigation initiated by the Italian Supervisory Authority (SA) of its own motion following the publication of press reports and preliminary fact-finding conducted on the Replika service, a chatbot with a written and voice interface developed and managed by the US company Luka Inc and based on a generative AI system. The chatbot features both a written and voice interface, allowing users to ‘generate’ a ‘virtual companion’ that can take on the role of a confidant, therapist, romantic partner, or mentor."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+     "text": "The Italian SA has imposed on Luka Inc. an administrative fine of 5 million € for infringing Articles 5.1 (a) and 6; Articles 5.1 (a), 12, 13, 5.1 (c), 24 and 25.1 of the GDPR."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-EDPB-REPLIKA-2025",
+     "text": "Additionally, the Italian SA reserves the right to investigate and assess in a separate and autonomous proceeding, the aspects concerning the lawfulness of the processing operations carried out by Luka Inc., with specific reference to the legal bases for processing applicable throughout the entire lifecycle of the generative AI system underlying the Replika service."
+    }
+   ],
+   "generated_by": "ingest/cases/eu-cases.json",
+   "verification": "VERIFIED",
+   "evidence_grade": "B"
+  },
+  {
+   "id": "EU-CASE-KNESCHKE-V-LAION",
+   "jurisdiction": "EU",
+   "forum": "Hanseatisches Oberlandesgericht",
+   "forum_type": "COURT",
+   "case_numbers": [
+    "No. 310 O 227/23",
+    "Az.: 5 U 104/24"
+   ],
+   "caption": "Robert Kneschke v. LAION e.V.",
+   "short_name": "Kneschke 诉 LAION 案：AI 训练数据集制作与欧盟 TDM 例外",
+   "decided_at": "2025-12-10",
+   "procedural_stage": "APPEAL",
+   "outcome": "RESPONDENT_PREVAILED",
+   "is_final": false,
+   "outcome_note": "汉堡州法院一审（2024-09-27）依科研文本数据挖掘例外（§ 60d UrhG / DSM 指令第 3 条）驳回原告诉请；汉堡高等州法院二审（2025-12-10）驳回上诉，同时适用一般 TDM 例外（§ 44b UrhG，认图片社网页上的自然语言保留不具机器可读性）与科研 TDM 例外（§ 60d UrhG）。法院准许向德国联邦最高法院提起法律审上诉（Revision），判决尚未生效。",
+   "ai_roles": [
+    "TRAINING"
+   ],
+   "issues": [
+    "ISSUE-TRAINING-COPYRIGHT"
+   ],
+   "history": [
+    {
+     "stage": "FIRST_INSTANCE",
+     "forum": "Regional Court of Hamburg",
+     "decided_at": "2024-09-27",
+     "result": {
+      "source_id": "SRC-EU-WIPO-LAION-2024",
+      "quote": "Date of Judgment\nSeptember 27, 2024\nIssuing Authority\nRegional Court of Hamburg\nLevel of the Issuing Authority\nFirst Instance"
+     }
+    },
+    {
+     "stage": "APPEAL",
+     "forum": "Hanseatisches Oberlandesgericht",
+     "decided_at": "2025-12-10",
+     "result": {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "Stand: 10.12.2025, 12:00\nKI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück\nDer 5. Zivilsenat des Hanseatischen Oberlandesgerichts hat mit heute verkündetem Urteil (Az.: 5 U 104/24) die Berufung eines Fotografen gegen das klagabweisende Urteil des Landgerichts Hamburg (Az.: 310 O 227/23) zurückgewiesen."
+     }
+    }
+   ],
+   "field_evidence": {
+    "forum": [
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "KI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+     }
+    ],
+    "case_numbers": [
+     {
+      "source_id": "SRC-EU-WIPO-LAION-2024",
+      "quote": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,"
+     },
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "Der 5. Zivilsenat des Hanseatischen Oberlandesgerichts hat mit heute verkündetem Urteil (Az.: 5 U 104/24) die Berufung eines Fotografen gegen das klagabweisende Urteil des Landgerichts Hamburg (Az.: 310 O 227/23) zurückgewiesen."
+     }
+    ],
+    "decided_at": [
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "Stand: 10.12.2025, 12:00\nKI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+     }
+    ],
+    "procedural_stage": [
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "KI und Urheberrecht: Hanseatisches Oberlandesgericht weist Berufung zurück"
+     }
+    ],
+    "outcome": [
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "Der 5. Zivilsenat hat heute entschieden, dass das Landgericht die Klage zu Recht abgewiesen hat. Dem klagenden Fotografen stehe kein urheberrechtlicher Unterlassungsanspruch zu."
+     }
+    ],
+    "is_final": [
+     {
+      "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+      "quote": "Die Entscheidung ist nicht rechtskräftig. Der Senat hat die Revision zugelassen, über die der Bundesgerichtshof zu entscheiden hätte."
+     }
+    ],
+    "caption": [
+     {
+      "source_id": "SRC-EU-WIPO-LAION-2024",
+      "quote": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,"
+     }
+    ]
+   },
+   "legal_anchors": [
+    {
+     "provision": "EU-AI-ACT-2024#Article 53",
+     "basis": "EDITORIAL",
+     "note": "WIPO Lex 将 EU AI Act 第 53 条第 1 款第 (c) 项列为本案相关立法（与 DSM 指令第 3–4 条及德国著作权法 §§ 44b、60d UrhG 并列）；本案直接适用的是德国转化 DSM 指令的 TDM 条款，该指令与德国著作权法尚未入库，故此处标为编者对应。"
+    }
+   ],
+   "notes": "所取三份材料均为官方摘要或法院新闻稿（WIPO Lex、EUIPO、汉堡高等州法院新闻稿），不是判决书全文，故核验等级仍受来源类型约束；案号与核心裁判要旨均有官方来源交叉印证。本案涉及的是训练数据集构建阶段的下载比对，不同于模型本身记忆输出作品的纠纷。",
+   "discovered_via": "EUIPO 近期判例库、WIPO Lex 与汉堡司法门户官方新闻稿",
+   "also_reported_in": [],
+   "scopes": {
+    "SRC-EU-WIPO-LAION-2024": {
+     "block_start": "Hamburg Regional Court, Germany [2024]: Robert Kneschke v. LAION e.V., Case No. 310 O 227/23,",
+     "block_end": "WIPO Lex No."
+    },
+    "SRC-EU-EUIPO-LAION-2024": {
+     "block_start": "Germany - Hamburg District Court, 310 O.22723, LAION v Robert Kneschke",
+     "block_end": "The text of the judgment is available here."
+    },
+    "SRC-EU-OLGHAMBURG-LAION-2025": {
+     "block_start": "Stand: 10.12.2025, 12:00",
+     "block_end": "Info-Spalte"
+    }
+   },
+   "scope_links": {
+    "SRC-EU-EUIPO-LAION-2024": "EUIPO 判例摘要标题写为「LAION v Robert Kneschke」（省去 e.V.）且案号漏印斜杠写为 310 O.22723，实质同为德国汉堡州法院 2024-09-27 对摄影师 Robert Kneschke 诉 LAION 案的一审判决。",
+    "SRC-EU-OLGHAMBURG-LAION-2025": "汉堡高等州法院官方新闻稿按德国惯例匿名，未写当事人姓名，但明文载明被上诉一审案号 310 O 227/23（与 WIPO Lex 中 Robert Kneschke v. LAION e.V. 一审案号一致），且案情为摄影师起诉非营利协会制作图像-文本训练数据集。"
+   },
+   "excerpts": [
+    {
+     "kind": "facts",
+     "source_id": "SRC-EU-EUIPO-LAION-2024",
+     "text": "The photographer Robert Kneschke (the ‘claimant’) brought a lawsuit before the Hamburg District Court against LAION, a non-profit organisation that created a dataset for training AI models (the ‘defendant’). According to the claimant’s allegations, LAION had infringed his copyright by reproducing one of his images without permission as part of the dataset creation process."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-EUIPO-LAION-2024",
+     "text": "The Court of Hamburg dismissed the lawsuit ruling out a copyright infringement as LAION’s reproduction of Kneschke’s image was covered by the TDM exception for scientific research under Article 3 of the Digital Single Market (DSM) Directive, implemented in German law by Section 60d of the Act on Copyright and Related Rights (Urheberrechtsgesetz ‘ UrhG’)."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+     "text": "Der 5. Zivilsenat hat heute entschieden, dass das Landgericht die Klage zu Recht abgewiesen hat. Dem klagenden Fotografen stehe kein urheberrechtlicher Unterlassungsanspruch zu. Zur Begründung führt der Senat aus, dass sich der Beklagte hinsichtlich der Nutzung der heruntergeladenen Fotografie auf die Schrankenregelungen für das sog. Text und Data Mining aus § 44b UrhG berufen könne."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+     "text": "Der auf der Webseite der Bildagentur zum Zeitpunkt des Downloads der Fotografie vorhandene Nutzungsvorbehalt habe vorliegend aber nicht die gesetzlich vorgesehene Form (Maschinenlesbarkeit) aufgewiesen (§ 44b Abs. 3 S. 2 UrhG), so dass die streitgegenständliche Vervielfältigung zulässig gewesen sei."
+    },
+    {
+     "kind": "holding",
+     "source_id": "SRC-EU-OLGHAMBURG-LAION-2025",
+     "text": "Der Senat hat zudem ausgeführt, dass das Landgericht im Ergebnis zu Recht davon ausgegangen sei, dass die streitgegenständliche Nutzung der Fotografie auch deswegen gerechtfertigt gewesen sei, weil sie für Zwecke der wissenschaftlichen Forschung erfolgt sei (Schrankenregelung des § 60d UrhG)."
+    }
+   ],
+   "generated_by": "ingest/cases/eu-cases.json",
+   "verification": "VERIFIED",
+   "evidence_grade": "B"
+  },
+  {
    "id": "US-CASE-BARTZ-V-ANTHROPIC",
    "jurisdiction": "US",
    "forum": "United States District Court Northern District of California",
@@ -7941,11 +8491,13 @@
     },
     {
      "jurisdiction": "EU",
-     "summary": "AI Act 第 53 条要求通用目的 AI 模型提供者制定遵守欧盟著作权法的政策（包括识别并遵守权利保留），并公开训练内容的摘要。这是合规义务，不直接回答训练是否侵权；该条所引的 2019/790 号指令未入库。库内条文是 2024 年原始文本，2026/1744 号条例对该条有无修改尚未核对。库内无欧盟案例。",
+     "summary": "AI Act 第 53 条要求通用目的 AI 模型提供者制定遵守欧盟著作权法的政策（包括识别并遵守权利保留），并公开训练内容的摘要。这是合规义务，不直接回答训练是否侵权；该条所引的 2019/790 号指令未入库。库内条文是 2024 年原始文本，2026/1744 号条例对该条有无修改尚未核对。库内无欧盟案例。 司法实践方面，德国汉堡州法院（2024-09-27）与汉堡高等州法院（2025-12-10）在 Kneschke 诉 LAION 案中，先后依德国转化 DSM 指令的科研与一般文本数据挖掘例外驳回摄影师诉请（尚未生效，已准许向德国联邦最高法院上诉）。",
      "provisions": [
       "EU-AI-ACT-2024#Article 53"
      ],
-     "cases": [],
+     "cases": [
+      "EU-CASE-KNESCHKE-V-LAION"
+     ],
      "nature": "NORMATIVE",
      "obligations": [
       "OBL-AI-53c",
@@ -8038,10 +8590,14 @@
     },
     {
      "jurisdiction": "EU",
-     "summary": "AI Act 规定的是投放市场和使用环节的合规义务，不是民事责任规则。库内无欧盟民事责任文件或案例。",
+     "summary": "库内收了三件意大利数据保护局依据 GDPR 对生成式 AI 提供者的执法个案（GDPR 正文尚未入库）：对 DeepSeek 下达立即停止处理意大利用户数据的命令（2025-01-30）；对 Replika 运营方 Luka Inc. 处 500 万欧元罚款并责令整改年龄验证与隐私政策（2025-04-10）；对 OpenAI 处 1500 万欧元罚款（第 755 号决定），但罗马法院第 4153/2026 号判决（2026-03-18）已支持针对该决定的上诉。",
      "provisions": [],
-     "cases": [],
-     "nature": "NONE"
+     "cases": [
+      "EU-CASE-GPDP-DEEPSEEK-2025",
+      "EU-CASE-GPDP-OPENAI-2024",
+      "EU-CASE-GPDP-REPLIKA-2025"
+     ],
+     "nature": "CASE"
     },
     {
      "jurisdiction": "US",
@@ -8053,7 +8609,7 @@
    ],
    "comparison": {
     "comparable": false,
-    "reason": "只有中国有材料，且中国一栏是司法解释与三个个案并存的混合。欧盟一栏说明其规范是投放市场与使用环节的合规义务，不是民事责任规则；美国无材料。三栏不构成比较。"
+    "reason": "中国是最高法司法政策文件与民事侵权判决，欧盟是意大利数据保护局的 GDPR 行政执法决定及罗马法院复议判决（且 GDPR 与欧盟民事责任指令未入库），美国无材料；三栏材料性质不同，不可并排比较。"
    }
   },
   {
@@ -8107,7 +8663,14 @@
       "US-TAKE-IT-DOWN-2025#SEC. 3."
      ],
      "cases": [],
-     "nature": "NORMATIVE"
+     "nature": "NORMATIVE",
+     "obligations": [
+      "OBL-US-TID-02a",
+      "OBL-US-TID-02b",
+      "OBL-US-TID-03a",
+      "OBL-US-TID-03b",
+      "OBL-US-TID-03c"
+     ]
     }
    ],
    "comparison": {
@@ -8226,7 +8789,7 @@
    "editor_note": "库内只有中国这一栏有规范性文件。欧盟与美国两栏留白，不是因为没有规则，而是因为本库尚未入库，故本条不构成三法域比较。中国一栏内，三条路径的分界取决于出境人数、是否重要数据、是否为关基运营者，2024 年《促进和规范数据跨境流动规定》改写了 2022 年办法的门槛，第十三条规定不一致时适用新规。",
    "comparison": {
     "comparable": false,
-    "reason": "仅中国有入库材料；欧盟 GDPR 第五章、美国联邦层面规则均未入库，三法域并排会读成「中国有规定、他国无规定」，那不是事实。"
+    "reason": "中国是数据出境路径的规范性文件，欧盟仅收一件成员国监管机关的个案禁令（GDPR 第五章正文未入库），美国无入库材料；三栏在材料层级和覆盖范围上不对等，不可直接比较。"
    },
    "positions": [
     {
@@ -8251,11 +8814,13 @@
     },
     {
      "jurisdiction": "EU",
-     "nature": "NONE",
-     "summary": "库内未收 GDPR 第五章及充分性认定决定的原文，故本条不就欧盟作任何陈述。",
+     "nature": "CASE",
+     "summary": "库内仍未收 GDPR 第五章及充分性认定决定的原文，仅收一件成员国执法个案：意大利数据保护局 2025-01-30 第 33 号决定认定杭州与北京 DeepSeek 依据 GDPR 第 3(2)(a) 条受欧盟法约束、将意大利用户数据存储于中华人民共和国境内违反第 32 条安全保障并缺第 27 条欧盟代表，下令立即停止处理。",
      "provisions": [],
      "obligations": [],
-     "cases": []
+     "cases": [
+      "EU-CASE-GPDP-DEEPSEEK-2025"
+     ]
     },
     {
      "jurisdiction": "US",
@@ -9850,6 +10415,135 @@
    "extraterritorial": false,
    "verification": "VERIFIED",
    "duty_text": "向工作机制办公室申请"
+  },
+  {
+   "id": "OBL-US-EO14179-04",
+   "instrument_id": "US-EO-14179",
+   "provision": "Sec. 4.",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "shall develop and submit to the President an action plan to achieve the policy set forth in section 2 of this order",
+   "duty": "总统科技助理、AI 与加密特别顾问及国家安全事务助理须在 180 日内会同 OMB 及相关部门制定并向总统提交人工智能行动计划",
+   "trigger": "自 2025-01-23 签署本行政令之日起 180 日内",
+   "extraterritorial": false,
+   "note": "行政令仅约束联邦行政机构内部；第 6(c) 条明文声明不创设任何可对美国政府或任何他人强制执行的实体或程序权利。",
+   "verification": "VERIFIED",
+   "duty_text": "总统科技助理、AI 与加密特别顾问及国家安全事务助理须在 180 日内会同 OMB 及相关部门制定并向总统提交人工智能行动计划"
+  },
+  {
+   "id": "OBL-US-EO14179-05",
+   "instrument_id": "US-EO-14179",
+   "provision": "Sec. 5.",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "shall immediately review, in coordination with the heads of all agencies as they deem relevant, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110",
+   "duty": "立即审查依已撤销的第 14110 号行政令采取的全部政策、指令与规章，识别障碍举措并由各机构依法中止、修订或废止；OMB 主任须在 60 日内修订 M-24-10 与 M-24-18 备忘录",
+   "trigger": "本行政令签署后立即执行（OMB 备忘录修订期限为 60 日内）",
+   "extraterritorial": false,
+   "note": "同属联邦行政系统内部指令，不直接对私营企业设定义务，不创设可诉权利（Sec. 6(c)）。",
+   "verification": "VERIFIED",
+   "duty_text": "立即审查依已撤销的第 14110 号行政令采取的全部政策、指令与规章，识别障碍举措并由各机构依法中止、修订或废止；OMB 主任须在 60 日内修订 M-24-10 与 M-24-18 备忘录"
+  },
+  {
+   "id": "OBL-US-TID-02a",
+   "instrument_id": "US-TAKE-IT-DOWN-2025",
+   "provision": "SEC. 2.",
+   "kind": "PROHIBITION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+   ],
+   "quote": "it shall be unlawful for any person, in interstate or foreign commerce, to use an interactive computer service to knowingly publish a digital forgery of an identifiable individual who is not a minor",
+   "duty": "禁止在州际或对外商业中使用交互式计算机服务，故意发布未经同意且意图或实际造成损害的成年人深度伪造私密影像（digital forgery）",
+   "trigger": "在州际或对外商业中使用交互式计算机服务发布可识别成年人的深度伪造私密影像，且非自愿公开、非涉公共关切并意图或实际造成损害",
+   "exception": "第 223(h)(3)(C) 条：依法授权的执法或情报活动、善意执法报告或法律程序提交、医疗科研教育目的、善意协助受害人、本人自发公开等",
+   "penalty": "47 U.S.C. § 223(h)(4)(A)：依美国法典第 18 编处以罚金、不超过 2 年监禁或并处；威胁发布的依第 (6)(B)(i) 项处不超过 18 个月监禁或罚金，另依第 (7) 项没收财产",
+   "extraterritorial": false,
+   "note": "修正《1934 年通信法》第 223 条新增第 (h) 款；「digital forgery」定义明确涵盖经机器学习或人工智能生成的以假乱真私密影像。「州际或对外商业」是美国联邦刑法常规管辖连结点，本库不标为域外效力。",
+   "verification": "VERIFIED",
+   "duty_text": "禁止在州际或对外商业中使用交互式计算机服务，故意发布未经同意且意图或实际造成损害的成年人深度伪造私密影像（digital forgery）"
+  },
+  {
+   "id": "OBL-US-TID-02b",
+   "instrument_id": "US-TAKE-IT-DOWN-2025",
+   "provision": "SEC. 2.",
+   "kind": "PROTECTION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+   ],
+   "quote": "it shall be unlawful for any person, in interstate or foreign commerce, to use an interactive computer service to knowingly publish a digital forgery of an identifiable individual who is a minor",
+   "duty": "禁止在州际或对外商业中使用交互式计算机服务，以虐待、羞辱、骚扰、贬低或满足性欲为意图，故意发布未成年人深度伪造私密影像",
+   "trigger": "在州际或对外商业中使用交互式计算机服务发布可识别未成年人的深度伪造私密影像，且具有虐待、羞辱、骚扰、贬低或满足性欲意图",
+   "exception": "第 223(h)(3)(C) 条所列执法、医疗科研教育等例外；构成儿童色情犯罪的另依 18 U.S.C. § 2256 / § 1466A 追责",
+   "penalty": "47 U.S.C. § 223(h)(4)(B)：依美国法典第 18 编处以罚金、不超过 3 年监禁或并处；威胁发布的依第 (6)(B)(ii) 项处不超过 30 个月监禁或罚金",
+   "extraterritorial": false,
+   "note": "同条第 (2) 款对真实私密影像设平行罪名；本条与 OBL-US-TID-02a 聚焦 AI 深度伪造（digital forgery），未成年人情形刑期上限更高且不以证明受害人实际损害为要件。",
+   "verification": "VERIFIED",
+   "duty_text": "禁止在州际或对外商业中使用交互式计算机服务，以虐待、羞辱、骚扰、贬低或满足性欲为意图，故意发布未成年人深度伪造私密影像"
+  },
+  {
+   "id": "OBL-US-TID-03a",
+   "instrument_id": "US-TAKE-IT-DOWN-2025",
+   "provision": "SEC. 3.",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "PLATFORM"
+   ],
+   "quote": "Not later than 1 year after the date of enactment of this Act, a covered platform shall establish a process",
+   "duty": "涵盖平台须在法案颁布后 1 年内（2026-05-19 前）建立书面通知与删除程序，供可识别个人或其授权代表请求删除未经同意的私密影像（含深度伪造）",
+   "trigger": "法案颁布满 1 年前（法案签署日为 2025-05-19）",
+   "penalty": "Sec. 3(b)：未合理履行通知与删除义务视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条关于不公平或欺骗性行为的规则，由 FTC 依法执法（含非营利组织）",
+   "extraterritorial": false,
+   "note": "本法未设整体生效日（故法规状态标为 ADOPTED），但第 3 条明确为平台建立通知删除程序设了颁布后 1 年的期限。",
+   "verification": "VERIFIED",
+   "duty_text": "涵盖平台须在法案颁布后 1 年内（2026-05-19 前）建立书面通知与删除程序，供可识别个人或其授权代表请求删除未经同意的私密影像（含深度伪造）"
+  },
+  {
+   "id": "OBL-US-TID-03b",
+   "instrument_id": "US-TAKE-IT-DOWN-2025",
+   "provision": "SEC. 3.",
+   "kind": "DISCLOSURE",
+   "modality": "MUST",
+   "subject": [
+    "PLATFORM"
+   ],
+   "quote": "A covered platform shall provide on the platform a clear and conspicuous notice",
+   "duty": "涵盖平台须在平台上以清晰显著、通俗易懂的语言公示通知与删除程序、平台责任及提交删除请求的方法",
+   "trigger": "涵盖平台运营并建立通知与删除程序",
+   "penalty": "Sec. 3(b)：视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条规则，由 FTC 执法",
+   "extraterritorial": false,
+   "note": "可通过清晰显著的网页链接或披露页面提供。",
+   "verification": "VERIFIED",
+   "duty_text": "涵盖平台须在平台上以清晰显著、通俗易懂的语言公示通知与删除程序、平台责任及提交删除请求的方法"
+  },
+  {
+   "id": "OBL-US-TID-03c",
+   "instrument_id": "US-TAKE-IT-DOWN-2025",
+   "provision": "SEC. 3.",
+   "kind": "PROTECTION",
+   "modality": "MUST",
+   "subject": [
+    "PLATFORM"
+   ],
+   "quote": "a covered platform shall, as soon as possible, but not later than 48 hours after receiving such request",
+   "duty": "涵盖平台收到有效删除请求后，须尽快且最迟在 48 小时内删除该未经同意的私密影像，并采取合理努力识别和删除已知的相同副本",
+   "trigger": "通过通知删除程序收到可识别个人或其授权代表提交的有效删除请求",
+   "exception": "Sec. 3(a)(4) 另设善意下架免责：平台基于明显违法事实善意禁用访问或删除的，不承担法律责任",
+   "penalty": "Sec. 3(b)：视为违反《联邦贸易委员会法》第 18(a)(1)(B) 条规则，由 FTC 执法",
+   "extraterritorial": false,
+   "note": "规制对象限于未经同意的私密影像（含 AI 深度伪造），不覆盖一般肖像或声音侵权；与欧盟 AI Act 第 50 条的透明度披露义务、中国民法典人格权救济属于不同路径。",
+   "verification": "VERIFIED",
+   "duty_text": "涵盖平台收到有效删除请求后，须尽快且最迟在 48 小时内删除该未经同意的私密影像，并采取合理努力识别和删除已知的相同副本"
   },
   {
    "id": "OBL-XB-02",

@@ -34,10 +34,13 @@ MIN_FORUM_CHARS = 6
 MIN_PARTY_CHARS = 4
 PARTY_SEPARATOR = " v. "
 CN_CASE_NUMBER = re.compile(r"（\d{4}）\S*?\d+号")
+# Non-Chinese docket or decision numbers carry a recognized prefix ("No." in
+# US/EN, "Az."/"Az.:" in DE, "n." in IT) followed by an identifier with digits.
+LATIN_CASE_NUMBER = re.compile(r"^(?:No\.|Az\.:?|n\.)\s+(?=.*\d)\S+(?:\s+\S+)*$")
 # Words by which a source shows which instance a decision belongs to.
 STAGE_MARKERS = {
-    "FIRST_INSTANCE": ("一审", "民初", "提起上诉", "均未上诉", "district court"),
-    "APPEAL": ("二审", "民终", "court of appeals"),
+    "FIRST_INSTANCE": ("一审", "民初", "提起上诉", "均未上诉", "district court", "first instance", "landgericht"),
+    "APPEAL": ("二审", "民终", "court of appeals", "oberlandesgericht", "upheld the appeal"),
 }
 
 
@@ -189,7 +192,11 @@ def _check_fields(owner: str, record: Record, index: SnapshotIndex) -> List[str]
     if not any(contains_name(quote, forum, MIN_FORUM_CHARS) for quote in quotes("forum")):
         errors.append(f"{owner}: forum {forum!r} is not named in full in its evidence")
     for number in record.get("case_numbers", []):
-        well_formed = CN_CASE_NUMBER.fullmatch(number) if re.search(r"[^\x00-\x7f]", number) else number.startswith("No.")
+        well_formed = (
+            CN_CASE_NUMBER.fullmatch(number)
+            if re.search(r"[^\x00-\x7f]", number)
+            else LATIN_CASE_NUMBER.fullmatch(number)
+        )
         if not well_formed or not any(states_token(quote, number) for quote in quotes("case_numbers")):
             errors.append(f"{owner}: case number {number!r} is malformed or not stated in its evidence")
     decided = record.get("decided_at")
