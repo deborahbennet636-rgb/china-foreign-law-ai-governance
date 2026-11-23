@@ -1,0 +1,18 @@
+{
+  "id": "OBL-GDPR-46",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 46",
+  "kind": "CONTRACT",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "a controller or processor may transfer personal data to a third country or an international organisation only if the controller or processor has provided appropriate safeguards, and on condition that enforceable data subject rights and effective legal remedies for data subjects are available",
+  "duty": "无欧盟委员会充分性认定时，须提供适当保障措施（如标准合同条款 SCC、有约束力的公司规则 BCR、经批准的行为守则或认证机制），并确保数据主体享有可执行权利与有效法律救济，方可跨境传输",
+  "trigger": "目的国或地区无第 45 条第 3 款充分性认定而向境外传输个人数据",
+  "exception": "无充分性认定且无适当保障措施时，仅在满足第 49 条特定情形克减（如明确同意、履行合同所必需等）时方可传输",
+  "penalty": "第 83 条第 5 款第 (c) 项：最高 2000 万欧元，或企业上一财年全球年营业额的 4%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 3 条第 2 款及第 44 条：约束受 GDPR 管辖的所有控制者与处理者向第三国传输个人数据",
+  "note": "与中国按人数分档（安全评估／标准合同／认证）不同，欧盟第五章不设人数门槛，而是按「目的国充分性认定 → 适当保障措施（SCC/BCR/认证）→ 特定克减」分层。"
+}

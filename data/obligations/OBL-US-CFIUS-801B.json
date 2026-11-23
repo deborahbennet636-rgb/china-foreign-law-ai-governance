@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-CFIUS-801B",
+  "instrument_id": "US-CFR-31-800",
+  "provision": "§ 800.801",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "OTHER"
+  ],
+  "quote": "(2) For a transaction for which no voluntary notice or declaration has been submitted and for which the Staff Chairperson has requested information as provided for in § 800.501(b), parties to the transaction or other persons shall provide information to the Staff Chairperson that will enable the Committee to determine:\n(i) Whether the transaction is a covered transaction;\n(ii) Whether the transaction may raise national security considerations; or\n(iii) As appropriate, whether the transaction is a transaction for which a submission is or was required under § 800.401.",
+  "duty": "对未主动申报的交易，经 CFIUS 职员主席依据 § 800.501(b) 发函询问的，交易当事人及其他相关第三人须按要求提供信息，以便委员会判断是否属于受管辖交易、是否引发国家安全关切及是否违反强制申报义务",
+  "trigger": "CFIUS 对未申报或未声明交易（non-notified transaction）依 § 800.501(b) 发出信息提供请求",
+  "penalty": "31 C.F.R. § 800.901(a)(2)（2024-12-26 生效修订）：在书面限时答复中作出重大失实陈述或遗漏的，每次违规可处最高 500 万美元民事罚款；并可依 § 800.801(a)(6) 发出强制传票",
+  "extraterritorial": true,
+  "extraterritorial_basis": "50 U.S.C. § 4565(b)(1)(D) 与 31 C.F.R. § 800.501(b) / § 800.801(a)(2)：对已完成但未获 CFIUS 安全港（concluded all action）的跨境交易不受法定追诉时效限制，并可向非交易当事人的第三人调取信息",
+  "note": "2024 年 11 月最终规则（2024-12-26 生效）将本款信息提供义务由「交易当事人」扩大至「其他人员（other persons）」，并把询问范围扩展至国家安全考量与强制申报合规性，构成美国对已交割交易无时效限制「事后追查（call-in）」机制的核心抓手。"
+}

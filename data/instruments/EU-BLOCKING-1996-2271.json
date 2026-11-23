@@ -1,0 +1,124 @@
+{
+  "id": "EU-BLOCKING-1996-2271",
+  "jurisdiction": "EU",
+  "title": "Council Regulation (EC) No 2271/96 of 22 November 1996 protecting against the effects of the extra-territorial application of legislation adopted by a third country, and actions based thereon or resulting therefrom",
+  "short_title": "欧盟阻断条例（2271/96）",
+  "issuer": "Council of the European Union",
+  "doc_number": "Council Regulation (EC) No 2271/96",
+  "level": "Regulation",
+  "instrument_type": "RELATED_LAW",
+  "foreign_related": "FOREIGN_SPECIFIC",
+  "status": "IN_FORCE",
+  "status_note": "第 12 条规定自《官方公报》公布之日起生效（1996-11-29）。本库收 1996 年公布的正文第 1–12 条；附件所列第三国域外立法清单后经委员会授权条例 (EU) 2018/1100（2018-08-07 生效，增列美国涉伊朗二次制裁法）更新，附件未拆条。",
+  "published_at": "1996-11-29",
+  "effective_at": "1996-11-29",
+  "language": "en",
+  "discovered_via": "Publications Office Cellar（CELEX 31996R2271，text/html）",
+  "source_id": "SRC-EU-BLOCKING-1996-2271",
+  "source_ids": [
+    "SRC-EU-BLOCKING-1996-2271"
+  ],
+  "complete": true,
+  "expected_provisions": 12,
+  "meta_evidence": {
+    "doc_number": "COUNCIL REGULATION (EC) No 2271/96 of 22 November 1996 protecting against the effects of the extra-territorial application of legislation adopted by a third country, and actions based thereon or resulting therefrom",
+    "adopted_at": "Done at Brussels, 22 November 1996.",
+    "published_at": "Official Journal L 309 , 29/11/1996 P. 0001 - 0006",
+    "entry_into_force": "This Regulation shall enter into force on the day of its publication in the Official Journal of the European Communities.",
+    "issuer": "THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 0,
+      "basis": "entry_into_force"
+    }
+  },
+  "generated_by": "ingest/instruments/EU-BLOCKING-1996-2271.json",
+  "provisions": [
+    {
+      "no": "Article 1",
+      "ordinal": 1,
+      "division": "",
+      "text": "This Regulation provides protection against and counteracts the effects of the extra-territorial application of the laws specified in the Annex of this Regulation, including regulations and other legislative instruments, and of actions based thereon or resulting therefrom, where such application affects the interests of persons, referred to in Article 11, engaging in international trade and/or the movement of capital and related commercial activities between the Community and third countries.\nActing in accordance with the relevant provisions of the Treaty and notwithstanding the provisions of Article 7 (c), the Council may add or delete laws to or from the Annex to this Regulation.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 2",
+      "ordinal": 2,
+      "division": "",
+      "text": "Where the economic and/or financial interests of any person referred to in Article 11 are affected, directly or indirectly, by the laws specified in the Annex or by actions based thereon or resulting therefrom, that person shall inform the Commission accordingly within 30 days from the date on which it obtained such information; insofar as the interests of a legal person are affected, this obligation applies to the directors, managers and other persons with management responsibilities (3).\nAt the request of the Commission, such person shall provide all information relevant for the purposes of this Regulation in accordance with the request from the Commission within 30 days from the date of the request.\nAll information shall be submitted to the Commission either directly or through the competent authorities of the Member States. Should the information be submitted directly to the Commission, the Commission will inform immediately the competent authorities of the Member States in which the person who gave the information is resident or incorporated.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 3",
+      "ordinal": 3,
+      "division": "",
+      "text": "All information supplied in accordance with Article 2 shall only be used for the purposes for which it was provided.\nInformation which is by nature confidential or which is provided on a confidential basis shall be covered by the obligation of professional secrecy. It shall not be disclosed by the Commission without the express permission of the person providing it.\nCommunication of such information shall be permitted where the Commission is obliged or authorized to do so, in particular in connection with legal proceedings. Such communication must take into account the legitimate interests of the person concerned that his or her business secrets should not be divulged.\nThis Article shall not preclude the disclosure of general information by the Commission. Such disclosure shall not be permitted if this is incompatible with the original purpose of such information.\nIn the event of a breach of confidentiality, the originator of the information shall be entitled to obtain that it be deleted, disregarded or rectified, as the case may be.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 4",
+      "ordinal": 4,
+      "division": "",
+      "text": "No judgment of a court or tribunal and no decision of an administrative authority located outside the Community giving effect, directly or indirectly, to the laws specified in the Annex or to actions based thereon or resulting there from, shall be recognized or be enforceable in any manner.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 5",
+      "ordinal": 5,
+      "division": "",
+      "text": "No person referred to in Article 11 shall comply, whether directly or through a subsidiary or other intermediary person, actively or by deliberate omission, with any requirement or prohibition, including requests of foreign courts, based on or resulting, directly or indirectly, from the laws specified in the Annex or from actions based thereon or resulting therefrom.\nPersons may be authorized, in accordance with the procedures provided in Articles 7 and 8, to comply fully or partially to the extent that non-compliance would seriously damage their interests or those of the Community. The criteria for the application of this provision shall be established in accordance with the procedure set out in Article 8. When there is sufficient evidence that non-compliance would cause serious damage to a natural or legal person, the Commission shall expeditiously submit to the committee referred to in Article 8 a draft of the appropriate measures to be taken under the terms of the Regulation.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 6",
+      "ordinal": 6,
+      "division": "",
+      "text": "Any person referred to in Article 11, who is engaging in an activity referred to in Article 1 shall be entitled to recover any damages, including legal costs, caused to that person by the application of the laws specified in the Annex or by actions based thereon or resulting therefrom.\nSuch recovery may be obtained from the natural or legal person or any other entity causing the damages or from any person acting on its behalf or intermediary.\nThe Brussels Convention of 27 September 1968 on jurisdiction and the enforcement of judgments in civil and commercial matters shall apply to proceedings brought and judgments given under this Article. Recovery may be obtained on the basis of the provisions of Sections 2 to 6 of Title II of that Convention, as well as, in accordance with Article 57 (3) of that Convention, through judicial proceedings instituted in the Courts of any Member State where that person, entity, person acting on its behalf or intermediary holds assets.\nWithout prejudice to other means available and in accordance with applicable law, the recovery could take the form of seizure and sale of assets held by those persons, entities, persons acting on their behalf or intermediaries within the Community, including shares held in a legal person incorporated within the Community.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 7",
+      "ordinal": 7,
+      "division": "",
+      "text": "For the implementation of this Regulation the Commission shall:\n(a) inform the European Parliament and the Council immediately and fully of the effects of the laws, regulations and other legislative instruments and ensuing actions mentioned in Article 1, on the basis of the information obtained under this Regulation, and make regularly a full public report thereon;\n(b) grant authorization under the conditions set forth in Article 5 and, when laying down the time limits with regard to the delivery by the Committee of its opinion, take fully into account the time limits which have to be complied with by the persons which are to be subject of an authorization;\n(c) add or delete, where appropriate, references to regulations or other legislative instruments deriving from the laws specified in the Annex, and falling under the scope of this Regulation;\n(d) publish a notice in the Official Journal of the European Communities on the judgments and decisions to which Articles 4 and 6 apply;\n(e) publish in the Official Journal of the European Communities the names and addresses of the competent authorities of the Member States referred to in Article 2.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 8",
+      "ordinal": 8,
+      "division": "",
+      "text": "For the purposes of the implementation of Article 7 (b) and (c), the Commission shall be assisted by a Committee composed of the representatives of the Member States and chaired by the representative of the Commission.\nThe representative of the Commission shall submit to the committee a draft of the measures to be taken. The committee shall deliver its opinion on the draft within a time limit which the chairman may lay down according to the urgency of the matter. The opinion shall be delivered by the majority laid down in Article 148 (2) of the Treaty in the case of decisions which the Council is required to adopt on a proposal from the Commission. The votes of the representatives of the Member States within the committee shall be weighted in the manner set out in that Article. The chairman shall not vote.\nThe Commission shall adopt the measures envisaged if they are in accordance with the opinion of the committee.\nIf the measures envisaged are not in accordance with the opinion of the committee, or if no opinion is delivered, the Commission shall, without delay, submit to the Council a proposal relating to the measures to be taken. The Council shall act by a qualified majority.\nIf, on the expiry of a period of two weeks from the date of referral to the Council, the Council has not acted, the proposed measures shall be adopted by the Commission.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 9",
+      "ordinal": 9,
+      "division": "",
+      "text": "Each Member State shall determine the sanctions to be imposed in the event of breach of any relevant provisions of this Regulation. Such sanctions must be effective, proportional and dissuasive.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 10",
+      "ordinal": 10,
+      "division": "",
+      "text": "The Commission and the Member States shall inform each other of the measures taken under this Regulation and of all other relevant information pertaining to this Regulation.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 11",
+      "ordinal": 11,
+      "division": "",
+      "text": "This Regulation shall apply to:\n1. any natural person being a resident in the Community (4) and a national of a Member State,\n2. any legal person incorporated within the Community,\n3. any natural or legal person referred to in Article 1 (2) of Regulation (EEC) No 4055/86 (5),\n4. any other natural person being a resident in the Community, unless that person is in the country of which he is a national,\n5. any other natural person within the Community, including its territorial waters and air space and in any aircraft or on any vessel under the jurisdiction or control of a Member State, acting in a professional capacity.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    },
+    {
+      "no": "Article 12",
+      "ordinal": 12,
+      "division": "",
+      "text": "This Regulation shall enter into force on the day of its publication in the Official Journal of the European Communities.",
+      "source_id": "SRC-EU-BLOCKING-1996-2271"
+    }
+  ]
+}

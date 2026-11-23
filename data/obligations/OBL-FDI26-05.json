@@ -1,0 +1,15 @@
+{
+  "id": "OBL-FDI26-05",
+  "instrument_id": "EU-FDI-2026-1386",
+  "provision": "Article 5",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Member States shall notify the other Member States and the Commission through the cooperation mechanism of any foreign investment in a Union target established in their territory to which Article 4(15) and any of the following criteria apply",
+  "duty": "当第 4 条第 15 款敏感领域外资叠加外国投资者受第三国政府控制、受欧盟限制性措施制裁或曾被成员国否决/附条件批准等情形时，成员国须在收到申报后 15 个日历日内（第 6 条第 (a) 项）通过合作机制向委员会及其他成员国通报",
+  "trigger": "落入第 4 条第 15 款强制许可范围且触发第 5 条第 1 款投资者风险标准的外资申报",
+  "extraterritorial": false,
+  "note": "将合作机制通报从 2019 条例的泛化通报收紧为「敏感领域（含 AI/半导体/量子/两用物项）+ 高风险投资者（第三国政府控制或受欧盟制裁）」双重过滤，提升跨国协同效率（2028-01-17 起适用）。"
+}

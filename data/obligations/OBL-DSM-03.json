@@ -1,0 +1,15 @@
+{
+  "id": "OBL-DSM-03",
+  "instrument_id": "EU-DSM-2019",
+  "provision": "Article 3",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Member States shall provide for an exception to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, and Article 15(1) of this Directive for reproductions and extractions made by research organisations and cultural heritage institutions in order to carry out, for the purposes of scientific research, text and data mining",
+  "duty": "成员国须为科研机构和文化遗产机构基于合法访问的作品开展科研目的文本与数据挖掘（TDM）的复制与提取，规定强制性著作权例外",
+  "trigger": "成员国转化本指令（第 29 条规定转化期限为 2021-06-07）",
+  "extraterritorial": false,
+  "note": "本条属强制性科研例外，不设权利人退出机制（opt-out），且任何相反合同约定不可执行（第 7 条第 1 款）。德国转化为《著作权法》§ 60d UrhG，即 Kneschke 诉 LAION 案一二审直接适用的条款。"
+}

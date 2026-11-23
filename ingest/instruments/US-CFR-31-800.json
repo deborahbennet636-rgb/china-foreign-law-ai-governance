@@ -1,0 +1,29 @@
+{
+  "format": "us-cfr",
+  "source_id": "SRC-US-CFR31-PART800",
+  "start_at": "Subpart A—General",
+  "end_before": "Appendix A to Part 800—Covered Investment Critical Infrastructure and Functions Related to Covered Investment Critical Infrastructure.",
+  "expected_provisions": 104,
+  "meta_evidence": {
+    "published_at": "85 FR 3124, Jan. 17, 2020, unless otherwise noted.",
+    "effective_at": "(a) Except as provided in paragraphs (b) through (f) of this section and otherwise in this part, the regulations in this part apply from February 13, 2020.",
+    "issuer": "A sample certification may be found at the Committee's section of the Department of the Treasury website."
+  },
+  "record": {
+    "id": "US-CFR-31-800",
+    "jurisdiction": "US",
+    "title": "PART 800—REGULATIONS PERTAINING TO CERTAIN INVESTMENTS IN THE UNITED STATES BY FOREIGN PERSONS",
+    "short_title": "31 C.F.R. Part 800 (CFIUS Regulations)",
+    "issuer": "Department of the Treasury",
+    "doc_number": "85 FR 3124",
+    "level": "Federal regulation (CFR)",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "取自联邦公报局 eCFR 截至 2026-11-19 的现行编纂全文（Subparts A–K 共 104 节，不含附录 A 关键基础设施长表）。主规则 2020-01-17 公布（85 FR 3124）、2020-02-13 生效，完整落实 FIRRMA 对非控股「受管辖投资」（TID 美国企业：关键技术、关键基础设施、敏感个人数据）及强制申报制度的授权；已包含 2020-10-15 生效的关键技术出口管制挂钩修订（85 FR 57128）及 2024-12-26 生效的执法与罚则强化修订（89 FR 93184，将违反强制申报、重大失实陈述及违反缓解协议的民事罚款上限提高至 500 万美元或交易额较高者）。",
+    "published_at": "2020-01-17",
+    "effective_at": "2020-02-13",
+    "language": "en",
+    "discovered_via": "eCFR"
+  }
+}

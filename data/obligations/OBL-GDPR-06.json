@@ -1,0 +1,17 @@
+{
+  "id": "OBL-GDPR-06",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 6",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "Processing shall be lawful only if and to the extent that at least one of the following applies",
+  "duty": "处理个人数据须具备第 6 条第 1 款六项合法性基础之一（同意、履行合同、法定义务、保护重大利益、公共利益任务或合法利益平衡）",
+  "trigger": "开展任何个人数据处理活动（含以个人数据训练或运行 AI 系统）",
+  "penalty": "第 83 条第 5 款第 (a) 项：最高 2000 万欧元，或企业上一财年全球年营业额的 4%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 3 条第 2 款：非设立于欧盟的控制者或处理者，向欧盟境内数据主体提供商品或服务（不论是否收费）或监测其在欧盟境内行为的，适用本条例",
+  "note": "意大利数据保护局对 OpenAI、Replika 与 DeepSeek 的执法决定均以缺少第 6 条合法性基础为核心违规事由之一。"
+}

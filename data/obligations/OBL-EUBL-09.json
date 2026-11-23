@@ -1,0 +1,15 @@
+{
+  "id": "OBL-EUBL-09",
+  "instrument_id": "EU-BLOCKING-1996-2271",
+  "provision": "Article 9",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Each Member State shall determine the sanctions to be imposed in the event of breach of any relevant provisions of this Regulation. Such sanctions must be effective, proportional and dissuasive",
+  "duty": "各成员国须规定违反本条例相关条款的处罚措施，且处罚必须有效、相称并具有威慑力",
+  "trigger": "成员国国内实施欧盟阻断条例",
+  "extraterritorial": false,
+  "note": "阻断条例本身不设欧盟统一罚款标准，处罚幅度与执法力度由各成员国国内法确定。"
+}

@@ -24,6 +24,10 @@ _MONTHS = (
     "January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December",
 )
+_MONTH_ABBR = (
+    "Jan.", "Feb.", "Mar.", "Apr.", "May", "June",
+    "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec.",
+)
 
 Scope = Mapping[str, str]
 
@@ -133,14 +137,17 @@ def date_renderings(iso_date: str) -> List[str]:
     """
     day = datetime.date.fromisoformat(iso_date)
     month = _MONTHS[day.month - 1]
+    month_abbr = _MONTH_ABBR[day.month - 1]
     cn_year = "".join(_CN_DIGITS[int(digit)] for digit in str(day.year))
     return [
         f"{day.year}年{day.month}月{day.day}日",
         f"{day.year}年{day.month:02d}月{day.day:02d}日",
         f"{cn_year}年{_cn_numeral(day.month)}月{_cn_numeral(day.day)}日",
         f"{month} {day.day}, {day.year}",
+        f"{month_abbr} {day.day}, {day.year}",
         f"{day.day} {month} {day.year}",
         f"{day.day}.{day.month}.{day.year}",
+        f"{day.day:02d}/{day.month:02d}/{day.year}",
         # Publishing systems stamp pages in ISO form, with a leading zero and
         # often a time beside it ("2025-10-09 16:00"). It is still the date the
         # source states, so it counts.

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-FDI19-06",
+  "instrument_id": "EU-FDI-2019-452",
+  "provision": "Article 6",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Member States shall notify the Commission and the other Member States of any foreign direct investment in their territory that is undergoing screening by providing the information referred to in Article 9(2) of this Regulation as soon as possible",
+  "duty": "成员国须尽快向欧盟委员会及其他成员国通报其境内正在接受审查的任何外国直接投资，并提供第 9 条第 2 款所列信息",
+  "trigger": "成员国境内有外国直接投资进入审查程序（第 4 条第 1 款第 (b) 项明列人工智能、机器人、半导体、网络安全与两用物项为可考量因素）",
+  "extraterritorial": false,
+  "note": "现行 2019/452 条例不强制成员国设立审查机制，仅对正在审查的案件设立通报与合作机制；将于 2028-01-17 被 2026/1386 号条例废止替换。"
+}

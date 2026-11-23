@@ -1,0 +1,16 @@
+{
+  "id": "OBL-DSM-04",
+  "instrument_id": "EU-DSM-2019",
+  "provision": "Article 4",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Member States shall provide for an exception or limitation to the rights provided for in Article 5(a) and Article 7(1) of Directive 96/9/EC, Article 2 of Directive 2001/29/EC, Article 4(1)(a) and (b) of Directive 2009/24/EC and Article 15(1) of this Directive for reproductions and extractions of lawfully accessible works and other subject matter for the purposes of text and data mining",
+  "duty": "成员国须为对合法可访问作品进行一般目的文本与数据挖掘（TDM）的复制与提取规定例外或限制，但权利人以适当方式明示保留权利的除外",
+  "trigger": "成员国转化本指令（第 29 条规定转化期限为 2021-06-07）",
+  "exception": "第 4 条第 3 款：权利人以适当方式明示保留权利的（网上公开内容如采用机器可读方式），不适用本条一般 TDM 例外",
+  "extraterritorial": false,
+  "note": "德国转化为 § 44b UrhG（Kneschke 诉 LAION 二审认定图片社自然语言声明不具机器可读性）；EU AI Act 第 53 条第 1 款第 (c) 项明文要求通用目的 AI 模型提供者识别并遵守依本条第 3 款作出的权利保留。"
+}

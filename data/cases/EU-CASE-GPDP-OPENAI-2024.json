@@ -81,9 +81,24 @@
   },
   "legal_anchors": [
     {
+      "provision": "EU-GDPR-2016#Article 6",
+      "basis": "EDITORIAL",
+      "note": "官方通告指出 OpenAI 未先确定适当合法性基础即以用户个人数据训练 ChatGPT，对应 GDPR 第 6 条（第 755 号决定全文已因 2026-03-18 罗马法院支持上诉而从官网暂时撤下）。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 13",
+      "basis": "EDITORIAL",
+      "note": "官方通告指出 OpenAI 违反透明度原则及相关告知义务，对应 GDPR 第 12–13 条。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 33",
+      "basis": "EDITORIAL",
+      "note": "官方通告指出 OpenAI 未向监管机构报告 2023 年 3 月发生的数据泄露事件，对应 GDPR 第 33 条。"
+    },
+    {
       "provision": "EU-AI-ACT-2024#Article 53",
       "basis": "EDITORIAL",
-      "note": "本案适用的是 GDPR 与意大利隐私法典（第 166 条第 7 款），两者尚未入库；此处仅作编者对应，对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据透明与摘要公开义务。"
+      "note": "制度对照：本案适用 GDPR 与意大利隐私法典，此处对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据摘要公开义务。"
     }
   ],
   "notes": "依据意大利数据保护局 2024-12-20 官方通告及其页首标注的 2026-03-18 罗马法院撤销进展。第 755 号决定原文已因法院判决从官网撤下，罗马法院第 4153/2026 号判决全文未取得，本条仅记录官方通告明文载明的事实。",

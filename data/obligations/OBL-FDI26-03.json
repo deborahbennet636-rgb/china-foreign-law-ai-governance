@@ -1,0 +1,15 @@
+{
+  "id": "OBL-FDI26-03",
+  "instrument_id": "EU-FDI-2026-1386",
+  "provision": "Article 3",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Each Member State shall establish a screening mechanism in accordance with this Regulation",
+  "duty": "所有欧盟成员国均须依本条例建立本国外资审查机制，并于 2028 年 1 月 17 日前向欧盟委员会通报所采措施（后续修订须在通过后 30 日内通报）",
+  "trigger": "2026/1386 号条例生效后（第 3 条第 2 款通报义务已自 2026-07-16 适用，全面适用日为 2028-01-17）",
+  "extraterritorial": false,
+  "note": "相较 2019/452 号条例的「可以保留或设立」（may maintain），新版条例首次强制全部成员国建立符合最低统一标准的外资审查机制。"
+}

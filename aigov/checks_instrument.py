@@ -25,7 +25,13 @@ ORDINAL_DAYS = {3: "third", 7: "seventh", 10: "tenth", 15: "fifteenth", 20: "twe
 # Some instruments take effect the day they are promulgated, so their text
 # holds no date to quote. The clause that says so is quoted instead, and the
 # date is taken from the publication date — still a derivation, still checked.
-ON_PUBLICATION_CLAUSES = ("自公布之日起施行", "自发布之日起施行", "自印发之日起施行", "自公布之日起生效")
+ON_PUBLICATION_CLAUSES = (
+    "自公布之日起施行",
+    "自发布之日起施行",
+    "自印发之日起施行",
+    "自公布之日起生效",
+    "enter into force on the day of its publication",
+)
 STATUS_NEEDING_EVIDENCE = frozenset({"PROPOSED", "REPEALED", "UNKNOWN"})
 
 
@@ -70,8 +76,8 @@ def _check_derived(owner: str, field: str, record: Record, rule: Mapping[str, An
     if "published_at" in record.get("derived_dates", {}) or (days != 0 and days not in ORDINAL_DAYS):
         return [f"{owner}: derivation of {field} needs a day count of 0 or one of {sorted(ORDINAL_DAYS)}, got {days!r}"]
     if days == 0:
-        clause = normalize(evidence.get(rule.get("basis", ""), ""))
-        if not any(stated_clause in clause for stated_clause in ON_PUBLICATION_CLAUSES):
+        clause = normalize(evidence.get(rule.get("basis", ""), "")).casefold()
+        if not any(normalize(stated_clause).casefold() in clause for stated_clause in ON_PUBLICATION_CLAUSES):
             return [f"{owner}: the quoted rule for {field} does not say it takes effect on publication"]
         if stated != base:
             return [f"{owner}: {field}={record.get(field)} is not the publication date"]

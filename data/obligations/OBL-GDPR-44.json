@@ -1,0 +1,17 @@
+{
+  "id": "OBL-GDPR-44",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 44",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "Any transfer of personal data which are undergoing processing or are intended for processing after transfer to a third country or to an international organisation shall take place only if, subject to the other provisions of this Regulation, the conditions laid down in this Chapter are complied with",
+  "duty": "向第三国或国际组织传输个人数据（含从第三国继续向其他第三国再传输）仅在满足第五章条件时方可进行，且不得削弱本条例保障的保护水平",
+  "trigger": "向第三国或国际组织传输（或再传输）个人数据",
+  "penalty": "第 83 条第 5 款第 (c) 项：最高 2000 万欧元，或企业上一财年全球年营业额的 4%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 44 条明文涵盖从第三国向另一第三国或国际组织的再传输（onward transfers），且第 3 条第 2 款使非欧盟控制者/处理者受第五章约束",
+  "note": "GDPR 第五章跨境传输的总原则；具体合法路径依次为充分性认定（第 45 条）、适当保障措施（第 46 条）及特定情形克减（第 49 条）。"
+}

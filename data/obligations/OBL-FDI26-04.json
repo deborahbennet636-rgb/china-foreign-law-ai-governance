@@ -1,0 +1,17 @@
+{
+  "id": "OBL-FDI26-04",
+  "instrument_id": "EU-FDI-2026-1386",
+  "provision": "Article 4",
+  "kind": "LICENSE",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Each Member State shall ensure that its screening mechanism imposes a prior authorisation requirement for foreign investments where the Union target established in its territory",
+  "duty": "各成员国审查机制须对涉及欧盟境内标的从事两用物项、防务产品、附件一所列半导体/量子/人工智能技术研发生产、关键基础设施、战略原材料、核心金融与选举系统的外资设立交割前强制事前许可审查",
+  "trigger": "外国投资者拟投资落入第 4 条第 15 款所列敏感领域的欧盟境内标的（含通过欧盟境内子公司实施的间接外资控制）",
+  "exception": "第 4 条第 17 款：第 15 款强制事前许可范围不适用于绿地投资（greenfield investments）",
+  "penalty": "第 4 条第 11 款：成员国须授权审查机关对未依法申报或违反缓释措施的外国投资者处以有效、相称且具威慑力的处罚；第 4 条第 5 款另赋予未申报交易交割后至少 24 个月的追溯审查权",
+  "extraterritorial": false,
+  "note": "第 4 条第 15 款第 (c) 项明文将人工智能、半导体与量子技术研发生产纳入全欧盟最低强制事前许可清单；第 4 条第 2 款设 45 个日历日初审时限，第 4 条第 4 款设非事前许可交易交割后 15 个月至 5 年的依职权追溯审查期（2028-01-17 起全面适用）。"
+}

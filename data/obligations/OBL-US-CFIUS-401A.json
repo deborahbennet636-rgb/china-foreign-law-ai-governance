@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-CFIUS-401A",
+  "instrument_id": "US-CFR-31-800",
+  "provision": "§ 800.401",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "OTHER"
+  ],
+  "quote": "(a) Except as provided in paragraph (d), (e), or (f) of this section, the parties to a transaction described in paragraph (b) or (c) of this section shall submit to the Committee a declaration with information regarding the transaction in accordance with § 800.403.",
+  "duty": "涉及外国政府实质利益（§ 800.401(b)）或涉及需美国出口管制许可的关键技术 TID 美国企业（§ 800.401(c)）的受管辖交易当事人，除适用豁免或选择提交正式通知外，须向 CFIUS 提交强制性声明",
+  "trigger": "外国政府持有实质利益的外国主体收购 TID 美国企业实质利益；或受管辖控制/非控股投资涉及生产、设计、测试、制造或开发受美国出口许可管制的关键技术（含受管制人工智能/新兴基础技术）的 TID 美国企业",
+  "penalty": "31 C.F.R. § 800.901(b)（2024-12-26 生效修订）：未履行强制申报义务的，每项违规可处最高 500 万美元或交易金额（以较高者为准）的民事罚款",
+  "extraterritorial": true,
+  "extraterritorial_basis": "50 U.S.C. § 4565(a)(4) 及 31 C.F.R. § 800.211 / § 800.248：直接约束境内外外国投资者及其关联方对从事美国州际商业的 TID 美国企业的控制权交易或非控股关键技术投资",
+  "note": "§ 800.401(f) 允许当事人以提交正式书面通知（voluntary notice）替代强制声明；§ 800.401(c) 自 2020-10-15 起将关键技术强制申报触发标准与美国出口管制许可（USML / EAR / 核能等）挂钩，不再按 NAICS 行业代码划界。"
+}

@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-EU-GDPR-2016",
+  "format": "eu-article",
+  "start_at": "HAVE ADOPTED THIS REGULATION:",
+  "end_before": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+  "expected_provisions": 99,
+  "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2016/679 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Brussels, 27 April 2016.",
+    "published_at": "4.5.2016",
+    "entry_into_force": "1. This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "general_application": "2. It shall apply from 25 May 2018.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 20,
+      "basis": "entry_into_force"
+    }
+  },
+  "record": {
+    "id": "EU-GDPR-2016",
+    "jurisdiction": "EU",
+    "title": "Regulation (EU) 2016/679 of the European Parliament and of the Council",
+    "short_title": "GDPR",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Regulation (EU) 2016/679",
+    "level": "Regulation",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_CLAUSE",
+    "status": "IN_FORCE",
+    "status_note": "99 条全文取自《欧盟官方公报》OJ L 119（2016-05-04）。第 99 条第 1 款规定在公报公布后第 20 日生效（推算为 2016-05-24），第 2 款规定自 2018-05-25 起全面适用。含第 3 条第 2 款域外适用、第 27 条非欧盟控制者代表及第五章（第 44–50 条）跨境数据传输规则。此后勘误未另核查",
+    "published_at": "2016-05-04",
+    "effective_at": "2016-05-24",
+    "language": "en",
+    "discovered_via": "Publications Office Cellar（CELEX 32016R0679）"
+  }
+}

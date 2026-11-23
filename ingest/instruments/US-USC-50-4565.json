@@ -1,0 +1,29 @@
+{
+  "format": "us-code",
+  "source_id": "SRC-US-USC50-SEC4565",
+  "start_at": "§4565. Authority to review certain mergers, acquisitions, and takeovers",
+  "end_before": "(Sept. 8, 1950, ch. 932, title VII, §721, as added Pub. L. 100–418, title V, §5021, Aug. 23, 1988, 102 Stat. 1425; amended Pub. L. 102–484, div. A, title VIII, §837(a)–(c), (e), Oct. 23, 1992, 106 Stat. 2463–2465; Pub. L. 102–558, title I, §163, Oct. 28, 1992, 106 Stat. 4219; Pub. L. 103–359, title VIII, §809(d), Oct. 14, 1994, 108 Stat. 3454; Pub. L. 110–49, §§2–7(b), 8–10, July 26, 2007, 121 Stat. 246, 252–257, 259; Pub. L. 115–232, div. A, title XVII, §§1703–1717(a), 1718, 1719(a), 1720, 1721(c), 1723–1725, Aug. 13, 2018, 132 Stat. 2177–2193, 2197, 2202, 2204–2206; Pub. L. 116–283, div. H, title XCVII, §9721(a), Jan. 1, 2021, 134 Stat. 4839.)",
+  "select": [
+    "§4565."
+  ],
+  "meta_evidence": {
+    "status": "United States Code, 2024 Edition"
+  },
+  "record": {
+    "id": "US-USC-50-4565",
+    "jurisdiction": "US",
+    "title": "Authority to review certain mergers, acquisitions, and takeovers",
+    "short_title": "50 U.S.C. § 4565 (DPA § 721 / FIRRMA)",
+    "issuer": null,
+    "doc_number": "50 U.S.C. 4565",
+    "level": "Federal statute (codified)",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "UNKNOWN",
+    "status_note": "取自美国政府出版局 govinfo 的《美国法典》2024 年版，为《国防生产法》第 721 条经 2018 年 FIRRMA（Pub. L. 115-232）及 2021 年 NDAA 修订后的现行编纂全文（(a)–(q) 全部 17 款）。编纂页面按惯例未单列单一施行日期，故施行日期留空、状态记为未核实；具体实施规则与生效日期见本库同收的 31 C.F.R. Part 800（US-CFR-31-800）。快照附注中亦载有 E.O. 14083（2022-09-15，将人工智能、微电子、量子计算列为 CFIUS 重点考量的演进中安全风险）。",
+    "published_at": null,
+    "effective_at": null,
+    "language": "en",
+    "discovered_via": "govinfo"
+  }
+}

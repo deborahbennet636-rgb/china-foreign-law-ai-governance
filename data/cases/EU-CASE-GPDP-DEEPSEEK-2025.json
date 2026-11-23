@@ -70,9 +70,34 @@
   },
   "legal_anchors": [
     {
+      "provision": "EU-GDPR-2016#Article 3",
+      "basis": "EDITORIAL",
+      "note": "决定书开头将 Regulation (EU) 2016/679 简称为 \"the Regulation\"，下文认定适用 \"Article 3(2)(a) of the Regulation\" 对中国控制者行使域外管辖；因单句引文使用简称未重复法规全称，按本库校验规矩标为编者对应。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 6",
+      "basis": "EDITORIAL",
+      "note": "决定书认定 DeepSeek 隐私政策未逐项明示各类处理活动的合法性基础，违反 \"Article 6 of the Regulation\"。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 27",
+      "basis": "EDITORIAL",
+      "note": "决定书认定两家中国公司依第 3(2) 条受 GDPR 约束却未书面指定欧盟代表，违反 \"Article 27 of the Regulation\"。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 32",
+      "basis": "EDITORIAL",
+      "note": "决定书指出数据存储于中华人民共和国境内未满足安全保障要求，特别违反 \"Article 32 on security of processing\"。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 58",
+      "basis": "EDITORIAL",
+      "note": "决定书主文依 \"Article 58 (2)(f)\" 下令立即永久限制（definitively limit）对意大利境内用户个人数据的处理活动。"
+    },
+    {
       "provision": "EU-AI-ACT-2024#Article 54",
       "basis": "EDITORIAL",
-      "note": "本决定直接适用的是 GDPR（第 3(2)(a)、6、12–14、27、31、32、58(2)(f) 条，GDPR 正文尚未入库），并非 EU AI Act；此处仅作制度对照，指向 AI Act 第 54 条同样要求第三国通用目的 AI 模型提供者书面委任欧盟授权代表（与 GDPR 第 27 条平行）。"
+      "note": "制度对照：本决定直接适用 GDPR，此处并列指向 AI Act 第 54 条对第三国通用目的 AI 模型提供者同样设定的书面委任欧盟授权代表义务。"
     }
   ],
   "notes": "官方完整双语决定书原文（意大利文与英文同页，doc. web n. 10098477）。本案是欧盟成员国监管机关直接针对中国大模型企业行使 GDPR 第 3(2)(a) 条域外管辖权的代表性个案：两家中国公司主张未进入意大利市场且不受欧盟法约束，但监管机关因网页仍可访问认定构成向欧盟提供服务，并点出数据存储在中华人民共和国境内及未委任欧盟代表。",

@@ -1,0 +1,17 @@
+{
+  "id": "OBL-EUBL-02",
+  "instrument_id": "EU-BLOCKING-1996-2271",
+  "provision": "Article 2",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "Where the economic and/or financial interests of any person referred to in Article 11 are affected, directly or indirectly, by the laws specified in the Annex or by actions based thereon or resulting therefrom, that person shall inform the Commission accordingly within 30 days from the date on which it obtained such information",
+  "duty": "第 11 条所列欧盟主体（含欧盟境内设立的法人及其董事、经理等管理层）的经济或金融利益直接或间接受到附件所列第三国域外立法或据此采取的行动影响时，须在知悉后 30 日内报告欧盟委员会",
+  "trigger": "经济或金融利益受附件所列第三国域外立法或相关行动直接或间接影响",
+  "penalty": "第 9 条：由各成员国规定有效、相称且具威慑力的处罚",
+  "extraterritorial": false,
+  "note": "与中国《阻断办法》第五条（30 日内向国务院商务主管部门报告）结构直接对应。"
+}

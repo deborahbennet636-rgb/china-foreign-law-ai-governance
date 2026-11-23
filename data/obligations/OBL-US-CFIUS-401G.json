@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-CFIUS-401G",
+  "instrument_id": "US-CFR-31-800",
+  "provision": "§ 800.401",
+  "kind": "FILING",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "OTHER"
+  ],
+  "quote": "(g) Parties shall submit to the Committee the declaration required under paragraph (a) of this section, or a written notice under paragraph (f) of this section, no later than:\n(1) February 13, 2020, or promptly thereafter, if the completion date of the transaction is between February 13, 2020 and March 14, 2020; or\n(2) Thirty days before the completion date of the transaction, if the completion date of the transaction is after March 14, 2020.",
+  "duty": "适用强制申报的受管辖交易当事人，须不晚于交易交割日前 30 日向 CFIUS 提交声明或书面通知；若声明被拒或撤回，非经职员主席书面批准不得在重新提交后 30 日内交割",
+  "trigger": "交割日在 2020 年 3 月 14 日之后的强制申报受管辖交易",
+  "penalty": "31 C.F.R. § 800.901(b)：未按期事前提交强制声明或通知即交割的，可处最高 500 万美元或交易金额（以较高者为准）的民事罚款",
+  "extraterritorial": true,
+  "extraterritorial_basis": "50 U.S.C. § 4565(b)(1)(C)(v) 及 31 C.F.R. § 800.401(g)-(i)：在交易交割前直接约束境内外交易各方",
+  "note": "区别于中国第 37 号令全审查期间严禁交割与欧盟 2026/1386 强制事前许可，CFIUS 仅在强制申报交易上设交割前 30 日提前申报义务（并可在 30 日评估结束后提前获准交割，见 § 800.401(h)）；但自愿申报交易虽可先交割，仍面临无时效限制的事后追查与强制剥离风险。"
+}

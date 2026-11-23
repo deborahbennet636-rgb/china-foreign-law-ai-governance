@@ -1,0 +1,17 @@
+{
+  "id": "OBL-GDPR-32",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 32",
+  "kind": "PROTECTION",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "the controller and the processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk",
+  "duty": "控制者与处理者须采取与风险相称的技术与组织措施（如假名化、加密、保密性完整性可用性保障及定期测试评估）以确保处理安全",
+  "trigger": "处理个人数据",
+  "penalty": "第 83 条第 4 款第 (a) 项：最高 1000 万欧元，或企业上一财年全球年营业额的 2%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 3 条第 2 款：适用于向欧盟境内数据主体提供服务或监测其行为的非欧盟控制者与处理者",
+  "note": "意大利数据保护局在 DeepSeek 第 33 号决定中援引本条认定数据存储于中国境内未满足 GDPR 安全保障要求。"
+}

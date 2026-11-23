@@ -190,6 +190,18 @@ def split_us_code(lines: List[str]) -> List[Provision]:
     return _split(lines, style)
 
 
+@register_splitter("eu-article-plain")
+def split_eu_article_plain(lines: List[str]) -> List[Provision]:
+    """Older EU regulations without article headings: ``Article 1`` followed directly by body."""
+    style = _Style(
+        heading=re.compile(r"^(Article (\d+))\s*(.*)$"),
+        division=re.compile(r"^CHAPTER\s+[IVXLC0-9]+\b"),
+        subdivision=re.compile(r"^SECTION\s+\d+\b"),
+        title_on_next_line=False,
+    )
+    return _split(lines, style)
+
+
 @register_splitter("us-eo")
 def split_us_eo(lines: List[str]) -> List[Provision]:
     """US executive orders in the Federal Register text: ``Section 1.``, ``Sec. N.``.
@@ -199,6 +211,63 @@ def split_us_eo(lines: List[str]) -> List[Provision]:
     """
     style = _Style(heading=re.compile(r"^((?:Section|Sec\.) (\d+)\.)(.*)$"))
     return _split([line.strip() for line in lines], style)
+
+
+@register_splitter("us-cfr")
+def split_us_cfr(lines: List[str]) -> List[Provision]:
+    """US Code of Federal Regulations sections: ``§ 800.101 Heading.`` under Subparts.
+
+    Within each subpart, section numbers after the part prefix must rise by
+    exactly one; a body line mistaken for a heading breaks the sequence and
+    fails loudly. Ordinals run 1..N across the part.
+    """
+    heading_re = re.compile(r"^(§\s*(\d+)\.(\d+))\s+(.+)$")
+    division_re = re.compile(r"^Subpart\s+[A-Z]\b")
+    provisions: List[Provision] = []
+    division = ""
+    current: Optional[Provision] = None
+    body: List[str] = []
+    last_in_subpart: Optional[int] = None
+    part_no: Optional[str] = None
+
+    def close() -> None:
+        if current is None:
+            return
+        current["text"] = "\n".join(part for part in body if part)
+        provisions.append(current)
+
+    for line in lines:
+        heading_like = not line.rstrip().endswith(_SENTENCE_END)
+        if heading_like and division_re.match(line):
+            close()
+            current, body, last_in_subpart = None, [], None
+            division = line
+            continue
+        match = heading_re.match(line)
+        if match:
+            close()
+            cur_part, sec_num = match.group(2), int(match.group(3))
+            if part_no is None:
+                part_no = cur_part
+            elif cur_part != part_no:
+                raise ValueError(f"mixed CFR parts: {part_no} and {cur_part}")
+            if last_in_subpart is not None and sec_num != last_in_subpart + 1:
+                raise ValueError(
+                    f"non-consecutive CFR section in {division or 'part'}: {last_in_subpart} -> {sec_num}"
+                )
+            last_in_subpart = sec_num
+            current = {
+                "no": match.group(1),
+                "ordinal": len(provisions) + 1,
+                "division": division,
+                "heading": match.group(4).strip(),
+            }
+            body = []
+            continue
+        if current is not None:
+            body.append(line)
+    close()
+    return provisions
 
 
 def slice_lines(text: str, start_at: Optional[str], end_before: Optional[str]) -> List[str]:

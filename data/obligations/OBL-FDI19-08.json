@@ -1,0 +1,15 @@
+{
+  "id": "OBL-FDI19-08",
+  "instrument_id": "EU-FDI-2019-452",
+  "provision": "Article 8",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "the Member State where the foreign direct investment is planned or has been completed shall take utmost account of the Commission's opinion and provide an explanation to the Commission if its opinion is not followed",
+  "duty": "涉及欧盟利益项目或计划的外国直接投资，投资所在成员国须最大限度考量欧盟委员会意见；未采纳该意见的，须向委员会作出说明",
+  "trigger": "欧盟委员会就可能影响欧盟利益项目或计划的外国直接投资出具意见",
+  "extraterritorial": false,
+  "note": "委员会意见不具直接否决力，最终审查决定权仍归投资所在成员国，但采纳义务高于第 6、7 条的一般「适当考量」（due consideration）。"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "CM-CN-NDRC-MANUS-2026-04",
+  "direction": "OUTBOUND_FROM_CN",
+  "jurisdiction": "CN",
+  "issuer": "外商投资安全审查工作机制办公室（国家发展改革委）",
+  "title": "外商投资安全审查工作机制办公室(国家发展改革委)对外资收购Manus项目作出安全审查决定",
+  "target": "外资收购 Manus 项目交易（作出禁止投资决定，要求当事人撤销该收购交易）",
+  "measure_type": "INVESTMENT_SCREENING",
+  "status": "ANNOUNCED",
+  "announced_at": "2026-04-27",
+  "instrument_id": "CN-NDRC-FDI-REVIEW-2020",
+  "source_id": "SRC-CN-NDRC-MANUS-2026",
+  "source_ids": [
+    "SRC-CN-NDRC-MANUS-2026"
+  ],
+  "meta_evidence": {
+    "announced_at": "制发日期：\n2026-04-27"
+  },
+  "note": "国家发展改革委政府信息公开（索引号 000013039-2026-00026）：外商投资安全审查工作机制办公室依法依规对外资收购 Manus 项目作出禁止投资决定，要求当事人撤销该收购交易。因公开事项页仅载明制发日期 2026-04-27、未单列生效日期，按本库核验规则标为「已公布」。本决定是《外商投资安全审查办法》适用于人工智能领域跨境收购的代表性公开执法记录。"
+}

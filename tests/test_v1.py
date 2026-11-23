@@ -376,3 +376,184 @@ def test_latin_case_number_pattern_accepts_us_de_it_and_rejects_bare_numbers() -
     for bad in ("", "23-52", "No.", "No. abc", "Az. ", "n. without-digits"):
         assert not LATIN_CASE_NUMBER.fullmatch(bad), bad
 
+
+def test_gdpr_and_dsm_full_texts_obligations_and_eu_case_anchors_are_wired() -> None:
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "dist" / "aigov-db.json").read_text(encoding="utf-8"))
+    by_id = {item["id"]: item for item in data["instruments"]}
+    assert len(by_id["EU-GDPR-2016"]["provisions"]) == 99
+    assert len(by_id["EU-DSM-2019"]["provisions"]) == 32
+    assert by_id["EU-GDPR-2016"]["verification"] == "VERIFIED"
+    assert by_id["EU-DSM-2019"]["verification"] == "VERIFIED"
+
+    obl_ids = {o["id"] for o in data["obligations"]}
+    for expected in ("OBL-GDPR-06", "OBL-GDPR-27", "OBL-GDPR-44", "OBL-GDPR-46", "OBL-DSM-03", "OBL-DSM-04"):
+        assert expected in obl_ids
+
+    cases = {c["id"]: c for c in data["cases"]}
+    assert any(a["provision"] == "EU-DSM-2019#Article 3" for a in cases["EU-CASE-KNESCHKE-V-LAION"]["legal_anchors"])
+    assert any(a["provision"] == "EU-GDPR-2016#Article 27" for a in cases["EU-CASE-GPDP-DEEPSEEK-2025"]["legal_anchors"])
+    assert any(a["provision"] == "EU-GDPR-2016#Article 33" for a in cases["EU-CASE-GPDP-OPENAI-2024"]["legal_anchors"])
+    assert any(a["provision"] == "EU-GDPR-2016#Article 25" for a in cases["EU-CASE-GPDP-REPLIKA-2025"]["legal_anchors"])
+
+    issues = {i["id"]: i for i in data["issues"]}
+    eu_export = next(p for p in issues["ISSUE-PERSONAL-INFO-EXPORT-PATHS"]["positions"] if p["jurisdiction"] == "EU")
+    assert eu_export["nature"] == "NORMATIVE"
+    assert "EU-GDPR-2016#Article 46" in eu_export["provisions"]
+    assert "OBL-GDPR-46" in eu_export["obligations"]
+
+
+def test_eu_article_plain_splitter_and_dd_mm_yyyy_date_rendering() -> None:
+    from aigov.evidence import quote_states_date
+    from aigov.splitter import get_splitter
+
+    lines = [
+        "Article 1",
+        "First paragraph of article one.",
+        "Article 2",
+        "Single paragraph of article two.",
+    ]
+    provs = get_splitter("eu-article-plain")(lines)
+    assert len(provs) == 2
+    assert provs[0]["no"] == "Article 1" and provs[0]["text"] == "First paragraph of article one."
+    assert provs[1]["no"] == "Article 2" and provs[1]["text"] == "Single paragraph of article two."
+    assert quote_states_date("Official Journal L 309 , 29/11/1996 P. 0001 - 0006", "1996-11-29")
+
+
+def test_eu_blocking_and_fdi_screening_2019_and_2026_are_verified_and_wired() -> None:
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "dist" / "aigov-db.json").read_text(encoding="utf-8"))
+    by_id = {item["id"]: item for item in data["instruments"]}
+
+    for iid, count in (
+        ("EU-BLOCKING-1996-2271", 12),
+        ("EU-FDI-2019-452", 17),
+        ("EU-FDI-2026-1386", 31),
+    ):
+        assert len(by_id[iid]["provisions"]) == count
+        assert by_id[iid]["verification"] == "VERIFIED"
+        assert by_id[iid]["foreign_related"] == "FOREIGN_SPECIFIC"
+
+    obl_ids = {o["id"] for o in data["obligations"]}
+    for expected in (
+        "OBL-EUBL-02", "OBL-EUBL-04", "OBL-EUBL-05", "OBL-EUBL-09",
+        "OBL-FDI19-06", "OBL-FDI19-08",
+        "OBL-FDI26-03", "OBL-FDI26-04", "OBL-FDI26-05",
+    ):
+        assert expected in obl_ids
+
+    issues = {i["id"]: i for i in data["issues"]}
+    eu_coercion = next(p for p in issues["ISSUE-RESPONSE-TO-FOREIGN-COERCION"]["positions"] if p["jurisdiction"] == "EU")
+    assert "EU-BLOCKING-1996-2271#Article 5" in eu_coercion["provisions"]
+    assert "OBL-EUBL-05" in eu_coercion["obligations"]
+
+
+def test_cn_fdi_security_review_manus_and_issue_are_verified() -> None:
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "dist" / "aigov-db.json").read_text(encoding="utf-8"))
+    by_id = {item["id"]: item for item in data["instruments"]}
+
+    cn_fdi = by_id["CN-NDRC-FDI-REVIEW-2020"]
+    assert len(cn_fdi["provisions"]) == 23
+    assert cn_fdi["verification"] == "VERIFIED"
+    assert cn_fdi["foreign_related"] == "FOREIGN_SPECIFIC"
+    assert cn_fdi["effective_at"] == "2021-01-18"
+
+    obl_ids = {o["id"] for o in data["obligations"]}
+    for expected in (
+        "OBL-CN-FDI-04",
+        "OBL-CN-FDI-07",
+        "OBL-CN-FDI-10",
+        "OBL-CN-FDI-12",
+        "OBL-CN-FDI-14",
+    ):
+        assert expected in obl_ids
+
+    cms = {c["id"]: c for c in data["countermeasures"]}
+    manus = cms["CM-CN-NDRC-MANUS-2026-04"]
+    assert manus["direction"] == "OUTBOUND_FROM_CN"
+    assert manus["measure_type"] == "INVESTMENT_SCREENING"
+    assert manus["instrument_id"] == "CN-NDRC-FDI-REVIEW-2020"
+    assert manus["announced_at"] == "2026-04-27"
+
+    issues = {i["id"]: i for i in data["issues"]}
+    fdi_issue = issues["ISSUE-FDI-SECURITY-SCREENING"]
+    assert fdi_issue["comparison"]["comparable"] is True
+    pos_by_j = {p["jurisdiction"]: p for p in fdi_issue["positions"]}
+    assert pos_by_j["CN"]["nature"] == "NORMATIVE"
+    assert "CN-NDRC-FDI-REVIEW-2020#第四条" in pos_by_j["CN"]["provisions"]
+    assert "OBL-CN-FDI-04" in pos_by_j["CN"]["obligations"]
+    assert pos_by_j["EU"]["nature"] == "NORMATIVE"
+    assert "EU-FDI-2026-1386#Article 4" in pos_by_j["EU"]["provisions"]
+    assert "OBL-FDI26-04" in pos_by_j["EU"]["obligations"]
+    assert pos_by_j["US"]["nature"] == "NORMATIVE"
+    assert "US-USC-50-4565#§4565." in pos_by_j["US"]["provisions"]
+    assert "US-CFR-31-800#§ 800.401" in pos_by_j["US"]["provisions"]
+    assert "OBL-US-CFIUS-401A" in pos_by_j["US"]["obligations"]
+
+
+def test_us_cfr_splitter_and_gpo_month_abbreviations() -> None:
+    import pytest
+    from aigov.evidence import quote_states_date
+    from aigov.splitter import get_splitter
+
+    lines = [
+        "Subpart A—General",
+        "§ 800.101 Scope.",
+        "First section body.",
+        "§ 800.102 Risk-based analysis.",
+        "Second section body.",
+        "Subpart B—Definitions",
+        "Source:",
+        "85 FR 3124, Jan. 17, 2020.",
+        "§ 800.201 General.",
+        "Third section body.",
+    ]
+    provs = get_splitter("us-cfr")(lines)
+    assert [p["no"] for p in provs] == ["§ 800.101", "§ 800.102", "§ 800.201"]
+    assert [p["ordinal"] for p in provs] == [1, 2, 3]
+    assert provs[2]["division"] == "Subpart B—Definitions"
+    assert provs[2]["heading"] == "General."
+    assert provs[2]["text"] == "Third section body."
+    assert quote_states_date("85 FR 3124, Jan. 17, 2020, unless otherwise noted.", "2020-01-17")
+
+    with pytest.raises(ValueError, match="non-consecutive CFR section"):
+        get_splitter("us-cfr")(["Subpart A—General", "§ 800.101 Scope.", "a", "§ 800.103 Gap.", "b"])
+
+
+def test_us_cfius_statute_cfr_and_obligations_are_verified() -> None:
+    import json
+    from pathlib import Path
+    data = json.loads((Path(__file__).resolve().parent.parent / "dist" / "aigov-db.json").read_text(encoding="utf-8"))
+    by_id = {item["id"]: item for item in data["instruments"]}
+
+    usc = by_id["US-USC-50-4565"]
+    assert len(usc["provisions"]) == 1
+    assert usc["verification"] == "VERIFIED"
+    assert usc["foreign_related"] == "FOREIGN_SPECIFIC"
+
+    cfr = by_id["US-CFR-31-800"]
+    assert len(cfr["provisions"]) == 104
+    assert cfr["complete"] is True
+    assert cfr["status"] == "IN_FORCE"
+    assert cfr["effective_at"] == "2020-02-13"
+    assert cfr["verification"] == "VERIFIED"
+    assert cfr["foreign_related"] == "FOREIGN_SPECIFIC"
+
+    obl_ids = {o["id"] for o in data["obligations"]}
+    for expected in (
+        "OBL-US-CFIUS-401A",
+        "OBL-US-CFIUS-401G",
+        "OBL-US-CFIUS-801A",
+        "OBL-US-CFIUS-801B",
+        "OBL-US-CFIUS-4565D",
+    ):
+        assert expected in obl_ids
+
+
+
+
+

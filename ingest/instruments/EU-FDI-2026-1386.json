@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-EU-FDI-2026-1386",
+  "format": "eu-article",
+  "start_at": "HAVE ADOPTED THIS REGULATION:",
+  "end_before": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+  "expected_provisions": 31,
+  "meta_evidence": {
+    "doc_number": "REGULATION (EU) 2026/1386 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Strasbourg, 17 June 2026.",
+    "published_at": "26.6.2026",
+    "entry_into_force": "This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 20,
+      "basis": "entry_into_force"
+    }
+  },
+  "record": {
+    "id": "EU-FDI-2026-1386",
+    "jurisdiction": "EU",
+    "title": "Regulation (EU) 2026/1386 of the European Parliament and of the Council",
+    "short_title": "欧盟新版外资审查条例（2026/1386）",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Regulation (EU) 2026/1386",
+    "level": "Regulation",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "第 31 条规定公布后第 20 日生效（2026-07-16）；第 3(2)、15(2)、18(1)-(6)、18(9)-(12) 及第 27–29 条已自 2026-07-16 起适用，其余实体与合作机制条款自 2028-01-17 起全面适用，并依第 30 条自同日起废止 2019/452 号条例。附件一至四未拆条。",
+    "published_at": "2026-06-26",
+    "effective_at": "2026-07-16",
+    "language": "en",
+    "discovered_via": "Publications Office Cellar（CELEX 32026R1386）"
+  }
+}

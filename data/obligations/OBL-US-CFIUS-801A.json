@@ -1,0 +1,18 @@
+{
+  "id": "OBL-US-CFIUS-801A",
+  "instrument_id": "US-CFR-31-800",
+  "provision": "§ 800.801",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "ORGANIZATION",
+    "OTHER"
+  ],
+  "quote": "(1) Parties to a transaction that is notified or declared under subpart D or E of this part shall provide information to the Staff Chairperson that will enable the Committee to conduct a full assessment, review, and/or investigation of the transaction.",
+  "duty": "已提交声明或通知的交易当事人须向 CFIUS 职员主席提供充分信息，以便委员会开展全面评估、审查或调查，并须及时报告已申报信息的任何重大变化",
+  "trigger": "依据 Subpart D 提交声明或依据 Subpart E 提交书面通知进入 CFIUS 评估、45 日审查或 45 日调查程序",
+  "penalty": "31 C.F.R. § 800.901(a)(1)（2024-12-26 生效修订）：提交含重大失实陈述、重大遗漏或虚假认证的声明或通知，每次违规可处最高 500 万美元民事罚款；委员会亦可依据 50 U.S.C. § 4555(a) 发出传票",
+  "extraterritorial": true,
+  "extraterritorial_basis": "31 C.F.R. § 800.801(a)(1), (a)(5), (a)(6)：覆盖参与受审交易的外国投资者、美国标的企业及其他相关方",
+  "note": "同条 § 800.801(a)(3) 进一步要求当事人在缓解协议、附加条件或命令执行期间独立承担信息提供义务，以便委员会监督合规或修改/执行缓解措施。"
+}

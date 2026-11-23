@@ -1,0 +1,17 @@
+{
+  "id": "OBL-GDPR-13",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 13",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "the controller shall, at the time when personal data are obtained, provide the data subject with all of the following information",
+  "duty": "直接向数据主体收集个人数据时，须在获取时告知控制者身份及联系方式、处理目的与合法基础、接收方、跨境传输保障、存储期限及各项权利等信息",
+  "trigger": "直接向数据主体收集个人数据",
+  "penalty": "第 83 条第 5 款第 (b) 项：最高 2000 万欧元，或企业上一财年全球年营业额的 4%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 3 条第 2 款：非设立于欧盟的控制者向欧盟境内数据主体提供服务或监测其行为的，同样受本条约束",
+  "note": "第 14 条对非直接向数据主体收集（如网页抓取）的个人数据设平行告知义务，第 12 条要求以简洁透明、通俗易懂的方式提供。"
+}

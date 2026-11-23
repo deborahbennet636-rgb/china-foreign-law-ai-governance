@@ -55,9 +55,34 @@
   },
   "legal_anchors": [
     {
+      "provision": "EU-GDPR-2016#Article 5",
+      "basis": "EDITORIAL",
+      "note": "EDPB 官方摘要载明监管机构认定 Luka Inc. 违反 GDPR 第 5 条第 1 款第 (a)、(c) 项（合法透明与数据最小化原则）。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 6",
+      "basis": "EDITORIAL",
+      "note": "EDPB 官方摘要载明 Luka Inc. 在 2023-02-02 前未确定 Replika 数据处理的合法性基础，违反 GDPR 第 6 条。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 12",
+      "basis": "EDITORIAL",
+      "note": "EDPB 官方摘要载明隐私政策在多方面不充分，违反 GDPR 第 12 条透明度要求。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 13",
+      "basis": "EDITORIAL",
+      "note": "EDPB 官方摘要载明隐私告知信息不完备，违反 GDPR 第 13 条。"
+    },
+    {
+      "provision": "EU-GDPR-2016#Article 25",
+      "basis": "EDITORIAL",
+      "note": "EDPB 官方摘要载明缺少年龄验证机制且后续技术方案仍存缺陷，违反 GDPR 第 25 条第 1 款（通过设计与默认保护数据）。"
+    },
+    {
       "provision": "EU-AI-ACT-2024#Article 50",
       "basis": "EDITORIAL",
-      "note": "本决定直接适用的是 GDPR 第 5、6、12、13、24、25 条（GDPR 尚未入库）；此处仅作编者对应，对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统的透明度要求，并可与库内北京互联网法院「AI 陪伴」软件案（CN-CASE-AI-COMPANION）跨法域对照。"
+      "note": "制度对照：本决定直接适用 GDPR，此处对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统透明度要求，并可与北京互联网法院「AI 陪伴」案（CN-CASE-AI-COMPANION）跨法域对照。"
     }
   ],
   "notes": "取自欧洲数据保护委员会（EDPB）官网刊载的国家监管决定官方摘要；完整意大利文决定书原文未单独取回。注意 EDPB 页面所称「Date of final decision」指行政决定作出日期，不代表已经过司法终审，故 is_final 留空。",

@@ -1,0 +1,15 @@
+{
+  "id": "OBL-EUBL-04",
+  "instrument_id": "EU-BLOCKING-1996-2271",
+  "provision": "Article 4",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "No judgment of a court or tribunal and no decision of an administrative authority located outside the Community giving effect, directly or indirectly, to the laws specified in the Annex or to actions based thereon or resulting there from, shall be recognized or be enforceable in any manner",
+  "duty": "欧盟境内不得以任何方式承认或执行任何欧共体境外法院、法庭判决或行政机关决定，凡其直接或间接使附件所列第三国域外立法或据此采取的行动生效的",
+  "trigger": "欧共体境外法院判决或行政决定涉及使附件所列第三国域外立法生效",
+  "extraterritorial": false,
+  "note": "确立对第三国域外制裁裁判与行政决定的域内不承认、不执行规则。"
+}

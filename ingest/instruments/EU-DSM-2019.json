@@ -1,0 +1,39 @@
+{
+  "source_id": "SRC-EU-DSM-2019",
+  "format": "eu-article",
+  "start_at": "HAVE ADOPTED THIS DIRECTIVE:",
+  "end_before": "Done at Strasbourg, 17 April 2019.",
+  "expected_provisions": 32,
+  "meta_evidence": {
+    "doc_number": "DIRECTIVE (EU) 2019/790 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL",
+    "adopted_at": "Done at Strasbourg, 17 April 2019.",
+    "published_at": "17.5.2019",
+    "entry_into_force": "This Directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.",
+    "transposition": "1. Member States shall bring into force the laws, regulations and administrative provisions necessary to comply with this Directive by 7 June 2021.",
+    "issuer": "THE EUROPEAN PARLIAMENT AND THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 20,
+      "basis": "entry_into_force"
+    }
+  },
+  "record": {
+    "id": "EU-DSM-2019",
+    "jurisdiction": "EU",
+    "title": "Directive (EU) 2019/790 of the European Parliament and of the Council",
+    "short_title": "DSM Directive",
+    "issuer": "European Parliament、Council of the European Union",
+    "doc_number": "Directive (EU) 2019/790",
+    "level": "Directive",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "DOMESTIC",
+    "status": "IN_FORCE",
+    "status_note": "32 条全文取自《欧盟官方公报》OJ L 130（2019-05-17）。第 31 条规定公布后第 20 日生效（推算为 2019-06-06）；指令本身须经成员国转化为国内法（第 29 条规定转化期限为 2021-06-07），不直接对私人适用。第 3、4 条是欧盟文本与数据挖掘（TDM）例外的核心法源，且第 4 条第 3 款的权利保留被 EU AI Act 第 53 条第 1 款第 (c) 项直接援引",
+    "published_at": "2019-05-17",
+    "effective_at": "2019-06-06",
+    "language": "en",
+    "discovered_via": "Publications Office Cellar（CELEX 32019L0790）"
+  }
+}

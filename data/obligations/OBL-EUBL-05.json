@@ -1,0 +1,18 @@
+{
+  "id": "OBL-EUBL-05",
+  "instrument_id": "EU-BLOCKING-1996-2271",
+  "provision": "Article 5",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "ORGANIZATION",
+    "CITIZEN"
+  ],
+  "quote": "No person referred to in Article 11 shall comply, whether directly or through a subsidiary or other intermediary person, actively or by deliberate omission, with any requirement or prohibition, including requests of foreign courts, based on or resulting, directly or indirectly, from the laws specified in the Annex or from actions based thereon or resulting therefrom",
+  "duty": "第 11 条所列欧盟自然人及法人不得直接或通过子公司、中介，亦不得以积极作为或故意不作为的方式，遵守任何基于附件所列第三国域外立法或相关行动的要求或禁令（含外国法院要求）",
+  "trigger": "面对附件所列第三国域外立法（如美国涉古巴、经 2018/1100 更新增列的涉伊朗二次制裁法）或据此发出的要求/禁令",
+  "exception": "第 5 条第 2 款：不遵守将严重损害自身或共同体利益的，可依第 7、8 条程序向欧盟委员会申请全部或部分遵守豁免授权",
+  "penalty": "第 9 条：由各成员国规定有效、相称且具威慑力的处罚；第 6 条另赋受害欧盟主体向致害人追偿损失（含诉讼费）的民事诉权",
+  "extraterritorial": false,
+  "note": "欧盟阻断条例的核心「不得遵守」禁令，与中国《阻断办法》第七、八、九条（禁令、豁免申请、民事追偿）及《反外国制裁法》第十二条直接对应。"
+}

@@ -337,6 +337,32 @@
     "via": "direct",
     "note": "不可靠实体清单工作机制公告2025年第3号"
   },
+  "SRC-CN-NDRC-FDI-REVIEW-2020": {
+    "id": "SRC-CN-NDRC-FDI-REVIEW-2020",
+    "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=18525",
+    "publisher": "中华人民共和国国家发展和改革委员会",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-CN-NDRC-FDI-REVIEW-2020.html",
+    "sha256": "32e57677d1200d3ab94ef9a50eef3d27a8dfa7ffa2e4eabbe9ae8a4c9979b456",
+    "bytes": 13171,
+    "via": "browser",
+    "note": "国家发展改革委、商务部令第37号《外商投资安全审查办法》政府信息公开原文页"
+  },
+  "SRC-CN-NDRC-MANUS-2026": {
+    "id": "SRC-CN-NDRC-MANUS-2026",
+    "url": "https://zfxxgk.ndrc.gov.cn/web/iteminfo.jsp?id=20623",
+    "publisher": "中华人民共和国国家发展和改革委员会",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-CN-NDRC-MANUS-2026.html",
+    "sha256": "88ce104c4c23d261f501cb00bc166d7b6e93aa2f327a2d274dc1126a90bf2b21",
+    "bytes": 4127,
+    "via": "browser",
+    "note": "外商投资安全审查工作机制办公室（国家发展改革委）对外资收购Manus项目作出安全审查决定（索引号000013039-2026-00026）"
+  },
   "SRC-CN-NPC-ANTISANCTION-2021": {
     "id": "SRC-CN-NPC-ANTISANCTION-2021",
     "url": "http://www.npc.gov.cn/npc/c2/c30834/202106/t20210610_311892.html",
@@ -632,6 +658,19 @@
     "bytes": 1264463,
     "via": "proxy"
   },
+  "SRC-EU-BLOCKING-1996-2271": {
+    "id": "SRC-EU-BLOCKING-1996-2271",
+    "url": "https://eur-lex.europa.eu/eli/reg/1996/2271/oj",
+    "publisher": "Official Journal of the European Communities (Publications Office Cellar)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-BLOCKING-1996-2271.html",
+    "sha256": "63290704cde588a1949f4c588715ea66edf48e31f6593a0ebd77c21029377cc0",
+    "bytes": 20431,
+    "via": "browser",
+    "note": "CELEX 31996R2271 via Publications Office Cellar (text/html)"
+  },
   "SRC-EU-COM-BEV-DUTIES-2024": {
     "id": "SRC-EU-COM-BEV-DUTIES-2024",
     "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_24_5589/IP_24_5589_EN.pdf",
@@ -661,6 +700,19 @@
     "via": "proxy",
     "note": "EU adopts 19th sanctions package against Russia (12 Chinese entities)"
   },
+  "SRC-EU-DSM-2019": {
+    "id": "SRC-EU-DSM-2019",
+    "url": "http://publications.europa.eu/resource/celex/32019L0790",
+    "publisher": "Publications Office of the European Union (Official Journal)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-DSM-2019.html",
+    "sha256": "fb2e98e5b0028eda05de854dfc82f4c0eccbad7d02a82f82885091121fedf860",
+    "bytes": 273811,
+    "via": "browser",
+    "note": "单一数字市场版权指令 Directive (EU) 2019/790（DSM Directive）OJ 正文；由 Cellar 以 application/xhtml+xml 取得 CELEX 32019L0790"
+  },
   "SRC-EU-EDPB-REPLIKA-2025": {
     "id": "SRC-EU-EDPB-REPLIKA-2025",
     "url": "https://www.edpb.europa.eu/news/national-news/2025/ai-italian-supervisory-authority-fines-company-behind-chatbot-replika_en",
@@ -686,6 +738,45 @@
     "bytes": 271380,
     "via": "proxy",
     "note": "欧盟知识产权局（EUIPO）官方判例摘要：德国汉堡州法院 310 O 227/23 号 Robert Kneschke v. LAION e.V. 案（2024-09-27）"
+  },
+  "SRC-EU-FDI-2019-452": {
+    "id": "SRC-EU-FDI-2019-452",
+    "url": "https://eur-lex.europa.eu/eli/reg/2019/452/oj",
+    "publisher": "Official Journal of the European Union (Publications Office Cellar)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-FDI-2019-452.html",
+    "sha256": "a6b3095350070eaccf09e3d93a1bf2edd131b57d14770bae4ecedd098a5d30c3",
+    "bytes": 113998,
+    "via": "browser",
+    "note": "CELEX 32019R0452 via Publications Office Cellar (xhtml)"
+  },
+  "SRC-EU-FDI-2026-1386": {
+    "id": "SRC-EU-FDI-2026-1386",
+    "url": "https://eur-lex.europa.eu/eli/reg/2026/1386/oj",
+    "publisher": "Official Journal of the European Union (Publications Office Cellar)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-FDI-2026-1386.html",
+    "sha256": "b81a623180e8ca84eee346ef8ef9c2315ca0e0d779e0f44afac9cf27fb2f7e2d",
+    "bytes": 616179,
+    "via": "browser",
+    "note": "CELEX 32026R1386 via Publications Office Cellar (xhtml)"
+  },
+  "SRC-EU-GDPR-2016": {
+    "id": "SRC-EU-GDPR-2016",
+    "url": "http://publications.europa.eu/resource/celex/32016R0679",
+    "publisher": "Publications Office of the European Union (Official Journal)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-EU-GDPR-2016.html",
+    "sha256": "962539af03738bf552319ff4ce42d69e5f95a576307c4dfed7bf87e81b646b9d",
+    "bytes": 806864,
+    "via": "browser",
+    "note": "一般数据保护条例 Regulation (EU) 2016/679（GDPR）OJ 正文；由 Cellar 以 application/xhtml+xml 取得 CELEX 32016R0679"
   },
   "SRC-EU-GPDP-DEEPSEEK-2025": {
     "id": "SRC-EU-GPDP-DEEPSEEK-2025",
@@ -791,6 +882,19 @@
     "bytes": 134049,
     "via": "proxy",
     "note": "CBP UFLPA page: rebuttable presumption, effective 21 June 2022"
+  },
+  "SRC-US-CFR31-PART800": {
+    "id": "SRC-US-CFR31-PART800",
+    "url": "https://www.ecfr.gov/api/renderer/v1/content/enhanced/2026-11-19/title-31?chapter=VIII&part=800",
+    "publisher": "Office of the Federal Register (eCFR)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-US-CFR31-PART800.html",
+    "sha256": "601acdc6d0eb2457bacabcde3d983ff45db21f2f401803de9e99e67e2c640f6d",
+    "bytes": 499274,
+    "via": "browser",
+    "note": "31 C.F.R. Part 800（CFIUS 外国人在美投资安全审查实施条例），eCFR 截至 2026-11-19 现行编纂文本（含 2024-12-26 生效罚则与执法规章修订）"
   },
   "SRC-US-DDEL-ROSS-2025": {
     "id": "SRC-US-DDEL-ROSS-2025",
@@ -1014,5 +1118,18 @@
     "bytes": 19312,
     "via": "proxy",
     "note": "17 U.S.C. § 201，美国法典 2023 年版"
+  },
+  "SRC-US-USC50-SEC4565": {
+    "id": "SRC-US-USC50-SEC4565",
+    "url": "https://www.govinfo.gov/content/pkg/USCODE-2024-title50/html/USCODE-2024-title50-chap55-subchapIII-sec4565.htm",
+    "publisher": "U.S. Government Publishing Office (govinfo)",
+    "kind": "OFFICIAL_TEXT",
+    "official": true,
+    "fetched_at": "2026-11-23",
+    "file": "raw/SRC-US-USC50-SEC4565.html",
+    "sha256": "26043da21bbc20c7755b5a54cfee7aa071c579b8ef99e39abd2f7940e1eb9609",
+    "bytes": 188372,
+    "via": "browser",
+    "note": "50 U.S.C. § 4565（国防生产法第 721 条 / FIRRMA 修订后文本），美国法典 2024 年版"
   }
 }

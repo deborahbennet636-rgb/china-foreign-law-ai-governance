@@ -1,0 +1,17 @@
+{
+  "id": "OBL-GDPR-33",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 33",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "the controller shall without undue delay and, where feasible, not later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority",
+  "duty": "控制者知悉个人数据泄露后，须不得无故拖延并在可行时于 72 小时内向主管监管机构报告；超期须说明理由",
+  "trigger": "发生个人数据泄露（除非不太可能对自然人权利与自由造成风险）",
+  "penalty": "第 83 条第 4 款第 (a) 项：最高 1000 万欧元，或企业上一财年全球年营业额的 2%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "第 3 条第 2 款：适用于向欧盟境内数据主体提供服务或监测其行为的非欧盟控制者",
+  "note": "处理者知悉泄露须立即通知控制者（第 33 条第 2 款）。未报告 2023 年 3 月数据泄露是意大利数据保护局处罚 OpenAI 的四项事由之一。"
+}

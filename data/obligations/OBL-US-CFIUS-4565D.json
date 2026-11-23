@@ -1,0 +1,17 @@
+{
+  "id": "OBL-US-CFIUS-4565D",
+  "instrument_id": "US-USC-50-4565",
+  "provision": "§4565.",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "The President shall announce the decision on whether or not to take action pursuant to paragraph (1) with respect to a covered transaction not later than 15 days after the earlier of—\n(A) the date on which the investigation of the transaction under subsection (b) is completed; or\n(B) the date on which the Committee otherwise refers the transaction to the President under subsection (l)(2).",
+  "duty": "美国总统须在 CFIUS 完成调查或移交总统决定的较早日期起 15 日内，公布是否依据第 721(d)(1) 条中止或禁止该受管辖交易的决定（并可指示司法部长向联邦地区法院申请强制剥离等救济）",
+  "trigger": "CFIUS 完成 45 日调查（特殊情形可延 15 日）并呈报总统，或在审查/调查期间依第 721(l)(2) 条提前将受管辖交易移交总统决定",
+  "penalty": "50 U.S.C. § 4565(d)(3)、(e) 及 31 C.F.R. § 800.901(c)(3)：总统中止/禁止/强制剥离决定及事实认定不受司法审查，司法部长可诉请联邦地区法院强制执行；违反 2024-12-26 后签署或作出的缓解协议/命令的，单次违规最高可处 500 万美元、交易时权益价值、违规时权益价值或交易总额（以最高者为准）的民事罚款",
+  "extraterritorial": true,
+  "extraterritorial_basis": "50 U.S.C. § 4565(d)(1), (d)(3)：总统中止、禁止及强制剥离权及于任何威胁损害美国国家安全的外国主体涉美受管辖交易",
+  "note": "同条第 (l)(1) 款另授权 CFIUS 在审查或调查期间先行中止拟议或待决交易，第 (l)(3) 款授权委员会或牵头机构订立并强制执行国家安全缓解协议（NSA）。"
+}

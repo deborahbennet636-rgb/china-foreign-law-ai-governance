@@ -1,0 +1,18 @@
+{
+  "id": "OBL-GDPR-27",
+  "instrument_id": "EU-GDPR-2016",
+  "provision": "Article 27",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "DATA_HANDLER"
+  ],
+  "quote": "Where Article 3(2) applies, the controller or the processor shall designate in writing a representative in the Union",
+  "duty": "依第 3 条第 2 款受 GDPR 域外管辖的非欧盟控制者或处理者，须书面指定一名设立于欧盟境内的代表",
+  "trigger": "未设立于欧盟但依第 3 条第 2 款向欧盟境内数据主体提供服务或监测其行为",
+  "exception": "第 27 条第 2 款：偶发性处理且不大规模处理特殊类别或刑事数据且不太可能带来风险的，或公共机构，可豁免",
+  "penalty": "第 83 条第 4 款第 (a) 项：最高 1000 万欧元，或企业上一财年全球年营业额的 2%，取高者",
+  "extraterritorial": true,
+  "extraterritorial_basis": "条文本身专指依第 3 条第 2 款受 GDPR 域外管辖的非欧盟控制者与处理者",
+  "note": "与 EU AI Act 第 22 条（高风险系统）和第 54 条（通用目的 AI 模型）的欧盟授权代表义务平行；意大利数据保护局在 2025-01-30 DeepSeek 决定中直接认定违反本条。"
+}

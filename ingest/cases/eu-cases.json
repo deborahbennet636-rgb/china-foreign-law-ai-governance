@@ -134,9 +134,19 @@
         },
         "legal_anchors": [
           {
+            "provision": "EU-DSM-2019#Article 3",
+            "basis": "EDITORIAL",
+            "note": "汉堡州法院一审与汉堡高等州法院二审均适用德国《著作权法》§ 60d UrhG（科研文本与数据挖掘例外），该条系德国对 DSM 指令第 3 条的国内法转化；EUIPO 摘要亦明文指出对应 DSM 指令第 3 条。因指令须经成员国转化适用且本库未收德国著作权法，标为编者对应。"
+          },
+          {
+            "provision": "EU-DSM-2019#Article 4",
+            "basis": "EDITORIAL",
+            "note": "汉堡高等州法院二审（5 U 104/24）同时适用 § 44b UrhG（德国对 DSM 指令第 4 条一般 TDM 例外的转化），并依 § 44b Abs. 3 S. 2 UrhG（对应第 4 条第 3 款）认定网页自然语言声明不具机器可读性。"
+          },
+          {
             "provision": "EU-AI-ACT-2024#Article 53",
             "basis": "EDITORIAL",
-            "note": "WIPO Lex 将 EU AI Act 第 53 条第 1 款第 (c) 项列为本案相关立法（与 DSM 指令第 3–4 条及德国著作权法 §§ 44b、60d UrhG 并列）；本案直接适用的是德国转化 DSM 指令的 TDM 条款，该指令与德国著作权法尚未入库，故此处标为编者对应。"
+            "note": "WIPO Lex 将 EU AI Act 第 53 条第 1 款第 (c) 项列为本案相关立法；该项要求通用目的 AI 模型提供者遵守依 DSM 指令第 4 条第 3 款作出的权利保留。"
           }
         ],
         "notes": "所取三份材料均为官方摘要或法院新闻稿（WIPO Lex、EUIPO、汉堡高等州法院新闻稿），不是判决书全文，故核验等级仍受来源类型约束；案号与核心裁判要旨均有官方来源交叉印证。本案涉及的是训练数据集构建阶段的下载比对，不同于模型本身记忆输出作品的纠纷。",
@@ -255,9 +265,34 @@
         },
         "legal_anchors": [
           {
+            "provision": "EU-GDPR-2016#Article 3",
+            "basis": "EDITORIAL",
+            "note": "决定书开头将 Regulation (EU) 2016/679 简称为 \"the Regulation\"，下文认定适用 \"Article 3(2)(a) of the Regulation\" 对中国控制者行使域外管辖；因单句引文使用简称未重复法规全称，按本库校验规矩标为编者对应。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 6",
+            "basis": "EDITORIAL",
+            "note": "决定书认定 DeepSeek 隐私政策未逐项明示各类处理活动的合法性基础，违反 \"Article 6 of the Regulation\"。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 27",
+            "basis": "EDITORIAL",
+            "note": "决定书认定两家中国公司依第 3(2) 条受 GDPR 约束却未书面指定欧盟代表，违反 \"Article 27 of the Regulation\"。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 32",
+            "basis": "EDITORIAL",
+            "note": "决定书指出数据存储于中华人民共和国境内未满足安全保障要求，特别违反 \"Article 32 on security of processing\"。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 58",
+            "basis": "EDITORIAL",
+            "note": "决定书主文依 \"Article 58 (2)(f)\" 下令立即永久限制（definitively limit）对意大利境内用户个人数据的处理活动。"
+          },
+          {
             "provision": "EU-AI-ACT-2024#Article 54",
             "basis": "EDITORIAL",
-            "note": "本决定直接适用的是 GDPR（第 3(2)(a)、6、12–14、27、31、32、58(2)(f) 条，GDPR 正文尚未入库），并非 EU AI Act；此处仅作制度对照，指向 AI Act 第 54 条同样要求第三国通用目的 AI 模型提供者书面委任欧盟授权代表（与 GDPR 第 27 条平行）。"
+            "note": "制度对照：本决定直接适用 GDPR，此处并列指向 AI Act 第 54 条对第三国通用目的 AI 模型提供者同样设定的书面委任欧盟授权代表义务。"
           }
         ],
         "notes": "官方完整双语决定书原文（意大利文与英文同页，doc. web n. 10098477）。本案是欧盟成员国监管机关直接针对中国大模型企业行使 GDPR 第 3(2)(a) 条域外管辖权的代表性个案：两家中国公司主张未进入意大利市场且不受欧盟法约束，但监管机关因网页仍可访问认定构成向欧盟提供服务，并点出数据存储在中华人民共和国境内及未委任欧盟代表。",
@@ -371,9 +406,24 @@
         },
         "legal_anchors": [
           {
+            "provision": "EU-GDPR-2016#Article 6",
+            "basis": "EDITORIAL",
+            "note": "官方通告指出 OpenAI 未先确定适当合法性基础即以用户个人数据训练 ChatGPT，对应 GDPR 第 6 条（第 755 号决定全文已因 2026-03-18 罗马法院支持上诉而从官网暂时撤下）。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 13",
+            "basis": "EDITORIAL",
+            "note": "官方通告指出 OpenAI 违反透明度原则及相关告知义务，对应 GDPR 第 12–13 条。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 33",
+            "basis": "EDITORIAL",
+            "note": "官方通告指出 OpenAI 未向监管机构报告 2023 年 3 月发生的数据泄露事件，对应 GDPR 第 33 条。"
+          },
+          {
             "provision": "EU-AI-ACT-2024#Article 53",
             "basis": "EDITORIAL",
-            "note": "本案适用的是 GDPR 与意大利隐私法典（第 166 条第 7 款），两者尚未入库；此处仅作编者对应，对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据透明与摘要公开义务。"
+            "note": "制度对照：本案适用 GDPR 与意大利隐私法典，此处对照 EU AI Act 第 53 条关于通用目的 AI 模型训练数据摘要公开义务。"
           }
         ],
         "notes": "依据意大利数据保护局 2024-12-20 官方通告及其页首标注的 2026-03-18 罗马法院撤销进展。第 755 号决定原文已因法院判决从官网撤下，罗马法院第 4153/2026 号判决全文未取得，本条仅记录官方通告明文载明的事实。",
@@ -461,9 +511,34 @@
         },
         "legal_anchors": [
           {
+            "provision": "EU-GDPR-2016#Article 5",
+            "basis": "EDITORIAL",
+            "note": "EDPB 官方摘要载明监管机构认定 Luka Inc. 违反 GDPR 第 5 条第 1 款第 (a)、(c) 项（合法透明与数据最小化原则）。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 6",
+            "basis": "EDITORIAL",
+            "note": "EDPB 官方摘要载明 Luka Inc. 在 2023-02-02 前未确定 Replika 数据处理的合法性基础，违反 GDPR 第 6 条。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 12",
+            "basis": "EDITORIAL",
+            "note": "EDPB 官方摘要载明隐私政策在多方面不充分，违反 GDPR 第 12 条透明度要求。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 13",
+            "basis": "EDITORIAL",
+            "note": "EDPB 官方摘要载明隐私告知信息不完备，违反 GDPR 第 13 条。"
+          },
+          {
+            "provision": "EU-GDPR-2016#Article 25",
+            "basis": "EDITORIAL",
+            "note": "EDPB 官方摘要载明缺少年龄验证机制且后续技术方案仍存缺陷，违反 GDPR 第 25 条第 1 款（通过设计与默认保护数据）。"
+          },
+          {
             "provision": "EU-AI-ACT-2024#Article 50",
             "basis": "EDITORIAL",
-            "note": "本决定直接适用的是 GDPR 第 5、6、12、13、24、25 条（GDPR 尚未入库）；此处仅作编者对应，对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统的透明度要求，并可与库内北京互联网法院「AI 陪伴」软件案（CN-CASE-AI-COMPANION）跨法域对照。"
+            "note": "制度对照：本决定直接适用 GDPR，此处对照 EU AI Act 第 50 条关于直接与自然人交互的 AI 系统透明度要求，并可与北京互联网法院「AI 陪伴」案（CN-CASE-AI-COMPANION）跨法域对照。"
           }
         ],
         "notes": "取自欧洲数据保护委员会（EDPB）官网刊载的国家监管决定官方摘要；完整意大利文决定书原文未单独取回。注意 EDPB 页面所称「Date of final decision」指行政决定作出日期，不代表已经过司法终审，故 is_final 留空。",

@@ -1,0 +1,38 @@
+{
+  "source_id": "SRC-EU-BLOCKING-1996-2271",
+  "format": "eu-article-plain",
+  "start_at": "HAS ADOPTED THIS REGULATION:",
+  "end_before": "This Regulation shall be binding in its entirety and directly applicable in all Member States.",
+  "expected_provisions": 12,
+  "meta_evidence": {
+    "doc_number": "COUNCIL REGULATION (EC) No 2271/96 of 22 November 1996 protecting against the effects of the extra-territorial application of legislation adopted by a third country, and actions based thereon or resulting therefrom",
+    "adopted_at": "Done at Brussels, 22 November 1996.",
+    "published_at": "Official Journal L 309 , 29/11/1996 P. 0001 - 0006",
+    "entry_into_force": "This Regulation shall enter into force on the day of its publication in the Official Journal of the European Communities.",
+    "issuer": "THE COUNCIL OF THE EUROPEAN UNION,"
+  },
+  "derived_dates": {
+    "effective_at": {
+      "from": "published_at",
+      "plus_days": 0,
+      "basis": "entry_into_force"
+    }
+  },
+  "record": {
+    "id": "EU-BLOCKING-1996-2271",
+    "jurisdiction": "EU",
+    "title": "Council Regulation (EC) No 2271/96 of 22 November 1996 protecting against the effects of the extra-territorial application of legislation adopted by a third country, and actions based thereon or resulting therefrom",
+    "short_title": "欧盟阻断条例（2271/96）",
+    "issuer": "Council of the European Union",
+    "doc_number": "Council Regulation (EC) No 2271/96",
+    "level": "Regulation",
+    "instrument_type": "RELATED_LAW",
+    "foreign_related": "FOREIGN_SPECIFIC",
+    "status": "IN_FORCE",
+    "status_note": "第 12 条规定自《官方公报》公布之日起生效（1996-11-29）。本库收 1996 年公布的正文第 1–12 条；附件所列第三国域外立法清单后经委员会授权条例 (EU) 2018/1100（2018-08-07 生效，增列美国涉伊朗二次制裁法）更新，附件未拆条。",
+    "published_at": "1996-11-29",
+    "effective_at": "1996-11-29",
+    "language": "en",
+    "discovered_via": "Publications Office Cellar（CELEX 31996R2271，text/html）"
+  }
+}
