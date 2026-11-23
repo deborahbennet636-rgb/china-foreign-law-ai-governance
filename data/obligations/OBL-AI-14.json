@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-14",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 14",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "can be effectively overseen by natural persons during the period in which they are in use",
+  "duty": "高风险 AI 系统须设计为在使用期间能由自然人有效监督",
+  "trigger": "提供高风险 AI 系统",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条，第 (a) 项）",
+  "extraterritorial": true,
+  "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用"
+}

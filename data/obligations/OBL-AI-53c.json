@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-53c",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 53",
+  "kind": "DATA_SOURCE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "put in place a policy to comply with Union law on copyright and related rights",
+  "duty": "通用目的 AI 模型提供者须制定遵守欧盟版权法的政策，并识别和遵守依 DSM 指令第 4 条第 3 款作出的权利保留",
+  "trigger": "提供通用目的 AI 模型",
+  "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+  "extraterritorial": true,
+  "note": "第五章自 2025-08-02 起适用，第 101 条罚款自 2026-08-02 起适用（第 113 条第 (b) 项）。2026/1744 号条例未改第 53 条。开源模型的豁免（第 2 款）不及于本项。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国"
+}

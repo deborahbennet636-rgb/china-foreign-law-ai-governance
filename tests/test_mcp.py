@@ -382,3 +382,14 @@ def test_us_cases_cite_the_code_sections_they_rely_on(index: query.Index) -> Non
     citing = {item["case_id"] for item in fair_use["cited_by_cases"]}
     assert citing == {"US-CASE-BARTZ-V-ANTHROPIC", "US-CASE-THOMSON-REUTERS-V-ROSS"}
     assert all(item["basis"] == "CITED_IN_SOURCE" for item in fair_use["cited_by_cases"])
+
+
+def test_eu_obligations_carry_amendment_warning_only_for_amended_instruments(index: query.Index) -> None:
+    ai_act = query.find_obligations(index, instrument_id="EU-AI-ACT-2024")["obligations"]
+    aci = query.find_obligations(index, instrument_id="EU-ACI-2023-2675")["obligations"]
+    assert len(ai_act) == 16 and len(aci) == 5
+    assert all("warning" in o and o["editorial"].get("note") for o in ai_act)
+    assert all("warning" not in o and o["editorial"].get("note") for o in aci)
+    assert all(o["editorial"].get("extraterritorial") is True for o in ai_act)
+    assert all(o["editorial"].get("extraterritorial") is False for o in aci)
+

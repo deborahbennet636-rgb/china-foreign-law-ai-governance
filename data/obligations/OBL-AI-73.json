@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-73",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 73",
+  "kind": "REPORTING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred",
+  "duty": "高风险系统发生严重事件的，向事发成员国市场监管机构报告",
+  "trigger": "欧盟市场上的高风险 AI 系统发生严重事件",
+  "penalty": "第 99 条第 1 款（成员国设定罚则）；另第 16 条第 (c) 项经第 17 条第 1 款第 (i) 项涵盖严重事件报告程序（可适用第 99 条第 4 款第 (a) 项）",
+  "extraterritorial": true,
+  "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。2026/1744 号条例另设例外：属 AI 办公室管辖的高风险系统向 AI 办公室报告。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用"
+}

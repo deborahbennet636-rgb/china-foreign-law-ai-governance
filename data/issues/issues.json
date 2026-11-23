@@ -24,7 +24,11 @@
           "EU-AI-ACT-2024#Article 53"
         ],
         "cases": [],
-        "nature": "NORMATIVE"
+        "nature": "NORMATIVE",
+        "obligations": [
+          "OBL-AI-53c",
+          "OBL-AI-53d"
+        ]
       },
       {
         "jurisdiction": "US",
@@ -168,7 +172,10 @@
           "EU-AI-ACT-2024#Article 50"
         ],
         "cases": [],
-        "nature": "NORMATIVE"
+        "nature": "NORMATIVE",
+        "obligations": [
+          "OBL-AI-50c"
+        ]
       },
       {
         "jurisdiction": "US",
@@ -225,12 +232,16 @@
       },
       {
         "jurisdiction": "EU",
-        "summary": "AI Act 第 50 条要求提供者确保生成内容以机器可读方式标记并可被检测为人工生成（第 2 款），部署者披露深度伪造（第 4 款）。库内条文是 2024 年原始文本，该条的适用日期是否被 2026/1744 号条例调整尚未核对。",
+        "summary": "AI Act 第 50 条要求提供者确保生成内容以机器可读方式标记并可被检测为人工生成（第 2 款），部署者披露深度伪造（第 4 款）。库内条文是 2024 年原始文本；经对照 2026/1744 号条例，第 50 条第 2、4 款本身未作修改，一般适用日仍为 2026-08-02（2026-08-02 前已投放市场的系统须于 2026-12-02 前满足第 50 条第 2 款）。",
         "provisions": [
           "EU-AI-ACT-2024#Article 50"
         ],
         "cases": [],
-        "nature": "NORMATIVE"
+        "nature": "NORMATIVE",
+        "obligations": [
+          "OBL-AI-50b",
+          "OBL-AI-50c"
+        ]
       },
       {
         "jurisdiction": "US",
@@ -378,7 +389,11 @@
           "EU-ACI-2023-2675#Article 8",
           "EU-ACI-2023-2675#Article 10"
         ],
-        "obligations": [],
+        "obligations": [
+          "OBL-ACI-05",
+          "OBL-ACI-06",
+          "OBL-ACI-08"
+        ],
         "cases": []
       },
       {

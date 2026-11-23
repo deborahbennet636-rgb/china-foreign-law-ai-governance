@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-54",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 54",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "Prior to placing a general-purpose AI model on the Union market, providers established in third countries shall",
+  "duty": "第三国的通用目的 AI 模型提供者在欧盟投放模型前，须书面委任设立于欧盟的授权代表",
+  "trigger": "设立于第三国的提供者在欧盟投放通用目的 AI 模型",
+  "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+  "extraterritorial": true,
+  "note": "2025-08-02 起适用。2026/1744 号条例未改本条。",
+  "extraterritorial_basis": "条文本身只适用于设立于第三国的提供者；适用范围另见第 2 条第 1 款第 (a) 项"
+}

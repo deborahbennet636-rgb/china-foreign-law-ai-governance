@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-53d",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 53",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "draw up and make publicly available a sufficiently detailed summary about the content used for training",
+  "duty": "按 AI 办公室模板公开训练内容的足够详细的摘要",
+  "trigger": "提供通用目的 AI 模型",
+  "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+  "extraterritorial": true,
+  "note": "适用日期同第 53 条第 1 款第 (c) 项。开源模型的豁免（第 2 款）不及于本项。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国"
+}

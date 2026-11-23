@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-55",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 55",
+  "kind": "SECURITY_ASSESSMENT",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art",
+  "duty": "具有系统性风险的通用目的 AI 模型须按标准化协议开展模型评估，包括对抗测试",
+  "trigger": "提供具有系统性风险的通用目的 AI 模型",
+  "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+  "extraterritorial": true,
+  "note": "2025-08-02 起适用。同条另有评估缓解系统性风险、报告严重事件、保障网络安全等义务，本条只记第 (a) 项。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国"
+}

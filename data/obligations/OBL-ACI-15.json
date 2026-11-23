@@ -1,0 +1,15 @@
+{
+  "id": "OBL-ACI-15",
+  "instrument_id": "EU-ACI-2023-2675",
+  "provision": "Article 15",
+  "kind": "PROTECTION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "shall not reveal any information of a confidential nature received pursuant to this Regulation without specific permission",
+  "duty": "未经提供方明确许可，欧洲议会、理事会、委员会及成员国不得披露依本条例获得的保密信息",
+  "trigger": "依本条例接收、收集或取得保密信息",
+  "extraterritorial": false,
+  "note": "保障向欧盟提交受胁迫证据的企业与行业组织免于商业秘密泄露。"
+}

@@ -1,6 +1,6 @@
 {
  "schema": "aigov-db/v1",
- "built_at": "2026-11-20",
+ "built_at": "2026-11-23",
  "stats": {
   "instruments": 24,
   "instruments_by_jurisdiction": {
@@ -38,30 +38,30 @@
    "FOREIGN_SPECIFIC": 10,
    "FOREIGN_CLAUSE": 3
   },
-  "obligations": 58,
+  "obligations": 79,
   "obligations_by_kind": {
-   "PROHIBITION": 10,
-   "LABELING": 7,
-   "OTHER": 6,
+   "OTHER": 12,
+   "PROHIBITION": 11,
+   "LABELING": 9,
+   "SECURITY_ASSESSMENT": 7,
    "CONSENT": 5,
-   "SECURITY_ASSESSMENT": 5,
+   "COOPERATION": 4,
+   "PROTECTION": 4,
+   "RECORD_KEEPING": 4,
+   "FILING": 4,
+   "DISCLOSURE": 4,
    "LICENSE": 4,
-   "FILING": 3,
-   "RECORD_KEEPING": 3,
-   "COOPERATION": 3,
+   "DATA_SOURCE": 3,
+   "REPORTING": 3,
    "CERTIFICATION": 3,
-   "DISCLOSURE": 2,
-   "PROTECTION": 2,
-   "REPORTING": 2,
-   "CONTRACT": 2,
-   "DATA_SOURCE": 1
+   "CONTRACT": 2
   },
   "obligations_by_modality": {
-   "MUST": 45,
-   "MUST_NOT": 11,
+   "MUST": 64,
+   "MUST_NOT": 13,
    "MAY": 2
   },
-  "obligations_extraterritorial": 3,
+  "obligations_extraterritorial": 19,
   "countermeasures": 18,
   "countermeasures_by_direction": {
    "INBOUND_TO_CN": 11,
@@ -7946,7 +7946,11 @@
       "EU-AI-ACT-2024#Article 53"
      ],
      "cases": [],
-     "nature": "NORMATIVE"
+     "nature": "NORMATIVE",
+     "obligations": [
+      "OBL-AI-53c",
+      "OBL-AI-53d"
+     ]
     },
     {
      "jurisdiction": "US",
@@ -8090,7 +8094,10 @@
       "EU-AI-ACT-2024#Article 50"
      ],
      "cases": [],
-     "nature": "NORMATIVE"
+     "nature": "NORMATIVE",
+     "obligations": [
+      "OBL-AI-50c"
+     ]
     },
     {
      "jurisdiction": "US",
@@ -8147,12 +8154,16 @@
     },
     {
      "jurisdiction": "EU",
-     "summary": "AI Act 第 50 条要求提供者确保生成内容以机器可读方式标记并可被检测为人工生成（第 2 款），部署者披露深度伪造（第 4 款）。库内条文是 2024 年原始文本，该条的适用日期是否被 2026/1744 号条例调整尚未核对。",
+     "summary": "AI Act 第 50 条要求提供者确保生成内容以机器可读方式标记并可被检测为人工生成（第 2 款），部署者披露深度伪造（第 4 款）。库内条文是 2024 年原始文本；经对照 2026/1744 号条例，第 50 条第 2、4 款本身未作修改，一般适用日仍为 2026-08-02（2026-08-02 前已投放市场的系统须于 2026-12-02 前满足第 50 条第 2 款）。",
      "provisions": [
       "EU-AI-ACT-2024#Article 50"
      ],
      "cases": [],
-     "nature": "NORMATIVE"
+     "nature": "NORMATIVE",
+     "obligations": [
+      "OBL-AI-50b",
+      "OBL-AI-50c"
+     ]
     },
     {
      "jurisdiction": "US",
@@ -8300,7 +8311,11 @@
       "EU-ACI-2023-2675#Article 8",
       "EU-ACI-2023-2675#Article 10"
      ],
-     "obligations": [],
+     "obligations": [
+      "OBL-ACI-05",
+      "OBL-ACI-06",
+      "OBL-ACI-08"
+     ],
      "cases": []
     },
     {
@@ -8560,6 +8575,396 @@
   }
  ],
  "obligations": [
+  {
+   "id": "OBL-ACI-05",
+   "instrument_id": "EU-ACI-2023-2675",
+   "provision": "Article 5",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "it shall submit a proposal to the Council for an implementing act determining that the third-country measure meets the conditions of Article 2(1)",
+   "duty": "经审查认为第三国措施构成经济胁迫的，委员会须向理事会提交实施法案提案以作认定",
+   "trigger": "委员会依第 4 条完成审查并认定第三国措施符合第 2 条第 1 款经济胁迫要件",
+   "extraterritorial": false,
+   "note": "本条约束的是欧盟委员会与理事会之间的内部启动程序，不直接约束私人主体。",
+   "verification": "VERIFIED",
+   "duty_text": "经审查认为第三国措施构成经济胁迫的，委员会须向理事会提交实施法案提案以作认定"
+  },
+  {
+   "id": "OBL-ACI-06",
+   "instrument_id": "EU-ACI-2023-2675",
+   "provision": "Article 6",
+   "kind": "COOPERATION",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "the Commission shall provide adequate opportunity for consultations with the third country with a view to obtaining the cessation of the economic coercion",
+   "duty": "理事会认定经济胁迫后，委员会须向该第三国提供充分磋商机会，以促使其停止胁迫",
+   "trigger": "理事会依第 5 条通过认定经济胁迫的实施法案",
+   "extraterritorial": false,
+   "note": "先磋商、后反制是 ACI 的强制前置步骤，不同于直接启动单边制裁的做法。",
+   "verification": "VERIFIED",
+   "duty_text": "理事会认定经济胁迫后，委员会须向该第三国提供充分磋商机会，以促使其停止胁迫"
+  },
+  {
+   "id": "OBL-ACI-08",
+   "instrument_id": "EU-ACI-2023-2675",
+   "provision": "Article 8",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "The Commission shall adopt Union response measures by means of implementing acts where all of the following conditions are met",
+   "duty": "磋商未能停止胁迫且符合欧盟利益及必要性要件时，委员会须以实施法案采取欧盟回应措施",
+   "trigger": "第 5、6 条行动未能在合理期间内使第三国停止经济胁迫，且满足必要性与欧盟利益要件",
+   "extraterritorial": false,
+   "note": "回应措施默认针对第三国国家层面的贸易与投资，仅在满足第 10 条关联条件时可延及特定自然人或法人；本条例不禁止欧盟私人遵守外国制裁。",
+   "verification": "VERIFIED",
+   "duty_text": "磋商未能停止胁迫且符合欧盟利益及必要性要件时，委员会须以实施法案采取欧盟回应措施"
+  },
+  {
+   "id": "OBL-ACI-11",
+   "instrument_id": "EU-ACI-2023-2675",
+   "provision": "Article 11",
+   "kind": "PROTECTION",
+   "modality": "MUST",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "Union response measures shall be proportionate and not exceed the level of injury to the Union",
+   "duty": "欧盟回应措施须合乎比例，且不得超过欧盟所受损害的程度",
+   "trigger": "委员会选择和设计欧盟回应措施",
+   "extraterritorial": false,
+   "note": "比例原则是 ACI 回应措施的实体上限，须考量胁迫严重程度、经济影响以及欧盟及其成员国权利。",
+   "verification": "VERIFIED",
+   "duty_text": "欧盟回应措施须合乎比例，且不得超过欧盟所受损害的程度"
+  },
+  {
+   "id": "OBL-ACI-15",
+   "instrument_id": "EU-ACI-2023-2675",
+   "provision": "Article 15",
+   "kind": "PROTECTION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "STATE_AGENCY"
+   ],
+   "quote": "shall not reveal any information of a confidential nature received pursuant to this Regulation without specific permission",
+   "duty": "未经提供方明确许可，欧洲议会、理事会、委员会及成员国不得披露依本条例获得的保密信息",
+   "trigger": "依本条例接收、收集或取得保密信息",
+   "extraterritorial": false,
+   "note": "保障向欧盟提交受胁迫证据的企业与行业组织免于商业秘密泄露。",
+   "verification": "VERIFIED",
+   "duty_text": "未经提供方明确许可，欧洲议会、理事会、委员会及成员国不得披露依本条例获得的保密信息"
+  },
+  {
+   "id": "OBL-AI-05",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 5",
+   "kind": "PROHIBITION",
+   "modality": "MUST_NOT",
+   "subject": [
+    "PROVIDER",
+    "OPERATOR"
+   ],
+   "quote": "The following AI practices shall be prohibited",
+   "duty": "不得投放、投入使用或使用第 5 条第 1 款所列的 AI 实践（潜意识操纵、社会评分、无差别抓取人脸图像等）",
+   "trigger": "投放市场、投入使用或使用相关 AI 系统",
+   "penalty": "第 99 条第 3 款：最高 3500 万欧元，或企业上一财年全球年营业额的 7%，取高者",
+   "extraterritorial": true,
+   "note": "2025-02-02 起适用。2026/1744 号条例在第 1 款新增第 (ba)(bb) 项（未经同意生成可识别自然人私密影像的系统、儿童性虐待材料），2026-12-02 起适用；本库所存是 2024 年文本，不含这两项。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "不得投放、投入使用或使用第 5 条第 1 款所列的 AI 实践（潜意识操纵、社会评分、无差别抓取人脸图像等）"
+  },
+  {
+   "id": "OBL-AI-09",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 9",
+   "kind": "SECURITY_ASSESSMENT",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "A risk management system shall be established, implemented, documented and maintained in relation to high-risk AI systems",
+   "duty": "为高风险 AI 系统建立、实施、记录并维护覆盖全生命周期的风险管理体系",
+   "trigger": "提供高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条，第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "为高风险 AI 系统建立、实施、记录并维护覆盖全生命周期的风险管理体系"
+  },
+  {
+   "id": "OBL-AI-10",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 10",
+   "kind": "DATA_SOURCE",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "Training, validation and testing data sets shall be relevant, sufficiently representative",
+   "duty": "训练、验证与测试数据集须相关、有充分代表性，并尽可能无错误且完整",
+   "trigger": "以数据训练模型的高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条，第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。同一条例替换了第 10 条第 1、6 款并删去第 5 款；本条所引第 3 款未改。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "训练、验证与测试数据集须相关、有充分代表性，并尽可能无错误且完整"
+  },
+  {
+   "id": "OBL-AI-12",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 12",
+   "kind": "RECORD_KEEPING",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "High-risk AI systems shall technically allow for the automatic recording of events (logs) over the lifetime of the system",
+   "duty": "高风险 AI 系统须在技术上支持全生命周期自动记录日志",
+   "trigger": "提供高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条，第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "高风险 AI 系统须在技术上支持全生命周期自动记录日志"
+  },
+  {
+   "id": "OBL-AI-14",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 14",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "can be effectively overseen by natural persons during the period in which they are in use",
+   "duty": "高风险 AI 系统须设计为在使用期间能由自然人有效监督",
+   "trigger": "提供高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条，第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "高风险 AI 系统须设计为在使用期间能由自然人有效监督"
+  },
+  {
+   "id": "OBL-AI-22",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 22",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "providers established in third countries shall, by written mandate, appoint an authorised representative which is established in the Union",
+   "duty": "第三国提供者在欧盟市场提供高风险系统前，须书面委任设立于欧盟的授权代表",
+   "trigger": "设立于第三国的提供者向欧盟市场提供高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (a)(b) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。本条只约束设立于欧盟境外的提供者，是 AI Act 对中国企业最直接的一条程序性义务。",
+   "extraterritorial_basis": "条文本身只适用于设立于第三国的提供者；适用范围另见第 2 条第 1 款第 (a) 项",
+   "verification": "VERIFIED",
+   "duty_text": "第三国提供者在欧盟市场提供高风险系统前，须书面委任设立于欧盟的授权代表"
+  },
+  {
+   "id": "OBL-AI-26",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 26",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "OPERATOR"
+   ],
+   "quote": "take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use",
+   "duty": "部署者须按使用说明使用高风险系统，并指派具备能力的自然人监督",
+   "trigger": "部署高风险 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (e) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。主体是部署者（deployer），本库归入「运营者」。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (c) 项：设立于第三国的部署者，其使用 AI 系统产生的输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "部署者须按使用说明使用高风险系统，并指派具备能力的自然人监督"
+  },
+  {
+   "id": "OBL-AI-49",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 49",
+   "kind": "FILING",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "shall register themselves and their system in the EU database referred to in Article 71",
+   "duty": "投放附件三所列高风险系统前，在欧盟数据库登记本人及系统",
+   "trigger": "投放附件三所列高风险 AI 系统（附件三第 2 点除外）",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（经第 16 条第 (i) 项，适用第 99 条第 4 款第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。可由授权代表办理。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "投放附件三所列高风险系统前，在欧盟数据库登记本人及系统"
+  },
+  {
+   "id": "OBL-AI-50a",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 50",
+   "kind": "DISCLOSURE",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "the natural persons concerned are informed that they are interacting with an AI system",
+   "duty": "与自然人直接交互的 AI 系统须让对方知道在与 AI 交互（显而易见的除外）",
+   "trigger": "提供与自然人直接交互的 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+   "extraterritorial": true,
+   "note": "第 50 条属第四章，按第 113 条的一般适用日 2026-08-02 起适用。2026/1744 号条例只替换了第 50 条第 7 款（行为守则与实施法案），本条所引第 1、2、4 款未改。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "与自然人直接交互的 AI 系统须让对方知道在与 AI 交互（显而易见的除外）"
+  },
+  {
+   "id": "OBL-AI-50b",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 50",
+   "kind": "LABELING",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated",
+   "duty": "生成合成音频、图像、视频或文本的系统，输出须以机器可读方式标记并可被检测为人工生成",
+   "trigger": "提供生成合成内容的 AI 系统（含通用目的 AI 系统）",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+   "extraterritorial": true,
+   "note": "2026-08-02 起适用；2026/1744 号条例未改本款，但在第 111 条为 2026-08-02 前已投放市场的系统设过渡期至 2026-12-02。与中国标识办法第五条功能相近，但主体与技术要求不同。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "生成合成音频、图像、视频或文本的系统，输出须以机器可读方式标记并可被检测为人工生成"
+  },
+  {
+   "id": "OBL-AI-50c",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 50",
+   "kind": "LABELING",
+   "modality": "MUST",
+   "subject": [
+    "OPERATOR"
+   ],
+   "quote": "shall disclose that the content has been artificially generated or manipulated",
+   "duty": "部署者须披露深度伪造的图像、音频或视频内容系人工生成或操纵",
+   "trigger": "部署生成或操纵构成深度伪造内容的 AI 系统",
+   "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+   "extraterritorial": true,
+   "note": "2026-08-02 起适用；2026/1744 号条例未改本款。执法用途除外；明显属艺术、讽刺、虚构作品的，只须以不妨碍欣赏的方式披露。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (c) 项：设立于第三国的部署者，其使用 AI 系统产生的输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "部署者须披露深度伪造的图像、音频或视频内容系人工生成或操纵"
+  },
+  {
+   "id": "OBL-AI-53c",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 53",
+   "kind": "DATA_SOURCE",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "put in place a policy to comply with Union law on copyright and related rights",
+   "duty": "通用目的 AI 模型提供者须制定遵守欧盟版权法的政策，并识别和遵守依 DSM 指令第 4 条第 3 款作出的权利保留",
+   "trigger": "提供通用目的 AI 模型",
+   "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+   "extraterritorial": true,
+   "note": "第五章自 2025-08-02 起适用，第 101 条罚款自 2026-08-02 起适用（第 113 条第 (b) 项）。2026/1744 号条例未改第 53 条。开源模型的豁免（第 2 款）不及于本项。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国",
+   "verification": "VERIFIED",
+   "duty_text": "通用目的 AI 模型提供者须制定遵守欧盟版权法的政策，并识别和遵守依 DSM 指令第 4 条第 3 款作出的权利保留"
+  },
+  {
+   "id": "OBL-AI-53d",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 53",
+   "kind": "DISCLOSURE",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "draw up and make publicly available a sufficiently detailed summary about the content used for training",
+   "duty": "按 AI 办公室模板公开训练内容的足够详细的摘要",
+   "trigger": "提供通用目的 AI 模型",
+   "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+   "extraterritorial": true,
+   "note": "适用日期同第 53 条第 1 款第 (c) 项。开源模型的豁免（第 2 款）不及于本项。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国",
+   "verification": "VERIFIED",
+   "duty_text": "按 AI 办公室模板公开训练内容的足够详细的摘要"
+  },
+  {
+   "id": "OBL-AI-54",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 54",
+   "kind": "OTHER",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "Prior to placing a general-purpose AI model on the Union market, providers established in third countries shall",
+   "duty": "第三国的通用目的 AI 模型提供者在欧盟投放模型前，须书面委任设立于欧盟的授权代表",
+   "trigger": "设立于第三国的提供者在欧盟投放通用目的 AI 模型",
+   "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+   "extraterritorial": true,
+   "note": "2025-08-02 起适用。2026/1744 号条例未改本条。",
+   "extraterritorial_basis": "条文本身只适用于设立于第三国的提供者；适用范围另见第 2 条第 1 款第 (a) 项",
+   "verification": "VERIFIED",
+   "duty_text": "第三国的通用目的 AI 模型提供者在欧盟投放模型前，须书面委任设立于欧盟的授权代表"
+  },
+  {
+   "id": "OBL-AI-55",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 55",
+   "kind": "SECURITY_ASSESSMENT",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "perform model evaluation in accordance with standardised protocols and tools reflecting the state of the art",
+   "duty": "具有系统性风险的通用目的 AI 模型须按标准化协议开展模型评估，包括对抗测试",
+   "trigger": "提供具有系统性风险的通用目的 AI 模型",
+   "penalty": "第 101 条：由欧盟委员会处罚，最高 1500 万欧元或全球年营业额的 3%，取高者",
+   "extraterritorial": true,
+   "note": "2025-08-02 起适用。同条另有评估缓解系统性风险、报告严重事件、保障网络安全等义务，本条只记第 (a) 项。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：在欧盟投放通用目的 AI 模型的提供者，不论其设立于欧盟还是第三国",
+   "verification": "VERIFIED",
+   "duty_text": "具有系统性风险的通用目的 AI 模型须按标准化协议开展模型评估，包括对抗测试"
+  },
+  {
+   "id": "OBL-AI-73",
+   "instrument_id": "EU-AI-ACT-2024",
+   "provision": "Article 73",
+   "kind": "REPORTING",
+   "modality": "MUST",
+   "subject": [
+    "PROVIDER"
+   ],
+   "quote": "shall report any serious incident to the market surveillance authorities of the Member States where that incident occurred",
+   "duty": "高风险系统发生严重事件的，向事发成员国市场监管机构报告",
+   "trigger": "欧盟市场上的高风险 AI 系统发生严重事件",
+   "penalty": "第 99 条第 1 款（成员国设定罚则）；另第 16 条第 (c) 项经第 17 条第 1 款第 (i) 项涵盖严重事件报告程序（可适用第 99 条第 4 款第 (a) 项）",
+   "extraterritorial": true,
+   "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。2026/1744 号条例另设例外：属 AI 办公室管辖的高风险系统向 AI 办公室报告。",
+   "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用",
+   "verification": "VERIFIED",
+   "duty_text": "高风险系统发生严重事件的，向事发成员国市场监管机构报告"
+  },
   {
    "id": "OBL-AL-07",
    "instrument_id": "CN-CAC-ALGO-2022",

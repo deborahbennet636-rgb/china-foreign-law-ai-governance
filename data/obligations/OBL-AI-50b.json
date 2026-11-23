@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-50b",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 50",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated",
+  "duty": "生成合成音频、图像、视频或文本的系统，输出须以机器可读方式标记并可被检测为人工生成",
+  "trigger": "提供生成合成内容的 AI 系统（含通用目的 AI 系统）",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+  "extraterritorial": true,
+  "note": "2026-08-02 起适用；2026/1744 号条例未改本款，但在第 111 条为 2026-08-02 前已投放市场的系统设过渡期至 2026-12-02。与中国标识办法第五条功能相近，但主体与技术要求不同。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用"
+}

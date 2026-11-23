@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-22",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 22",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "providers established in third countries shall, by written mandate, appoint an authorised representative which is established in the Union",
+  "duty": "第三国提供者在欧盟市场提供高风险系统前，须书面委任设立于欧盟的授权代表",
+  "trigger": "设立于第三国的提供者向欧盟市场提供高风险 AI 系统",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (a)(b) 项）",
+  "extraterritorial": true,
+  "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。本条只约束设立于欧盟境外的提供者，是 AI Act 对中国企业最直接的一条程序性义务。",
+  "extraterritorial_basis": "条文本身只适用于设立于第三国的提供者；适用范围另见第 2 条第 1 款第 (a) 项"
+}

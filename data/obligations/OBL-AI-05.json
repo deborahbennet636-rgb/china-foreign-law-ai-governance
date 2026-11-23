@@ -1,0 +1,18 @@
+{
+  "id": "OBL-AI-05",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 5",
+  "kind": "PROHIBITION",
+  "modality": "MUST_NOT",
+  "subject": [
+    "PROVIDER",
+    "OPERATOR"
+  ],
+  "quote": "The following AI practices shall be prohibited",
+  "duty": "不得投放、投入使用或使用第 5 条第 1 款所列的 AI 实践（潜意识操纵、社会评分、无差别抓取人脸图像等）",
+  "trigger": "投放市场、投入使用或使用相关 AI 系统",
+  "penalty": "第 99 条第 3 款：最高 3500 万欧元，或企业上一财年全球年营业额的 7%，取高者",
+  "extraterritorial": true,
+  "note": "2025-02-02 起适用。2026/1744 号条例在第 1 款新增第 (ba)(bb) 项（未经同意生成可识别自然人私密影像的系统、儿童性虐待材料），2026-12-02 起适用；本库所存是 2024 年文本，不含这两项。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用"
+}

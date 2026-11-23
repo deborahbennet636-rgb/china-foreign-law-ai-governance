@@ -1,0 +1,15 @@
+{
+  "id": "OBL-ACI-11",
+  "instrument_id": "EU-ACI-2023-2675",
+  "provision": "Article 11",
+  "kind": "PROTECTION",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "Union response measures shall be proportionate and not exceed the level of injury to the Union",
+  "duty": "欧盟回应措施须合乎比例，且不得超过欧盟所受损害的程度",
+  "trigger": "委员会选择和设计欧盟回应措施",
+  "extraterritorial": false,
+  "note": "比例原则是 ACI 回应措施的实体上限，须考量胁迫严重程度、经济影响以及欧盟及其成员国权利。"
+}

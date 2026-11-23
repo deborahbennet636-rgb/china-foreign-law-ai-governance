@@ -1,0 +1,15 @@
+{
+  "id": "OBL-ACI-06",
+  "instrument_id": "EU-ACI-2023-2675",
+  "provision": "Article 6",
+  "kind": "COOPERATION",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "the Commission shall provide adequate opportunity for consultations with the third country with a view to obtaining the cessation of the economic coercion",
+  "duty": "理事会认定经济胁迫后，委员会须向该第三国提供充分磋商机会，以促使其停止胁迫",
+  "trigger": "理事会依第 5 条通过认定经济胁迫的实施法案",
+  "extraterritorial": false,
+  "note": "先磋商、后反制是 ACI 的强制前置步骤，不同于直接启动单边制裁的做法。"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-50c",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 50",
+  "kind": "LABELING",
+  "modality": "MUST",
+  "subject": [
+    "OPERATOR"
+  ],
+  "quote": "shall disclose that the content has been artificially generated or manipulated",
+  "duty": "部署者须披露深度伪造的图像、音频或视频内容系人工生成或操纵",
+  "trigger": "部署生成或操纵构成深度伪造内容的 AI 系统",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+  "extraterritorial": true,
+  "note": "2026-08-02 起适用；2026/1744 号条例未改本款。执法用途除外；明显属艺术、讽刺、虚构作品的，只须以不妨碍欣赏的方式披露。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (c) 项：设立于第三国的部署者，其使用 AI 系统产生的输出在欧盟使用的，亦适用"
+}

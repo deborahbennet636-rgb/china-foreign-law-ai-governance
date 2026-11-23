@@ -1,0 +1,15 @@
+{
+  "id": "OBL-ACI-05",
+  "instrument_id": "EU-ACI-2023-2675",
+  "provision": "Article 5",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "it shall submit a proposal to the Council for an implementing act determining that the third-country measure meets the conditions of Article 2(1)",
+  "duty": "经审查认为第三国措施构成经济胁迫的，委员会须向理事会提交实施法案提案以作认定",
+  "trigger": "委员会依第 4 条完成审查并认定第三国措施符合第 2 条第 1 款经济胁迫要件",
+  "extraterritorial": false,
+  "note": "本条约束的是欧盟委员会与理事会之间的内部启动程序，不直接约束私人主体。"
+}

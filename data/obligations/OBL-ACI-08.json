@@ -1,0 +1,15 @@
+{
+  "id": "OBL-ACI-08",
+  "instrument_id": "EU-ACI-2023-2675",
+  "provision": "Article 8",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "STATE_AGENCY"
+  ],
+  "quote": "The Commission shall adopt Union response measures by means of implementing acts where all of the following conditions are met",
+  "duty": "磋商未能停止胁迫且符合欧盟利益及必要性要件时，委员会须以实施法案采取欧盟回应措施",
+  "trigger": "第 5、6 条行动未能在合理期间内使第三国停止经济胁迫，且满足必要性与欧盟利益要件",
+  "extraterritorial": false,
+  "note": "回应措施默认针对第三国国家层面的贸易与投资，仅在满足第 10 条关联条件时可延及特定自然人或法人；本条例不禁止欧盟私人遵守外国制裁。"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-26",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 26",
+  "kind": "OTHER",
+  "modality": "MUST",
+  "subject": [
+    "OPERATOR"
+  ],
+  "quote": "take appropriate technical and organisational measures to ensure they use such systems in accordance with the instructions for use",
+  "duty": "部署者须按使用说明使用高风险系统，并指派具备能力的自然人监督",
+  "trigger": "部署高风险 AI 系统",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (e) 项）",
+  "extraterritorial": true,
+  "note": "高风险义务。2024 年文本第 113 条定 2026-08-02（附件三）与 2027-08-02（第 6 条第 1 款）起适用；2026/1744 号条例第 1 条第 (40) 点改为 2027-12-02（附件三）与 2028-08-02（附件一）。主体是部署者（deployer），本库归入「运营者」。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (c) 项：设立于第三国的部署者，其使用 AI 系统产生的输出在欧盟使用的，亦适用"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "OBL-AI-50a",
+  "instrument_id": "EU-AI-ACT-2024",
+  "provision": "Article 50",
+  "kind": "DISCLOSURE",
+  "modality": "MUST",
+  "subject": [
+    "PROVIDER"
+  ],
+  "quote": "the natural persons concerned are informed that they are interacting with an AI system",
+  "duty": "与自然人直接交互的 AI 系统须让对方知道在与 AI 交互（显而易见的除外）",
+  "trigger": "提供与自然人直接交互的 AI 系统",
+  "penalty": "第 99 条第 4 款：最高 1500 万欧元，或企业上一财年全球年营业额的 3%，取高者（第 (g) 项）",
+  "extraterritorial": true,
+  "note": "第 50 条属第四章，按第 113 条的一般适用日 2026-08-02 起适用。2026/1744 号条例只替换了第 50 条第 7 款（行为守则与实施法案），本条所引第 1、2、4 款未改。",
+  "extraterritorial_basis": "第 2 条第 1 款第 (a) 项：适用于在欧盟投放市场或投入使用的提供者，不论其设立于欧盟还是第三国；第 (c) 项：第三国的提供者与部署者，其系统输出在欧盟使用的，亦适用"
+}
